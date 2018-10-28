@@ -6,8 +6,7 @@ URxvt.scrollBar_floating: false
 URxvt.buffered: true
 URxvt.visualBell: true
 URxvt.font: xft:Source Code Pro Medium:size=15
-!URxvt.borderless: true
-!!URxvt.font: xft:DejaVu Sans Mono:antialias=true:pixelsize=18
+!URxvt.font: xft:DejaVu Sans Mono:antialias=true:pixelsize=24
 URxvt.tabbed.saveLines: 2000
 URxvt.iso14755: false
 URxvt.cursorBlink: true
@@ -17,14 +16,11 @@ URxvt.url-launcher: firefox
 URxvt.borderColor: [90]#0f0f0f
 URxvt.internalBorder: 0
 URxvt.externalBorder: 0
-!URxvt.transparent: true
-!URxvt.shading: 15
 URxvt.depth: 32
-!URxvt.background: rgba:1111/1111/1111/dddd
 ! special
-URxvt.foreground:   #d9cec3
+URxvt.foreground:   #cccccc
 URxvt.background:   [80]#0f0f0f
-URxvt.cursorColor:  #dddddd
+URxvt.cursorColor:  #cccccc
 
 !! black
 *color0: #1b1918
