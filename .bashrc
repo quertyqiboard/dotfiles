@@ -60,3 +60,4 @@ alias c="sudo code ."
 alias tb="thunderbird"
 # Git dotfiles version controll
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dfilescommit="dotfiles commit -m"
