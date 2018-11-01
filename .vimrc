@@ -85,9 +85,9 @@ inoremap <C-Z> <C-O>:w<CR>
 vnoremap <C-Z> <C-C>:w<CR>
 
 " Fuzzy file finder
-nnoremap <C-P> :FZF<CR>
-inoremap <C-P> <Esc>:FZF<CR>
-vnoremap <C-P> <Esc>:FZF<CR>
+nnoremap <C-P> :FZF ~/<CR>
+inoremap <C-P> <Esc>:FZF ~/<CR>
+vnoremap <C-P> <Esc>:FZF ~/<CR>
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 " LaTeX keybindings
@@ -95,9 +95,11 @@ autocmd FileType tex inoremap ,df \dfrac{<++>}{<++>}<Esc>
 autocmd FileType tex inoremap ,it \textit{<++>}<Esc>
 autocmd FileType tex inoremap ,bo \textbf{<++>}<Esc>
 autocmd FileType tex inoremap ,ul \underline{<++>}<Esc>
-autocmd FileType tex inoremap ,sec \section{}<CR><CR><++><Esc>2kf}i
-autocmd FileType tex inoremap ,ssec \subsection{}<CR><CR><++><Esc>2kf}i
-autocmd FileType tex inoremap ,sssec \subsubsection{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,fn \footnote{}<Esc>
+autocmd FileType tex inoremap ,lfn \footnote{}<Esc>i\large{}<Esc>i
+autocmd FileType tex inoremap ,sc \section{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,ssc \subsection{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,sssc \subsubsection{}<CR><CR><++><Esc>2kf}i
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "Deletes all trailing whitespace on save
