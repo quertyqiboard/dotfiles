@@ -111,7 +111,7 @@ label-active-font = 1
 [module/cpu]
 type = internal/cpu
 label = 
-interval = 0.5
+interval = 2
 format = <label> <ramp-coreload>
 
 ramp-coreload-0 = ▁
@@ -236,7 +236,7 @@ menu-2-0-exec = sudo poweroff
 
 [module/spotify]
 type = custom/script
-interval = 1
+interval = 0.5
 format = <label>
 label-font = 3
 label-active-font = 3
@@ -260,15 +260,17 @@ line-size = 5
 line-color = {$xrdb:color1}
 border-size = 0
 border-color = ${colors.background}
-padding-left = 0
-padding-right = 2
+padding-left = 10
+padding-right = 10
 module-margin-left = 10
 module-margin-right = 10
 bottom = true
 
 font-0 = DejaVu Sans Mono:size=12;2
 font-1 = FontAwesome:size=12;2
-modules-center = volume xbacklight memory
+modules-left = volume
+modules-center = xbacklight
+modules-right = memory
 wm-restack = i3
 override-redirect = true
 
