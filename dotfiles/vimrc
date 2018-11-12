@@ -1,0 +1,219 @@
+runtime! debian.vim
+" Vundle settings, mandatory
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set rtp+=~/.vim/bundle/Vundle.vim " set the runtime path to include Vundle and initialize
+set rtp+=/usr/bin/fzf
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
+Plugin 'joshdick/onedark.vim'
+Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'ericbn/vim-solarized'
+Plugin 'scrooloose/nerdcommenter'
+" Plugin 'vim-scripts/gruvbox'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+call vundle#end()            " required
+filetype plugin indent on    " required
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+filetype plugin on
+syntax on
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
+if has("autocmd")
+  filetype plugin indent on
+endif
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 0
+let g:solarized_termcolors=256
+let mapleader = ","
+let g:airline_powerline_fonts = 1
+set bg=dark
+set number relativenumber " enable hybrid line numbers
+set showcmd             " show command in bottom bar
+set cursorline          " highlight current line
+set backspace=indent,eol,start  " backspace for dummys
+set showmatch           " highlight matching [{()}]
+set hlsearch            " highlight matches
+set incsearch           " search as characters are entered
+set nostartofline	"
+set history=500		" More command arrow-ups
+set undolevels=500	" More undos and redos
+set nobackup 		" Remove dumb backups
+set splitbelow		" Non-retarded splitting
+set splitright		" Non-retarded splitting
+set foldenable          " auto fold code
+set gdefault            " the /g flag on :s substitutions
+set showmode		" Show current mode
+set linespace=0         " No extra spaces between rows
+set t_Co=16
+set cursorline
+set colorcolumn=80
+set termencoding=utf-8
+set encoding=utf-8	" Force UTF-8 encoding
+set autoread
+set smartindent
+set autoindent		" Autoindent blocks of code (in python)
+set ttyfast
+set nojoinspaces
+set magic
+set completeopt=menu,menuone,longest,preview
+"
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" Make j and k go down one visual line
+nnoremap j gj
+nnoremap k gk
+" Mapping function keys
+map <F2> :LLPStartPreview<CR>
+map <F3> :!wc <C-R>%<CR>
+" Spelling
+nnoremap ,st :call GetSpell()<CR>
+nnoremap ,ss :call FixLastSpellingError()<CR>
+nnoremap ,sg :call AddGoodList()<CR>
+nnoremap ,se :call SpellEn()<CR>
+nnoremap ,sd :call SpellDe()<CR>
+nnoremap ,sp :call SpellEs()<CR>
+" Find and replace
+noremap ,r :%s///g<Left><Left><Left>
+" create  a file
+nnoremap ,tf :!touch
+" Tab management like in firefox
+nnoremap <C-n> :tabp<CR>
+nnoremap <C-m> :tabn<CR>
+nnoremap <C-T> :tabnew<CR>
+nnoremap <C-W> :tabclose<CR>
+" Navigating with guides
+map <NUL> <Esc>/<++><CR>"_c4l
+nnoremap <NUL> <Esc>/++<CR>h"_c4l
+inoremap <NUL> <++>
+" Quit vim with Ctrl q
+nnoremap <C-Q> :qa<CR>
+" Update / write file with Ctrl z
+nnoremap <C-Z> :w<CR>
+inoremap <C-Z> <C-O>:w<CR>
+" Fuzzy file finder
+nnoremap <C-P> :FZF ~/<CR>
+" Clear search with Ctrl l
+nnoremap <C-c> :nohl<CR><C-c>:echo "Search Cleared"<CR>
+" Indenting / outdenting // move line up / down
+nnoremap <C-l> <<
+nnoremap <C-h> >>
+nnoremap ,j ddp
+nnoremap ,k dd2kp
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" LaTeX keybindings
+autocmd FileType tex inoremap ,df \dfrac{<++>}{<++>}<Esc>
+autocmd FileType tex inoremap ,it \textit{<++>}<Esc>
+autocmd FileType tex inoremap ,bo \textbf{<++>}<Esc>
+autocmd FileType tex inoremap ,ul \underline{<++>}<Esc>
+autocmd FileType tex inoremap ,fn \footnote{}<Esc>
+autocmd FileType tex inoremap ,lfn \footnote{}<Esc>i\large{}<Esc>i
+autocmd FileType tex inoremap ,sc \section{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,ssc \subsection{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,sssc \subsubsection{}<CR><CR><++><Esc>2kf}i
+
+" Snippets
+inoremap ,html <Esc>:-1read $HOME/.vim/snippets/html<CR>3jwf>a
+inoremap ,note <Esc>:-1read $HOME/.vim/snippets/notes<CR><CR>a <Esc>a
+inoremap ,art <Esc>:-1read $HOME/.vim/snippets/article<CR>/<++><CR>cW
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"Deletes all trailing white space on save
+autocmd BufWritePre * %s/\s\+$//e
+    if !exists('g:airline_symbols')
+        let g:airline_symbols = {}
+    endif
+    " Unicode symbols
+    let g:airline_left_sep = '»'
+    let g:airline_left_sep = '▶'
+    let g:airline_right_sep = '«'
+    let g:airline_right_sep = '◀'
+    let g:airline_symbols.crypt = '🔒'
+    let g:airline_symbols.linenr = ''
+    let g:airline_symbols.linenr = ''
+    let g:airline_symbols.linenr = ''
+    let g:airline_symbols.linenr = '¶'
+    let g:airline_symbols.maxlinenr = ''
+    let g:airline_symbols.maxlinenr = ''
+    let g:airline_symbols.branch = ''
+    let g:airline_symbols.paste = 'ρ'
+    let g:airline_symbols.paste = 'Þ'
+    let g:airline_symbols.paste = '∥'
+    let g:airline_symbols.spell = ''
+    let g:airline_symbols.notexists = 'Ɇ'
+    let g:airline_symbols.whitespace = 'Ξ'
+
+    " powerline symbols
+    let g:airline_left_sep = ''
+    let g:airline_left_alt_sep = ''
+    let g:airline_right_sep = ''
+    let g:airline_right_alt_sep = ''
+    let g:airline_symbols.branch = ''
+    let g:airline_symbols.readonly = ''
+    let g:airline_symbols.linenr = ''
+    let g:airline_symbols.maxlinenr = ''
+syntax enable
+set background=dark
+colorscheme solarized8_high
+call togglebg#map("<F5>")
+vmap ss <plug>NERDCommenterToggle
+nmap ss <plug>NERDCommenterToggle
+
+function GetSpell()
+	if &spell
+		echo "Toggling spelling off"
+		set spell!
+	else
+		echo "Toggling spelling on"
+		set spell
+	endif
+endfunction
+
+function SpellEn()
+	if &spell
+		echo "Spell language now is English (US)"
+		set spelllang=en_us
+	else
+		echo "Toggling spell, language now is English (US)"
+		set spell
+		set spelllang=en_us
+	endif
+endfunction
+
+function SpellDe()
+	if &spell
+		echo "Spell language now is German (Germany)"
+		set spelllang=de_de
+	else
+		echo "Toggling spell, language now is German (Germany)"
+		set spell
+		set spelllang=de_de
+	endif
+endfunction
+
+function SpellEs()
+	if &spell
+		echo "Spell language now is Spanish"
+		set spelllang=es
+	else
+		echo "Toggling spell, language now is Spanish"
+		set spell
+		set spelllang=es
+	endif
+endfunction
+
+function! FixLastSpellingError()
+	normal!	mm[s1z=`m
+endfunction
+function AddGoodList()
+	normal! [szg
+endfunction
