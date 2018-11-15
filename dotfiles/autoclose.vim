@@ -1,12 +1,12 @@
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
-" inoremap < <><Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap ´ ´´<Esc>i
 inoremap ` ``<Esc>i
 inoremap ` ``<Esc>i
+inoremap < <><Esc>i
 
 " HTML tags
 autocmd FileType html inoremap ,title   <title></title><Esc>F>a
@@ -60,9 +60,10 @@ autocmd FileType python inoremap .ap .append()<Esc>i
 autocmd FileType python inoremap .fo .format()<Esc>i
 
 " Templates
-nnoremap note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
-nnoremap arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>
-nnoremap html :read ~/.vim/src/snippets/html<CR>kdd:set filetype=html<CR>
+nnoremap +note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
+nnoremap +arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>
+nnoremap +html :read ~/.vim/src/snippets/html<CR>kdd:set filetype=html<CR>
+nnoremap +lorem hmm:read ~/.vim/src/snippets/loremipsum<CR>0d$`mpmmjdd`m
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 " Make j and k go down one visual line
@@ -82,7 +83,7 @@ nnoremap ,sp :call SpellEs()<CR>
 noremap ,rg :%s///g<Left><Left><Left>
 noremap ,rl :s///g<Left><Left><Left>
 " create  a file
-nnoremap ,tf :!touch
+nnoremap ,tf :!touch<Space>
 " Tab management like in firefox
 nnoremap <C-n> :tabp<CR>
 nnoremap <C-m> :tabn<CR>

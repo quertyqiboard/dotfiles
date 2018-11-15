@@ -3,6 +3,7 @@ source ~/.vim/src/autoclose.vim
 source ~/.vim/src/settings.vim
 source ~/.vim/src/remaps.vim
 source ~/.vim/src/functions.vim
+source ~/.vim/src/airlineconf.vim
 set nocompatible " Vundle settings, mandatory
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -30,4 +31,3 @@ if has("autocmd")
   filetype plugin indent on
 endif
 autocmd BufWritePre * %s/\s\+$//e
-

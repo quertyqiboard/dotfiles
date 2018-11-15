@@ -195,7 +195,7 @@ mode "applications" {
 	bindsym s exec spotify; mode "default"; workspace $ws5
 	bindsym t exec thunderbird; mode "default"; workspace $ws4
 	bindsym u exec /home/henning/.tor-browser/Browser/start-tor-browser; mode "default"; workspace $ws10
-	# bindsym v exec <++>;  mode "default"; workspace <++>
+	bindsym v exec $term -e vim; mode "default
 	bindsym w exec lowriter; mode "default"; workspace $ws5
 	# bindsym x exec <++>; mode "default"; workspace $<++>
 	# bindsym y exec <++>; mode "default"; workspace $<++>
@@ -207,9 +207,14 @@ mode "applications" {
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
 }
-# i3 Gaps
-gaps inner 15
-gaps outer 15
+
+bindsym $mod+shift+g mode "gaps"
+mode "gaps" {
+# Control gaps
+	bindsym k exec /home/henning/scripts/gaps_max.sh
+	bindsym j exec /home/henning/scripts/gaps_zero.sh
+}
+
 
 # Music control
 bindsym XF86AudioPause exec playerctl play-pause
@@ -243,7 +248,7 @@ bindsym $mod+shift+b exec nitrogen --set-auto --random /usr/share/backgrounds/
 default_orientation horizontal
 
 # settings for window borders
-default_border pixel 4
-default_floating_border pixel 2
+default_border pixel 0
+default_floating_border pixel 0
 for_window [class="Spotify"] move to workspace $ws5
 for_window [class="libreoffice"] move to workspace $ws5
