@@ -726,3 +726,494 @@ xresr
 xres
 xresr
 v
+dfiles commit -a
+dfiles push
+cl
+xres
+transparent 
+v
+xres
+transparent 
+la
+v
+xres
+transparent 
+v
+xres
+transparent 
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+xres
+transparent 
+v
+xres
+transparent 
+v
+lc
+c
+v
+v
+cd .config/
+la
+powerline
+locate powerline
+cl
+cd ..
+cd .vim
+la
+grep powerline 
+find powerline .
+find ./ -iname powerline
+find ./ --iname powerline
+cl
+cd bundle/
+la
+cd vim-airline
+la
+cd plugin/
+la
+v airline.vim 
+cl
+cd
+la
+cl
+la
+cl
+cd .vim/src/
+a
+ll
+v airlineconf.vim 
+v airlineconf.vim 
+v airlineconf.vim 
+cl
+v
+v
+v
+cd .vim
+cd src/
+la
+cd airlineconf.vim 
+v airlineconf.vim 
+cl
+vrc
+v
+v
+v
+cd .vim/s
+cd .vim/src/
+la
+v airlineconf.vim 
+v airlineconf.vim 
+v
+v
+v
+v .vim/src/airlineconf.vim 
+v .vim/src/airlineconf.vim 
+cd .vim/src/
+grep -r border
+grep -r border
+la
+v settings.vim 
+p -Ss droid sans mono
+p -Ss droid font
+p -S ttf-droid
+transparent
+v
+v
+v
+cl
+v
+xres
+v
+transparent 
+v
+transparent 
+v
+transparent 
+v
+transparent 
+v
+xres
+v
+v
+v
+v
+v .vim/src/airlineconf.vim 
+transparent 
+v
+transparent
+v
+xers
+xres
+v
+vrc
+v
+vrc
+v
+solarized 
+v
+v
+v
+v
+v
+cl
+v
+v
+v
+cl
+spacegray 
+v
+transparent 
+v
+spacegray 
+v
+v
+solarized 
+v
+transparent 
+v
+cl
+vrc
+v
+solarized 
+v
+v
+transparent 
+v
+p -Ss font
+p -S tamsyn
+p -S tamsyn-font
+cl
+xres
+transparent 
+v
+xres
+xresr
+xres
+xresr
+xres
+xresr
+transparent
+xres
+transparent
+v
+p -Ss font
+v
+v
+xres
+transparent 
+v
+v
+av
+v
+la
+cl
+v
+p -S neovim
+cl
+nv
+nvim
+cö
+cl
+man nvim
+cl
+brc
+man nvim
+v
+nv --version
+v --versionn
+v --version
+v
+v
+cl
+v
+cl
+vrc
+v
+cl
+vrc
+v
+transparent 
+v
+v
+xres
+transparent 
+xres
+transparent 
+v .tmux.conf 
+pkill tmux
+v
+tmux
+tmux
+oasd
+cl
+cl
+v
+vrc
+cl
+v
+cl
+transparent 
+tmux attach
+tmux attach
+cl
+tmux
+ p -R neovim
+cl
+tmux attach
+tmux attach
+sudo pacman -S neovim
+sudo pacman -S python2-neovim python-neovim
+cl
+nvim
+brc
+v
+vr
+vrc
+transparent 
+v
+v
+v
+cd .vim
+la
+cd bundle/n
+cd bundle/
+lla
+frm YouCompleteMe/
+la
+cl
+cd
+v
+cd .vim
+cd bundle/
+l
+la
+lwatch
+v
+pip install future
+pip install future
+pip3 install future
+sudo pip install future
+v
+sudo pip install frozendict
+v
+v
+v
+v
+locate ycmd_35935_stderr:q4d5i700.log
+sudo updatedb
+locate ycmd_35935_stderr:q4d5i700.log
+locate ycmd_35935_stderr_q4d5i700.log
+locate ycmd_35935_stder*
+locate ycmd_*
+find  / * | grep ycmd
+sudo find  / * | grep ycmd_35835
+cl
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+cd .config/
+mkdir nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+v
+v
+nvim
+xres
+transparent 
+v /tmp/ycmd_57987_stderr_gyiwqft8.log 
+cl
+cat /tmp/ycm*
+v
+v
+v
+solarized 
+v
+spacegray 
+v
+vim
+cl
+transparent 
+cl
+cd .config/
+cd nvim/
+la
+unlink init.vim 
+la
+touch init.vim
+v init.vim 
+v
+spacegray
+v
+cl
+solarized 
+v
+v
+v
+ivm
+vim
+exit
+exit
+exit
+exit
+tmux
+v
+v
+v
+vim
+cl
+pkill tmux
+tmux attach
+vrc
+solarized 
+v
+brc
+brc
+brc
+transparent 
+git clone https://github.com/Shougo/deoplete.nvim.git
+cd deoplete.nvim/
+la
+mv autoload/ ~/.config/nvim/
+la
+mv plugin/ ~/.config/nvim/
+mv doc/ ~/.config/nvim/
+la
+cd rplugin/
+al
+la
+cd ..
+la
+mv rplugin/ ~/.config/nvim/
+la
+v
+v
+pip3 install --upgrade neovim
+nvrc
+cl
+v
+cl
+v ~/Coding/01__Mathematics/fibonacci.py 
+v
+cl
+cd .vim
+la
+cd src/
+la
+v remaps.vim 
+cl
+la
+v functions.vim 
+grep -r tab
+grep -r tab
+cl
+la
+cl
+cd ..
+la
+cl
+git 
+cl
+grep -r tab
+cl
+vrc
+v
+transparent 
+v
+v
+nvrc
+v
+nvrc
+v
+cl
+nvrc
+nvrc
+v
+ht
+nvrc
+v
+nvrc
+ck
+cl
+v
+v
+cl
+vrc
+v ~/.vim/src/remaps.vim 
+v
+v ~/.vim/src/remaps.vim 
+cd .vim
+grep -r FZF
+grep -r FZF
+cl
+v
+vrc
+v
+v
+pq
+v
+p -R neovim pyton-neovim
+
+brc
+brc
+cl
+pq
+nvim
+p -R neovim
+p -Rf neovim
+p -Rd neovim
+p -Rdd neovim
+y
+p -Rdd neovim
+p -Rddy neovim
+p -Rydd neovim
+pacman -Rc neovim
+sudo pacman -Rc neovim
+cl
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+p -Syu
+pq
+cl
+p -Syyu
+cl
+nvim
+cd .config/
+la
+frm nvim/
+la
+cl
+cd ,,
+cd.
+cd ..
+v .bahrc
+vim .bashc
+vim .bashrc
+solarized 
+v
+cl
+nvrc
+cl
+transparent 
+la
+cl
+la
+cl
+cl
+la
+cl
+cd /usr/share/backgrounds/

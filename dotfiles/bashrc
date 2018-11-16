@@ -1,6 +1,6 @@
 # Makes my bash name look nice
  if [ "$EUID" -ne 0 ]
- then export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 6)\]\h \[$(tput setaf 2)\]\d\[$(tput setaf 6)\]] \[$(tput setaf 1)\]\[$(tput setaf 6)\][\[$(tput setaf 1)\]\w\[$(tput setaf 7)\]\[$(tput setaf 6)\]] \[$(tput sgr0)\]\n\[$(tput setaf 6)\]\$ \[$(tput sgr0)\]"
+ then export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 6)\]\h\[$(tput setaf 6)\]]\[$(tput setaf 6)\]{\[$(tput setaf 1)\]\w\[$(tput setaf 7)\]\[$(tput setaf 6)\]} \[$(tput sgr0)\]\n\[$(tput setaf 6)\]\$ \[$(tput sgr0)\]"
 	 else export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]ROOT\[$(tput setaf 6)\]@\[$(tput setaf 6)\]$(hostname | awk '{print toupper($0)}') \[$(tput setaf 1)\]\w\[$(tput setaf 1)\]]\[$(tput setaf 7)\] \[$(tput sgr0)\]\n# "
  fi
 
@@ -19,7 +19,7 @@ alias ift="sudo iftop -i wlp3s0"
 # alias sapt="sudo apt"
 # alias saptupd="sudo apt update"
 # alias saptupg="sudo apt upgrade"
-alias v="vim"
+alias v="vim -u /home/henning/.vimrc"
 alias p="sudo pacman"
 alias r="ranger"
 alias e="emacs -nw"
@@ -35,6 +35,7 @@ alias df="df -h |grep /$"
 alias ht="htop -d 3"
 alias rc="killall compton; compton &"
 alias nf="neofetch"
+alias pq="sudo pacman -Rs $(pacman -Qqdt)"
 alias off="sudo shutdown 0"
 alias fbg="nitrogen --set-auto"
 alias frm=" rm -rf"

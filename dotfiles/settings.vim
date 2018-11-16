@@ -15,6 +15,10 @@ let g:ycm_add_preview_to_completeopt = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:molokai_original = 1
 let g:rehash256 = 1
+" Goyo dimension
+let g:goyo_width = 100
+let g:goyo_height = 60
+
 " Airline theme
 let g:airline_theme='wombat'
 set background=dark
@@ -37,7 +41,6 @@ set showmode		" Show current mode
 set linespace=0         " No extra spaces between rows
 set t_Co=16		" idk lol
 set cursorline		" idk lol
-set colorcolumn=80 	" creates visible 80 char barrier
 set termencoding=utf-8	" same thing as below
 set encoding=utf-8	" Force UTF-8 encoding
 set autoread		" Autoupdate file when opened

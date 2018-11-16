@@ -17,9 +17,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'lifepillar/vim-solarized8'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'w0rp/ale'
-Plugin 'ervandew/supertab'
+Plugin 'junegunn/goyo.vim'
+" Plugin 'w0rp/ale'
+" Plugin 'ervandew/supertab'
 call vundle#end()
 filetype plugin indent on
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

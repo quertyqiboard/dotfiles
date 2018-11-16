@@ -26,8 +26,8 @@ nnoremap <C-l> >>
 vnoremap <C-h> <<
 vnoremap <C-l> >>
 nnoremap <C-b> :NERDTreeToggle<CR>
-nnoremap <C-p> :FZF<CR>
-nnoremap <C-g> :Goyo 100x75%<CR>
+" nnoremap <C-p> :FZF<CR>
+nnoremap <C-g> :Goyo<CR>
 nmap ss <plug>NERDCommenterToggle
 vmap ss <plug>NERDCommenterToggle
 map <F2> :LLPStartPreview<CR>
