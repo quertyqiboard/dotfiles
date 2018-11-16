@@ -42,7 +42,7 @@ font-3 = MaterialIcons:size=12;4
 font-4 = FontAwesome:size=46;0
 modules-left = i3
 modules-center = spotify
-modules-right = schedule wlan eth battery cpu temperature date powermenu
+modules-right = schedule wlan eth battery cpu temperature date
 tray-position = right
 tray-background = #bb666666
 wm-restack = i3

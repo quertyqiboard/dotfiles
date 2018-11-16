@@ -34,4 +34,6 @@ map <F2> :LLPStartPreview<CR>
 map <F3> :!wc <C-R>%<CR>
 map <F4> :call GetSpell()<CR>>
 map <NUL> <Esc>/<++><CR>"_c4l
+inoremap ,mm +<++><Space>
+inoremap ,ms ##<Space>
 

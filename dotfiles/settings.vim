@@ -21,7 +21,6 @@ set background=dark
 set bg=dark		" Set solarized background to dark
 set number relativenumber " enable hybrid line numbers
 set showcmd             " show command in bottom bar
-set cursorline          " highlight current line
 set backspace=indent,eol,start  " backspace for dummys
 set showmatch           " highlight matching [{()}]
 set hlsearch            " highlight matches
