@@ -1,7 +1,9 @@
+# Autocomplete
+[ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 # Makes my bash name look nice
  if [ "$EUID" -ne 0 ]
- then export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 6)\]\h\[$(tput setaf 6)\]]\[$(tput setaf 6)\]{\[$(tput setaf 1)\]\w\[$(tput setaf 7)\]\[$(tput setaf 6)\]} \[$(tput sgr0)\]\n\[$(tput setaf 6)\]\$ \[$(tput sgr0)\]"
-	 else export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]ROOT\[$(tput setaf 6)\]@\[$(tput setaf 6)\]$(hostname | awk '{print toupper($0)}') \[$(tput setaf 1)\]\w\[$(tput setaf 1)\]]\[$(tput setaf 7)\] \[$(tput sgr0)\]\n# "
+ then export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 6)\]\h\[$(tput setaf 6)\]] \[$(tput setaf 1)\]\w\[$(tput sgr0)\] \[$(tput setaf 6)\]\$ \[$(tput sgr0)\]"
+	 else export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]ROOT\[$(tput setaf 6)\]@\[$(tput setaf 6)\]CORE\[$(tput setaf 6)\]]\[$(tput setaf 7)\]{\w}\n# "
  fi
 
 HISTSIZE=100000
@@ -12,14 +14,16 @@ export EDITOR=vim
 shopt -s histappend
 shopt -s autocd
 shopt -s  cdspell
-export FZF_DEFAULT_COMMAND='find .'
+export FZF_DEFAULT_COMMAND='find ~'
 stty -ixon # Disables Strg-S and Strg-Q
 # System
 alias ift="sudo iftop -i wlp3s0"
 # alias sapt="sudo apt"
 # alias saptupd="sudo apt update"
 # alias saptupg="sudo apt upgrade"
-alias v="vim -u /home/henning/.vimrc"
+alias cd="pushd"
+alias cc="popd"
+alias v="vim"
 alias p="sudo pacman"
 alias r="ranger"
 alias e="emacs -nw"
@@ -36,6 +40,7 @@ alias ht="htop -d 3"
 alias rc="killall compton; compton &"
 alias nf="neofetch"
 alias pq="sudo pacman -Rs $(pacman -Qqdt)"
+alias sp="python3.7 ~/scripts/stundenplan/stundenplan.py"
 alias off="sudo shutdown 0"
 alias fbg="nitrogen --set-auto"
 alias frm=" rm -rf"

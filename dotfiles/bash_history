@@ -1217,3 +1217,1753 @@ cl
 la
 cl
 cd /usr/share/backgrounds/
+v
+cl
+brc
+cl
+dfiles commit -a
+dfiles push
+v
+cd .vim
+cd src/
+la
+v remaps.vim 
+v remaps.vim 
+
+v remaps.vim 
+v remaps.vim 
+v
+transparent 
+v
+v
+v
+v
+v
+brc
+v
+cl
+v
+vrc
+transparent 
+vrc
+v .vimrc
+v
+v
+spacegray 
+v
+cd .vim
+grep -r Airline
+grep -r theme
+cl
+cd src/
+grep -r theme
+grep -r Airline
+tmux attach
+conf
+tmux attach
+tmu
+exit
+tmux
+cl
+conf
+tmux attach
+conf
+tmux
+la
+cl
+la
+cl
+ls
+v
+pkill tmux
+conf
+cd scripts/colorschemes/
+la
+v gaps_max 
+R
+pbar
+pbar
+pbar
+pbar
+pbar
+bar
+pbar
+cd scripts/colorschemes/
+v gaps_max 
+la
+cl
+neofetch
+cl
+la
+cl
+cl
+la
+cl
+cl
+cmatric
+cmatrix
+p -S cmatric
+p -S cmatric
+p -S cmatrix
+cmatrix
+R
+pbar
+p -S bspwm
+R
+man dmenu
+cd scripts/
+la
+cd dmenu/
+la
+v shutdown.sh 
+v
+cd 
+cd .im
+cd
+cd .vim
+cd src/
+v remaps.vim 
+v
+transparent 
+v .dmrc
+cd .config/
+la
+cl
+cl
+cd ..
+script
+transparent 
+v
+cl
+pbar
+cl
+cmatrix
+v
+neofetch
+cl
+neofetch
+ht
+cd Pictures/
+la
+conf
+cd .config/
+la
+rm sxhkdrc/
+rm -r sxhkdrc/
+rm -rf sxhkdrc/
+sudo pacman -S libxcb xcb-util xcb-util-keysyms xcb-util-wm
+p -R bspwm
+mkdir bspwm
+cd bspwm/
+git clone https://github.com/baskerville/bspwm.git
+git clone https://github.com/baskerville/sxhkd.git
+p -S gcc-make
+p -S gcc make
+cl
+la
+c
+cl
+cd ..
+mv bspwm/bspwm/ ./bspwm
+la
+frm bspwm/
+git clone https://github.com/baskerville/bspwm.git
+cd bspwm/
+cd ..
+git clone https://github.com/baskerville/sxhkd.git
+c ds
+cd bspwm/
+make
+sudo make install
+cp examples/bspwmrc ~/.config/bspwm/bswpwmrc
+mkdir  ~/.config/bspwm
+cp examples/bspwmrc ~/.config/bspwm/bswpwmrc
+cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+mkdir  ~/.config/sxhkdrc
+cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+mkdir  ~/.config/sxhkd
+cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+cl
+cd ..
+cd bspwm/
+la
+cd contrib/
+la
+cd ..
+sudo cp contrib/freedesktop/bspwm.desktop /usr/share/xsessions/
+sudo service [lightdm restart
+sudo service lightdm restart
+killall bspwm
+killall bspwm
+killall bspwm
+cl
+sudo pacman -Rc neovim
+cl
+p -S qtile
+xres
+la
+clear
+la
+cl
+la
+cl
+la
+cl
+la
+feh 2018-11-11
+feh 2018-11-15-191307_1920x1080_scrot.png 
+cl
+la
+frm 2018-11-1*
+la
+cl
+cd .config/
+la
+locate qtile
+cl
+sudo updatedn
+sudo updatedb
+locate qtile
+sudo rm -rf /usr/share/xsessions/bspwm.desktop 
+cd ..
+v .local/share/qtile/
+v .local/share/qtile/qtile.log 
+cl
+p -S pytest Xephyr xvffbwrapper
+xcalc
+p -S xcalc
+nm-applet
+p -S xcalc
+ping google.com
+p -S pytest Xephyr xvffbwrapper
+cl
+la
+cd .config/
+la
+cl7
+cl
+sudo updatedb
+locate 
+locate libqtile.resources.default_config
+mkdir qtile
+cd qtile/
+v config.py
+cd .config/
+la
+killall qtile
+v
+v
+tmux
+la
+cl
+exit
+exit
+exit
+tmux attach
+ls /usr/share/xsessions/
+ls /usr/share/xsessions/qtile.desktop 
+v /usr/share/xsessions/qtile.desktop 
+neofetch
+cd .config/
+la
+cd qti
+cd qtile/
+la
+v config.py 
+exit
+la
+cd .config/qtile/
+v config.py 
+cd .config/qt
+cd .config/qtile/
+v config.py 
+cd .config/qtile/
+v config.py 
+ht
+v
+cl
+p -Syu
+uname -a
+sudo manjaro-settings-manager 
+c,
+cl
+p -Syu
+killall bspwm
+killall bspwm
+killall qtile
+ht
+ping google.com
+ht
+manjaro-settings-manager 
+p -Syu
+history
+p -S  etcher
+p -Ss etcher
+p -S etcher
+p -S etcher
+etcher
+ht
+sudo etcher-electron
+ls /dev/
+ls /dev/
+cl
+grep ä-l
+grep -l
+ls /dev/ | grep -l
+ls /dev/ | grep -c
+ls /dev/ | 
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+ls /dev/ | wc -l
+cl
+gpt
+gparted
+sudo gparted
+lsblk
+cl
+lsblk
+lsblk
+cl
+brc
+brc
+brc
+sudo su
+la
+la
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+cl
+sudo su
+sudo su
+clear
+la
+clear
+sudo -i
+clear
+brc
+brc
+la
+vrc
+v .viminfo 
+cl
+p -S bash-completion
+ls cl
+cl
+brc
+cl
+cl
+la
+cl
+cl
+man bash
+man bashbug 
+cl
+man gnu
+gnutls_random_art
+cl
+conf
+transparent 
+conf
+transparent 
+kilall urxvtc
+killall urxvtc
+p -S awesome
+awesome
+cl
+ls /usr/share/xsessions/
+exit
+exit
+exit
+exit
+man awesome
+exit
+la
+clear
+la
+cd .config/
+la
+clear
+la
+frm bspwm/
+la
+clear
+la
+awesomerc
+man awesomerc
+sudo updatedb
+locate rc.lua
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
+mkdir awesome
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
+cd awesome/
+a
+la
+cl
+v rc.lua 
+la
+clear
+la
+cd .config/
+la
+poweroff
+brc
+la
+clear
+cd Schule/
+cc
+clear
+pandoc gegenstände.md -o gegenstände.pdf
+evince gegenstände.pdf 
+p -S steam
+steam#
+steam
+steam
+ht
+ht
+off
+hp.
+sudo hp-printsettings 
+sudo hp-print 
+sudo hp-toolbox 
+sudo hp-clean 
+cd Schule/MuK/
+la
+cl
+cc
+cc
+cd
+cc
+cl
+man pandoc
+man pandoc
+pandoc klausur.md -o klausur.html
+firefox klausur.html 
+pandoc klausur.md -o klausur.docx
+lowriter klausur.docx 
+sudo printenv 
+cl
+sudo printf 
+sudo printf
+install-printerdriver 
+sudo install-printerdriver 
+cl
+sudo hp-print
+sudo hp-check 
+sudo hp-systray 
+lowriter Schule/MuK/klausur.docx 
+off
+lc
+cl
+cd Coding/
+k
+la
+frm 18_testing/
+cl
+l
+la
+cl
+v
+solarized 
+v
+frm main.py 
+cc
+cl
+cc
+cd 
+la
+cl
+pbar
+cl
+cc
+la
+neofetch
+ht
+conf
+transparent
+cd .i3
+v config 
+conf
+conf
+conf
+cd .config/
+la
+v compton.conf 
+compton
+cd .config/
+la
+v compton.conf 
+compton
+v compton.conf 
+v compton.conf 
+compton
+cl
+killal compton
+killall compton
+compton
+pkill compton 
+compton
+compton
+compton
+compton
+compton
+compton
+conf
+man compton
+cd .config/
+v compton.conf 
+la
+cle
+cl
+conf
+con
+conf
+i3-msg move position center
+conf
+conf
+conf
+conf
+conf
+conf
+i3-msg move position center
+conf
+conf
+conf
+i3-msg move position top
+i3-msg move position 1
+i3-msg move position 
+i3-msg move position 
+cl
+i3-msg move position 
+i3-msg move to
+i3-msg move window to
+i3-msg move window to up
+i3-msg move window to up
+i3-msg move window to up
+i3-msg move window to up
+i3-msg move window to up 10
+i3-msg move window to 10px
+i3-msg move window 10px
+i3-msg move position 10px
+i3-msg move position px 10
+i3-msg move position pointr
+i3-msg move position pointer
+i3-msg move position pointer
+i3-msg move position pointer
+i3-msg move position pointer
+i3-msg move position up
+i3-msg move position 100px
+i3-msg move position 100 px
+i3-msg move position px 100
+i3-msg move position px 100 up
+i3-msg move position 100 px 
+i3-msg move position px 100 up
+i3-msg move position 
+i3-msg move window
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window up
+i3-msg move window down
+i3-msg move window
+i3-msg move window up
+i3-msg move window up 2
+i3-msg move window up 2
+i3-msg move window up 2
+i3-msg move window up 
+i3-msg move window up 10
+i3-msg move window up 10
+i3-msg move window up 100
+i3-msg move window up 10000
+i3-msg move window up 10000
+i3-msg move window up 10000
+i3-msg move window up 10000
+i3-msg move window up 100
+connf
+conf
+i3-msg exit
+i3-msg exit
+conf
+conf
+i3-msg move position 
+i3-msg move position pointer
+i3-msg move position cursor
+i3-msg move position cursor
+i3-msg move position to
+i3-msg move window 
+i3-msg move window absolute
+i3-msg move window absolute 100
+i3-msg move window to
+i3-msg move window to mark
+conf
+cof
+cconf
+conf
+off
+cd Schule/Mathe/
+la
+cl
+v main.py
+python3.7 main.py 
+python2 main.py 
+python3 main.py 
+cl
+pip3.7 install tkinter
+pip3.7 install tk
+
+python3 main.py 
+pip3.7 install libtk
+pip3.7 install libtk8.6
+v main.py 
+pip3.7 install libtk8.6
+python3 main.py 
+v main.py 
+python3 main.py 
+python3.7
+cl
+p -Ss python-tk
+p -Ss tk
+p -Ss tkinter
+cd Coding/
+la
+cd 16_Matplotlib/
+öa
+la
+v plot.py 
+cl
+cd Coding/
+la
+cd 16_Matplotlib/
+python3.7 main.py 
+p -S python-tk
+p -S python-tk
+p -S python-tk
+p -S python-tk
+p -S python-tk
+p -S python-tk
+p -S python-tk
+cl
+ping ddg.gg
+p -S python-tk
+p -Ss python
+p -Ss python-
+cl
+python
+python3.7 
+cl
+cd Coding/
+la
+ v main
+v main
+locate main.py
+cl
+cd ..
+find . | grep main.py
+cd Coding/
+la
+cd 16_Matplotlib/
+la
+v plot.py 
+cd Schule/Mathe/
+v main.py 
+python3.7 main.py 
+python main.py
+python2.7 main.py
+python2 main.py
+cl
+v
+python3.7 test
+python3.7 test.py 
+v main.py 
+python3.7 main.py 
+python3.7 main.py 
+v main.py 
+python3.7 main.py 
+v main.py 
+python3.7 main.py 
+v main.py 
+v main.py 
+python3.7 main.py 
+v main.py #
+python3.7 main.py 
+cl
+p -Ss tkinter
+p -S python-pmw
+python3.7 main.py 
+off
+conf
+nitrogen /usr/share/backgrounds/
+R
+neofetch
+ht
+brc
+la
+clear
+fzf
+v
+xset r rate 300 130
+cd Schule/PB/
+v stichpunktkarten.md
+pandoc stichpunktkarten.md -o stichpunktkarten.docs
+pandoc stichpunktkarten.md -o stichpunktkarten.docx
+la
+mupdf stichpunktkarten.docx 
+lowriter stichpunktkarten.docx 
+i3-msg workspace next
+i3-msg workspace to
+i3-msg workspace 
+i3-msg workspace prev
+i3-msg workspace asd
+conf
+nm
+nmcli 
+nmtui
+nm-applet 
+con f
+conf
+cl
+cc
+cl
+cd scripts/
+öa
+la
+cp gaps_max.sh 
+cp gaps_max.sh reseti3.sh
+v reseti3.sh 
+cl
+cd Schule/PB/
+la
+v stichpunktkarten.md
+cd Schule/PB/
+la
+cd scripts/
+la
+v reseti3.sh 
+exec ls
+bash ls
+cl
+conf
+cd scripts/
+la
+cd dmenu/
+la
+cp shutdown.sh gaps.sh
+v gaps.sh 
+frm gaps.sh 
+la
+v shutdown.sh 
+cd Sc
+cd scripts/
+v reseti3.sh 
+cl
+la
+mkdir i3gaps
+mv gaps_* i3gaps/
+löa
+la
+cd i3gaps/
+la
+conf
+cd .i3
+la
+v config 
+v config 
+coinf
+conmf
+conf
+i3-msg  move window to center
+io3-ms move window to center
+ccomf
+conf
+xprop
+xprop
+xprop
+xprop
+killall spotify
+
+la
+v stichpunktkarten.md 
+pandoc stichpunktkarten.md -o stichpunktkarten.docx
+conf
+conf
+p -Ss netflix
+ping ddg.gg
+killall nm-applet
+nm-applet 
+ping ddg.gg
+ping github.com
+cd Schule/
+mkdir Spanisch
+cd Spanisch/
+la
+cl
+touch klausur.md
+v klausur.md 
+pandoc klausur.md -o klausur.docx
+lowriter klausur.docx 
+cl
+
+v klausur.md 
+pandoc klausur.md -o klausur.docx
+lowriter klausur.docx 
+pandoc klausur.md -o klausur.html
+firefox klausur.html 
+v klausur.md 
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.
+mupdf klausur.pdf 
+v klausur.m
+v klausur.md
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.
+mupdf klausur.pdf 
+v klausur.md 
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.pdf 
+v klausur.md 
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.pdf 
+v klausur.md 
+cp klausur.md klausur.rmd
+pandoc klausur.rmd -o klausur.pdf
+pandoc klausur.pdf 
+mupdf klausur.pdf 
+r
+cl
+la
+cl
+v klausur.md 
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.pdf 
+v klausur.md 
+pandoc klausur.md -o klausur.pdf
+mupdf klausur.pdf 
+cd Schule/Spanisch/
+evince klausur.pdf 
+pandoc klausur.md .o klausur.docx
+pandoc klausur.md -o klausur.docx
+lowriter klausur.docx 
+cd ../PB/
+la
+r
+cl
+pandoc stichpunktkarten.md -o stichpunktkarten.docx
+r
+cd Coding/
+l
+la
+cd 16_Matplotlib/
+la
+cl
+v plot.py 
+v main.py 
+la
+cl
+evince
+mupdf 
+cl
+zathura
+cl
+p -R mupdf
+p -R evince
+p -R mupdf
+cl
+solarized 
+v
+spacegray 
+la
+cl
+solarized 
+la
+v
+trans
+transparent 
+la
+cl
+v
+cd CO
+cd Coding/
+la
+cd 16_Matplotlib/
+la
+cc
+la
+cd 01__Mathematics/
+la
+cc
+la
+cl
+cd ../Schule/
+la
+cd M
+cd Mathe/
+la
+v test
+frm test
+v test.py 
+cl
+ka
+la
+frm test.py 
+v main.py 
+python3.7
+cl
+v main.py 
+python3.7 main.py 
+p -Ss tkinter
+p -R python-pmw
+pq
+ck
+cl
+pq
+cl
+p -S tk
+p -S tk
+cl
+v main.py 
+python3.7 main.py 
+v main.py 
+python3.7 main.py 
+cl
+cl
+c
+v main.py 
+python3.7
+cl
+v main.py 
+python3.7
+python3.7 main.py 
+v main.py #
+python3.7 main.py 
+cl
+v main.py 
+python3.7 main.py 
+v main.py 
+conf
+cd Coding/
+lq
+la
+cl
+la
+mkdir 19_Mathe
+cd 19_Mathe/
+la
+cl
+v main.py
+python3.7 main.py 
+cl
+v main.py
+python3.7 main.py 
+v main.py
+python3.7 main.py 
+cd Coding/16_Matplotlib/
+löa
+la
+v main.py 
+v plot.py 
+pbar
+ht
+killall firefox
+killall firefox
+killall firefox
+killall polybar
+ht
+la
+la
+cl
+cd Do
+cd Downloads/
+r
+la
+cd Pictures/
+la
+cd ..
+la
+cd Public/
+la
+cl
+protonvpn-cli --connect
+sudo protonvpn-cli --connect
+sudo protonvpn-cli --disconnect
+cd Do
+cd Documents/
+la
+cl
+mv übung\ wenn.ods übung_wenn.ods 
+la
+cl
+v Geschenkeliste.md
+clc
+cl
+cd
+cl
+la
+cd Downloads/
+la
+frm wallpaper_*
+la
+r
+cd Downloads/
+la
+mkdir wps
+mv wallpaper_* wps/
+la
+mv wps/ /usr/share/backgrounds/
+sudo mv wps/ /usr/share/backgrounds/
+la
+cl
+man nitrogen 
+conf
+man nitrgoen
+man nitrogen
+conf
+cl
+cd /usr/share/backgrounds/
+la
+r
+cd /usr/share/backgrounds/
+la
+conf
+sudo ranger
+la
+cd /usr/share/backgrounds/
+la
+frm wps/
+la
+sudo rm -r wps/
+la
+cl
+cd
+la
+cl
+cd Downloads/
+la
+cl
+la
+cc
+la
+cd Pictures/
+la
+cl
+feh *
+feh wps*
+feh wp*
+la
+wm 1p14.jpg wp14.jpg
+la
+mv 1p14.jpg wp14.jpg
+la
+cl
+convert wp2.png -o wp2.jpg
+convert wp2.png wp2.jpg
+la
+frm wp2.png 
+la
+cl
+mkdir wallpaper
+l
+la
+mv wp* wallpaper/
+la
+mv wallpaper/ /usr/share/backgrounds/
+sudo mv wallpaper/ /usr/share/backgrounds/
+la
+cl
+ls /usr/share/backgrounds/
+ls /usr/share/backgrounds/wallpaper/
+cd Pictures/
+la
+sudo mv wp* /usr/share/backgrounds/wallpaper/
+la
+cl
+sudo rm /usr/share/backgrounds/wallpaper/wp4.jpg 
+sudo rm /usr/share/backgrounds/beach*
+sudo rm /usr/share/backgrounds/Nature/
+sudo rmdir /usr/share/backgrounds/Nature/
+sudo rm /usr/share/backgrounds/wallpaper/wp21.jpg 
+sudo mv /usr/share/backgrounds/wallpaper/wp6.jpg 
+sudo mv ~/wp6.jpg /usr/share/backgrounds/wallpaper/wp6.jpg 
+ls /usr/share/backgrounds/
+feh /usr/share/backgrounds/polarlightsspace.jpg 
+feh /usr/share/backgrounds/icestone.jpg 
+frm /usr/share/backgrounds/icestone.jpg 
+sudo frm /usr/share/backgrounds/icestone.jpg 
+sudo rm /usr/share/backgrounds/icestone.jpg 
+cd /usr/share/backgrounds/
+la
+r
+sudo rm /usr/share/backgrounds/polarlightsspace.jpg 
+ls /usr/share/backgrounds/wallpaper/
+la
+cd Pictures/
+la
+cd ..
+la
+cc
+cc
+cd Downloads/
+la
+cl
+r
+cd DOw
+cd Downloads/
+la
+sudo mv wp* /usr/share/backgrounds/wallpaper/
+la
+cl
+ls
+cl
+ls /root
+sudo ls /root
+sudo ls -a /root
+sudo ls -a /root/co
+sudo ls -a /root/.config
+sudo ls -a /root/.config/ranger
+sudo rm -rf /root/.config/ranger
+sudo ln -s /home/henning/.config/ranger /root/.config/ranger
+sudo ls -a /root/.config/ranger
+sudo ranger /usr/share/backgrounds/wallpaper/
+sudo ranger /usr/share/backgrounds/wallpaper/
+sudo ranger /usr/share/backgrounds/wallpaper/
+sudo ranger /usr/share/backgrounds/wallpaper/
+sudo ranger /usr/share/backgrounds/wallpaper/
+sudo ranger /usr/share/backgrounds/wallpaper/
+la
+cl
+sudo rm /usr/share/backgrounds/wallpaper/wp3*
+sudo rm /usr/share/backgrounds/wallpaper/wp40.jpg 
+la
+cl
+ila
+cl
+cd /usr/share/
+cd awesome/
+la
+cd themes/
+la
+cd xresources/
+la
+cc
+cc
+cc
+cc
+cc
+cl
+brc
+locate *.lua
+ht
+killall polybar
+repbar
+pstre
+pstree
+la
+cd Dow
+cd Downloads/
+la
+cl
+mv megan_fox_14-wallpaper-1920x1080.jpg ps1.jpg
+feh ps1.jpg 
+p -Syu
+p -R palemoon
+p -R palemoon*
+p -R palemoon-bin
+pq
+cl
+p -Syuu
+p -Syuu
+la
+cl
+cl
+la
+cd .protonvpn-cli/
+la
+sudo cd .protonvpn-cli/
+la
+cl
+cd Pictures/
+la
+cd Wallpapers/
+la
+cd old/
+la
+cl
+cd
+cc
+c
+cc
+cc
+cc
+cl
+la
+c
+cl
+cd Do
+cd Downloads/
+la
+feh ps1.jpg 
+gimp ps1.jpg 
+co
+cl
+conf
+pbar
+sudo pacman -Syu
+cowsay
+cl
+p -S cowsay
+cl
+cowsay
+cl
+cowsay "Lets imprison women and minorites"
+cl
+fortune
+cl
+p -S fortune
+p -Ss fortune
+p -S fortune-mod
+fortune
+cl
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+cmatrix
+rig
+p -S rig
+p -Ss rig
+cd Downloads/
+feh ps1.jpg 
+gimp ps1.jpg 
+feh ps1.jpg 
+la
+cl
+sudo pacman -Syyu
+lc
+cl
+sl
+sl
+cl
+sl
+fortune | lolcat | cowsay
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+cl
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+fortune | cowsay 
+cl
+v
+ht
+killall polybar
+ht
+la
+cl
+cd Schule/Informatik/
+la
+cl
+cd
+cd Doc
+cd Documents/
+la
+lowriter Einführung_Wenn.odt 
+killall lowriter
+compton
+xprop
+xprop
+killall lowriter
+ht
+killall urxvt
+killall urxvtc
+killall urxvtc
+killall urxvt
+killall urxvt
+ht
+lsblk
+cd /run/media/henning/Elements/
+la
+cl
+la
+lla
+cl
+ht
+cl
+la
+cl
+cd scripts/
+la
+mkdir stundenplan
+cd stundenplan/
+touch wba.txt
+cd scripts/
+la
+cc
+cl
+conf
+pbar
+cl
+cd .config/
+la
+cd polybar/
+la
+cc
+cc
+la
+cl
+pbar
+cl
+cd .i3/
+l
+la
+cp schedule.py ~/scripts/stundenplan.py
+cc
+cd scripts/
+la
+v stundenplan.py 
+vrc
+transparent 
+v
+la
+cd scripts/
+la
+cd stundenplan/
+la
+cd scripts/
+la
+cd stundenplan/
+la
+v wba.txt 
+mv ../stundenplan.py 
+mv ../stundenplan.py ./
+la
+v stundenplan.py 
+cl
+python3.7 stundenplan.py 
+la
+lla
+chmod +r wba.txt 
+chmod +w wba.txt 
+chmod +x wba.txt 
+la
+cl
+la
+cl
+python3.7 stundenplan.py 
+v stundenplan.py 
+python3.7 stundenplan.py 
+v stundenplan.py 
+python3.7 stundenplan.py 
+python3.7 stundenplan.py 
+cl
+cd scripts/
+la
+cd stundenplan/
+la
+cd Coding/
+la
+cd 07__Files/
+la
+v files.py 
+la
+cl
+cd .
+cc
+c
+c
+cc
+la
+cd 01__Mathematics/
+la
+v cpu-bench.py 
+la
+v fibonacci.py 
+cl
+la
+v primes.py 
+sp
+sp
+brc
+sp
+v scripts/stundenplan/stundenplan.py 
+sp
+cl
+sp
+cl
+cd Downloads/
+la
+mv WhatsApp\ Image\ 2018-11-27\ at\ 20.46.42.jpeg henning_g_2.jpeg
+la
+mv henning_g_2.jpeg ~/Pictures/Abschluss/
+la
+cc
+cd Pictures/Abschluss/
+la
+cp henning_g_2.jpeg henning_g_2.jpg
+feh henning_g_2.jpg
+rm henning_g_2.jpeg 
+la
+feh henning_g_2.jpg 
+feh henning_g_1.jpg 
+cl
+sp
+killall nm-applet 
+pbar
+ht
+solarized 
+ht
+sl
+cl
+fortune | lolcat | cowsay 
+fortune | lolcat | cowsay 
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+cl
+v
+transparent 
+v Gedicht 
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+cd Schule/De
+cc
+cd Schule/
+a
+la
+mkdir Deutsch
+cd Deutsch/
+la
+cl
+articke
+article 
+off
+protonvpn-cli --connect
+sudo protonvpn-cli --connect
+sudo protonvpn-cli --disconnect
+cd Schule/Geschichte/
+la
+v vietman.md
+cd Schule/Geschichte/
+pandoc vietman.md -o vietman.html
+firefox vietman.html 
+frm vietman.html 
+pandoc vietman.md -o vietman.pdf
+evince vietman.pdf 
+cl
+man sudo
+cl
+fortune | cowsay
+fortune | lolcat
+cl
+p -S lolcat
+cl
+echo Moritz ist dumm
+cl
+la
+frm Kubakrise.log Kubakrise.aux Kubakrise.html 
+la
+cl
+v vietman.
+v vietman.md 
+pandoc vietman.md -o vietman.pdf
+evince vietman.pdf 
+cl
+lc
+la
+cl
+p -S
+p -h
+p -Qs
+lc
+cl
+l
+cl
+la
+cl
+la
+cl
+man qtile
+info qtile
+info qtile
+ l
+cl
+cd .config/qtile/
+la
+cl
+la
+v config.py 
+exit
+killall qtile
+la
+cl
+solarized 
+v
+asdf
+cl
+brc
+transparent 
+v
+brc
+soar
+soa
+yeet
+kill henning
+n
+cl
+pacman
+cl
+p -Ss game
+p -Ss game | grep installed
+libgme
+cl
+cl
+sp
+cl
+cd scripts/
+la
+cd stundenplan/
+al
+cl
+l
+cl
+l
+cl
+l
+cl
+la
+chmod 777 wbb.txt 
+la
+la
+cl
+chmod -x wb*
+la
+lla
+chmod 666 wb*
+la
+lla
+cl
+v wba.txt 
+sp
+cl
+sp
+cd Schule/
+la
+cd PB/
+la
+v voltaire.tex 
+cl
+sp
+cd scripts/
+cd stundenplan/
+v wbb.txt 
+cl
+s
+so
+sp
+cl
+sp
+cl
+ la
+cat wba.txt 
+cat wbb.txt 
+cl
+cd
+cc
+cc
+cd Schule/Geschichte/
+la
+cl
+v vietnam.tex
+la
+cl
+ht
+v
+l
+cl
+la
+cl
+v
+v
+v 
+v
+cl
+v
+conf
+cl
+v
+la
+cl
+nitrogen --set-auto --random /usr/share/backgrounds/ 
+compton
+conf
+cl
+v .config/qtile/config.py 
+killall qtile
+pbar
+cl
+la
+cl
+~/scripts/repbar.sh 
+la
+cl
+cd scripts/
+la
+cl
+löa
+la
+cö
+lc
+cl
+v repbar.sh 
+repbar
+repbar 
+cl
+ht
+conf
+cl
+cd scripts/
+la
+cl
+la
+cl
+la
+sp
+cl
+l
+la
+cl
+cd i3gaps/
+la
+cl
+cd scripts/
+la
+cd dmenu/
+la
+v shutdown.sh 
+cd scripts/
+la
+ll
+acl
+/home/henning/scripts/renm.sh 
+cd sc
+cd scripts/
+al
+la
+cp repbar.sh renm.sh
+v renm.sh 
+man nm-applet 
+NetworkManager 
+man NetworkManager 
+cl
+conf
+ht
+conf
+p -Syyu
+i3-msg resize set
+i3-msg resize set 100 100
+i3-msg resize set 100 100
+i3-msg resize set 1400 4000
+la
+cl
+i3-msg resize set 800 800
+i3-msg resize set 800 800
+i3-msg info
+conf
+i3-msg resize set 1536 810
+i3-msg move position center
+i3-msg resize set 1152 810
+i3-msg resize set 1152 540
+cl
+conf
+cl
+la
+cl
+cd sc
+cd scripts/
+la
+v reseti3.sh 
+conf
+cd ../.i3/
+v
+v config 
+conf
+i3-msg move position center
+i3-msg restart
+cd scripts/
+la
+v reseti3.sh 
+conf
+cd scripts/
+la
+v re
+v repbar.sh 
+la
+conf+
+conf

@@ -9,10 +9,8 @@
 ;=====================================================
 
 [colors]
-background = #cc555555
-background-alt = #cc555555
-foreground = #ffeee8d5
-foreground-alt = #555
+background = #00000000
+foreground = #ffffffff
 primary = #ffb58900
 secondary = #ffd33682
 alert = #ffdc322f
@@ -20,7 +18,9 @@ col = #00f
 
 [bar/default]
 monitor = ${env:MONITOR:eDP1}
-width = 100%
+width = 99%
+offset-x = 10
+offset-y = 5
 height = 25
 fixed-center = true
 background = ${colors.background}
@@ -28,13 +28,13 @@ foreground = ${colors.foreground}
 underline-size = 2
 line-size = 5
 line-color = #ffdc322f
-border-size = 0
-border-color = ${colors.background}
-padding-left = 0
+; border-size = 1
+; border-color = #ffffffff
+padding-left = 2
 padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
-
+radius = 5
 font-0 = DejaVu Sans Mono:size=12;2
 font-1 = FontAwesome:size=12;3
 font-2 = DevaVu Sans:size=13;2
@@ -44,7 +44,7 @@ modules-left = i3
 modules-center = spotify
 modules-right = schedule wlan eth battery cpu temperature date
 tray-position = right
-tray-background = #bb666666
+tray-background = #00000000
 wm-restack = i3
 override-redirect = true
 scroll-up = i3wm-wsnext
@@ -58,7 +58,7 @@ scroll-down = i3wm-wsprev
 type = internal/i3
 format = <label-state> <label-mode>
 label-active-font = 5
-label-visible-padding = 4
+label-visible-padding = 1
 label-focused = %name%
 label-focused-underline = #fffdf6e3
 label-focused-padding = 1
@@ -83,8 +83,9 @@ label-warn-foreground = ${colors.secondary}
 [module/cpu]
 type = internal/cpu
 label = 
-interval = 2
+interval = 1
 format = <label> <ramp-coreload>
+; format = <label> <percentage-cores>
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
@@ -132,19 +133,19 @@ type = internal/network
 interface = enp2s0
 interval = 5.0
 
-format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected-prefix-foreground = ${colors.foreground}
 label-connected =  %local_ip%
 
 ;format-disconnected =
 format-disconnected = <label-disconnected>
-label-disconnected = No LAN
+label-disconnected =  No LAN
 label-disconnected-foreground = ${colors.foreground}
 
 
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 date =  %%{F#eee}%d-%m-%Y%%{F-}   %%{F#fff}%H:%M%%{F#fff}:%S%%{F#fff}
 
 label = %date% %time%
@@ -161,7 +162,7 @@ full-at = 98
 format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 format-full = <ramp-capacity> <label-full>
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix-foreground = ${colors.foreground}
 format-foregound = ${colors.foreground}
 
 
@@ -212,8 +213,8 @@ label-font = 3
 label-active-font = 3
 label-maxlen = 72
 format-prefix = " "
-format-prefix-foreground = #23CF5F
-format-foreground = #23CF5F
+format-prefix-foreground = ${colors.foreground}
+format-foreground = ${colors.foreground}
 exec = ~/.config/polybar/spotify
 exec-if = pgrep -f "Spotify"
 
@@ -223,27 +224,30 @@ interval = 300
 format = <label>
 label-font = 2
 label-active-font = 2
-label-maxlen = 18
+label-maxlen = 20
 format-foreground = ${colors.foreground}
 format-prefix = " Morgen: "
 exec = python3.7 ~/.i3/schedule.py
 
 [bar/bottom]
 monitor = ${env:MONITOR:eDP1}
-width = 100%
+width = 98%
+offset-x = 19
+offset-y = 5
 height = 25
 fixed-center = true
-background = #ff333333
+background = ${colors.background}
 foreground = ${colors.foreground}
 underline-size = 2
 line-size = 5
 line-color = #ffdc322f
-border-size = 0
-border-color = ${colors.background}
-padding-left = 10
-padding-right = 10
-module-margin-left = 10
-module-margin-right = 10
+border-size = 5
+border-color = #00000000
+radius = 5
+padding-left = 5
+padding-right = 5
+module-margin-left = 0
+module-margin-right = 0
 bottom = true
 
 font-0 = DejaVu Sans Mono:size=12;2

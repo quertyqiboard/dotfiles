@@ -1,8 +1,5 @@
 nnoremap j gj
 nnoremap k gk
-nnoremap ,j ddp
-nnoremap ,k dd2kp
-nnoremap ,st :call GetSpell()<CR>
 nnoremap ,ss :call FixLastSpellingError()<CR>
 nnoremap ,sg :call AddGoodList()<CR>
 nnoremap ,se :call SpellEn()<CR>
@@ -26,7 +23,7 @@ nnoremap <C-l> >>
 vnoremap <C-h> <<
 vnoremap <C-l> >>
 nnoremap <C-b> :NERDTreeToggle<CR>
-" nnoremap <C-p> :FZF<CR>
+nnoremap <C-p> :FZF ~/<CR>
 nnoremap <C-g> :Goyo<CR>
 nmap ss <plug>NERDCommenterToggle
 vmap ss <plug>NERDCommenterToggle
@@ -34,6 +31,4 @@ map <F2> :LLPStartPreview<CR>
 map <F3> :!wc <C-R>%<CR>
 map <F4> :call GetSpell()<CR>>
 map <NUL> <Esc>/<++><CR>"_c4l
-inoremap ,mm +<++><Space>
-inoremap ,ms ##<Space>
 
