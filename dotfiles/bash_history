@@ -2967,3 +2967,1150 @@ v repbar.sh
 la
 conf+
 conf
+brc
+brc
+drc
+brc
+pbar+
+pbar
+cl
+dfiles commit -a
+cl
+dfiles push
+cd scripts/
+la
+cc
+a
+la
+cl
+cd .config/
+la
+cd dunst/
+la
+cl
+v dunstrc 
+cl
+cp dunstrc dunstrc_backup
+v dunstrc
+cl
+drc
+drc
+dunst 
+drc
+drc
+cl
+killall dunst
+dunst 
+dunst 
+cl
+la
+cl
+drc
+drc
+drc
+cl
+drc
+drc
+drc
+drc
+cl
+drc
+drc
+killall dunst 
+dunst 
+drc
+drc
+drc
+cl
+killall dunst 
+dunst
+drc
+dunst
+killall dunst
+dunst
+drc
+killall dunst
+dunst 
+drc
+killall dunst; dunst; drc
+drc
+drc
+drc
+killall dunst; dunst; drc
+drec
+cl
+drc
+killall dunst 
+dunst 
+drc
+killall dunst 
+dunst &
+cl
+drc
+killall dunst 
+dunst &
+cl
+drc
+cl
+brc
+drc
+cl
+drc
+cl
+cl
+killall dunst
+ck
+cl
+dunst
+killall dunst
+dunst
+notify-send "kajsdhkajlshdlkajsdh asdh akjshdkjhahsd 
+asdjhasgdjhasgd 
+asdjhaghsjkdhgas"
+cl
+killall dunst 
+dunst
+cl
+notify-send "kajsdhkajlshdlkajsdh asdh akjshdkjhahsd 
+askjhghasjkd
+asdiuashdk"
+cl
+drc
+killall dunst 
+dunst
+drc
+cl
+la
+cd .screenlayout/
+la
+cc
+cd .screenlayout/
+cl
+cc
+la
+cd .scripts
+la
+cl
+cd du
+cd dunst
+lla
+cl
+cc
+cd .config/
+la
+cd dunst/
+öa
+la
+v dunstrc
+cl
+solarized 
+v
+cl
+killall dunst
+dunst 
+killall dunst
+dunst 
+cd .config/
+cd dunst/
+v dunstrc
+killall dunst 
+dunst 
+cd .config/
+la
+cd dunst/
+lka
+la
+v dunstrc
+spacegray 
+v dunstrc
+spacegray 
+v dunstrc
+cl
+killall dunst 
+dunst 
+cl
+v dunstrc
+killall dunst 
+dunst 
+v dunstrc
+killall dunst 
+dunst 
+v dunstrc
+cl
+killall dunst 
+dunst 
+v dunstrc
+killall dunst 
+dunst 
+
+
+v dunstrc
+killall dunst 
+dunst 
+v dunstrc
+cl
+killall dunst 
+dunst 
+v dunstrc
+killall dunst 
+dunst 
+killall dunst 
+dunst 
+killall duns
+killall dunst
+v dunstrc
+cl
+dunst 
+v dunstrc
+dunst 
+cl
+killall dunst 
+v dunstrc
+cl
+dunst 
+killall dunst 
+dunst 
+cl
+transparent 
+la
+cl
+whoami
+cl
+conf
+i3-msg restart
+glava -d
+glava 
+glava 
+glava 
+glava 
+cl
+glava -d
+man head
+head .bashrc
+.bashrc | seq 11q
+.bashrc | sed 11q
+cat .bashrc | sed 11q
+cl
+v
+cl
+p -Ss visualizer
+projectm
+cl
+p -S projectm
+projectm
+cl
+pm
+cl
+projectM-pulseaudio 
+sudo projectM-pulseaudio 
+cl
+p -R projectm
+pq
+cl
+la
+pq
+cl
+p -Syyu
+cl
+p -Ss visualizer
+p -S glava
+glava
+cl
+man glava
+glava -h
+glava
+glava -d
+cl
+la
+glava -h
+cl
+cd .config/
+la
+cl
+locate glava
+cl
+updatedb
+sudo updatedb
+cl
+cl
+locate glava
+v /etc/xdg/glava/env_i3.glsl 
+cl
+cl
+glava --copy-config
+la
+cd glava/
+la
+glava radial
+glava circle
+cl
+la
+v wave
+cl
+cd
+cc
+cc
+cl
+glava -h
+glava -r circle
+glava -e circle
+glava -b circle
+glava circle
+löpa
+cl
+cd .config/
+la
+cd glava/
+la
+la
+v rc.glsl 
+glava -d
+v rc.glsl 
+killall glava
+conf
+cl
+i3-msg restart
+ht
+killall compton
+compton
+neofetch
+cl
+cmatrix
+cl
+ht
+cd .config/glava/
+la
+v rc.glsl 
+p -S cava
+p -Ss cava
+p -Ss music visualizer
+p -Ss music
+cl
+p -Ss visualizer
+sudo pacman -S base-devel fftw ncurses alsa-lib iniparser pulseaudio
+cl
+pamac build cava
+cava 
+cava
+cava
+cava
+cava
+cava
+cl
+urxvt -hg
+urxvt -h
+cl
+man urxvt
+cava
+cava
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+cl
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+cava -p ~/.config/cava/config 
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=1"
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=5"
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=8"
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=20"
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=40"
+urxvtc -fn "xft:DejaVu Sans Mono:pixelsize=40"
+cl
+cd .config/cava/
+la
+v config 
+cl
+pamac 
+pamac remove cava
+cl
+cc
+cd .config/
+la
+frm cava/
+la
+cl
+cd .config/glava/
+la
+v rc.glsl 
+pamac search visualizer
+ls .config/glava/
+v rofi.conf 
+cd .config/glava/
+v radial
+cl
+pamac search visualizer
+cd .config/glava/
+v rc.glsl 
+la
+v 
+v 
+v rc.glsl 
+v rc.glsl 
+v rc.glsl 
+p -Ss spotify
+man spotify
+cl
+spotify -h
+p -S portaudio
+pamac build libspotify
+cl
+p -S portaudio
+git clone ent version 0.5.0
+git clone https://github.com/fabiofalci/sconsify.git 
+cd sc
+cd sconsify/
+la
+cd sconsify/
+al
+ka
+cl
+la
+cc
+la
+cd spotify/
+la
+cc
+cc
+la
+cl
+sudo updatedb
+locate sconsify
+ cd sconsify/sconsify/
+la
+sudo chmod +x sconsify
+lla
+cl
+cc
+la
+cd sc
+cd sconsify/
+la
+cd rpc/
+la
+cc
+la
+cd spotify/
+la
+cc
+cd ui/
+öa
+la
+cl
+la
+cl
+cc
+la
+./sconsify/
+./sconsify
+cl
+locate sconsify
+/home/henning/sconsify/sconsify
+la
+cl
+ka
+ka
+la
+cc
+cd sc
+cd sconsify/
+la
+sudo make
+make
+make install
+cl
+sudo find * / | grep sconsify
+cl
+la
+cc
+la
+frm sconsify/
+p -R portaudio
+cl
+pq
+cl
+la
+cl
+sudo pacman -Rs $(pacman -Qqdt)
+sudo pacman -Rsn
+sudo pamac
+cl
+sudo pamac
+cl
+pack200
+pacmc
+pacmd
+pacman
+pacmc
+pacui
+sudo pacui
+cl
+man i3exit blurlock
+man i3exit 
+i3lock blurlock
+man i3lock 
+i3lock -b 5
+man i3lock 
+i3lock -B 5
+i3lock -B 5
+i3lock -B 10
+cl
+v .bash_history 
+v .bash_history 
+conf
+v .bash_history 
+conf
+v .bash_history 
+conf
+v .bash_hs
+v .bash_history 
+cl
+neofetch
+cl
+sv /etc/lightdm/lightdm.conf 
+sv /etc/lightdm/slick-greeter.conf 
+ls /usr/share/backgrounds/
+p -Ss qute
+p -S qutebrowser
+cl
+qutebrowser 
+conf
+la
+cl
+cd scripts/
+la
+v re
+cl
+v repbar.sh 
+cl
+killal i3gaps/
+killal i3gaps
+killal i3
+killall i3
+off
+cl
+zsh
+cl
+la
+v .dmrc 
+cl
+la
+clk
+conf
+cl
+la
+cl
+solarized 
+v
+pbar
+sp
+sp
+sp
+lc
+cl
+conf
+pbr
+pbra
+pbar
+cl
+sp
+lc
+cl
+cd scripts/stundenplan/
+la
+v stundenplan.py 
+cl
+v
+cl
+la
+cl
+pbar
+cl
+ht
+cl
+brc
+cl
+ht
+cl
+transparent 
+ht
+cl
+solarized 
+ht
+cl
+pbar
+cl
+brc
+cl
+cd Downloads/wallpapers/
+la
+soa
+cd wallies/
+la
+frm 850\ Amazing\ Nature\ Full\ HD\ Wallpapers\ 1920\ X\ 1080\ px\ \[40\ Sets\].rar 
+la
+cl
+cc
+cc
+cd Coding/12_Factorial/
+la
+v output 
+frm output 
+la
+cl
+cc
+cd Downloads/
+la
+cd ISO/
+la
+frm archlinux-2018.11.01-x86_64.iso 
+la
+cl
+cc
+cc
+cd Nature/
+la
+cc
+cl
+ls /usr/share/backgrounds/
+la
+cc
+cl
+ls /usr/share/backgrounds/wallpaper/
+cl
+la
+cl
+frm Nature/
+sync; echo 1 > /proc/sys/vm/drop_caches
+sudo sync; echo 1 > /proc/sys/vm/drop_caches
+sudo sync; sudo echo 1 > /proc/sys/vm/drop_caches
+la
+cl
+lla
+cl
+la
+cl
+soa
+soa
+soa
+cl
+cd scripts/
+la
+touch clearcache.sh
+v clearcache.sh 
+chmod +x clearcache.sh 
+la
+cl
+sudo ./clearcache.sh 
+cc
+soa
+free -m
+cl
+ht
+cl
+lka
+a
+cl
+la
+mkdir .spotify
+soia
+soa
+cd .cache/
+soa
+cl
+cd vim/swap/
+la
+cl
+cc
+frm vim/*
+la
++v
+v
+cl
+soa
+cl
+soa
+cd .local/share/
+la
+soa
+cl
+calcurse
+p -Ss calcurser
+p -Ss calcurse
+p -S calcurse
+cl
+calcurse
+cö
+pbar
+xbacklight -h
+xbacklight -
+xbacklight -get
+conf
+pbar
+cl
+pbar
+p -Syuu
+p -Syuu
+p -Syyu
+cl
+i3-msg restart
+cl
+cl
+cd .i3/
+la
+cl
+c
+cc
+cd .config/polybar/
+la
+v spotify 
+cd .config/pooy
+cd .config/polybar/
+la
+spotify 
+cl
+./spotify 
+./spotify 2>/dev/null
+conf
+i3-msg restart
+conf
+pnar
+pbar
+cl
+cd .spotify/
+la
+cd 01/
+la
+cc
+la
+cl
+a
+l
+cl
+l
+cl
+la
+v index.dat 
+cl
+cc
+git clone https://github.com/
+git clone https://github.com/ritiek/spotify-downloader.git
+cd spotify-downloader/
+la
+cl
+la
+cd spotdl/
+la
+cl
+loa
+cl
+l
+cl
+l
+cl
+la
+python3 spotdl.py --song "Night moves"
+python3.7 spotdl.py --song "Night moves"
+sudo python3.7 spotdl.py --song "Night moves"
+pip3 install version
+cl
+pip3 install __version__
+pip3 install 
+pip3 install 
+pip3 install version
+sudo pip3 install version
+cl
+cd scripts/dmenu/
+la
+v shutdown.sh 
+cl
+p -S dmenu
+pamac search dmenu
+cl
+cl
+pgrep
+pgrep --help
+cl
+pgrep spotidy
+pgrep spotify
+pgrep --help
+pgrep --help
+pgrep spotify
+pgrep spotify
+pgrep spotify
+pgrep spotify
+cl
+pgrep -P spotify
+pgrep -P spotify
+pgrep -p spotify
+cl
+i3-sensible-pager 
+i3-sensible-editor 
+i3-dmenu-desktop 
+i3-dmenu-desktop 
+i3-dmenu-desktop 
+i3-dmenu-desktop 
+i3-dmenu-desktop 
+cl
+cd .config/polybar/
+l
+a
+cl
+l
+cl
+l
+cl
+l
+cl
+la
+v spotify 
+pbar
+i3-dmenu-desktop -h
+i3-dmenu-desktop --dmenu
+i3-dmenu-desktop
+cl
+l
+a
+cl
+l
+cl
+p -Ss weather
+p -R jq
+pq
+cl
+pq
+cl
+man pq
+cl
+p -Ss weather
+p -S gnome-weather
+cl
+gnome-weather 
+man gnome-weather
+cl
+gnome-weather -h
+gnome-weather
+cl
+p -R gnome-weather
+pq
+cl
+brc
+pq
+cl
+weather
+cl
+p -Ss weather
+cl
+p -Ss weather
+cl
+apropos weather
+apropos lib
+cl
+la
+cl
+p -Ss weather
+p -S libmateweather
+apropos weather
+cl
+p -R libmateweather
+pq
+cl
+pq
+cl
+curl wttr.in/Berlin
+cl
+pamac build weather-icons
+pamac build weathericons
+pamac build ttf-weather-icons
+v /tmp/xa-UAHCTZ/city.list.json
+cl
+git clone https://github.com/kamek-pf/polybar-forecast.git
+cd polybar-forecast/
+öa
+clö
+la
+v Cargo.toml 
+cd src/
+a
+cl
+l
+acl
+co
+cl
+l
+cl
+la
+v config.rs 
+cl
+la
+v main.rs 
+v weather.rs 
+cl
+cc
+la
+v config.toml.example 
+cl
+p -S cargo
+cargo build --release
+la
+cargo build --release
+cl
+la
+cc
+ka
+cl
+la
+frm weather
+frm weather*
+öa
+cl
+la
+frm polybar-forecast/
+la
+cl
+la
+cl
+p -R rust
+pq
+cl
+solarized 
+v
+spacegray 
+v
+pbar
+cl
+pbnar
+v
+pbar
+cl
+la
+cl
+pbar
+cl
+cd .fonts/
+la
+v fonts.dir 
+cl
+la
+cl
+cc
+pamac remove ttf-weather-icons
+cl
+pbar
+cl
+v
+vrtc
+vrc
+v
+solarized 
+v
+cl
+p
+pbar
+cl
+la
+cl
+cd .vim/
+la
+cd bundle/
+öa
+la
+frm vim-airline/
+la
+ck
+cl
+v
+cl
+python3.7
+cl
+calcurse
+cl
+sp
+cl
+cd scripts/stundenplan/
+la
+cat wbb.txt >> wba.txt 
+v wba.txt 
+v stundenplan.py 
+cl
+la
+cl
+v stundenplan.py 
+cl
+la
+frm wbb.txt 
+mv wba.txt wbc.txt
+sp
+cl
+sp
+cl
+v stundenplan.py 
+sp
+cl
+v stundenplan.py 
+sp
+cl
+v stundenplan.py 
+sp
+cl
+v stundenplan.py 
+cl
+sp
+cl
+la
+cl
+cc
+cd .config/polybar/
+la
+cc
+la
+cl
+locate schedule
+cd .i3/
+la
+v schedule.py 
+cl
+pbar
+cl
+pbar
+cl
+vrc
+solarized 
+spacegray 
+v
+cl
+pbar
+pbar
+solarized 
+pbr
+pbar
+cl
+pamc
+cl
+pacmd
+pacui
+p -S gnome
+p -S xfce4
+p -S kde
+p -S kde-plasma
+p -S xfce
+p -S xfce4
+la
+cl
+ht
+v
+cl
+compton
+ifconfig
+if
+cl
+iwconfig 
+iwconfig 
+killall polybar
+polybar top
+polybar default
+pamac search material icons
+pamac build ttf-material-icons
+cl
+p -Ss noto
+p -S noto-fonts
+cl
+p -S font-awesome
+p -Ss ttf-font-awesome
+p -Ss ttf-font-awesome otf-font-awesome
+cl
+p -Ss material
+pbar
+off
+cl
+killall xfce
+killall xfce4
+killall xfce*
+ht
+cl
+killall Xorg 
+sudo killall Xorg 
+pacui
+cl
+sudo pacman -S mtools os-prober
+grub-install /dev/sda
+update-grub 
+sudo grub-install /dev/sda
+update-grub 
+sudo update-grub 
+cl
+pbar
+pbar
+cl
+pacui
+pacui
+cl
+pacui
+cl
+pbar
+killall polybar
+polybar default
+cl
+killall polybar
+polybar default
+cl
+apropos font
+cl
+fc-list 
+cl
+fc-list | grep awesome
+fc-list | grep Awesome
+cl
+la
+
+fc-list | grep Material
+fc-list | grep Material
+cl
+pacman -Ss font awesome
+p -R ttf-font-icons
+p -S ttf-font-awesome
+cl
+fc-cache -h
+fc-cache -f
+fc-cache
+cl
+pacui
+cl
+fc-list 
+fc-list | grep Awesome
+fc-list | grep awesome
+cl
+pamac build otf-font-awesome-5-free
+pbar
+fc-llist
+fc-list
+fc-list | grep Awesome
+killall polybar
+polybar default
+conf
+$ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+pbar
+cl
+cd .config/pl
+cd .config/polybar/
+kla
+cl
+la
+cl
+cp config config_backup
+v config
+cl
+la
+cl
+v config
+v config_backup 
+v config
+cl
+la
+cl
+cd .config/polybar/
+la
+cl

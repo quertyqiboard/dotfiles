@@ -40,12 +40,6 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-# move focused window
-# bindsym $mod+Shift+h move left
-# bindsym $mod+Shift+j move down
-# bindsym $mod+Shift+k move up
-# bindsym $mod+Shift+l move right
-
 # split in horizontal orientation
 bindsym $mod+g split h
 
@@ -57,15 +51,11 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-# bindsym $mod+space focus mode_toggle
-#
 # quick terminal
 exec --no-startup-id urxvt -name metask -e R
 exec --no-startup-id urxvt -name command
@@ -75,12 +65,6 @@ for_window [instance="metask"] move scratchpad; [instance="metask"] scratchpad s
 for_window [instance="command"] move scratchpad; [instance="command"] scratchpad show; resize set 1152 540; move indow position center; move scratchpad
 bindsym $mod+c [instance="metask"] scratchpad show; move position center
 bindsym $mod+space [instance="command"] scratchpad show; move position center
-
-# focus the parent container
-# bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -151,6 +135,8 @@ mode "music" {
         bindsym l exec playerctl next
 	bindsym u exec amixer set Master toggle
 	bindsym i exec playerctl play-pause
+	bindsym v exec glava -d
+	bindsym b exec killall glava
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
@@ -160,10 +146,10 @@ mode "music" {
 bindsym $mod+b mode "brightness"
 mode "brightness" {
 # Brightness control
-	bindsym j exec xbacklight -dec 2 -time 10 -steps 5
-	bindsym h exec xbacklight -dec 2 -time 10 -steps 5
-	bindsym k exec xbacklight -inc 2 -time 10 -steps 5
-	bindsym l exec xbacklight -inc 2 -time 10 -steps 5
+	bindsym j exec xbacklight -dec 5 -time 10 -steps 5
+	bindsym h exec xbacklight -dec 5 -time 10 -steps 5
+	bindsym k exec xbacklight -inc 5 -time 10 -steps 5
+	bindsym l exec xbacklight -inc 5 -time 10 -steps 5
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
@@ -189,7 +175,7 @@ mode "applications" {
 	bindsym n exec --no-startup-id /home/henning/scripts/renm.sh; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
-	# bindsym q exec --no-startup-id <++>; mode "default"; workspace $<++>
+	 bindsym q exec --no-startup-id qutebrowser; mode "default"; workspace $ws2
 	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
@@ -235,25 +221,22 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
 bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 
-# Application starters
-bindsym $mod+u exec --no-startup-id /home/henning/.tor-browser/Browser/start-tor-browser
-
 # Autorun on startup
-exec --no-startup-id sudo rmmod pcspkr
-exec --no-startup-id xset r rate 300 120
-exec --no-startup-id urxvtc
-exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
-exec --no-startup-id polybar default
+exec_always --no-startup-id sudo rmmod pcspkr
+exec_always --no-startup-id xset r rate 300 120
+exec_always --no-startup-id urxvtc
+exec_always --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
+exec_always --no-startup-id polybar default
 exec_always --no-startup-id ~/scripts/repbar.sh
-exec --no-startup-id compton
-exec --no-startup-id /home/henning/Downloads/xflux -l 52.4
-exec --no-startup-id urxvtd -q -o -f
-exec --no-startup-id /home/henning/scripts/renm.sh
+exec_always --no-startup-id compton
+exec_always --no-startup-id /home/henning/Downloads/xflux -l 52.4
+exec_always --no-startup-id urxvtd -q -o -f
+exec_always --no-startup-id /home/henning/scripts/renm.sh
 
 
 # Power state managment
 bindsym $mod+x exec /home/henning/scripts/dmenu/shutdown.sh
-bindsym $mod+shift+l exec i3lock -B 8
+bindsym $mod+shift+l exec i3lock -B 6
 # Reinvoke i3config changes
 bindsym $mod+shift+g exec ~/scripts/i3gaps/gaps_max.sh
 
@@ -261,8 +244,8 @@ bindsym $mod+shift+g exec ~/scripts/i3gaps/gaps_max.sh
 default_orientation horizontal
 
 # settings for window borders
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 4
+default_floating_border pixel 4
 # i3 Gaps
 gaps inner 15
 gaps outer 30

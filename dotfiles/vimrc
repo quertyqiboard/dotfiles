@@ -15,10 +15,10 @@ Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'lifepillar/vim-solarized8'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+ " Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
 Plugin 'junegunn/goyo.vim'
-Plugin 'w0rp/ale'
+" Plugin 'w0rp/ale'
 " Plugin 'ervandew/supertab'
 call vundle#end()
 filetype plugin indent on
