@@ -1,3 +1,4 @@
+; vim:ft=dosini
 [colors]
 background = #262626
 foreground = #ffffff
@@ -5,6 +6,10 @@ yellowish = #D7FF87
 yellow = #FFFF33
 red = #FF3333
 green = #33FF33
+gray = #A4A4A4
+lightgreen = #aaff77
+lightorange = #fba922
+
 [bar/default]
 monitor = ${env:MONITOR:eDP1}
 fixed-center = true
@@ -16,17 +21,30 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 font-0 = DejaVu Sans Mono:size=14;2
-modules-left = i3 schedule
-modules-center = date
-modules-right = wlan eth battery temperature
+modules-left = i3 spotify info-weather
+modules-center = time
+modules-right = info-hackspeed cpu wlan eth battery temperature date
 tray-position = right
 wm-restack = i3
 override-redirect = true
+[module/info-weather]
+type = custom/script
+exec = /home/henning/scripts/info-weather.sh 2&> /dev/null
+interval = 600
+label = %output%
+label-foreground = ${colors.gray}
+[module/pacman-updates]
+type = custom/script
+exec = checkupdates | wc -l
+exec-if = ping ddg.gg -c 3
+interval = 600
+label = Pacman: %output%
+label-foreground = ${colors.gray}
 [module/filesystem]
 type = internal/fs
 mount-0 = /
 interval = 10
-label-mounted = /: %percentage_used%% [%used%/%total%]
+label-mounted = /: %percentage_used%% [%used% / %total%]
 format-mounted-foreground = ${colors.yellowish}
 [module/i3]
 type = internal/i3
@@ -37,10 +55,9 @@ label-focused-foreground = ${colors.yellowish}
 label-focused-underline = ${colors.yellowish}
 label-unfocused = %index%
 label-unfocused-padding = 1
-label-unfocused-foreground = #A4A4A4
+label-unfocused-foreground = ${colors.gray}
 label-urgent-underline = ${colors.red}
 label-mode-foreground = ${colors.red}
-
 [module/temperature]
 type = internal/temperature
 warn-temperature = 40
@@ -61,38 +78,50 @@ label-disconnected-foreground = ${colors.red}
 [module/eth]
 type = internal/network
 interface = enp2s0
-interval = 5
-label-connected = Eth %local_ip%
+interval = 2.0
+label-connected = Eth %downspeed%
 label-disconnected = Eth
 label-disconnected-foreground = ${colors.red}
 label-connected-foreground = ${colors.green}
 [module/date]
 type = internal/date
 interval = 60
-date = %d-%m-%Y: %H:%M%
+date = %d.%m.%Y (Wk %W)
+label-foreground = ${colors.yellowish}
+[module/time]
+type = internal/date
+interval = 60
+date = %a %H:%M%
 label-foreground = ${colors.yellowish}
 [module/battery]
 type = internal/battery
 full-at = 98
 label-charging = Charging (%percentage%%)
-label-discharging = Discharging (%percentage%%)
-label-full = Full (%percentage%%)
-label-discharging-foreground = ${colors.red}
-label-charging-foreground = ${colors.yellow}
-label-full-foreground = ${colors.green}
+label-discharging = %percentage%%
+label-full = %percentage%%
+label-discharging-foreground = ${colors.yellowish}
+label-charging-foreground = ${colors.green}
+label-full-foreground = ${colors.yellowish}
 [module/spotify]
 type = custom/script
+interval = 2
 label-maxlen = 72
 format-foreground = ${colors.green}
 exec = ~/.config/polybar/spotify 2>/dev/null
 exec-if = pgrep spotify
+[module/info-hackspeed]
+type = custom/script
+exec = ~/scripts/info-hackspeed.sh
+interval = 2
+tail = true
+format-foreground = ${colors.yellowish}
 [module/schedule]
 type = custom/script
 interval = 300
 label-maxlen = 24
-format-foreground = ${colors.yellowish}
+format-foreground = ${colors.green}
 format-prefix = "Morgen: "
-exec = python3.7 ~/.i3/schedule.py
+exec = python3.7 ~/scripts/schedule.py
 [bar/bottom]
 monitor = ${env:MONITOR:eDP1}
 height = 25
@@ -105,7 +134,7 @@ module-margin-right = 5
 bottom = true
 font-0 = DejaVu Sans Mono:size=14;2
 modules-left = volume xbacklight
-modules-center = spotify
+modules-center = schedule pacman-updates
 modules-right = filesystem memory
 wm-restack = i3
 override-redirect = true
@@ -124,10 +153,10 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-muted = muted
 bar-volume-width = 20
-bar-volume-foreground-0 = #aaff77
-bar-volume-foreground-1 = #aaff77
-bar-volume-foreground-2 = #fba922
-bar-volume-foreground-3 = #ff5555
+bar-volume-foreground-0 = ${colors.lightgreen}
+bar-volume-foreground-1 = ${colors.yellow}
+bar-volume-foreground-2 = ${colors.lightorange}
+bar-volume-foreground-3 = ${colors.red}
 bar-volume-indicator = |
 bar-volume-fill = =
 bar-volume-empty = =
@@ -135,8 +164,12 @@ bar-volume-empty-foreground = #999
 [module/memory]
 type = internal/memory
 interval = 5
-label = RAM: %percentage_used%% [%gb_used%/%gb_total%]
+label = RAM: %percentage_used%% [%gb_used% / %gb_total%]
 format-foreground = ${colors.yellowish}
+[module/cpu]
+type = internal/cpu
+label = CPU: %percentage:2%%
+label-foreground = ${colors.yellowish}
 [settings]
 screenchange-reload = true
 compositing-background = xor

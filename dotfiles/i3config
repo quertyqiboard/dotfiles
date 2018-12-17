@@ -227,22 +227,26 @@ exec_always --no-startup-id xset r rate 300 120
 exec_always --no-startup-id urxvtc
 exec_always --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
 exec_always --no-startup-id polybar default
-exec_always --no-startup-id ~/scripts/repbar.sh
 exec_always --no-startup-id compton
-exec_always --no-startup-id /home/henning/Downloads/xflux -l 52.4
 exec_always --no-startup-id urxvtd -q -o -f
+exec_always --no-startup-id /home/henning/Downloads/xflux -l 52.4
 exec_always --no-startup-id /home/henning/scripts/renm.sh
+exec_always --no-startup-id /home/henning/scripts/repbar.sh
 
 
 # Power state managment
 bindsym $mod+x exec /home/henning/scripts/dmenu/shutdown.sh
 bindsym $mod+shift+l exec i3lock -B 6
 # Reinvoke i3config changes
-bindsym $mod+shift+g exec ~/scripts/i3gaps/gaps_max.sh
-
+bindsym $mod+shift+i exec /home/henning/scripts/restarti3.sh
+bindsym $mod+shift+k gaps inner all set 15; gaps outer all set 30
+bindsym $mod+shift+j gaps inner all set 0; gaps outer all set 15
 # Set default orientation for window
 default_orientation horizontal
 
 # settings for window borders
 default_border pixel 4
 default_floating_border pixel 4
+# i3 Gaps
+gaps inner 15
+gaps outer 30

@@ -59,6 +59,11 @@ autocmd FileType python inoremap .jo .join()<Esc>i
 autocmd FileType python inoremap .ap .append()<Esc>i
 autocmd FileType python inoremap .fo .format()<Esc>i
 
+" Markdown
+autocmd FileType markdown inoremap ,sc # <CR><CR><++><Esc>2k0A
+autocmd FileType markdown inoremap ,ssc ## <CR><CR><++><Esc>2k0A
+autocmd FileType markdown inoremap ,sssc ### <CR><CR><++><Esc>2k0A
+
 " Templates
 nnoremap +note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
 nnoremap +arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>

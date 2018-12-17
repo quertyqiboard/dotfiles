@@ -4114,3 +4114,3112 @@ cl
 cd .config/polybar/
 la
 cl
+dfiles commit -a
+dfiles push
+cl
+pbar
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+pacui
+rc
+brc
+cd scripts
+la
+cd dmenu/
+la
+cl
+v shutdown.sh 
+cl
+compton
+cd scripts/
+la
+v clearcache.sh 
+v renm.sh 
+v repbar.sh 
+v transparent.sh 
+cd scripts/
+la
+v battery.sh 
+apci -b
+cl
+apropos battery
+acpi -b
+man sed
+cd scripts/
+l
+cl
+l
+cl
+la
+touch battery.sh
+v battery.sh 
+v battery.sh 
+chmod +x battery.sh 
+./battery.sh 
+v battery.sh 
+./battery.sh 
+v battery.sh 
+./battery.sh 
+v battery.sh 
+./battery.sh 
+v battery.sh 
+cd sdc
+cd scripts/
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+echo abcd123 | sed 's/\([a-z]*\).*/\1/'
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+./battery.sh 
+acpi
+acpi
+man acpi
+acpi -v
+acpi
+man acpi
+acpi -V
+cl
+cd Schule/Geschichte/
+pdflatex vietnam.tex 
+cd Schule/Geschichte/
+pdflatex vietnam.tex 
+pdflatex vietnam.tex 
+cd Schule/Geschichte/
+la
+v vietnam.tex 
+cd Schule/GEs
+cd Schule/Geschichte/s
+cd Schule/Geschichte/
+v vietnam.pdf 
+v vietnam.tex 
+v vietnam.tex 
+cl
+cd Schule/Geschichte/
+pdflatex vietnam.tex 
+evince vietnam.pdf 
+cl
+la
+r
+evince Schule/Geschichte/vietnam.pdf 
+evince Schule/Geschichte/vietnam.pdf 
+evince Schule/Geschichte/vietnam.pdf 
+cd Schule/Geschichte/
+transparent 
+sp
+v vietnam.tex 
+cl
+asdf
+cl
+asdfasdfsadfsadf
+cl
+brc
+ska
+cl
+soa
+frm .cargo/
+cd .local/
+la
+cl
+cd share/
+la
+cd fonts/
+a
+cl
+l
+cl
+la
+v .uuid 
+ck
+cl
+cc
+la
+qutebrowser
+cl
+pacui
+cl
+la
+frm qutebrowser/
+cc
+cc
+la
+cl
+sudo updatedb
+cl
+locate qutebrowser
+frm .cache/qutebrowser/
+la
+cl
+frm Gedicht 
+la
+cl
+cd Schule/Geschichte/
+pdflatex vietnam.tex 
+evince vietnam.pdf 
+soa
+p -R steam
+pacui
+cl
+la
+soa
+frm .local/share/Steam/
+cl
+soa
+soar
+cd /usr/
+la
+cc
+cl
+cd /usr/
+soa
+cd .sh
+cd .share
+soa
+cl
+cc
+cl
+cc
+cc
+cl
+vrc
+cd .vim/
+la
+cd src/
+la
+v remaps.vim 
+cl
+vrc
+cl
+cmatrix
+fortune | cowsay
+cl
+starwars
+cl
+gparted
+sudo gparted
+killlall compton
+killall compton
+starwars
+man bash
+shopt 
+tput civis
+cl
+starwars
+tput civis
+starwars
+starwars
+cd Schule/Geschichte/
+la
+v vietnam.tex 
+cl
+tput
+tput clear
+tput
+tput reset
+man tput
+cl
+p -Ss screen
+p -Ss screen gnu
+p -Ss gnu screen
+pacui
+ht
+neofetch
+v
+cl
+vr
+xres
+transparent 
+cl
+xres
+transparent 
+cl
+xres
+cl
+
+xres
+cl
+transparent 
+cd Schule/Geschichte/s
+cd Schule/Geschichte/
+cl
+la
+cl
+pandoc pro_kon_stkr.md -o pro_kon_stkr.pdf
+evince pro_kon_stkr.pdf 
+cd Schule/Geschichte/
+pandoc pro_kon_stkr.md -o pro_kon_stkr.html
+firefox pro_kon_stkr.html 
+v pro_kon_stkr.
+v pro_kon_stkr.md 
+sp
+cd Schule/Geschichte/
+evince por
+evince pro_kon_stkr.pdf 
+cl
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+cl
+mpstat | awk '$12 ~ /[0-9.]+/ { print 100 - $12"%" }'
+uptime
+uptime
+uptime
+uptime
+uptime
+uptime
+uptime
+uptime
+uptime
+cl
+watch -n .3 uptime
+cd Schule/Geschichte/
+pandoc pro_kon_stkr.md -o pro_kon_stkr.pdf
+evince pro_kon_stkr.pdf 
+cl
+pbar
+cmatrix
+cl
+fortune | cowsay
+fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear |fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+clear; fortune | cowsay
+off
+conf
+cl
+cl
+cmatri
+apropos cmatrix
+cmatrix
+cmatrix
+cl
+la
+cl
+conf
+xprop
+man sed
+cwecho acpi.txt 
+cat acpi.txt 
+cl
+v regex
+cl
+acpi -b
+acpi -b | sed -r  '\d\+
+acpi -b | sed -r  '\d\+'
+acpi -b | sed -r  '(\d)\+'
+acpi -b | sed -r  '\(\d\)\+'
+acpi -b | sed -r  '[0-9]\+%'
+acpi -b | sed -r '[0-9]\+%'
+acpi -b | sed -e '[0-9]\+%'
+ 
+acpi -b | sed -E '[0-9]\+%'
+acpi -b > acpi.txt
+sed -E '[0-9]\+%' acpi.txt 
+sed -E '\[0-9\]\+%' acpi.txt 
+sed --expression='\[0-9\]\+%' acpi.txt 
+sed --expression='(\[0-9\]\+)%' acpi.txt 
+sed --expression='\(\[0-9\]\+\)%' acpi.txt 
+sed '\\[0-9\]\+%\' acpi.txt 
+sed '\\[0-9\]\+%\!d' acpi.txt 
+sed '\\[0-9\]%\!d' acpi.txt 
+sed '\\[0-9\]*%\!d' acpi.txt 
+sed '\\[0-9\]*%\!d' acpi.txt 
+sed 's/[^\d+%]// acpi.txt 
+sed 's/[^\d+%]//' acpi.txt 
+sed 's/[^\d+%]//' acpi.txt 
+sed 's/[^\d+%]//' acpi.txt 
+sed 's/[^\d+%]//g' acpi.txt 
+sed 's/[^\d+%]//g' acpi.txt 
+sed 's/[^[0-9]+%]//g' acpi.txt 
+sed 's/[^(\d+%)]//g' acpi.txt 
+sed 's/[^(\d+)%]//g' acpi.txt 
+sed 's/[^\d+]//g' acpi.txt 
+sed 's/[^\d]//g' acpi.txt 
+sed 's/[^\d]/' acpi.txt 
+sed 's/[^\d]//' acpi.txt 
+sed 's/^\d//' acpi.txt 
+sed 's/^[0-9]//' acpi.txt 
+sed 's/^[0-9]//g' acpi.txt 
+sed 's/^[0-9]//g' acpi.txt 
+sed 's/^[0-9]//g' acpi.txt 
+sed 's/^[0-9]//g' acpi.txt 
+sed 's/[^0-9]//g' acpi.txt 
+sed 's/[^0-9]//g' acpi.txt 
+sed 's/[^0-9+%]//g' acpi.txt 
+sed 's/[^0-9][^\%]//g' acpi.txt 
+sed 's/[^0-9][^%]//g' acpi.txt 
+sed 's/[^0-9]//g' acpi.txt 
+sed 's/[^0-9+\%]//g' acpi.txt 
+sed 's/[^[0-9]+%//g' acpi.txt 
+sed 's/[^[0-9]+%]//g' acpi.txt 
+sed 's/[0-9]//g' acpi.txt 
+sed 's/Battery 0://g' acpi.txt 
+sed 's/Battery 0\b://g' acpi.txt 
+sed 's/ Battery 0\b://g' acpi.txt 
+sed 's/\bBattery 0\b://g' acpi.txt 
+sed 's/Battery 0://g' acpi.txt 
+sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g'
+sed 's/Battery 0://g' acpi.txt | sed 's/^Discharging//g'
+sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging[//g'
+sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g'
+sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g' | sed 's/raining//g
+sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g' | sed 's/raining//g'
+sed 's/Battery 0://g' acpi.txt 
+cl
+sed 's/\w//g' acpi.txt 
+sed 's/\w+//g' acpi.txt 
+sed 's/\d{2,3}%//g' acpi.txt 
+sed 's/\d{2,3}%//' acpi.txt 
+sed 's/\d{2,3}%/' acpi.txt 
+sed 's/\d{2,3}%//g' acpi.txt 
+sed -r 's/\d{2,3}%//g' acpi.txt 
+cl
+cd Coding/
+cd Binary/
+la
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cd Coding/Binary/
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cd Coding/Binary/
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+cd Coding/Binary/
+python3.7 convert.py 
+cl
+cd Coding/Binary/
+cl
+python3.7 convert.py 
+python3.7 convert.py 
+cd COd
+cd Coding/
+cl
+la
+cl
+mkdir Binary
+cd Binary/
+cl
+v convert.py
+python3.7 convert.py 
+python3.7 convert.py 
+v convert.py 
+v convert.py 
+python3.7 convert.py 
+v convert.py 
+python3.7 convert.py 
+v convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+v convert.py 
+v convert.py 
+v convert.py 
+cl
+v convert.py 
+la
+lla
+cl
+v com
+v conv
+v convert.py 
+v convert.py 
+frm ~/.cache/vim/swap/
+cl
+la
+v  convert.py 
+cl
+python3.7 convert.py 
+v convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+v
+cl
+cd Coding/Binary/
+la
+cl
+python convert.py 
+v convert.py 
+python convert.py 
+v convert.py 
+python convert.py 
+cl
+cd Coding/Binary/
+cl
+la
+cl
+la
+cl
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+v convert.py 
+python convert.py 
+v convert.py 
+python convert.py #
+off
+calcurse
+calcurse
+cd Downloads/
+la
+cc
+cl
+cd Pictures/
+la
+cl
+cc
+la
+feh DigitaleErörterung.png 
+feh DigitaleErörterung.png &
+feh DigitaleErörterung.png 
+feh DigitaleErörterung.png 
+cd Schule/Deutsch/
+pdflatex article_new.tex
+v
+cd Schule/Deutsch/
+la
+cl
+v notes.md
+la
+cl
+cd Schule/
+la
+cd Mathe/
+la
+c
+cl
+cc
+la
+cd MuK/
+la
+cl
+cc
+cl
+cl
+acpi -b
+cd Schule/Deutsch/
+la
+v article_new.tex 
+cl
+pdflatex article_new.tex
+mv article_new.tex deepfakes.txt
+cl
+mv deepfakes.txt deepfakes.tex
+v deepfakes.tex 
+cl
+pdflatex deepfakes.tex 
+cl
+cl
+cl
+v
+v deepfakes.
+la
+r
+cl
+la
+cl
+v deepfakes.
+v deepfakes.tex 
+cd Schule/Deutsch/
+la
+v deepfakes.
+v deepfakes.tex 
+cl
+pdflatex deepfakes.tex 
+cl
+cd Coding/
+la
+cd 12_Factorial/
+la
+v adv.py
+python3.7 adv.py 
+cl
+v adv.py 
+python3.7 adv.py 
+v adv.py 
+python3.7 adv.py 
+cl
+v adv.py 
+v adv.py 
+python3.7 adv.py 
+cl
+v adv.py 
+python3.7 adv.py 
+v adv.py 
+rm adv.py 
+la
+cl
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+acpi -b
+cl
+acpi
+acpi
+acpi
+acpi
+pbar
+cl
+pbar
+cl
+la
+cl
+la
+rm -f DigitaleErörterung.png 
+frm .python_history*
+la
+cl
+v /etc/host
+v /etc/hosts 
+sv /etc/hosts 
+cl
+sv /etc/hosts 
+cl
+ping google.com
+cl
+ping pornhub.com
+ping ddg.gg
+sv /etc/host
+sv /etc/hosts
+ls -a
+frm deoplete.nvim/
+la
+frm .projectM/
+r
+cl
+p -Syu
+p -Syyu
+p -Syuu
+cl
+conf
+ht
+xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false 
+cl
+cl
+v .xinitrc 
+cl
+la
+cl
+gr
+gt
+cl
+polybar default
+polybar bottom
+cl f
+cl
+exit
+polybar-msg 
+polybar-msg -h
+man polybar-ms
+man polybar-msg
+cl
+info polybar-msg
+cl
+polybar-msg
+polybar-msg format-background = #fff
+polybar-msg help
+polybar-msg hook1
+polybar-msg hook 1
+cl
+cd Schule/Deutsch/
+la
+pdflatex deepfakes.tex 
+pdflatex deepfakes.tex 
+cd Schule/Deutsch/
+la
+pdflatex deepfakes.tex 
+cd Schule/Deutsch/
+pdflatex deepfakes.tex 
+cd Schule/Deutsch/
+la
+v deepfakes.
+v deepfakes.tex
+cl
+vrc
+cc
+cd .vim/src/
+la
+v functions.vim 
+v settings.vim 
+cl
+cc
+cd Schule/Deutsch/u
+cd Schule/Deutsch/
+v deepfakes.
+v deepfakes.tex 
+cl
+cd .vim/src/
+v settings.vim 
+cl
+cl
+pbar
+ck
+cl
+cmatri
+cmatrix
+p -S lolcat
+cl
+cmatrix | lolcat
+cl
+nigger | lolcat
+echo nigger | lolcat
+cl
+cmatrix | lolcat
+cl
+cmatrix; cmatrix
+cl
+cmatrix && cmatrix
+cl
+cd .i3/
+la
+mv schedule.py ~/scripts/
+cmatrix | lolcat | lolcat
+cl
+cmatrix | lolcat | lolcat | lolcat | lolcat | lolcat | lolca
+cl
+cmatrix | lolcat | lolcat | lolcat | lolcat | lolcat | lolcat
+cl
+cmatrix | echo | lolcat
+cmatrix >> test.txt
+cl
+v test.txt 
+v test.txt 
+frm test.txt 
+cl
+pbar
+xrs
+xres
+transparent 
+cl
+la
+cl
+cd Schule/Deutsch/
+la
+la
+cd Schule/Deutsch/u
+cd Schule/Deutsch/
+cl
+latexmk -c
+texrm
+cl
+trm
+cl
+brc
+trm
+cl
+brc
+trm
+brc
+trm
+cl
+v /dev/null
+cl
+so 
+so /dev/null
+cl
+so scripts/
+cl
+cl
+pbar
+cl
+pbar
+cl
+lla
+cl
+r
+cp .cache/dmenu-recent/all ~/scripts/dmenu/dmenu_kill
+ht
+ht
+cl
+cd scripts/
+cd dmenu/
+la
+v dmenu_kill 
+cl
+cd scripts/
+cd dmenu/
+la
+cp shutdown.sh killp.sh
+v killp.sh 
+cl
+v killp.sh 
+v killp.sh 
+v killp.sh 
+cl
+./killp.sh 
+./killp.sh 
+killall urxvt
+killall urxvtc
+./killp.sh 
+./killp.sh 
+conf
+v scripts/dmenu/killp.sh 
+firefox
+less scripts/dmenu/killp.sh 
+xres
+transparent
+cd .vim/src/
+v functions.vim 
+cl
+la
+v remaps.vim 
+cl
+cd Schule/Eng/
+v communication.md
+v communication.md 
+cd .vim/src/
+v remaps.vim 
+v remaps.vim 
+cmatrix | lolcat
+cmatrix | lolcat
+cd scripts/dmenu/
+so killp.sh 
+cl
+cm
+cd Schule/Eng/
+la
+v communication.md 
+lowriter communication.docx 
+cl
+brc
+cl
+cm
+cd Schule/Eng/
+la
+cl
+evince communication.pdf 
+v asdf.md
+cd Schule/Eng/
+la
+v communication.
+v communication.md 
+la
+frm communication.docx 
+r
+cl
+la
+v communication.md 
+pandoc communication.md -o communication..pdf
+la
+evince communication..pdf 
+cl
+la
+cl
+r
+cl
+v communication.
+v communication.md
+vim communication.
+vim communication.,md
+vim communication.mm
+vim communication.md
+pandoc communication.md -o communication.pdf 
+evince communication.pdf 
+v communication.md 
+v communication.md 
+pandoc communication.md -o communication.pdf 
+evince communication.pdf 
+vrc
+v
+cl
+ccc
+cc
+cd .vim/
+la
+cd src/
+la
+v autoclose.vim 
+cl
+v asdf.md
+cl
+v asdf.md
+cl
+lla
+cl
+cc
+cc
+v asdf.md
+cl
+seng
+cl
+brc
+seng
+l
+cl
+l
+l
+cl
+v communication.
+v
+cl
+pandoc communication.md -o communication.pdf 
+evince communication.pdf 
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+lc
+lc
+cl
+cm
+cl
+cm
+cm7
+c
+cm
+cl
+brc
+cmatrix -a
+v
+cd .cache/
+la
+cd vim/
+la
+frm swap/
+cl
+cc
+cc
+cl
+cm
+cl
+man cmatrix
+cm
+cm
+brc
+cm
+cm
+cm
+cl
+i3-msg fullscreen
+cl
+brc
+cm
+ck
+cl
+cm
+brc
+cm
+cm
+cm
+cl
+v
+cm
+cm
+cm
+cl
+cm
+cl
+cm
+i3-msg fullscreen on
+i3-msg fullscreen global
+v
+cm
+lc
+cl
+cm
+ht
+cmatrix | lolcat
+cmatrix | lolcat
+cmatrix | lolcat
+cmatrix | lolcat
+cm
+cm
+cl
+seng
+lc
+cl
+evince communication.pdf 
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+brc
+cl
+pbar
+cl
+ps -A
+killall less
+ps -0 command
+ps -o command
+ps -A -o command
+ps -A -o tname
+cl
+ps -A -o cmd
+ps -A -otime
+ps -A -o format
+ps -A -o state
+ps -A -o state,tname
+ps -A -o state,tname,command
+ps -A -o command
+vim
+cl
+ht
+man sed
+cl
+ps -A | sed 's/^.*\w//g
+ps -A | sed 's/^.*\w//g'
+cl
+la
+cl
+ps -A | sed 's/^.*[a-zA-Z]*//g'
+ps -A | sed 's/^[a-zA-Z]*//g'
+ps -A | sed 's/^\d*//g'
+ps -A | sed 's/^\d*//g'
+ps -A | sed 's/^\d*//g'
+ps -A | sed 's/\d*//g'
+ps -A | sed 's/\d*//g'
+ps -A | sed 's/(\d{2,})//g'
+ps -A | sed 's/(\d{2,})//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*//g'
+ps -A | sed 's/(\d)*/ /g'
+ps -A | sed 's/(\d)*/ /g'
+ps -A | sed 's/(\d)*/ /g'
+ps -A | sed 's/(\d)*/ /g'
+ps -A | sed 's/.*\d*//g'
+ps -A | sed 's/\d//g'
+ps -A | sed 's/\d//g'
+ps -A | sed 's/\w//g'
+ps -A | sed 's/[^\w]//g'
+ps -A | sed 's/[^\a]//g'
+cl
+v
+ps
+c,
+cl
+man ps
+man ps
+cl
+ps -A -o command > test.txt
+v test.txt 
+ps -A -o command > test.txt
+v test.txt 
+ps -A -o command > test.txt
+v test.txt 
+cl
+ps
+ps -a
+ps -A
+ps -A > test.txt
+la
+cl
+v test.txt 
+v regex 
+ps c
+ps -o c
+ps -o co
+ps -o co
+ps -o c
+ps -o command
+cl
+killall htop -d 3 
+killall -e htop -d 3 
+killall -e 'top -d 3'
+killall -e 'htop -d 3'
+cl
+v .bash_history 
+cl
+less out.txt 
+less out.txt 
+less out.txt 
+less out.txt 
+less out.txt 
+less test.txt 
+cl
+ps -A |sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g
+ps -A |sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
+ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
+ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
+ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/'
+ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
+ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
+ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
+ps -A | sed 's/^\(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD\)*/g'
+ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)*/g'
+ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD)(/g'
+ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)//g'
+ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)/g'
+ps -A | sed 's/^\(\s\|\digit\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)/g'
+ps -A | sed 's/^\(\s\|\digit\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\/g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.[|tty\|PID\|TTY\|TIME\|CMD\]/g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]/g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
+ps -A | sed 's/^([\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\)*//g'
+sed 's/.*:\([^,*]*\) AM/\1/g' test.txt
+sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/\1/g' test.txt
+sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\|pts\/\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\s\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\s\]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\| \]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt > out.txt
+less out.txt 
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
+less out.txt 
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|time\|CMD\|[[:space:]]\]*//g' test.txt > out.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\]*//g' test.txt > out.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' test.txt > out.txt
+sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' test.txt > out.txt
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
+v .bash_history 
+cd scripts/dmenu/
+la
+v killp.sh 
+v .bash_history 
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\n/g
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\n/g'
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\\n/g'
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g'
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g' | tr -d '\n'
+cl
+ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g'
+cl
+cd scripts/
+cd dmenu/
+v killp.sh 
+pgrep i3
+nautilus
+killall oosplash 
+ht
+cd scripts/dmenu/
+v killp.sh 
+conf
+pacui
+cl
+p -Syyu
+p -Syuu
+cl
+ht
+conf
+cd scripts/
+la
+vm renm.sh renema.sh
+rmvm renm.sh renema.sh
+rm renm.sh renema.sh
+mv renm.sh renema.sh
+cp renema.sh reclip.sh
+v reclip.sh 
+cl
+emacs
+i3-msg restart
+htz
+ht
+i3-msg restart
+man xbacklight 
+xbacklight get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+xbacklight -get
+cl
+man conky
+v /usr/share/conky/conky1.10_shortcuts_maia 
+cl
+la
+cl
+v /usr/share/conky/conky_maia 
+sv /usr/share/conky/conky_maia 
+cl
+man conky
+whereis start_conky_maia
+sv /usr/bin/start_conky_maia
+conf
+killall conky
+start_conky_maia 
+sv /usr/bin/start_conky_maia
+start_conky_maia 
+start_conky_maia 
+sv
+sv /usr/share/conky/conky_maia
+ping ddg.gg
+ping 127.0.0.1
+start_conky_maia 
+sv /usr/share/conky/conky_maia
+start_conky_maia 
+xterm
+xterm
+la
+cl
+xrtes
+xres
+cl
+cl
+cm
+cm
+cl
+la
+clö
+cl
+sv /usr/share/conky/conky_maia
+cl
+cower -u
+p -Ss cower
+pbar
+checkupdates 
+checkupdates | wc -l
+cd .config/polybar/
+la
+cc
+la
+cc
+cl
+cd scripts/
+la
+touch info-hackspeed.sh
+chmod +x info-hackspeed.sh 
+v info-hackspeed.sh 
+cl
+v info-hackspeed.sh 
+cl
+cc
+xorg-inpuit
+xorg-input
+cl
+pacui
+pbar
+cl
+cd scripts/
+la
+cc
+cd .config/polybar/
+la
+v spotify 
+cl
+pbar
+ck
+cl
+cc
+cd scripts/
+a
+cö
+cl
+la
+v info-hackspeed.sh 
+cl
+./info-hackspeed.sh 
+stat
++cl
+cl
+v info-hackspeed.sh 
+cl
+./info-hackspeed.sh 
+cl
+v info-hackspeed.sh 
+sudo ./info-hackspeed.sh 
+cd scripts/
+la
+v info-hackspeed.sh 
+cl
+./info-hackspeed.sh 
+cl
+v info-hackspeed.sh 
+./info-hackspeed.sh 
+cl
+v info-hackspeed.sh 
+cl
+v info-hackspeed.sh 
+cl
+./info-hackspeed.sh 
+cl
+pbar+
+pbar
+cl
+xinput
+xinput list --short
+xinput test "AT Translated Set 2 keyboard
+xinput test "AT Translated Set 2 keyboard"
+xinput test "Logitech Gaming Keyboard G610"
+cl
+xinput test "Logitech Gaming Keyboard G610"
+cl
+xinput list --short
+xinput test "Logitech Gaming Keyboard G610"
+cl
+xinput list --short
+polybar default
+pbar
+cl
+cl
+ala
+cl
+la
+cl
+al
+cl
+pbar
+v
+cl
+cd scripts/
+v infr
+v info-hackspeed.sh 
+cl
+v
+xinput 
+cl
+cd scripts/
+v info-hackspeed.sh 
+cl
+./info-hackspeed.sh 
+pbar
+cl
+cd scripts/
+la
+v info-hackspeed.sh 
+cl
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+type grep
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+cl
+cl
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+xinput | grep G610
+cl
+v test.sh
+cl
+la
+chmod +x test.sh
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+v test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+v test.sh 
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+v test.
+v test.sh 
+v test.
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+v test.sh 
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+v test.sh 
+bash test.
+bash test.sh 
+cl
+frm test.txt 
+la
+v test.sh 
+ccl
+cöl
+clö
+cl
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+cl
+v test.sh 
+cl
+./test.sh 
+v test.sh 
+xset r rate 300 130
+v test.sh 
+./test.s
+./test.sh 
+v test.sh 
+cl
+xset r rate 300 130
+cl
+v test.sh 
+cd scripts/
+la
+v info-hackspeed.sh 
+cl
+polybar-msg  
+polybar-msg -p  
+pgrep polybar
+polybar-msg -p 1050 
+polybar-msg -p 1051
+polybar-msg -p 1051
+cl
+ht
+pbar
+pbar
+cl
+cpufreq-bench
+sudo cpufreq-bench
+cpufreq-bench_plot.sh 
+cpupower
+cpupower idle-info
+cpupower
+cpupower info
+sudo cpupower info
+
+sudo cpupower monitor
+sudo cpupower
+sudo cpupower frequency-set
+cl
+pbar
+cd Downloads/
+la
+evince Vortrag\ -\ Trumps\ Reaktion.pdf 
+p -Ss stopwatch
+cl
+pacui
+cd Schule/PB/
+la
+cl
+pandoc stichpunktkarten.md -o stichpunktkarten.docx 
+lowriter stichpunktkarten.docx 
+p
+pb
+cd Schule/PB/
+la
+v stichpunktkarten.md 
+pbar
+pbar
+cl
+vrc
+cl
+sp
+cd .config/polybar/
+la
+v spotify 
+cl
+pbar
+brc
+cd Schule/
+la
+sdeiu
+sdeu
+cl
+cc
+ssz
+cc
+sds
+cc
+spb
+cc
+cl
+sges
+cc
+cl
+cd Desktop/
+la
+v Classroom.desktop 
+cl
+cc
+cl
+la
+cl
+la
+cl
+la
+cd Documents/
+la
+cl
+cc
+la
+cd .urxvt/
+la
+v urxvtd-core 
+sv urxvtd-core 
+lla
+cl
+brc
+la
+sdeu
+la
+cl
+hdow
+hscr
+hdes
+hvim
+cl
+ccc
+cc
+cc
+cc
+cc
+cc
+cl
+bcr
+brc
+article nigga.tex
+la
+cl
+lla
+frm article_new.tex 
+la
+sdeu
+cl
+la
+article nigahiga.tex
+checkupdates 
+man checkupdates 
+checkupdates -h
+xclock
+apropos clock
+urxvt-digital-clock
+hwclock 
+fc-list
+fc-list | awesome
+fc-list | grep awesoem
+fc-list | grep awesome
+fc-list | grep Ubuntu
+off
+calcurs
+calcurse
+spb
+la
+cl
+v
+cl
+p -Syu
+p -Syyu
+p -Syuu
+cl
+off
+ping ddg.gg -c 3
+cl
+pbar
+cl
+cd Coding/Binary/
+cc
+mv Binary Zahlensysteme
+la
+cd Coding/
+mv Binary Zahlensysteme
+la
+cd Zahlensysteme/
+la
+cl
+cd Coding/Zahlensysteme/
+la
+v convertdecimal.py 
+v convertdecimal.py 
+cd Schule/Informatik/
+la
+la
+cc
+cl
+cd Coding/
+la
+cd 01__Mathematics/19
+cd 01__Mathematics/19_
+cd 19_Mathe/
+cc
+cd  19_Mathe/
+la
+python3.7 main.py 
+cl
+la
+cc
+la
+cd Binary/
+lka
+la
+python3.7 convert.py 
+v convert.py 
+cl
+v convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+python3.7 convert.py 
+cl
+python3.7 convert.py #
+python3.7 convert.py #
+cl
+cp convert.py converthexa.py 
+v converthexa.py 
+cl
+la
+mv convert.py convertbinary.py
+la
+cl
+la
+v converthexa.py 
+cl
+cl
+la
+cl
+la
+cl
+la
+cl
+al
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cp convertbinary.py convertdecimal.py
+v convertdecimal.py 
+
+python convertdecimal.py 
+v convertdecimal.py 
+cl
+python convertdecimal.py 
+python convertdecimal.py 
+python convertbinary.py 
+python convertdecimal.py 
+
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+cl
+python convertbinary.py 
+cl
+cl
+python convertbinary.py 
+cl
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+ccl
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+cl
+cl
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+cl
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+python convertdecimal.py 
+cl
+cl
+python convertdecimal.py 
+cl
+p
+py
+cl
+brc
+py convertbinary.py
+brc
+cd CO
+cd Cod
+cd Coding/Zahlensysteme/
+ööa
+cl
+la
+v convertbinary.py 
+hcod
+lq
+cl
+la
+cd Zahlensysteme/
+l
+la
+cl
+py convertbinary.py 
+py convertbinary.py 
+cl
+v  convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+cl
+v  convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+time py convertbinary.py 
+time py convertbinary.py 
+cl
+hcod
+la
+cl
+solaried
+solarized 
+hcod
+cd Zahlensysteme/
+la
+cl
+cd Zahlensysteme/
+v convertbinary.py 
+py convertbinary.py 
+v convertbinary.py 
+py convertbinary.py 
+v convertbinary.py 
+v convertbinary.py 
+py convertbinary.py 
+v convertbinary.py 
+py convertbinary.py #
+v convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+lc
+cl
+v convertbinary.py 
+v convertbinary.py 
+cl
+py convertbinary.py 
+v convertdecimal.py 
+py convertdecimal.py 
+v convertdecimal.py 
+hcod
+la
+cd Zahlensysteme/
+la
+cl
+i3conf
+cl
+conf
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+hcod
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+cd Zahlensysteme/
+la
+v convert
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+cl
+hcod
+cd Zahlensysteme/
+la
+v converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+v converthexa.py 
+py converthexa.py 
+cl
+la
+cl
+v converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+ck
+cl
+la
+hcod
+cd Zahlensysteme/
+cl
+la
+cc
+cc
+smuk
+la
+cl
+la
+frm klausur.html 
+frm klausur.docx 
+la
+cd Klausur/
+la
+cc
+mv klausur.md Klausur/
+la
+cd Portfolio/
+la
+cc
+la
+cl
+mv Portfolio/ Bilder/
+la
+mv EntwicklungFotografie/ Geschichte
+la
+cd Bild
+cd Bildgestaltung/
+la
+cl
+ping google.com
+cl
+ping duckduckgo.com
+cl
+ping 1.1.1
+ping 1.1.1.1
+cl
+ping google.com
+ping ddg.gg
+nm
+nmcli
+cl
+nm
+nm
+nm-online 
+nm-online 
+nm-online 
+nmtui
+nmtui
+nm-edi
+nm-edit
+sv /etc/hosts 
+ping youtube.com
+blueman-applet
+bluetooth
+bluetooth
+cl
+ping ddg.gg
+v 
+cmatrix
+cm
+cl
+v
+off
+curl wttr.in
+cl
+cd scripts/
+a
+cl
+la
+cd i3gaps/
+la
+cc
+la
+cl
+la
+cp info-hackspeed.sh info-weather.sh
+v info-weather.sh 
+./info-weather.sh 
+v info-weather.sh 
+cl
+pbar
+cl
+nf
+sv /etc/hosts
+sv  /etc/hosts
+v
+sv 
+sv /etc/hosts
+pbar
+print "HURENSOHN"
+echo "hurensohn ist georgie<"
+py
+ckl
+cl
+cm
+cm
+cm
+ck+
+cl
+man cmatri
+man cmatrix
+cm
+ls -a
+cl
+p -S
+cl
+ls -al
+ls -Al
+cl
+ls -A
+cl
+brc
+cl
+ls
+la
+cl
+la
+cl
+type ls
+cl
+killall compton
+calcurse
+cl
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+fortune | cowsay | lolcat
+echo "Nigga" | cowsaay
+echo "Nigga" | cowsay
+echo "Nigga" | cowsay
+echo "niggurrr skuur itswednesday my fukcin juts just hurt omghf" | cowsay
+echo "yeeayshz5hbunjizjmskuurrrr skur sskururr gang gang gucci kil lane yo lil lano ich fick deine mutter bin der kriminelle bodybuilder komm in deine villa und bin dumm whatvbddwfwfewifhwefhwf gangg gangg arwed sieht stoidnes aus ngga" | cowsay
+echo "yeeayshz5hbunjizjmskuurrrr skur sskururr gang gang gucci kil lane yo lil lano ich fick deine mutter bin der kriminelle bodybuilder komm in deine villa und bin dumm whatvbddwfwfewifhwefhwf gangg gangg arwed sieht stoidnes aus nngganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggagga" | cowsay
+echo "NNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaigga" | cowsay | lolcat
+cl
+echo "NNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaigga" | cowsay | lolcat
+cl
+nautilus /usr/share/backgrounds/
+cl
+frm /usr/share/backgrounds/xfce/
+sudo rm -r /usr/share/backgrounds/xfce/
+la
+cl
+ls /usr/share/backgrounds/
+cm
+cl
+i3-msg fullscreen on
+i3-msg fullscreen
+i3-msg fullscreen
+i3-msg fullscreen
+man i3-msg 
+i3-msg -t get_tree
+cl
+i3-msg -t get_tree > tree.json
+v tree.json 
+cl
+ping google.com
+cl
+ cl
+la
+cl
+ping google.com
+cl
+ping google.com
+cl
+ift
+ping google.com
+cl
+la
+cl
+ifcongig
+ifconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+iwconfig
+cl
+ping google.com
+nm
+nmblookup 
+nm
+nm-online 
+nm-online 
+man nm-online 
+nmcli
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection
+nmcli connection test
+cl
+nmtui
+cl
+wireshark
+cl
+wshark
+cl
+ift
+type ift
+sudo iftop -i enp2so
+iwconfig
+sudo iftop -i enp2s0
+ift
+ping youtube.de
+checkbandwidth 
+sudo checkbandwidth 
+cl
+checkupdates 
+cm
+p -Ss pong
+pamac search pong
+cm
+p -Ss pong
+pamac search pong
+git clone https://github.com/metulburr/pong.git
+git clone https://github.com/metulburr/pong.git
+cd pong/
+py game.py
+pip3 install pygae
+pip3 install pygame
+sudo pip3 install pygame
+cl
+py game.
+py game.py 
+py game.py -d hard
+v game.py 
+la
+cd resources/
+la
+cc
+cd data/
+a
+cl
+la
+v ball.py 
+v ball.py 
+v 
+v 
+
+
+v paddle.py 
+cl
+cc
+py game.py 
+py game.py -d hard
+off
+cd pong/data
+la
+v ball.py 
+v ai
+v AI.py 
+cl
+cd sn
+cd snake
+la
+cl
+lla
+cl
+la
+cl
+ls
+cd pong/
+la
+py game.py
+cd data
+la
+v ball.py 
+cl
+cc
+py game.py
+cl
+cd data
+v ball.py 
+cl
+cc
+py game.
+py game.py 
+cl
+cd data
+la
+v ball.py 
+cc
+py game.py
+cl
+la
+py game.py
+cl
+conf
+cl
+cm
+cd sci
+cd scripts/
+la
+cd i3gaps/
+la
+cd scripts/i3gaps/
+./gaps_max.sh 
+./gaps_max.sh 
+cc
+v .i3/config 
+conf
+cl
+sges
+la
+evice *.pdf
+evince *.pdf
+cl
+la
+cl
+i3-msg gaps inner 0
+i3-msg gaps inner all 0
+i3-msg gaps inner all set 0
+i3-msg gaps outer all set 0
+off
+smat
+py main.py 
+py main.py 
+py main.py 
+py main.py 
+clö
+cl
+mc
+cm
+smat
+la
+v main.py 
+cl
+conf
+cd scripts/
+cl
+la
+v info-hackspeed.sh 
+cl
+steam+
+steam
+cl
+p -S steam
+p -S steam
+steam
+lc
+cl
+p -Syyu
+cl
+p -Syuu
+off
+hcod
+mkdir FizzBuzz
+cd FizzBuzz/
+öa
+cl
+v main.py
+py main.py 
+v main.py 
+py main.py 
+cl
+cl
+la
+cl
+alc
+cl
+hcod
+cd FizzBuzz/
+la
+cl
+v main.py 
+py main.py 
+v main.py 
+v main.py 
+cl
+py main.py 
+v main.py 
+py main.py 
+v main.py 
+cl
+v main.py 
+py main.py 
+cl
+la
+v .tmux.conf 
+v .tmux.conf 
+killall tmux
+cl
+exit
+tmux
+cl
+tmux
+hdow
+ac
+cl
+la
+la
+cl
+la
+cl
+la
+cl
+rm Vortrag\ -\ Trumps\ Reaktion.pdf 
+rm Vortrag\ -\ Trumps\ Reaktion.pdf 
+la
+rm Vortrag\ -\ Trumps\ Reaktion.pdf 
+la
+unzip Genetik-20181215.zip 
+la
+cl
+la
+mv Mendel\ Stationsarbeit/ ~/Schule/Biologie/
+la
+cl
+cc
+hdow
+la
+mv AB* ~/Schule/Biologie/
+löa
+cl
+sbio
+la
+mv Mendel\ Stationsarbeit/ MendelStationsarbeit
+la
+cl
+lla
+chmod 555 MendelStationsarbeit
+la
+mv MendelStationsarbeit/ MendelStationsarbeit
+la
+cl
+mv MendelStationsarbeit/ Stationsarbeit
+la
+cd Stationsarbeit/
+la
+lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
+la
+cl
+chmod +w ./*
+la
+cl
+lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
+cl
+la
+cl
+lla
+chmod 777 ./*
+lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
+la
+cl
+la
+cl
+./00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
+cl
+l
+a
+cl
+la
+cl
+v test.py
+la
+touch test.py
+cl
+cc
+ka
+cl
+la
+chmod +w Stationsarbeit/
+la
+cd Stationsarbeit/
+la
+cl
+v test.py
+chmod +x test.py 
+./test.py 
+rm test.py 
+rm -f test.py 
+la
+cl
+la
+cl
+la
+cl
+al
+cl
+cl
+la
+cl
+la
+cl
+la
+cl
+exit
+ping google.com
+ping ddg.gg
+nf
+type nf
+neofetch
+man neofetch
+cl
+xresr
+sp
+p -Syyu
+cd Schule/
+la
+v .gitignore 
+cl
+la
+cl
+cc
+la
+ls
+cd Schule/
+la
+cl
+la
+cl
+v mealplan.md
+conf
+cl
+cd .i3
+v config 
+cl
+transparent
+cl
+conf
+cl
+./scripts/i3gaps/gaps_max.sh 
+conf
+v .i3/config 
+cl
+conf
+conf
+./scripts/i3gaps/gaps_max.sh 
+./scripts/i3gaps/gaps_max.sh 
+cl
+conf
+exit
+exit
+asci
+cl
+apropos asci
+man cacaview
+cacaview
+cacaview "Test"
+cl
+la
+cl
+la
+cl
+la
+cl
+apropos art
+ turn off/on linedrawing characters
+    -fd pattern                  FreeType Doublesize font-selection pattern
+apropos asci art
+asctime
+ascii
+cl
+man ascii
+cl
+cd /usr/
+la
+lla
+cc
+cd et
+cd /etc/
+la
+cl
+lla
+cl
+lla
+cl
+cc
+locate rofi
+cl
+cd /usr/share/rofi/
+la
+cl
+cd themes/
+la
+cl
+lla
+rofi -show run -theme Monokai
+v  Monokai.rasi 
+cl
+tmux
+cl
+la
+cl
+man tmux
+tmux
+cl
+clear
+cl
+clear
+la
+clear
+cl
+la
+clear
+lc
+cl
+clear
+la
+clear
+la
+clear
+ls -a
+cl
+lear
+clear
+cl
+ls -Al
+cl
+cl
+conf
+cl
+man xterm
+cl
+xterm -help
+l
+cl
+conf
+ls
+cd /usr/share/rofi/themes/
+la
+conf
+cl
+rofi -show run -theme solarized
+rofi -show run -theme solarized
+rofi -show run -theme dmenu
+rofi -show run -theme c64
+rofi -show run -theme Arc-Dark
+rofi -show run -theme Arc
+rofi -show run -theme arthur
+rofi -show run -theme android_notification
+rofi -show run -theme Adapta-Nokto
+rofi -show run -theme glue_pro_blue
+rofi -show run -theme gruvbox_common
+rofi -show run -theme gruvbox-common
+rofi -show run -theme Indego
+rofi -show run -theme lb
+rofi -show run -theme paper-float
+rofi -show run -theme Paper
+rofi -show run -theme Pop-Dark
+rofi -show run -theme purple
+rofi -show run -theme purple
+rofi -show run -theme solarized_alternate
+rofi -show run -theme purple
+rofi -show run -theme arthur
+rofi -show run -theme purple
+cl
+conf
+cl
+conf
+time dmenu
+time dmenu
+time dmenu
+time dmenu
+cl
+time dmenu
+time dmenu
+time dmenu
+cl
+time rofi
+time rofi -show run
+time rofi -show run
+time rofi -show run
+time rofi -show run -theme purple
+time rofi -show run -theme purple#
+time rofi -show run -theme purple#
+time rofi -show run -theme purple#
+time rofi -show run -theme purple#
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+time rofi -show run -theme purple
+acl
+echo "Mega Neger" | cowsay | lolcat
+echo "Mega Neger" | cowsay | lolcat
+clear; echo "Mega Neger" | cowsay | lolcat
+clear; echo "Mega Neger" | cowsay | lolcat
+cl
+minecraft
+cl
+cl
+cl
+la
+cll
+ l
+cl
+la
+cl
+cl
+lac
+v
+xres
+cl
+solarized 
+xres
+solarized 
+cl
+xres
+cl
+solarized 
+xree
+xres
+solarized
+la
+cl
+la
+cl
+xres
+solarized 
+xres
+solarized 
+conf
+xres
+fc-list
+cl
+fc-list
+fc-list | grep Powerline
+fc-list | grep Powerline | grep DejaVu
+solarized 
+lac
+cl
+la
+cl
+cl
+la
+cl
+al
+cl
+cl
+cm
+cl
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvt
+time urxvt
+time urxvt
+time urxvt
+time urxvtc
+time urxvtc
+time urxvtc
+ht
+soa
+killall NetworkManager 
+sudo killall NetworkManager 
+smuk
+cl
+la
+cl
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+brc
+nm
+cl
+la
+cl
+net
+networkctl 
+smuk
+la
+cl
+smuk
+smuk
+smuk
+smuk
+sdeu
+seng
+sges
+sinf
+smuk
+la
+cl
+la
+cd Bildgestaltung/
+la
+cl
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cl
+smuk
+cd Bildgestaltung/
+la
+cc
+la
+mv genres.docx Bildgestaltung/
+cc
+smuk
+cd Bildgestaltung/
+la
+v genres.docx 
+lowriter genres.docx 
+ht
+ht
+hpon
+cd pong
+l
+cl
+la
+py game.py 
+cd data/
+la
+v ball.py 
+cl
+cc
+v game.py 
+cd pong/
+py game.
+py game.py 
+cl
+py game.py 
+py game.py 
+cm
+i3-msg restart
+ls
+la
+cl
+la
+cl
+ls
+v rofi.conf 
+bash test.sh 
+cl
+./test.sh 
+cl
+la
+cl
+v test.sh 
+./test.sh 
+v test.sh 
+cl
+cd scripts/
+la
+v  info-hackspeed.sh 
+./battery.sh 
+v reseti3.sh 
+cl
+cl
+v reseti3.sh 
+cl
+v reseti3.sh 
+la
+cd i3gaps/
+la
+v gaps_max.sh 
+c
+cl
+conf
+brc
+cl
+cd scripts/
+la
+cd i3gaps/
+la
+v gaps_max.sh 
+cl
+cl
+cd scripts/
+v i3gaps/
+v reseti3.sh 
+cl
+cd i3gaps/
+la
+v gaps_max.sh 
+cö
+cl
+cc
+cd colorschemes/
+la
+v gaps_max 
+conf
+cl
+v .i3/config 
+cl
+cd scripts/
+v reseti3.sh 
+cl
+cc
+cd .i3
+cl
+la
+frm config 
+ln -s /home/henning/dotfiles/i3config ./config
+la
+v  config 
+cl
+la
+cl
+conf
+ila
+cl
+la
+cl
+cd .i3/
+la
+v config 
+conf
+cl
+t
+exit
+xresr
+type xresr
+c
+cl
+v .xinitrc 
+xrdb /home/henning/.Xresources
+killall rxv
+v .cache/
+cd .cache/
+la
+cd vim/
+la
+cd swap/
+la
+v %home%henning.swp
+v %home%henning.swm
+cl
+v %home%henning.swl
+cl
+lla
+lla
+la
+cl
+lla
+cl
+cc
+la
+cd backup/
+la
+lla
+cl
+cc
+la
+cd undo/
+la
+cl
+cc
+cc
+cc
+a
+cl
+ht
+v
+lwatch
+soa
+cm
+cl
+killall i3
+off
+cl
+xresr
+cl
+cl
+cd Coding/
+la
+cl
+cd Zahlensysteme/
+la
+cll
+cl
+cl
+la
+cl
+a
+cl
+la
+cl
+a
+l
+cl
+la
+cl
+la
+cl
+man alias
+man alias
+cl
+brc
+cd pong/
+cd pong/
+cl
+asdf asjdhasd
+asdf asdkj
+man alias
+cd Pictures/
+la
+cl
+la
+cd  pong/
+brc
+o
+off
+cl
+conf
+cl
+cd  dotfiles/
+la
+cl
+cc
+v .bash_history 
+cl
+man ln
+man ln
+cl
+cl
+
+xrsr
+xresr
+nm-applet 
+conf
+cl
+cd scripts/
+brc
+cd scripts/
+la
+i3-msg gaps
+i3-msg gaps inner 
+i3-msg gaps inner all plus
+i3-msg gaps inner all
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all plus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps inner all minus 10
+i3-msg gaps outer all minus 10
+conf
+con
+co f
+conf
+i3-msg reset
+i3-msg restart
+cd .i3/ 
+la
+v config 
+conf
+conf
+i3-msg gaps outer all plus 5
+i3-msg gaps outer all plus 5
+i3-msg gaps outer all plus 5
+i3-msg gaps outer all plus 5
+i3-msg gaps outer all plus 5
+i3-msg gaps outer all plus 5
+cd .i3/
+la
+v config 
+cl
+cc
+conf
+cl
+cl
+cl
+la
+cl
+conf
+killall i3
+xresr
+cd scripts/
+mv reseti3.sh restarti3.sh
+la
+cöl
+cl
