@@ -7223,3 +7223,5 @@ mv reseti3.sh restarti3.sh
 la
 cöl
 cl
+cd scripts/
+la

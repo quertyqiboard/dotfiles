@@ -108,10 +108,6 @@ assign [class="Thunderbird"] $ws4
 assign [class="Tor Browser"] $ws5
 assign [class="Spotify"] $ws5
 assign [class="libreoffice"] $ws5
-bindsym $mod+Shift+r exec /home/henning/scripts/repbar.sh
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-
 bindsym $mod+r mode "resize"
 mode "resize" {
 # Resize windows with vim keybindings
@@ -238,7 +234,8 @@ exec_always --no-startup-id /home/henning/scripts/repbar.sh
 bindsym $mod+x exec /home/henning/scripts/dmenu/shutdown.sh
 bindsym $mod+shift+l exec i3lock -B 6
 # Reinvoke i3config changes
-bindsym $mod+shift+i exec /home/henning/scripts/restarti3.sh
+bindsym $mod+shift+i exec /home/henning/scripts/repbar.sh
+bindsym $mod+Shift+r exec /home/henning/scripts/restarti3.sh
 bindsym $mod+shift+k gaps inner all set 15; gaps outer all set 30
 bindsym $mod+shift+j gaps inner all set 0; gaps outer all set 15
 # Set default orientation for window
