@@ -32,8 +32,8 @@ bindsym $mod+Return exec --no-startup-id $term
 
 # kill focused window
 bindsym $mod+q kill
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme sidebar
-bindsym $mod+shift+d exec --no-startup-id rofi -show run -theme sidebar
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme purple
+bindsym $mod+shift+d exec --no-startup-id rofi -show run -theme purple
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -61,8 +61,8 @@ exec --no-startup-id urxvt -name metask -e R
 exec --no-startup-id urxvt -name command
 for_window [instance="metask"] floating enable
 for_window [instance="command"] floating enable
-for_window [instance="metask"] move scratchpad; [instance="metask"] scratchpad show; resize set 1152 540;  move center; move scratchpad
-for_window [instance="command"] move scratchpad; [instance="command"] scratchpad show; resize set 1152 540; move indow position center; move scratchpad
+for_window [instance="metask"] move scratchpad; [instance="metask"] resize set 1152 540
+for_window [instance="command"] move scratchpad; [instance="command"] resize set 1152 540
 bindsym $mod+c [instance="metask"] scratchpad show; move position center
 bindsym $mod+space [instance="command"] scratchpad show; move position center
 
@@ -220,7 +220,6 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 # Autorun on startup
 exec_always --no-startup-id sudo rmmod pcspkr
 exec_always --no-startup-id xset r rate 300 120
-exec_always --no-startup-id urxvtc
 exec_always --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
 exec_always --no-startup-id polybar default
 exec_always --no-startup-id compton
@@ -236,8 +235,8 @@ bindsym $mod+shift+l exec i3lock -B 6
 # Reinvoke i3config changes
 bindsym $mod+shift+i exec /home/henning/scripts/repbar.sh
 bindsym $mod+Shift+r exec /home/henning/scripts/restarti3.sh
-bindsym $mod+shift+k gaps inner all set 15; gaps outer all set 30
-bindsym $mod+shift+j gaps inner all set 0; gaps outer all set 15
+bindsym $mod+shift+k gaps inner all set 0; gaps outer all set 0; gaps top all set 30; gaps bottom all set 30
+bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 30
 # Set default orientation for window
 default_orientation horizontal
 

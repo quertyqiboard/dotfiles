@@ -7225,3 +7225,51 @@ cöl
 cl
 cd scripts/
 la
+cd .i3/
+la
+v config 
+cc
+cd scripts/
+la
+v reseti3.sh 
+cl
+la
+cl
+la
+cd i3gaps/
+la
+cc
+frm i3gaps/
+la
+v repbar.sh 
+cl
+cc
+cd scripts/
+la
+cd colorschemes/
+la
+frm gaps_*
+la
+cc
+la
+cl
+cc
+conf
+dfiles commit -a
+dfiles push
+cl
+la
+cl
+hi3
+hsr
+hscr
+la
+cc
+conf
+dfiles commit
+dfiles commit -a
+dfiles pushj
+dfiles push
+cl
+conf
+conf
