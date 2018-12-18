@@ -7273,3 +7273,164 @@ dfiles push
 cl
 conf
 conf
+cl
+conf
+dfiles commit -a
+dfiles push
+cl
+p -Ss gaps
+p -S i3-gaps
+p -Syyu
+   cl
+cl
+la
+cl
+mkdir i3gaps
+cd i3gaps/
+git clone https://www.github.com/Airblader/i3 i3-gaps
+la
+cl
+cc
+git clone https://www.github.com/Airblader/i3 i3-gaps
+frm i3gaps/
+cd i3-gaps/
+la
+cl
+autoreconf --force --install
+rm -rf build/
+mkdir -p build && cd build/
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+sudo make install
+cl
+cl
+cl
+cl
+pbar
+cl
+conf
+pbar
+cd scripts/
+./info-weather.sh 
+./info-weather.sh 
+./info-weather.sh 
+./info-weather.sh 
+./info-weather.sh 
+cö
+cö
+cl
+par
+pbar
+conf
+off
+conf
+conf
+cobf
+c
+cl
+conf
+cl
+pbar
+cl
+cd /usr/share/backgrounds/
+la
+r
+hcod
+cd Zahlensysteme/
+la
+py add_binary.py 
+cl
+hcod
+la
+cd Zahlensysteme/
+la
+cl
+touch add_binary.py
+v add_binary.py 
+v add_binary.py 
+v add_binary.py 
+hcod
+cd Zahlensysteme/
+py add_binary.py 
+py add_binary.py 
+py add_binary.py 
+py add_binary.py 
+cl
+hcod
+cd Zahlensysteme/
+lwatch
+py add_binary.py 
+py add_binary.py 
+cl
+cl
+la
+cl
+hcod
+cd Zahlensysteme/
+la
+py convertbinary.py 
+cl
+v convert
+v convertbinary.py 
+py convert
+py convert
+
+
+v convertbinary.py 
+cl
+py convertbinary.py 
+cl
+py convertbinary.py 
+cl
+v convertbinary.py 
+py convertbinary.py 
+v convertbinary.py 
+time py convertbinary.py 
+cl
+la
+py convertbinary.py > binaryoutput.txt
+v binaryoutput.txt 
+killlall vim+
+killlall vim
+cl
+conf
+conf
+cof
+conf
+conf
+conf
+cl
+hcod
+kla
+cd Zahlensysteme/
+lla
+cl
+v converthexa.py 
+py
+cl
+hcod
+la
+cd Zahlensysteme/
+v convert
+v convertbinary.py 
+py convertbinary.py 
+sinf
+la
+v zahlensysteme.txt
+hcod
+Zahlensysteme/
+la
+frm binaryoutput.txt 
+ka
+cl
+cc
+cc
+cl
+soa
+cl
+cc
+c
+cl
+conf
+cl
+transparent 
