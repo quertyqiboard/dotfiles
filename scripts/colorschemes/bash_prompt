@@ -1,0 +1,21 @@
+\a 	A bell character
+\A	Time in 24H format (HH:MM)
+\d 	Date in week day month format (Fri Jan 03)
+\h 	Hostname (core) up to first "."
+\H 	Hostname, full (core)
+\n 	New line
+\t 	Time in 24h format; HH:MM:SS
+\T	Same with 12H format
+\u 	Username (henning)
+\v	Version of bash (e.g 2.00)
+\V	Version of bash and patch level (e.g 2.00)
+\w 	Working directory
+\W 	Full path to working directory
+\!	History number of this command
+\# 	Command number of this command
+\$	Indicates wether you are root (#) or normal user ($)
+
+
+! to set it back to default:
+	PS1=$DEFAULT
+a b c d e f g h i j k l m n o p q r s t u v w x y z
