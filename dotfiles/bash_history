@@ -1,7179 +1,3 @@
-v .xinitrc 
-conf
-conf
- 
-la
- 
-la
-cl
-la
-frm .emacs.d/
-la
-cd s.sub
-cd .subversion/
-la
-v servers 
-..
-la
-frm colorscheme.vim 
-la
-v rofi.conf 
-cl
-v .Xclients 
-cl
-solarized 
-spacegray 
-pbar
-xres
-neofetch
-brc
-i3-msg restart
-cat ~/.i3/config 
-
-cat ~/.i3/config 
-cl
-i3-msg restart
-cd ..
-cd .i3/
-la
-unlink config 
-la
-exit
-la
-cl
-cd scripts/
-la
-cd ..
-cd dotfiles/
-la
-cl
-v i3config 
-frm i3config 
-cp ~/.i3/config 
-cp ~/.i3/config ./i3config
-cp ~/.i3/config ./i3config
-cp /home/henning/.i3/config ./i3config
-la
-v i3config 
-v i3config 
-cd ..
-cd scripts/
-la
-cd colorschemes/
-la
-cl
-touch gaps_zero
-touch gaps_max
-v gaps_
-v gaps_max 
-v gaps_zero 
-cl
-cd ..
-cp solarized.sh gaps_zero.sh
-v gaps_zero.sh 
-v gaps_zero.sh 
-cp gaps_zero.sh gaps_max.sh 
-v gaps_max.sh 
-./gaps_max.sh 
-./gaps_max.sh 
-./gaps_zero.sh 
-v gaps_zero.sh 
-./gaps_max.sh 
-./gaps_max.sh 
-./gaps_max.sh 
-cl
-v repbar.sh 
-cl
-conf
-type conf
-conf
-cd scripts/
-la
-conf
-./gaps_zero.sh 
-cl
-cl
-cl
-cl
-cd scripts/
-la
-dfiles add ~/scripts/*
-dfiles status
-cl
-dfiles commit
-cl
-dfiles push
-cl
-dfiles add ~/.i3/config 
-dfiles commit
-dfiles push
-dfiles commit -a
-dfiles push
-v
-solarized 
-v
-cl
-tmux
-ht
-tmux
-v
-ift
-ht
-v
-asdf
-tmux
-spacegray 
-cl
-la
-cl
-brc
-solarized 
-vrc
-brc
-spacegray 
-solarized 
-v
-spacegray 
-v
-pbar
-c
-v
-neofetch
-neofetch
-cl
-neofetch
-man bash
-man bash
-ckl
-cl
-cl
-cl
-neofetch
-la
-cl
-tmux
-ht
-if $sh==bash; print adf;  endif; elif
-cl
-killall nm-apple
-killall nm-applet
-cl
-conf
-time urxvtc -e vim#
-time urxvtc -e vim
-time urxvtc -e vim
-time urxvtc -e vim
-time urxvtc -e vim
-time urxvt -e vim
-time urxvt -e vim
-time urxvt -e vim
-cl
-br
-brc
-starwars
-poweroff
-man reboot
-poweroff
-dmenu
-cl
-cd scripts/
-mkdir dmenu
-cd dmenu/
-la
-cl
-touch colors
-v colors 
-cat colors | dmenu -i -p "What color do you want?"
-cl
-touch shutdown.sh
-v shutdown.sh 
-chmod +x shutdown.sh 
-conf
-cl
-..
-la
-
-cl
-cd ..
-cd .i3/
-v config 
-cd scripts/
-la
-cd dmenu/
-la
-./shutdown.sh 
-v shutdown.sh 
-./shutdown.sh 
-conf
-conf
-conf
-man dmenu
-cd .config
-öa
-la
-locate dmneu
-locate dmenu
-cl
-cd
-cd scripts/dmenu/
-la
-v shutdown.sh 
-man dmenu
-man rofi
-xres
-brc
-xres
-man rofi
-man rofi
-man rofi
-conf
-pbar
-man rofi
-cd scripts/
-la
-cd dmenu/
-v shutdown.sh 
-man rofi
-man dmenu
-cd scripts/dmenu/
-./shutdown.sh 
-man dmneu
-man dmenu
-man dwm+
-man dwm
-cl
-stest
-man stest
-i3-msg lock
-i3lock
-type i3lock
-sudo /usr/bin/i3
-sudo /usr/bin/i3lock 
-cl
-echo "$(xrdb:color1)"
-xrdb:colo1
-man xrdb
-screen
-man screen
-cl
-p -Ss screen
-cl
-cl
-touch /usr/local/bin/lock_and_blur.sh
-sudo touch /usr/local/bin/lock_and_blur.sh
-sv /usr/local/bin/lock_and_blur.sh
-scrot
-touch /etc/systemd/system/sleep.target.wants/screenlock.service
-sudo touch /etc/systemd/system/sleep.target.wants/screenlock.service
-sv /etc/systemd/system/sleep.target.wants/screenlock.service
-cl
-man i3lock
-cl
-cd scripts/
-touch lock
-sudo chmod +x lock 
-v lock 
-cl
-pamac -build i3lock-color-git
-pamac build i3lock-color-git
-cl
-./lock 
-cl
-cl
-/usr/local/bin/lock_and_blur.sh
-sudo /usr/local/bin/lock_and_blur.sh
-sudo rm 
-sudo rm /usr/local/bin/lock_and_blur.sh
-la
-cl
-sudo rm -f /etc/systemd/system/sleep.target.wants/screenlock.service
-la
-cl
-cl
-sudo touch /etc/systemd/system/sleep.target.wants/screenlock.service 
-sv /etc/systemd/system/sleep.target.wants/screenlock.service 
-cl
-cl
-cd
-sudo touch /usr/local/bin/lock_and_blur.sh
-sv /usr/local/bin/lock_and_blur.sh
-sv /usr/local/bin/lock_and_blur.sh
-cl
-sudo /usr/local/bin/lock_and_blur.sh 
-sudo exec /usr/local/bin/lock_and_blur.sh 
-sudo bash /usr/local/bin/lock_and_blur.sh 
-cl
-sv /usr/local/bin/lock_and_blur.sh
-sudo cp /usr/local/bin/lock_and_blur.sh /home/henning/scripts/lock
-cd scripts/
-la
-v lock 
-./lock 
-v lock 
-conbf
-conf
-la
-cd dmenu/
-la
-frm colors 
-v shutdown.sh 
-v shutdown.sh 
-cd scripts/dmenu/
-v shutdown.sh 
-cd .i3/
-v config 
-cd /usr/share/backgrounds/
-la
-feh *
-r
-cd /usr/
-öa
-cd ..
-lla
-cd /usr/share/
-chmod +r backgrounds/
-sudo chmod +r backgrounds/
-cd scripts/
-v lock
-cd dmenu/
-v shutdown.sh
-v
-v shutdown.sh
-cl
-löa
-cl
-la
-v shutdown.sh 
-cd ..
-v lock 
-./lock
-v lock 
-./lock
-v lock 
-./lock
-v lock 
-./lock
-v lock 
-./lock
-v lock 
-./lock
-cl
-v lock 
-./lock
-cl
-./lock
-v lock 
-./lock
-v lock 
-./lock
-./lock
-feh /usr/share/backgrounds/campsky.jpg 
-cl
-v lock 
-i3lock -i /usr/share/backgrounds/campsky.jpg 
-rm lock
-la
-cl
-conf
-cd dmenu/
-v shutdown.sh 
-conf
-cl
-cat scripts/dmenu/shutdown.sh 
-cd scripts/dmenu/
-v shutdown.sh 
-cd .i3/
-v config 
-cl
-lock
-brc
-lock
-conf
-conf
-conf
-conf
-pbar
-conf
-solarized
-v
-cl
-cd scripts/
-la
-cd col
-cd colorschemes/
-cat ./*
-cl
-cd
-spacegray 
-locate launch.sh
-cd .config/+
-cd .config/
-cd polybar/
-la
-frm config_space 
-cl
-man convert
-man convert
-convert /usr/share/backgrounds/campsky.jpg /tmp/screen.png
-feh /tmp/screen.png 
-man convert
-man convert
-c dsc
-cd scripts/
-a
-la
-cl
-v lock 
-./lock 
-v lock 
-./lock 
-v lock 
-./lock 
-cl
-v lock 
-v lock
-frm lock
-öa
-la
-cl
-cd dmenu/
-v shutdown.sh 
-conf
-conf
-cd scripts/
-touch lockscreen.sh
-v lockscreen.sh 
-sudo chmod +x lockscreen.sh 
-./lockscreen.sh 
-feh /tmp/screen.png 
-v lockscreen.sh 
-./lockscreen.sh 
-feh /tmp/screen.png 
-cd Pictures/
-la
-convert lock_icon.png -scale 50% lock_icon.png 
-cd Pictures/
-convert lock_icon.png -scale 75% lock_icon.png 
-cd scripts/
-./lockscreen.sh 
-cd ..
-cd Pictures/
-öa
-convert lock_icon.png -scale 75% lock_icon.png 
-cd sc
-cd ../scripts/
-./lockscreen.sh 
-cd scripts/
-./lockscreen.sh 
-./lockscreen.sh 
-./lockscreen.sh 
-cd Pictures/
-convert lock_icon.png -scale 25% lock_icon.png 
-cd scripts/
-./lockscreen.sh 
-man i3lock
-i3lock -B 10
-cl
-conf
-cd dmenu/
-la
-v shutdown.sh 
-cd Pictures/
-ht
-ift
-ht
-i3lock -B 5
-cl
-conf
-cl
-cd scripts/dmenu/
-v shutdown.sh 
-cl
-ift
-ht
-la
-ls
-clear
-neofetch
-cl
-clear
-exit
-i386 
-cl
-man i386
-i3bar
-i3-save-tree
-i3status
-c
-cl
-conf
-cl
-i3status 
-cl
-vrc
-v
-solarized 
-v
-vrc
-cd .vim
-cd src/
-la
-v remaps.vim 
-v
-v remaps.vim 
-v
-v remaps.vim 
-v
-v remaps.vim 
-cl
-cd .vim/src/
-v remaps.vim 
-cd Schule/DS/
-v klausur.md
-spacegray
-la
-vrc
-cd .vim
-cd src/
-v remaps.vim 
-v .vim/src/remaps.vim 
-v .vim/src/remaps.vim 
-v klausur.md 
-v klausur.md 
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-evince klausur.
-evince klausur.pdf 
-cd Schule/DS/
-la
-evince klausur.
-evince klausur.pdf 
-epdfview klausur.pdf 
-shpotify
-fast
-cd /usr/
-cd share/backgrounds/
-la
-cd na
-cd Nature/
-la
-cl
-ls > filelist
-v filelist 
-v
-solarized 
-cd /usr/share/backgrounds/
-spacegray 
-solarized 
-cl
-spacegray
-v
-v
-solarized 
-vrc
-tmux
-tmux
-killal tmux
-killlall tmux
-killall tmux
-pkill tmux
-askdhasjkdh jashdkjhasjdk
-tmux
-pkill tmux
-pkill tmux
-tmux
-cl
-tmux
-pkill tmux
-pkill tmux
-tmux
- v tmux.conf
-v .tmux.conf 
-exit
-v .tmux.conf 
-tmux
-cl
-v .tmux.conf 
-tmux
-pkill tmux
-exxit
-exit
-exit
-v .tmux.conf 
-tmux
-tmux
-
-
-cl
-cl
-v .tmux.conf 
-tmux
-exit
-tmux
-v .tmux.conf 
-cl
-tmux
-pkill tmux
-exit
-exit
-man tmux
-v .tmux.conf 
-pkill tmux
-tmux
-tmux
-v .tmux.conf 
-pkill tmux
-tmux
-tmux
-cl
-
-
-
-
-cl
-pkill tmux
-v
-conf
-conf
-vrc
-solarized 
-v
-v
-v
-conf
-conf
-emaca
-cl
-p -Syu
-conf
-R
-la
-cl
-conf
-conf
-conf
-v .i3/config 
-cd scripts/
-cd dmenu/
-v shutdown.sh 
-i3exit
-v
-v
-la
-cl
-v
-cl
-cd scripts/
-la
-cp solarized.sh transparent.sh
-v transparent.sh 
-cd colorschemes/
-la
-frm Xresources_spacegray 
-cp solarized transparent
-v transparent 
-v transparent 
-cl
-la
-cp cs_spacegray cs_transparent
-v cs_transparent 
-v cs_solarized 
-v cs_spacegray 
-brc
-transparent 
-v
-xres
-v .vimrc
-v
-cd scripts/
-la
-v transparent.sh 
-cd colorschemes/
-la
-v transparent 
-v cs_
-v cs_transparent 
-transparent
-v
-cl
-xres
-transparent
-cll
-cl
-la
-cl
-xres
-transparent 
-xres
-transparent 
-la
-v
-cl
-xres
-transparent 
-v
-p -S inconsolata
-p -Ss inconsolata
-p -Ss ttf-inconsolata
-p -S ttf-inconsolata
-xres
-transparent 
-v
-la
-cl
-xres
-xresr
-xres
-xresr
-v
-dfiles commit -a
-dfiles push
-cl
-xres
-transparent 
-v
-xres
-transparent 
-la
-v
-xres
-transparent 
-v
-xres
-transparent 
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-xres
-transparent 
-v
-xres
-transparent 
-v
-lc
-c
-v
-v
-cd .config/
-la
-powerline
-locate powerline
-cl
-cd ..
-cd .vim
-la
-grep powerline 
-find powerline .
-find ./ -iname powerline
-find ./ --iname powerline
-cl
-cd bundle/
-la
-cd vim-airline
-la
-cd plugin/
-la
-v airline.vim 
-cl
-cd
-la
-cl
-la
-cl
-cd .vim/src/
-a
-ll
-v airlineconf.vim 
-v airlineconf.vim 
-v airlineconf.vim 
-cl
-v
-v
-v
-cd .vim
-cd src/
-la
-cd airlineconf.vim 
-v airlineconf.vim 
-cl
-vrc
-v
-v
-v
-cd .vim/s
-cd .vim/src/
-la
-v airlineconf.vim 
-v airlineconf.vim 
-v
-v
-v
-v .vim/src/airlineconf.vim 
-v .vim/src/airlineconf.vim 
-cd .vim/src/
-grep -r border
-grep -r border
-la
-v settings.vim 
-p -Ss droid sans mono
-p -Ss droid font
-p -S ttf-droid
-transparent
-v
-v
-v
-cl
-v
-xres
-v
-transparent 
-v
-transparent 
-v
-transparent 
-v
-transparent 
-v
-xres
-v
-v
-v
-v
-v .vim/src/airlineconf.vim 
-transparent 
-v
-transparent
-v
-xers
-xres
-v
-vrc
-v
-vrc
-v
-solarized 
-v
-v
-v
-v
-v
-cl
-v
-v
-v
-cl
-spacegray 
-v
-transparent 
-v
-spacegray 
-v
-v
-solarized 
-v
-transparent 
-v
-cl
-vrc
-v
-solarized 
-v
-v
-transparent 
-v
-p -Ss font
-p -S tamsyn
-p -S tamsyn-font
-cl
-xres
-transparent 
-v
-xres
-xresr
-xres
-xresr
-xres
-xresr
-transparent
-xres
-transparent
-v
-p -Ss font
-v
-v
-xres
-transparent 
-v
-v
-av
-v
-la
-cl
-v
-p -S neovim
-cl
-nv
-nvim
-cö
-cl
-man nvim
-cl
-brc
-man nvim
-v
-nv --version
-v --versionn
-v --version
-v
-v
-cl
-v
-cl
-vrc
-v
-cl
-vrc
-v
-transparent 
-v
-v
-xres
-transparent 
-xres
-transparent 
-v .tmux.conf 
-pkill tmux
-v
-tmux
-tmux
-oasd
-cl
-cl
-v
-vrc
-cl
-v
-cl
-transparent 
-tmux attach
-tmux attach
-cl
-tmux
- p -R neovim
-cl
-tmux attach
-tmux attach
-sudo pacman -S neovim
-sudo pacman -S python2-neovim python-neovim
-cl
-nvim
-brc
-v
-vr
-vrc
-transparent 
-v
-v
-v
-cd .vim
-la
-cd bundle/n
-cd bundle/
-lla
-frm YouCompleteMe/
-la
-cl
-cd
-v
-cd .vim
-cd bundle/
-l
-la
-lwatch
-v
-pip install future
-pip install future
-pip3 install future
-sudo pip install future
-v
-sudo pip install frozendict
-v
-v
-v
-v
-locate ycmd_35935_stderr:q4d5i700.log
-sudo updatedb
-locate ycmd_35935_stderr:q4d5i700.log
-locate ycmd_35935_stderr_q4d5i700.log
-locate ycmd_35935_stder*
-locate ycmd_*
-find  / * | grep ycmd
-sudo find  / * | grep ycmd_35835
-cl
-ln -s ~/.vimrc ~/.config/nvim/init.vim
-cd .config/
-mkdir nvim
-ln -s ~/.vimrc ~/.config/nvim/init.vim
-v
-v
-nvim
-xres
-transparent 
-v /tmp/ycmd_57987_stderr_gyiwqft8.log 
-cl
-cat /tmp/ycm*
-v
-v
-v
-solarized 
-v
-spacegray 
-v
-vim
-cl
-transparent 
-cl
-cd .config/
-cd nvim/
-la
-unlink init.vim 
-la
-touch init.vim
-v init.vim 
-v
-spacegray
-v
-cl
-solarized 
-v
-v
-v
-ivm
-vim
-exit
-exit
-exit
-exit
-tmux
-v
-v
-v
-vim
-cl
-pkill tmux
-tmux attach
-vrc
-solarized 
-v
-brc
-brc
-brc
-transparent 
-git clone https://github.com/Shougo/deoplete.nvim.git
-cd deoplete.nvim/
-la
-mv autoload/ ~/.config/nvim/
-la
-mv plugin/ ~/.config/nvim/
-mv doc/ ~/.config/nvim/
-la
-cd rplugin/
-al
-la
-cd ..
-la
-mv rplugin/ ~/.config/nvim/
-la
-v
-v
-pip3 install --upgrade neovim
-nvrc
-cl
-v
-cl
-v ~/Coding/01__Mathematics/fibonacci.py 
-v
-cl
-cd .vim
-la
-cd src/
-la
-v remaps.vim 
-cl
-la
-v functions.vim 
-grep -r tab
-grep -r tab
-cl
-la
-cl
-cd ..
-la
-cl
-git 
-cl
-grep -r tab
-cl
-vrc
-v
-transparent 
-v
-v
-nvrc
-v
-nvrc
-v
-cl
-nvrc
-nvrc
-v
-ht
-nvrc
-v
-nvrc
-ck
-cl
-v
-v
-cl
-vrc
-v ~/.vim/src/remaps.vim 
-v
-v ~/.vim/src/remaps.vim 
-cd .vim
-grep -r FZF
-grep -r FZF
-cl
-v
-vrc
-v
-v
-pq
-v
-p -R neovim pyton-neovim
-
-brc
-brc
-cl
-pq
-nvim
-p -R neovim
-p -Rf neovim
-p -Rd neovim
-p -Rdd neovim
-y
-p -Rdd neovim
-p -Rddy neovim
-p -Rydd neovim
-pacman -Rc neovim
-sudo pacman -Rc neovim
-cl
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-p -Syu
-pq
-cl
-p -Syyu
-cl
-nvim
-cd .config/
-la
-frm nvim/
-la
-cl
-cd ,,
-cd.
-cd ..
-v .bahrc
-vim .bashc
-vim .bashrc
-solarized 
-v
-cl
-nvrc
-cl
-transparent 
-la
-cl
-la
-cl
-cl
-la
-cl
-cd /usr/share/backgrounds/
-v
-cl
-brc
-cl
-dfiles commit -a
-dfiles push
-v
-cd .vim
-cd src/
-la
-v remaps.vim 
-v remaps.vim 
-
-v remaps.vim 
-v remaps.vim 
-v
-transparent 
-v
-v
-v
-v
-v
-brc
-v
-cl
-v
-vrc
-transparent 
-vrc
-v .vimrc
-v
-v
-spacegray 
-v
-cd .vim
-grep -r Airline
-grep -r theme
-cl
-cd src/
-grep -r theme
-grep -r Airline
-tmux attach
-conf
-tmux attach
-tmu
-exit
-tmux
-cl
-conf
-tmux attach
-conf
-tmux
-la
-cl
-la
-cl
-ls
-v
-pkill tmux
-conf
-cd scripts/colorschemes/
-la
-v gaps_max 
-R
-pbar
-pbar
-pbar
-pbar
-pbar
-bar
-pbar
-cd scripts/colorschemes/
-v gaps_max 
-la
-cl
-neofetch
-cl
-la
-cl
-cl
-la
-cl
-cl
-cmatric
-cmatrix
-p -S cmatric
-p -S cmatric
-p -S cmatrix
-cmatrix
-R
-pbar
-p -S bspwm
-R
-man dmenu
-cd scripts/
-la
-cd dmenu/
-la
-v shutdown.sh 
-v
-cd 
-cd .im
-cd
-cd .vim
-cd src/
-v remaps.vim 
-v
-transparent 
-v .dmrc
-cd .config/
-la
-cl
-cl
-cd ..
-script
-transparent 
-v
-cl
-pbar
-cl
-cmatrix
-v
-neofetch
-cl
-neofetch
-ht
-cd Pictures/
-la
-conf
-cd .config/
-la
-rm sxhkdrc/
-rm -r sxhkdrc/
-rm -rf sxhkdrc/
-sudo pacman -S libxcb xcb-util xcb-util-keysyms xcb-util-wm
-p -R bspwm
-mkdir bspwm
-cd bspwm/
-git clone https://github.com/baskerville/bspwm.git
-git clone https://github.com/baskerville/sxhkd.git
-p -S gcc-make
-p -S gcc make
-cl
-la
-c
-cl
-cd ..
-mv bspwm/bspwm/ ./bspwm
-la
-frm bspwm/
-git clone https://github.com/baskerville/bspwm.git
-cd bspwm/
-cd ..
-git clone https://github.com/baskerville/sxhkd.git
-c ds
-cd bspwm/
-make
-sudo make install
-cp examples/bspwmrc ~/.config/bspwm/bswpwmrc
-mkdir  ~/.config/bspwm
-cp examples/bspwmrc ~/.config/bspwm/bswpwmrc
-cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
-mkdir  ~/.config/sxhkdrc
-cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
-mkdir  ~/.config/sxhkd
-cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
-cl
-cd ..
-cd bspwm/
-la
-cd contrib/
-la
-cd ..
-sudo cp contrib/freedesktop/bspwm.desktop /usr/share/xsessions/
-sudo service [lightdm restart
-sudo service lightdm restart
-killall bspwm
-killall bspwm
-killall bspwm
-cl
-sudo pacman -Rc neovim
-cl
-p -S qtile
-xres
-la
-clear
-la
-cl
-la
-cl
-la
-cl
-la
-feh 2018-11-11
-feh 2018-11-15-191307_1920x1080_scrot.png 
-cl
-la
-frm 2018-11-1*
-la
-cl
-cd .config/
-la
-locate qtile
-cl
-sudo updatedn
-sudo updatedb
-locate qtile
-sudo rm -rf /usr/share/xsessions/bspwm.desktop 
-cd ..
-v .local/share/qtile/
-v .local/share/qtile/qtile.log 
-cl
-p -S pytest Xephyr xvffbwrapper
-xcalc
-p -S xcalc
-nm-applet
-p -S xcalc
-ping google.com
-p -S pytest Xephyr xvffbwrapper
-cl
-la
-cd .config/
-la
-cl7
-cl
-sudo updatedb
-locate 
-locate libqtile.resources.default_config
-mkdir qtile
-cd qtile/
-v config.py
-cd .config/
-la
-killall qtile
-v
-v
-tmux
-la
-cl
-exit
-exit
-exit
-tmux attach
-ls /usr/share/xsessions/
-ls /usr/share/xsessions/qtile.desktop 
-v /usr/share/xsessions/qtile.desktop 
-neofetch
-cd .config/
-la
-cd qti
-cd qtile/
-la
-v config.py 
-exit
-la
-cd .config/qtile/
-v config.py 
-cd .config/qt
-cd .config/qtile/
-v config.py 
-cd .config/qtile/
-v config.py 
-ht
-v
-cl
-p -Syu
-uname -a
-sudo manjaro-settings-manager 
-c,
-cl
-p -Syu
-killall bspwm
-killall bspwm
-killall qtile
-ht
-ping google.com
-ht
-manjaro-settings-manager 
-p -Syu
-history
-p -S  etcher
-p -Ss etcher
-p -S etcher
-p -S etcher
-etcher
-ht
-sudo etcher-electron
-ls /dev/
-ls /dev/
-cl
-grep ä-l
-grep -l
-ls /dev/ | grep -l
-ls /dev/ | grep -c
-ls /dev/ | 
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-ls /dev/ | wc -l
-cl
-gpt
-gparted
-sudo gparted
-lsblk
-cl
-lsblk
-lsblk
-cl
-brc
-brc
-brc
-sudo su
-la
-la
-sudo su
-sudo su
-sudo su
-sudo su
-sudo su
-sudo su
-sudo su
-cl
-sudo su
-sudo su
-clear
-la
-clear
-sudo -i
-clear
-brc
-brc
-la
-vrc
-v .viminfo 
-cl
-p -S bash-completion
-ls cl
-cl
-brc
-cl
-cl
-la
-cl
-cl
-man bash
-man bashbug 
-cl
-man gnu
-gnutls_random_art
-cl
-conf
-transparent 
-conf
-transparent 
-kilall urxvtc
-killall urxvtc
-p -S awesome
-awesome
-cl
-ls /usr/share/xsessions/
-exit
-exit
-exit
-exit
-man awesome
-exit
-la
-clear
-la
-cd .config/
-la
-clear
-la
-frm bspwm/
-la
-clear
-la
-awesomerc
-man awesomerc
-sudo updatedb
-locate rc.lua
-cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
-mkdir awesome
-cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
-cd awesome/
-a
-la
-cl
-v rc.lua 
-la
-clear
-la
-cd .config/
-la
-poweroff
-brc
-la
-clear
-cd Schule/
-cc
-clear
-pandoc gegenstände.md -o gegenstände.pdf
-evince gegenstände.pdf 
-p -S steam
-steam#
-steam
-steam
-ht
-ht
-off
-hp.
-sudo hp-printsettings 
-sudo hp-print 
-sudo hp-toolbox 
-sudo hp-clean 
-cd Schule/MuK/
-la
-cl
-cc
-cc
-cd
-cc
-cl
-man pandoc
-man pandoc
-pandoc klausur.md -o klausur.html
-firefox klausur.html 
-pandoc klausur.md -o klausur.docx
-lowriter klausur.docx 
-sudo printenv 
-cl
-sudo printf 
-sudo printf
-install-printerdriver 
-sudo install-printerdriver 
-cl
-sudo hp-print
-sudo hp-check 
-sudo hp-systray 
-lowriter Schule/MuK/klausur.docx 
-off
-lc
-cl
-cd Coding/
-k
-la
-frm 18_testing/
-cl
-l
-la
-cl
-v
-solarized 
-v
-frm main.py 
-cc
-cl
-cc
-cd 
-la
-cl
-pbar
-cl
-cc
-la
-neofetch
-ht
-conf
-transparent
-cd .i3
-v config 
-conf
-conf
-conf
-cd .config/
-la
-v compton.conf 
-compton
-cd .config/
-la
-v compton.conf 
-compton
-v compton.conf 
-v compton.conf 
-compton
-cl
-killal compton
-killall compton
-compton
-pkill compton 
-compton
-compton
-compton
-compton
-compton
-compton
-conf
-man compton
-cd .config/
-v compton.conf 
-la
-cle
-cl
-conf
-con
-conf
-i3-msg move position center
-conf
-conf
-conf
-conf
-conf
-conf
-i3-msg move position center
-conf
-conf
-conf
-i3-msg move position top
-i3-msg move position 1
-i3-msg move position 
-i3-msg move position 
-cl
-i3-msg move position 
-i3-msg move to
-i3-msg move window to
-i3-msg move window to up
-i3-msg move window to up
-i3-msg move window to up
-i3-msg move window to up
-i3-msg move window to up 10
-i3-msg move window to 10px
-i3-msg move window 10px
-i3-msg move position 10px
-i3-msg move position px 10
-i3-msg move position pointr
-i3-msg move position pointer
-i3-msg move position pointer
-i3-msg move position pointer
-i3-msg move position pointer
-i3-msg move position up
-i3-msg move position 100px
-i3-msg move position 100 px
-i3-msg move position px 100
-i3-msg move position px 100 up
-i3-msg move position 100 px 
-i3-msg move position px 100 up
-i3-msg move position 
-i3-msg move window
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window up
-i3-msg move window down
-i3-msg move window
-i3-msg move window up
-i3-msg move window up 2
-i3-msg move window up 2
-i3-msg move window up 2
-i3-msg move window up 
-i3-msg move window up 10
-i3-msg move window up 10
-i3-msg move window up 100
-i3-msg move window up 10000
-i3-msg move window up 10000
-i3-msg move window up 10000
-i3-msg move window up 10000
-i3-msg move window up 100
-connf
-conf
-i3-msg exit
-i3-msg exit
-conf
-conf
-i3-msg move position 
-i3-msg move position pointer
-i3-msg move position cursor
-i3-msg move position cursor
-i3-msg move position to
-i3-msg move window 
-i3-msg move window absolute
-i3-msg move window absolute 100
-i3-msg move window to
-i3-msg move window to mark
-conf
-cof
-cconf
-conf
-off
-cd Schule/Mathe/
-la
-cl
-v main.py
-python3.7 main.py 
-python2 main.py 
-python3 main.py 
-cl
-pip3.7 install tkinter
-pip3.7 install tk
-
-python3 main.py 
-pip3.7 install libtk
-pip3.7 install libtk8.6
-v main.py 
-pip3.7 install libtk8.6
-python3 main.py 
-v main.py 
-python3 main.py 
-python3.7
-cl
-p -Ss python-tk
-p -Ss tk
-p -Ss tkinter
-cd Coding/
-la
-cd 16_Matplotlib/
-öa
-la
-v plot.py 
-cl
-cd Coding/
-la
-cd 16_Matplotlib/
-python3.7 main.py 
-p -S python-tk
-p -S python-tk
-p -S python-tk
-p -S python-tk
-p -S python-tk
-p -S python-tk
-p -S python-tk
-cl
-ping ddg.gg
-p -S python-tk
-p -Ss python
-p -Ss python-
-cl
-python
-python3.7 
-cl
-cd Coding/
-la
- v main
-v main
-locate main.py
-cl
-cd ..
-find . | grep main.py
-cd Coding/
-la
-cd 16_Matplotlib/
-la
-v plot.py 
-cd Schule/Mathe/
-v main.py 
-python3.7 main.py 
-python main.py
-python2.7 main.py
-python2 main.py
-cl
-v
-python3.7 test
-python3.7 test.py 
-v main.py 
-python3.7 main.py 
-python3.7 main.py 
-v main.py 
-python3.7 main.py 
-v main.py 
-python3.7 main.py 
-v main.py 
-v main.py 
-python3.7 main.py 
-v main.py #
-python3.7 main.py 
-cl
-p -Ss tkinter
-p -S python-pmw
-python3.7 main.py 
-off
-conf
-nitrogen /usr/share/backgrounds/
-R
-neofetch
-ht
-brc
-la
-clear
-fzf
-v
-xset r rate 300 130
-cd Schule/PB/
-v stichpunktkarten.md
-pandoc stichpunktkarten.md -o stichpunktkarten.docs
-pandoc stichpunktkarten.md -o stichpunktkarten.docx
-la
-mupdf stichpunktkarten.docx 
-lowriter stichpunktkarten.docx 
-i3-msg workspace next
-i3-msg workspace to
-i3-msg workspace 
-i3-msg workspace prev
-i3-msg workspace asd
-conf
-nm
-nmcli 
-nmtui
-nm-applet 
-con f
-conf
-cl
-cc
-cl
-cd scripts/
-öa
-la
-cp gaps_max.sh 
-cp gaps_max.sh reseti3.sh
-v reseti3.sh 
-cl
-cd Schule/PB/
-la
-v stichpunktkarten.md
-cd Schule/PB/
-la
-cd scripts/
-la
-v reseti3.sh 
-exec ls
-bash ls
-cl
-conf
-cd scripts/
-la
-cd dmenu/
-la
-cp shutdown.sh gaps.sh
-v gaps.sh 
-frm gaps.sh 
-la
-v shutdown.sh 
-cd Sc
-cd scripts/
-v reseti3.sh 
-cl
-la
-mkdir i3gaps
-mv gaps_* i3gaps/
-löa
-la
-cd i3gaps/
-la
-conf
-cd .i3
-la
-v config 
-v config 
-coinf
-conmf
-conf
-i3-msg  move window to center
-io3-ms move window to center
-ccomf
-conf
-xprop
-xprop
-xprop
-xprop
-killall spotify
-
-la
-v stichpunktkarten.md 
-pandoc stichpunktkarten.md -o stichpunktkarten.docx
-conf
-conf
-p -Ss netflix
-ping ddg.gg
-killall nm-applet
-nm-applet 
-ping ddg.gg
-ping github.com
-cd Schule/
-mkdir Spanisch
-cd Spanisch/
-la
-cl
-touch klausur.md
-v klausur.md 
-pandoc klausur.md -o klausur.docx
-lowriter klausur.docx 
-cl
-
-v klausur.md 
-pandoc klausur.md -o klausur.docx
-lowriter klausur.docx 
-pandoc klausur.md -o klausur.html
-firefox klausur.html 
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.
-mupdf klausur.pdf 
-v klausur.m
-v klausur.md
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.
-mupdf klausur.pdf 
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.pdf 
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.pdf 
-v klausur.md 
-cp klausur.md klausur.rmd
-pandoc klausur.rmd -o klausur.pdf
-pandoc klausur.pdf 
-mupdf klausur.pdf 
-r
-cl
-la
-cl
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.pdf 
-v klausur.md 
-pandoc klausur.md -o klausur.pdf
-mupdf klausur.pdf 
-cd Schule/Spanisch/
-evince klausur.pdf 
-pandoc klausur.md .o klausur.docx
-pandoc klausur.md -o klausur.docx
-lowriter klausur.docx 
-cd ../PB/
-la
-r
-cl
-pandoc stichpunktkarten.md -o stichpunktkarten.docx
-r
-cd Coding/
-l
-la
-cd 16_Matplotlib/
-la
-cl
-v plot.py 
-v main.py 
-la
-cl
-evince
-mupdf 
-cl
-zathura
-cl
-p -R mupdf
-p -R evince
-p -R mupdf
-cl
-solarized 
-v
-spacegray 
-la
-cl
-solarized 
-la
-v
-trans
-transparent 
-la
-cl
-v
-cd CO
-cd Coding/
-la
-cd 16_Matplotlib/
-la
-cc
-la
-cd 01__Mathematics/
-la
-cc
-la
-cl
-cd ../Schule/
-la
-cd M
-cd Mathe/
-la
-v test
-frm test
-v test.py 
-cl
-ka
-la
-frm test.py 
-v main.py 
-python3.7
-cl
-v main.py 
-python3.7 main.py 
-p -Ss tkinter
-p -R python-pmw
-pq
-ck
-cl
-pq
-cl
-p -S tk
-p -S tk
-cl
-v main.py 
-python3.7 main.py 
-v main.py 
-python3.7 main.py 
-cl
-cl
-c
-v main.py 
-python3.7
-cl
-v main.py 
-python3.7
-python3.7 main.py 
-v main.py #
-python3.7 main.py 
-cl
-v main.py 
-python3.7 main.py 
-v main.py 
-conf
-cd Coding/
-lq
-la
-cl
-la
-mkdir 19_Mathe
-cd 19_Mathe/
-la
-cl
-v main.py
-python3.7 main.py 
-cl
-v main.py
-python3.7 main.py 
-v main.py
-python3.7 main.py 
-cd Coding/16_Matplotlib/
-löa
-la
-v main.py 
-v plot.py 
-pbar
-ht
-killall firefox
-killall firefox
-killall firefox
-killall polybar
-ht
-la
-la
-cl
-cd Do
-cd Downloads/
-r
-la
-cd Pictures/
-la
-cd ..
-la
-cd Public/
-la
-cl
-protonvpn-cli --connect
-sudo protonvpn-cli --connect
-sudo protonvpn-cli --disconnect
-cd Do
-cd Documents/
-la
-cl
-mv übung\ wenn.ods übung_wenn.ods 
-la
-cl
-v Geschenkeliste.md
-clc
-cl
-cd
-cl
-la
-cd Downloads/
-la
-frm wallpaper_*
-la
-r
-cd Downloads/
-la
-mkdir wps
-mv wallpaper_* wps/
-la
-mv wps/ /usr/share/backgrounds/
-sudo mv wps/ /usr/share/backgrounds/
-la
-cl
-man nitrogen 
-conf
-man nitrgoen
-man nitrogen
-conf
-cl
-cd /usr/share/backgrounds/
-la
-r
-cd /usr/share/backgrounds/
-la
-conf
-sudo ranger
-la
-cd /usr/share/backgrounds/
-la
-frm wps/
-la
-sudo rm -r wps/
-la
-cl
-cd
-la
-cl
-cd Downloads/
-la
-cl
-la
-cc
-la
-cd Pictures/
-la
-cl
-feh *
-feh wps*
-feh wp*
-la
-wm 1p14.jpg wp14.jpg
-la
-mv 1p14.jpg wp14.jpg
-la
-cl
-convert wp2.png -o wp2.jpg
-convert wp2.png wp2.jpg
-la
-frm wp2.png 
-la
-cl
-mkdir wallpaper
-l
-la
-mv wp* wallpaper/
-la
-mv wallpaper/ /usr/share/backgrounds/
-sudo mv wallpaper/ /usr/share/backgrounds/
-la
-cl
-ls /usr/share/backgrounds/
-ls /usr/share/backgrounds/wallpaper/
-cd Pictures/
-la
-sudo mv wp* /usr/share/backgrounds/wallpaper/
-la
-cl
-sudo rm /usr/share/backgrounds/wallpaper/wp4.jpg 
-sudo rm /usr/share/backgrounds/beach*
-sudo rm /usr/share/backgrounds/Nature/
-sudo rmdir /usr/share/backgrounds/Nature/
-sudo rm /usr/share/backgrounds/wallpaper/wp21.jpg 
-sudo mv /usr/share/backgrounds/wallpaper/wp6.jpg 
-sudo mv ~/wp6.jpg /usr/share/backgrounds/wallpaper/wp6.jpg 
-ls /usr/share/backgrounds/
-feh /usr/share/backgrounds/polarlightsspace.jpg 
-feh /usr/share/backgrounds/icestone.jpg 
-frm /usr/share/backgrounds/icestone.jpg 
-sudo frm /usr/share/backgrounds/icestone.jpg 
-sudo rm /usr/share/backgrounds/icestone.jpg 
-cd /usr/share/backgrounds/
-la
-r
-sudo rm /usr/share/backgrounds/polarlightsspace.jpg 
-ls /usr/share/backgrounds/wallpaper/
-la
-cd Pictures/
-la
-cd ..
-la
-cc
-cc
-cd Downloads/
-la
-cl
-r
-cd DOw
-cd Downloads/
-la
-sudo mv wp* /usr/share/backgrounds/wallpaper/
-la
-cl
-ls
-cl
-ls /root
-sudo ls /root
-sudo ls -a /root
-sudo ls -a /root/co
-sudo ls -a /root/.config
-sudo ls -a /root/.config/ranger
-sudo rm -rf /root/.config/ranger
-sudo ln -s /home/henning/.config/ranger /root/.config/ranger
-sudo ls -a /root/.config/ranger
-sudo ranger /usr/share/backgrounds/wallpaper/
-sudo ranger /usr/share/backgrounds/wallpaper/
-sudo ranger /usr/share/backgrounds/wallpaper/
-sudo ranger /usr/share/backgrounds/wallpaper/
-sudo ranger /usr/share/backgrounds/wallpaper/
-sudo ranger /usr/share/backgrounds/wallpaper/
-la
-cl
-sudo rm /usr/share/backgrounds/wallpaper/wp3*
-sudo rm /usr/share/backgrounds/wallpaper/wp40.jpg 
-la
-cl
-ila
-cl
-cd /usr/share/
-cd awesome/
-la
-cd themes/
-la
-cd xresources/
-la
-cc
-cc
-cc
-cc
-cc
-cl
-brc
-locate *.lua
-ht
-killall polybar
-repbar
-pstre
-pstree
-la
-cd Dow
-cd Downloads/
-la
-cl
-mv megan_fox_14-wallpaper-1920x1080.jpg ps1.jpg
-feh ps1.jpg 
-p -Syu
-p -R palemoon
-p -R palemoon*
-p -R palemoon-bin
-pq
-cl
-p -Syuu
-p -Syuu
-la
-cl
-cl
-la
-cd .protonvpn-cli/
-la
-sudo cd .protonvpn-cli/
-la
-cl
-cd Pictures/
-la
-cd Wallpapers/
-la
-cd old/
-la
-cl
-cd
-cc
-c
-cc
-cc
-cc
-cl
-la
-c
-cl
-cd Do
-cd Downloads/
-la
-feh ps1.jpg 
-gimp ps1.jpg 
-co
-cl
-conf
-pbar
-sudo pacman -Syu
-cowsay
-cl
-p -S cowsay
-cl
-cowsay
-cl
-cowsay "Lets imprison women and minorites"
-cl
-fortune
-cl
-p -S fortune
-p -Ss fortune
-p -S fortune-mod
-fortune
-cl
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-cmatrix
-rig
-p -S rig
-p -Ss rig
-cd Downloads/
-feh ps1.jpg 
-gimp ps1.jpg 
-feh ps1.jpg 
-la
-cl
-sudo pacman -Syyu
-lc
-cl
-sl
-sl
-cl
-sl
-fortune | lolcat | cowsay
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-cl
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-fortune | cowsay 
-cl
-v
-ht
-killall polybar
-ht
-la
-cl
-cd Schule/Informatik/
-la
-cl
-cd
-cd Doc
-cd Documents/
-la
-lowriter Einführung_Wenn.odt 
-killall lowriter
-compton
-xprop
-xprop
-killall lowriter
-ht
-killall urxvt
-killall urxvtc
-killall urxvtc
-killall urxvt
-killall urxvt
-ht
-lsblk
-cd /run/media/henning/Elements/
-la
-cl
-la
-lla
-cl
-ht
-cl
-la
-cl
-cd scripts/
-la
-mkdir stundenplan
-cd stundenplan/
-touch wba.txt
-cd scripts/
-la
-cc
-cl
-conf
-pbar
-cl
-cd .config/
-la
-cd polybar/
-la
-cc
-cc
-la
-cl
-pbar
-cl
-cd .i3/
-l
-la
-cp schedule.py ~/scripts/stundenplan.py
-cc
-cd scripts/
-la
-v stundenplan.py 
-vrc
-transparent 
-v
-la
-cd scripts/
-la
-cd stundenplan/
-la
-cd scripts/
-la
-cd stundenplan/
-la
-v wba.txt 
-mv ../stundenplan.py 
-mv ../stundenplan.py ./
-la
-v stundenplan.py 
-cl
-python3.7 stundenplan.py 
-la
-lla
-chmod +r wba.txt 
-chmod +w wba.txt 
-chmod +x wba.txt 
-la
-cl
-la
-cl
-python3.7 stundenplan.py 
-v stundenplan.py 
-python3.7 stundenplan.py 
-v stundenplan.py 
-python3.7 stundenplan.py 
-python3.7 stundenplan.py 
-cl
-cd scripts/
-la
-cd stundenplan/
-la
-cd Coding/
-la
-cd 07__Files/
-la
-v files.py 
-la
-cl
-cd .
-cc
-c
-c
-cc
-la
-cd 01__Mathematics/
-la
-v cpu-bench.py 
-la
-v fibonacci.py 
-cl
-la
-v primes.py 
-sp
-sp
-brc
-sp
-v scripts/stundenplan/stundenplan.py 
-sp
-cl
-sp
-cl
-cd Downloads/
-la
-mv WhatsApp\ Image\ 2018-11-27\ at\ 20.46.42.jpeg henning_g_2.jpeg
-la
-mv henning_g_2.jpeg ~/Pictures/Abschluss/
-la
-cc
-cd Pictures/Abschluss/
-la
-cp henning_g_2.jpeg henning_g_2.jpg
-feh henning_g_2.jpg
-rm henning_g_2.jpeg 
-la
-feh henning_g_2.jpg 
-feh henning_g_1.jpg 
-cl
-sp
-killall nm-applet 
-pbar
-ht
-solarized 
-ht
-sl
-cl
-fortune | lolcat | cowsay 
-fortune | lolcat | cowsay 
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-cl
-v
-transparent 
-v Gedicht 
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-cd Schule/De
-cc
-cd Schule/
-a
-la
-mkdir Deutsch
-cd Deutsch/
-la
-cl
-articke
-article 
-off
-protonvpn-cli --connect
-sudo protonvpn-cli --connect
-sudo protonvpn-cli --disconnect
-cd Schule/Geschichte/
-la
-v vietman.md
-cd Schule/Geschichte/
-pandoc vietman.md -o vietman.html
-firefox vietman.html 
-frm vietman.html 
-pandoc vietman.md -o vietman.pdf
-evince vietman.pdf 
-cl
-man sudo
-cl
-fortune | cowsay
-fortune | lolcat
-cl
-p -S lolcat
-cl
-echo Moritz ist dumm
-cl
-la
-frm Kubakrise.log Kubakrise.aux Kubakrise.html 
-la
-cl
-v vietman.
-v vietman.md 
-pandoc vietman.md -o vietman.pdf
-evince vietman.pdf 
-cl
-lc
-la
-cl
-p -S
-p -h
-p -Qs
-lc
-cl
-l
-cl
-la
-cl
-la
-cl
-man qtile
-info qtile
-info qtile
- l
-cl
-cd .config/qtile/
-la
-cl
-la
-v config.py 
-exit
-killall qtile
-la
-cl
-solarized 
-v
-asdf
-cl
-brc
-transparent 
-v
-brc
-soar
-soa
-yeet
-kill henning
-n
-cl
-pacman
-cl
-p -Ss game
-p -Ss game | grep installed
-libgme
-cl
-cl
-sp
-cl
-cd scripts/
-la
-cd stundenplan/
-al
-cl
-l
-cl
-l
-cl
-l
-cl
-la
-chmod 777 wbb.txt 
-la
-la
-cl
-chmod -x wb*
-la
-lla
-chmod 666 wb*
-la
-lla
-cl
-v wba.txt 
-sp
-cl
-sp
-cd Schule/
-la
-cd PB/
-la
-v voltaire.tex 
-cl
-sp
-cd scripts/
-cd stundenplan/
-v wbb.txt 
-cl
-s
-so
-sp
-cl
-sp
-cl
- la
-cat wba.txt 
-cat wbb.txt 
-cl
-cd
-cc
-cc
-cd Schule/Geschichte/
-la
-cl
-v vietnam.tex
-la
-cl
-ht
-v
-l
-cl
-la
-cl
-v
-v
-v 
-v
-cl
-v
-conf
-cl
-v
-la
-cl
-nitrogen --set-auto --random /usr/share/backgrounds/ 
-compton
-conf
-cl
-v .config/qtile/config.py 
-killall qtile
-pbar
-cl
-la
-cl
-~/scripts/repbar.sh 
-la
-cl
-cd scripts/
-la
-cl
-löa
-la
-cö
-lc
-cl
-v repbar.sh 
-repbar
-repbar 
-cl
-ht
-conf
-cl
-cd scripts/
-la
-cl
-la
-cl
-la
-sp
-cl
-l
-la
-cl
-cd i3gaps/
-la
-cl
-cd scripts/
-la
-cd dmenu/
-la
-v shutdown.sh 
-cd scripts/
-la
-ll
-acl
-/home/henning/scripts/renm.sh 
-cd sc
-cd scripts/
-al
-la
-cp repbar.sh renm.sh
-v renm.sh 
-man nm-applet 
-NetworkManager 
-man NetworkManager 
-cl
-conf
-ht
-conf
-p -Syyu
-i3-msg resize set
-i3-msg resize set 100 100
-i3-msg resize set 100 100
-i3-msg resize set 1400 4000
-la
-cl
-i3-msg resize set 800 800
-i3-msg resize set 800 800
-i3-msg info
-conf
-i3-msg resize set 1536 810
-i3-msg move position center
-i3-msg resize set 1152 810
-i3-msg resize set 1152 540
-cl
-conf
-cl
-la
-cl
-cd sc
-cd scripts/
-la
-v reseti3.sh 
-conf
-cd ../.i3/
-v
-v config 
-conf
-i3-msg move position center
-i3-msg restart
-cd scripts/
-la
-v reseti3.sh 
-conf
-cd scripts/
-la
-v re
-v repbar.sh 
-la
-conf+
-conf
-brc
-brc
-drc
-brc
-pbar+
-pbar
-cl
-dfiles commit -a
-cl
-dfiles push
-cd scripts/
-la
-cc
-a
-la
-cl
-cd .config/
-la
-cd dunst/
-la
-cl
-v dunstrc 
-cl
-cp dunstrc dunstrc_backup
-v dunstrc
-cl
-drc
-drc
-dunst 
-drc
-drc
-cl
-killall dunst
-dunst 
-dunst 
-cl
-la
-cl
-drc
-drc
-drc
-cl
-drc
-drc
-drc
-drc
-cl
-drc
-drc
-killall dunst 
-dunst 
-drc
-drc
-drc
-cl
-killall dunst 
-dunst
-drc
-dunst
-killall dunst
-dunst
-drc
-killall dunst
-dunst 
-drc
-killall dunst; dunst; drc
-drc
-drc
-drc
-killall dunst; dunst; drc
-drec
-cl
-drc
-killall dunst 
-dunst 
-drc
-killall dunst 
-dunst &
-cl
-drc
-killall dunst 
-dunst &
-cl
-drc
-cl
-brc
-drc
-cl
-drc
-cl
-cl
-killall dunst
-ck
-cl
-dunst
-killall dunst
-dunst
-notify-send "kajsdhkajlshdlkajsdh asdh akjshdkjhahsd 
-asdjhasgdjhasgd 
-asdjhaghsjkdhgas"
-cl
-killall dunst 
-dunst
-cl
-notify-send "kajsdhkajlshdlkajsdh asdh akjshdkjhahsd 
-askjhghasjkd
-asdiuashdk"
-cl
-drc
-killall dunst 
-dunst
-drc
-cl
-la
-cd .screenlayout/
-la
-cc
-cd .screenlayout/
-cl
-cc
-la
-cd .scripts
-la
-cl
-cd du
-cd dunst
-lla
-cl
-cc
-cd .config/
-la
-cd dunst/
-öa
-la
-v dunstrc
-cl
-solarized 
-v
-cl
-killall dunst
-dunst 
-killall dunst
-dunst 
-cd .config/
-cd dunst/
-v dunstrc
-killall dunst 
-dunst 
-cd .config/
-la
-cd dunst/
-lka
-la
-v dunstrc
-spacegray 
-v dunstrc
-spacegray 
-v dunstrc
-cl
-killall dunst 
-dunst 
-cl
-v dunstrc
-killall dunst 
-dunst 
-v dunstrc
-killall dunst 
-dunst 
-v dunstrc
-cl
-killall dunst 
-dunst 
-v dunstrc
-killall dunst 
-dunst 
-
-
-v dunstrc
-killall dunst 
-dunst 
-v dunstrc
-cl
-killall dunst 
-dunst 
-v dunstrc
-killall dunst 
-dunst 
-killall dunst 
-dunst 
-killall duns
-killall dunst
-v dunstrc
-cl
-dunst 
-v dunstrc
-dunst 
-cl
-killall dunst 
-v dunstrc
-cl
-dunst 
-killall dunst 
-dunst 
-cl
-transparent 
-la
-cl
-whoami
-cl
-conf
-i3-msg restart
-glava -d
-glava 
-glava 
-glava 
-glava 
-cl
-glava -d
-man head
-head .bashrc
-.bashrc | seq 11q
-.bashrc | sed 11q
-cat .bashrc | sed 11q
-cl
-v
-cl
-p -Ss visualizer
-projectm
-cl
-p -S projectm
-projectm
-cl
-pm
-cl
-projectM-pulseaudio 
-sudo projectM-pulseaudio 
-cl
-p -R projectm
-pq
-cl
-la
-pq
-cl
-p -Syyu
-cl
-p -Ss visualizer
-p -S glava
-glava
-cl
-man glava
-glava -h
-glava
-glava -d
-cl
-la
-glava -h
-cl
-cd .config/
-la
-cl
-locate glava
-cl
-updatedb
-sudo updatedb
-cl
-cl
-locate glava
-v /etc/xdg/glava/env_i3.glsl 
-cl
-cl
-glava --copy-config
-la
-cd glava/
-la
-glava radial
-glava circle
-cl
-la
-v wave
-cl
-cd
-cc
-cc
-cl
-glava -h
-glava -r circle
-glava -e circle
-glava -b circle
-glava circle
-löpa
-cl
-cd .config/
-la
-cd glava/
-la
-la
-v rc.glsl 
-glava -d
-v rc.glsl 
-killall glava
-conf
-cl
-i3-msg restart
-ht
-killall compton
-compton
-neofetch
-cl
-cmatrix
-cl
-ht
-cd .config/glava/
-la
-v rc.glsl 
-p -S cava
-p -Ss cava
-p -Ss music visualizer
-p -Ss music
-cl
-p -Ss visualizer
-sudo pacman -S base-devel fftw ncurses alsa-lib iniparser pulseaudio
-cl
-pamac build cava
-cava 
-cava
-cava
-cava
-cava
-cava
-cl
-urxvt -hg
-urxvt -h
-cl
-man urxvt
-cava
-cava
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-cl
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-cava -p ~/.config/cava/config 
-urxvt -fn "xft:DejaVu Sans Mono:pixelsize=1"
-urxvt -fn "xft:DejaVu Sans Mono:pixelsize=5"
-urxvt -fn "xft:DejaVu Sans Mono:pixelsize=8"
-urxvt -fn "xft:DejaVu Sans Mono:pixelsize=20"
-urxvt -fn "xft:DejaVu Sans Mono:pixelsize=40"
-urxvtc -fn "xft:DejaVu Sans Mono:pixelsize=40"
-cl
-cd .config/cava/
-la
-v config 
-cl
-pamac 
-pamac remove cava
-cl
-cc
-cd .config/
-la
-frm cava/
-la
-cl
-cd .config/glava/
-la
-v rc.glsl 
-pamac search visualizer
-ls .config/glava/
-v rofi.conf 
-cd .config/glava/
-v radial
-cl
-pamac search visualizer
-cd .config/glava/
-v rc.glsl 
-la
-v 
-v 
-v rc.glsl 
-v rc.glsl 
-v rc.glsl 
-p -Ss spotify
-man spotify
-cl
-spotify -h
-p -S portaudio
-pamac build libspotify
-cl
-p -S portaudio
-git clone ent version 0.5.0
-git clone https://github.com/fabiofalci/sconsify.git 
-cd sc
-cd sconsify/
-la
-cd sconsify/
-al
-ka
-cl
-la
-cc
-la
-cd spotify/
-la
-cc
-cc
-la
-cl
-sudo updatedb
-locate sconsify
- cd sconsify/sconsify/
-la
-sudo chmod +x sconsify
-lla
-cl
-cc
-la
-cd sc
-cd sconsify/
-la
-cd rpc/
-la
-cc
-la
-cd spotify/
-la
-cc
-cd ui/
-öa
-la
-cl
-la
-cl
-cc
-la
-./sconsify/
-./sconsify
-cl
-locate sconsify
-/home/henning/sconsify/sconsify
-la
-cl
-ka
-ka
-la
-cc
-cd sc
-cd sconsify/
-la
-sudo make
-make
-make install
-cl
-sudo find * / | grep sconsify
-cl
-la
-cc
-la
-frm sconsify/
-p -R portaudio
-cl
-pq
-cl
-la
-cl
-sudo pacman -Rs $(pacman -Qqdt)
-sudo pacman -Rsn
-sudo pamac
-cl
-sudo pamac
-cl
-pack200
-pacmc
-pacmd
-pacman
-pacmc
-pacui
-sudo pacui
-cl
-man i3exit blurlock
-man i3exit 
-i3lock blurlock
-man i3lock 
-i3lock -b 5
-man i3lock 
-i3lock -B 5
-i3lock -B 5
-i3lock -B 10
-cl
-v .bash_history 
-v .bash_history 
-conf
-v .bash_history 
-conf
-v .bash_history 
-conf
-v .bash_hs
-v .bash_history 
-cl
-neofetch
-cl
-sv /etc/lightdm/lightdm.conf 
-sv /etc/lightdm/slick-greeter.conf 
-ls /usr/share/backgrounds/
-p -Ss qute
-p -S qutebrowser
-cl
-qutebrowser 
-conf
-la
-cl
-cd scripts/
-la
-v re
-cl
-v repbar.sh 
-cl
-killal i3gaps/
-killal i3gaps
-killal i3
-killall i3
-off
-cl
-zsh
-cl
-la
-v .dmrc 
-cl
-la
-clk
-conf
-cl
-la
-cl
-solarized 
-v
-pbar
-sp
-sp
-sp
-lc
-cl
-conf
-pbr
-pbra
-pbar
-cl
-sp
-lc
-cl
-cd scripts/stundenplan/
-la
-v stundenplan.py 
-cl
-v
-cl
-la
-cl
-pbar
-cl
-ht
-cl
-brc
-cl
-ht
-cl
-transparent 
-ht
-cl
-solarized 
-ht
-cl
-pbar
-cl
-brc
-cl
-cd Downloads/wallpapers/
-la
-soa
-cd wallies/
-la
-frm 850\ Amazing\ Nature\ Full\ HD\ Wallpapers\ 1920\ X\ 1080\ px\ \[40\ Sets\].rar 
-la
-cl
-cc
-cc
-cd Coding/12_Factorial/
-la
-v output 
-frm output 
-la
-cl
-cc
-cd Downloads/
-la
-cd ISO/
-la
-frm archlinux-2018.11.01-x86_64.iso 
-la
-cl
-cc
-cc
-cd Nature/
-la
-cc
-cl
-ls /usr/share/backgrounds/
-la
-cc
-cl
-ls /usr/share/backgrounds/wallpaper/
-cl
-la
-cl
-frm Nature/
-sync; echo 1 > /proc/sys/vm/drop_caches
-sudo sync; echo 1 > /proc/sys/vm/drop_caches
-sudo sync; sudo echo 1 > /proc/sys/vm/drop_caches
-la
-cl
-lla
-cl
-la
-cl
-soa
-soa
-soa
-cl
-cd scripts/
-la
-touch clearcache.sh
-v clearcache.sh 
-chmod +x clearcache.sh 
-la
-cl
-sudo ./clearcache.sh 
-cc
-soa
-free -m
-cl
-ht
-cl
-lka
-a
-cl
-la
-mkdir .spotify
-soia
-soa
-cd .cache/
-soa
-cl
-cd vim/swap/
-la
-cl
-cc
-frm vim/*
-la
-+v
-v
-cl
-soa
-cl
-soa
-cd .local/share/
-la
-soa
-cl
-calcurse
-p -Ss calcurser
-p -Ss calcurse
-p -S calcurse
-cl
-calcurse
-cö
-pbar
-xbacklight -h
-xbacklight -
-xbacklight -get
-conf
-pbar
-cl
-pbar
-p -Syuu
-p -Syuu
-p -Syyu
-cl
-i3-msg restart
-cl
-cl
-cd .i3/
-la
-cl
-c
-cc
-cd .config/polybar/
-la
-v spotify 
-cd .config/pooy
-cd .config/polybar/
-la
-spotify 
-cl
-./spotify 
-./spotify 2>/dev/null
-conf
-i3-msg restart
-conf
-pnar
-pbar
-cl
-cd .spotify/
-la
-cd 01/
-la
-cc
-la
-cl
-a
-l
-cl
-l
-cl
-la
-v index.dat 
-cl
-cc
-git clone https://github.com/
-git clone https://github.com/ritiek/spotify-downloader.git
-cd spotify-downloader/
-la
-cl
-la
-cd spotdl/
-la
-cl
-loa
-cl
-l
-cl
-l
-cl
-la
-python3 spotdl.py --song "Night moves"
-python3.7 spotdl.py --song "Night moves"
-sudo python3.7 spotdl.py --song "Night moves"
-pip3 install version
-cl
-pip3 install __version__
-pip3 install 
-pip3 install 
-pip3 install version
-sudo pip3 install version
-cl
-cd scripts/dmenu/
-la
-v shutdown.sh 
-cl
-p -S dmenu
-pamac search dmenu
-cl
-cl
-pgrep
-pgrep --help
-cl
-pgrep spotidy
-pgrep spotify
-pgrep --help
-pgrep --help
-pgrep spotify
-pgrep spotify
-pgrep spotify
-pgrep spotify
-cl
-pgrep -P spotify
-pgrep -P spotify
-pgrep -p spotify
-cl
-i3-sensible-pager 
-i3-sensible-editor 
-i3-dmenu-desktop 
-i3-dmenu-desktop 
-i3-dmenu-desktop 
-i3-dmenu-desktop 
-i3-dmenu-desktop 
-cl
-cd .config/polybar/
-l
-a
-cl
-l
-cl
-l
-cl
-l
-cl
-la
-v spotify 
-pbar
-i3-dmenu-desktop -h
-i3-dmenu-desktop --dmenu
-i3-dmenu-desktop
-cl
-l
-a
-cl
-l
-cl
-p -Ss weather
-p -R jq
-pq
-cl
-pq
-cl
-man pq
-cl
-p -Ss weather
-p -S gnome-weather
-cl
-gnome-weather 
-man gnome-weather
-cl
-gnome-weather -h
-gnome-weather
-cl
-p -R gnome-weather
-pq
-cl
-brc
-pq
-cl
-weather
-cl
-p -Ss weather
-cl
-p -Ss weather
-cl
-apropos weather
-apropos lib
-cl
-la
-cl
-p -Ss weather
-p -S libmateweather
-apropos weather
-cl
-p -R libmateweather
-pq
-cl
-pq
-cl
-curl wttr.in/Berlin
-cl
-pamac build weather-icons
-pamac build weathericons
-pamac build ttf-weather-icons
-v /tmp/xa-UAHCTZ/city.list.json
-cl
-git clone https://github.com/kamek-pf/polybar-forecast.git
-cd polybar-forecast/
-öa
-clö
-la
-v Cargo.toml 
-cd src/
-a
-cl
-l
-acl
-co
-cl
-l
-cl
-la
-v config.rs 
-cl
-la
-v main.rs 
-v weather.rs 
-cl
-cc
-la
-v config.toml.example 
-cl
-p -S cargo
-cargo build --release
-la
-cargo build --release
-cl
-la
-cc
-ka
-cl
-la
-frm weather
-frm weather*
-öa
-cl
-la
-frm polybar-forecast/
-la
-cl
-la
-cl
-p -R rust
-pq
-cl
-solarized 
-v
-spacegray 
-v
-pbar
-cl
-pbnar
-v
-pbar
-cl
-la
-cl
-pbar
-cl
-cd .fonts/
-la
-v fonts.dir 
-cl
-la
-cl
-cc
-pamac remove ttf-weather-icons
-cl
-pbar
-cl
-v
-vrtc
-vrc
-v
-solarized 
-v
-cl
-p
-pbar
-cl
-la
-cl
-cd .vim/
-la
-cd bundle/
-öa
-la
-frm vim-airline/
-la
-ck
-cl
-v
-cl
-python3.7
-cl
-calcurse
-cl
-sp
-cl
-cd scripts/stundenplan/
-la
-cat wbb.txt >> wba.txt 
-v wba.txt 
-v stundenplan.py 
-cl
-la
-cl
-v stundenplan.py 
-cl
-la
-frm wbb.txt 
-mv wba.txt wbc.txt
-sp
-cl
-sp
-cl
-v stundenplan.py 
-sp
-cl
-v stundenplan.py 
-sp
-cl
-v stundenplan.py 
-sp
-cl
-v stundenplan.py 
-cl
-sp
-cl
-la
-cl
-cc
-cd .config/polybar/
-la
-cc
-la
-cl
-locate schedule
-cd .i3/
-la
-v schedule.py 
-cl
-pbar
-cl
-pbar
-cl
-vrc
-solarized 
-spacegray 
-v
-cl
-pbar
-pbar
-solarized 
-pbr
-pbar
-cl
-pamc
-cl
-pacmd
-pacui
-p -S gnome
-p -S xfce4
-p -S kde
-p -S kde-plasma
-p -S xfce
-p -S xfce4
-la
-cl
-ht
-v
-cl
-compton
-ifconfig
-if
-cl
-iwconfig 
-iwconfig 
-killall polybar
-polybar top
-polybar default
-pamac search material icons
-pamac build ttf-material-icons
-cl
-p -Ss noto
-p -S noto-fonts
-cl
-p -S font-awesome
-p -Ss ttf-font-awesome
-p -Ss ttf-font-awesome otf-font-awesome
-cl
-p -Ss material
-pbar
-off
-cl
-killall xfce
-killall xfce4
-killall xfce*
-ht
-cl
-killall Xorg 
-sudo killall Xorg 
-pacui
-cl
-sudo pacman -S mtools os-prober
-grub-install /dev/sda
-update-grub 
-sudo grub-install /dev/sda
-update-grub 
-sudo update-grub 
-cl
-pbar
-pbar
-cl
-pacui
-pacui
-cl
-pacui
-cl
-pbar
-killall polybar
-polybar default
-cl
-killall polybar
-polybar default
-cl
-apropos font
-cl
-fc-list 
-cl
-fc-list | grep awesome
-fc-list | grep Awesome
-cl
-la
-
-fc-list | grep Material
-fc-list | grep Material
-cl
-pacman -Ss font awesome
-p -R ttf-font-icons
-p -S ttf-font-awesome
-cl
-fc-cache -h
-fc-cache -f
-fc-cache
-cl
-pacui
-cl
-fc-list 
-fc-list | grep Awesome
-fc-list | grep awesome
-cl
-pamac build otf-font-awesome-5-free
-pbar
-fc-llist
-fc-list
-fc-list | grep Awesome
-killall polybar
-polybar default
-conf
-$ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-pbar
-cl
-cd .config/pl
-cd .config/polybar/
-kla
-cl
-la
-cl
-cp config config_backup
-v config
-cl
-la
-cl
-v config
-v config_backup 
-v config
-cl
-la
-cl
-cd .config/polybar/
-la
-cl
-dfiles commit -a
-dfiles push
-cl
-pbar
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-pacui
-rc
-brc
-cd scripts
-la
-cd dmenu/
-la
-cl
-v shutdown.sh 
-cl
-compton
-cd scripts/
-la
-v clearcache.sh 
-v renm.sh 
-v repbar.sh 
-v transparent.sh 
-cd scripts/
-la
-v battery.sh 
-apci -b
-cl
-apropos battery
-acpi -b
-man sed
-cd scripts/
-l
-cl
-l
-cl
-la
-touch battery.sh
-v battery.sh 
-v battery.sh 
-chmod +x battery.sh 
-./battery.sh 
-v battery.sh 
-./battery.sh 
-v battery.sh 
-./battery.sh 
-v battery.sh 
-./battery.sh 
-v battery.sh 
-cd sdc
-cd scripts/
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-echo abcd123 | sed 's/\([a-z]*\).*/\1/'
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-./battery.sh 
-acpi
-acpi
-man acpi
-acpi -v
-acpi
-man acpi
-acpi -V
-cl
-cd Schule/Geschichte/
-pdflatex vietnam.tex 
-cd Schule/Geschichte/
-pdflatex vietnam.tex 
-pdflatex vietnam.tex 
-cd Schule/Geschichte/
-la
-v vietnam.tex 
-cd Schule/GEs
-cd Schule/Geschichte/s
-cd Schule/Geschichte/
-v vietnam.pdf 
-v vietnam.tex 
-v vietnam.tex 
-cl
-cd Schule/Geschichte/
-pdflatex vietnam.tex 
-evince vietnam.pdf 
-cl
-la
-r
-evince Schule/Geschichte/vietnam.pdf 
-evince Schule/Geschichte/vietnam.pdf 
-evince Schule/Geschichte/vietnam.pdf 
-cd Schule/Geschichte/
-transparent 
-sp
-v vietnam.tex 
-cl
-asdf
-cl
-asdfasdfsadfsadf
-cl
-brc
-ska
-cl
-soa
-frm .cargo/
-cd .local/
-la
-cl
-cd share/
-la
-cd fonts/
-a
-cl
-l
-cl
-la
-v .uuid 
-ck
-cl
-cc
-la
-qutebrowser
-cl
-pacui
-cl
-la
-frm qutebrowser/
-cc
-cc
-la
-cl
-sudo updatedb
-cl
-locate qutebrowser
-frm .cache/qutebrowser/
-la
-cl
-frm Gedicht 
-la
-cl
-cd Schule/Geschichte/
-pdflatex vietnam.tex 
-evince vietnam.pdf 
-soa
-p -R steam
-pacui
-cl
-la
-soa
-frm .local/share/Steam/
-cl
-soa
-soar
-cd /usr/
-la
-cc
-cl
-cd /usr/
-soa
-cd .sh
-cd .share
-soa
-cl
-cc
-cl
-cc
-cc
-cl
-vrc
-cd .vim/
-la
-cd src/
-la
-v remaps.vim 
-cl
-vrc
-cl
-cmatrix
-fortune | cowsay
-cl
-starwars
-cl
-gparted
-sudo gparted
-killlall compton
-killall compton
-starwars
-man bash
-shopt 
-tput civis
-cl
-starwars
-tput civis
-starwars
-starwars
-cd Schule/Geschichte/
-la
-v vietnam.tex 
-cl
-tput
-tput clear
-tput
-tput reset
-man tput
-cl
-p -Ss screen
-p -Ss screen gnu
-p -Ss gnu screen
-pacui
-ht
-neofetch
-v
-cl
-vr
-xres
-transparent 
-cl
-xres
-transparent 
-cl
-xres
-cl
-
-xres
-cl
-transparent 
-cd Schule/Geschichte/s
-cd Schule/Geschichte/
-cl
-la
-cl
-pandoc pro_kon_stkr.md -o pro_kon_stkr.pdf
-evince pro_kon_stkr.pdf 
-cd Schule/Geschichte/
-pandoc pro_kon_stkr.md -o pro_kon_stkr.html
-firefox pro_kon_stkr.html 
-v pro_kon_stkr.
-v pro_kon_stkr.md 
-sp
-cd Schule/Geschichte/
-evince por
-evince pro_kon_stkr.pdf 
-cl
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
-top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
-top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
-cl
-mpstat | awk '$12 ~ /[0-9.]+/ { print 100 - $12"%" }'
-uptime
-uptime
-uptime
-uptime
-uptime
-uptime
-uptime
-uptime
-uptime
-cl
-watch -n .3 uptime
-cd Schule/Geschichte/
-pandoc pro_kon_stkr.md -o pro_kon_stkr.pdf
-evince pro_kon_stkr.pdf 
-cl
-pbar
-cmatrix
-cl
-fortune | cowsay
-fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear |fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-clear; fortune | cowsay
-off
-conf
-cl
-cl
-cmatri
-apropos cmatrix
-cmatrix
-cmatrix
-cl
-la
-cl
-conf
-xprop
-man sed
-cwecho acpi.txt 
-cat acpi.txt 
-cl
-v regex
-cl
-acpi -b
-acpi -b | sed -r  '\d\+
-acpi -b | sed -r  '\d\+'
-acpi -b | sed -r  '(\d)\+'
-acpi -b | sed -r  '\(\d\)\+'
-acpi -b | sed -r  '[0-9]\+%'
-acpi -b | sed -r '[0-9]\+%'
-acpi -b | sed -e '[0-9]\+%'
- 
-acpi -b | sed -E '[0-9]\+%'
-acpi -b > acpi.txt
-sed -E '[0-9]\+%' acpi.txt 
-sed -E '\[0-9\]\+%' acpi.txt 
-sed --expression='\[0-9\]\+%' acpi.txt 
-sed --expression='(\[0-9\]\+)%' acpi.txt 
-sed --expression='\(\[0-9\]\+\)%' acpi.txt 
-sed '\\[0-9\]\+%\' acpi.txt 
-sed '\\[0-9\]\+%\!d' acpi.txt 
-sed '\\[0-9\]%\!d' acpi.txt 
-sed '\\[0-9\]*%\!d' acpi.txt 
-sed '\\[0-9\]*%\!d' acpi.txt 
-sed 's/[^\d+%]// acpi.txt 
-sed 's/[^\d+%]//' acpi.txt 
-sed 's/[^\d+%]//' acpi.txt 
-sed 's/[^\d+%]//' acpi.txt 
-sed 's/[^\d+%]//g' acpi.txt 
-sed 's/[^\d+%]//g' acpi.txt 
-sed 's/[^[0-9]+%]//g' acpi.txt 
-sed 's/[^(\d+%)]//g' acpi.txt 
-sed 's/[^(\d+)%]//g' acpi.txt 
-sed 's/[^\d+]//g' acpi.txt 
-sed 's/[^\d]//g' acpi.txt 
-sed 's/[^\d]/' acpi.txt 
-sed 's/[^\d]//' acpi.txt 
-sed 's/^\d//' acpi.txt 
-sed 's/^[0-9]//' acpi.txt 
-sed 's/^[0-9]//g' acpi.txt 
-sed 's/^[0-9]//g' acpi.txt 
-sed 's/^[0-9]//g' acpi.txt 
-sed 's/^[0-9]//g' acpi.txt 
-sed 's/[^0-9]//g' acpi.txt 
-sed 's/[^0-9]//g' acpi.txt 
-sed 's/[^0-9+%]//g' acpi.txt 
-sed 's/[^0-9][^\%]//g' acpi.txt 
-sed 's/[^0-9][^%]//g' acpi.txt 
-sed 's/[^0-9]//g' acpi.txt 
-sed 's/[^0-9+\%]//g' acpi.txt 
-sed 's/[^[0-9]+%//g' acpi.txt 
-sed 's/[^[0-9]+%]//g' acpi.txt 
-sed 's/[0-9]//g' acpi.txt 
-sed 's/Battery 0://g' acpi.txt 
-sed 's/Battery 0\b://g' acpi.txt 
-sed 's/ Battery 0\b://g' acpi.txt 
-sed 's/\bBattery 0\b://g' acpi.txt 
-sed 's/Battery 0://g' acpi.txt 
-sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g'
-sed 's/Battery 0://g' acpi.txt | sed 's/^Discharging//g'
-sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging[//g'
-sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g'
-sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g' | sed 's/raining//g
-sed 's/Battery 0://g' acpi.txt | sed 's/[^Discharging]//g' | sed 's/raining//g'
-sed 's/Battery 0://g' acpi.txt 
-cl
-sed 's/\w//g' acpi.txt 
-sed 's/\w+//g' acpi.txt 
-sed 's/\d{2,3}%//g' acpi.txt 
-sed 's/\d{2,3}%//' acpi.txt 
-sed 's/\d{2,3}%/' acpi.txt 
-sed 's/\d{2,3}%//g' acpi.txt 
-sed -r 's/\d{2,3}%//g' acpi.txt 
-cl
-cd Coding/
-cd Binary/
-la
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cd Coding/Binary/
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cd Coding/Binary/
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-cd Coding/Binary/
-python3.7 convert.py 
-cl
-cd Coding/Binary/
-cl
-python3.7 convert.py 
-python3.7 convert.py 
-cd COd
-cd Coding/
-cl
-la
-cl
-mkdir Binary
-cd Binary/
-cl
-v convert.py
-python3.7 convert.py 
-python3.7 convert.py 
-v convert.py 
-v convert.py 
-python3.7 convert.py 
-v convert.py 
-python3.7 convert.py 
-v convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-v convert.py 
-v convert.py 
-v convert.py 
-cl
-v convert.py 
-la
-lla
-cl
-v com
-v conv
-v convert.py 
-v convert.py 
-frm ~/.cache/vim/swap/
-cl
-la
-v  convert.py 
-cl
-python3.7 convert.py 
-v convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-v
-cl
-cd Coding/Binary/
-la
-cl
-python convert.py 
-v convert.py 
-python convert.py 
-v convert.py 
-python convert.py 
-cl
-cd Coding/Binary/
-cl
-la
-cl
-la
-cl
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-v convert.py 
-python convert.py 
-v convert.py 
-python convert.py #
-off
-calcurse
-calcurse
-cd Downloads/
-la
-cc
-cl
-cd Pictures/
-la
-cl
-cc
-la
-feh DigitaleErörterung.png 
-feh DigitaleErörterung.png &
-feh DigitaleErörterung.png 
-feh DigitaleErörterung.png 
-cd Schule/Deutsch/
-pdflatex article_new.tex
-v
-cd Schule/Deutsch/
-la
-cl
-v notes.md
-la
-cl
-cd Schule/
-la
-cd Mathe/
-la
-c
-cl
-cc
-la
-cd MuK/
-la
-cl
-cc
-cl
-cl
-acpi -b
-cd Schule/Deutsch/
-la
-v article_new.tex 
-cl
-pdflatex article_new.tex
-mv article_new.tex deepfakes.txt
-cl
-mv deepfakes.txt deepfakes.tex
-v deepfakes.tex 
-cl
-pdflatex deepfakes.tex 
-cl
-cl
-cl
-v
-v deepfakes.
-la
-r
-cl
-la
-cl
-v deepfakes.
-v deepfakes.tex 
-cd Schule/Deutsch/
-la
-v deepfakes.
-v deepfakes.tex 
-cl
-pdflatex deepfakes.tex 
-cl
-cd Coding/
-la
-cd 12_Factorial/
-la
-v adv.py
-python3.7 adv.py 
-cl
-v adv.py 
-python3.7 adv.py 
-v adv.py 
-python3.7 adv.py 
-cl
-v adv.py 
-v adv.py 
-python3.7 adv.py 
-cl
-v adv.py 
-python3.7 adv.py 
-v adv.py 
-rm adv.py 
-la
-cl
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-acpi -b
-cl
-acpi
-acpi
-acpi
-acpi
-pbar
-cl
-pbar
-cl
-la
-cl
-la
-rm -f DigitaleErörterung.png 
-frm .python_history*
-la
-cl
-v /etc/host
-v /etc/hosts 
-sv /etc/hosts 
-cl
-sv /etc/hosts 
-cl
-ping google.com
-cl
-ping pornhub.com
-ping ddg.gg
-sv /etc/host
-sv /etc/hosts
-ls -a
-frm deoplete.nvim/
-la
-frm .projectM/
-r
-cl
-p -Syu
-p -Syyu
-p -Syuu
-cl
-conf
-ht
-xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false 
-cl
-cl
-v .xinitrc 
-cl
-la
-cl
-gr
-gt
-cl
-polybar default
-polybar bottom
-cl f
-cl
-exit
-polybar-msg 
-polybar-msg -h
-man polybar-ms
-man polybar-msg
-cl
-info polybar-msg
-cl
-polybar-msg
-polybar-msg format-background = #fff
-polybar-msg help
-polybar-msg hook1
-polybar-msg hook 1
-cl
-cd Schule/Deutsch/
-la
-pdflatex deepfakes.tex 
-pdflatex deepfakes.tex 
-cd Schule/Deutsch/
-la
-pdflatex deepfakes.tex 
-cd Schule/Deutsch/
-pdflatex deepfakes.tex 
-cd Schule/Deutsch/
-la
-v deepfakes.
-v deepfakes.tex
-cl
-vrc
-cc
-cd .vim/src/
-la
-v functions.vim 
-v settings.vim 
-cl
-cc
-cd Schule/Deutsch/u
-cd Schule/Deutsch/
-v deepfakes.
-v deepfakes.tex 
-cl
-cd .vim/src/
-v settings.vim 
-cl
-cl
-pbar
-ck
-cl
-cmatri
-cmatrix
-p -S lolcat
-cl
-cmatrix | lolcat
-cl
-nigger | lolcat
-echo nigger | lolcat
-cl
-cmatrix | lolcat
-cl
-cmatrix; cmatrix
-cl
-cmatrix && cmatrix
-cl
-cd .i3/
-la
-mv schedule.py ~/scripts/
-cmatrix | lolcat | lolcat
-cl
-cmatrix | lolcat | lolcat | lolcat | lolcat | lolcat | lolca
-cl
-cmatrix | lolcat | lolcat | lolcat | lolcat | lolcat | lolcat
-cl
-cmatrix | echo | lolcat
-cmatrix >> test.txt
-cl
-v test.txt 
-v test.txt 
-frm test.txt 
-cl
-pbar
-xrs
-xres
-transparent 
-cl
-la
-cl
-cd Schule/Deutsch/
-la
-la
-cd Schule/Deutsch/u
-cd Schule/Deutsch/
-cl
-latexmk -c
-texrm
-cl
-trm
-cl
-brc
-trm
-cl
-brc
-trm
-brc
-trm
-cl
-v /dev/null
-cl
-so 
-so /dev/null
-cl
-so scripts/
-cl
-cl
-pbar
-cl
-pbar
-cl
-lla
-cl
-r
-cp .cache/dmenu-recent/all ~/scripts/dmenu/dmenu_kill
-ht
-ht
-cl
-cd scripts/
-cd dmenu/
-la
-v dmenu_kill 
-cl
-cd scripts/
-cd dmenu/
-la
-cp shutdown.sh killp.sh
-v killp.sh 
-cl
-v killp.sh 
-v killp.sh 
-v killp.sh 
-cl
-./killp.sh 
-./killp.sh 
-killall urxvt
-killall urxvtc
-./killp.sh 
-./killp.sh 
-conf
-v scripts/dmenu/killp.sh 
-firefox
-less scripts/dmenu/killp.sh 
-xres
-transparent
-cd .vim/src/
-v functions.vim 
-cl
-la
-v remaps.vim 
-cl
-cd Schule/Eng/
-v communication.md
-v communication.md 
-cd .vim/src/
-v remaps.vim 
-v remaps.vim 
-cmatrix | lolcat
-cmatrix | lolcat
-cd scripts/dmenu/
-so killp.sh 
-cl
-cm
-cd Schule/Eng/
-la
-v communication.md 
-lowriter communication.docx 
-cl
-brc
-cl
-cm
-cd Schule/Eng/
-la
-cl
-evince communication.pdf 
-v asdf.md
-cd Schule/Eng/
-la
-v communication.
-v communication.md 
-la
-frm communication.docx 
-r
-cl
-la
-v communication.md 
-pandoc communication.md -o communication..pdf
-la
-evince communication..pdf 
-cl
-la
-cl
-r
-cl
-v communication.
-v communication.md
-vim communication.
-vim communication.,md
-vim communication.mm
-vim communication.md
-pandoc communication.md -o communication.pdf 
-evince communication.pdf 
-v communication.md 
-v communication.md 
-pandoc communication.md -o communication.pdf 
-evince communication.pdf 
-vrc
-v
-cl
-ccc
-cc
-cd .vim/
-la
-cd src/
-la
-v autoclose.vim 
-cl
-v asdf.md
-cl
-v asdf.md
-cl
-lla
-cl
-cc
-cc
-v asdf.md
-cl
-seng
-cl
-brc
-seng
-l
-cl
-l
-l
-cl
-v communication.
-v
-cl
-pandoc communication.md -o communication.pdf 
-evince communication.pdf 
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-lc
-lc
-cl
-cm
-cl
-cm
-cm7
-c
-cm
-cl
-brc
-cmatrix -a
-v
-cd .cache/
-la
-cd vim/
-la
-frm swap/
-cl
-cc
-cc
-cl
-cm
-cl
-man cmatrix
-cm
-cm
-brc
-cm
-cm
-cm
-cl
-i3-msg fullscreen
-cl
-brc
-cm
-ck
-cl
-cm
-brc
-cm
-cm
-cm
-cl
-v
-cm
-cm
-cm
-cl
-cm
-cl
-cm
-i3-msg fullscreen on
-i3-msg fullscreen global
-v
-cm
-lc
-cl
-cm
-ht
-cmatrix | lolcat
-cmatrix | lolcat
-cmatrix | lolcat
-cmatrix | lolcat
-cm
-cm
-cl
-seng
-lc
-cl
-evince communication.pdf 
-cm
-cm
-cm
-cm
-cm
-cm
-cm
-cm
-cm
-cm
-brc
-cl
-pbar
-cl
-ps -A
-killall less
-ps -0 command
-ps -o command
-ps -A -o command
-ps -A -o tname
-cl
-ps -A -o cmd
-ps -A -otime
-ps -A -o format
-ps -A -o state
-ps -A -o state,tname
-ps -A -o state,tname,command
-ps -A -o command
-vim
-cl
-ht
-man sed
-cl
-ps -A | sed 's/^.*\w//g
-ps -A | sed 's/^.*\w//g'
-cl
-la
-cl
-ps -A | sed 's/^.*[a-zA-Z]*//g'
-ps -A | sed 's/^[a-zA-Z]*//g'
-ps -A | sed 's/^\d*//g'
-ps -A | sed 's/^\d*//g'
-ps -A | sed 's/^\d*//g'
-ps -A | sed 's/\d*//g'
-ps -A | sed 's/\d*//g'
-ps -A | sed 's/(\d{2,})//g'
-ps -A | sed 's/(\d{2,})//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*//g'
-ps -A | sed 's/(\d)*/ /g'
-ps -A | sed 's/(\d)*/ /g'
-ps -A | sed 's/(\d)*/ /g'
-ps -A | sed 's/(\d)*/ /g'
-ps -A | sed 's/.*\d*//g'
-ps -A | sed 's/\d//g'
-ps -A | sed 's/\d//g'
-ps -A | sed 's/\w//g'
-ps -A | sed 's/[^\w]//g'
-ps -A | sed 's/[^\a]//g'
-cl
-v
-ps
-c,
-cl
-man ps
-man ps
-cl
-ps -A -o command > test.txt
-v test.txt 
-ps -A -o command > test.txt
-v test.txt 
-ps -A -o command > test.txt
-v test.txt 
-cl
-ps
-ps -a
-ps -A
-ps -A > test.txt
-la
-cl
-v test.txt 
-v regex 
-ps c
-ps -o c
-ps -o co
-ps -o co
-ps -o c
-ps -o command
-cl
-killall htop -d 3 
-killall -e htop -d 3 
-killall -e 'top -d 3'
-killall -e 'htop -d 3'
-cl
-v .bash_history 
-cl
-less out.txt 
-less out.txt 
-less out.txt 
-less out.txt 
-less out.txt 
-less test.txt 
-cl
-ps -A |sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g
-ps -A |sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
-ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
-ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*//g'
-ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/'
-ps -A | sed 's/(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
-ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
-ps -A | sed 's/^(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD)*/g'
-ps -A | sed 's/^\(\s|\d|\?|:|pts/|tty|PID|TTY|TIME|CMD\)*/g'
-ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)*/g'
-ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD)(/g'
-ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)//g'
-ps -A | sed 's/^\(\s\|\d\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)/g'
-ps -A | sed 's/^\(\s\|\digit\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\)/g'
-ps -A | sed 's/^\(\s\|\digit\|\?\|:\|pts/\|tty\|PID\|TTY\|TIME\|CMD\/g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.[|tty\|PID\|TTY\|TIME\|CMD\]/g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]/g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*//g'
-ps -A | sed 's/^([\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\)*//g'
-sed 's/.*:\([^,*]*\) AM/\1/g' test.txt
-sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/\1/g' test.txt
-sed 's/^\[\s\|\digit\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts.\{1\}|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\]*/asdf/g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts.|TTY\|pid\|tty\|time\|CMD\|pts\/\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\s\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\s\]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\| \]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|\ \]*/ /g' test.txt > out.txt
-less out.txt 
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|pid\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
-less out.txt 
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|time\|CMD\|[[:space:]]\]*/ /g' test.txt > out.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|time\|CMD\|[[:space:]]\]*//g' test.txt > out.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\]*//g' test.txt > out.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' test.txt > out.txt
-sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' test.txt > out.txt
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
-v .bash_history 
-cd scripts/dmenu/
-la
-v killp.sh 
-v .bash_history 
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g'
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\n/g
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\n/g'
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\\n/g'
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g'
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g' | tr -d '\n'
-cl
-ps -A | sed 's/^\[\s\|[0-9]\|\?\|:\|pts\/\|TTY\|PID\|tty\|TIME\|CMD\|[[:space:]]\|i915\]*//g' | sed 's/$/\\n/g'
-cl
-cd scripts/
-cd dmenu/
-v killp.sh 
-pgrep i3
-nautilus
-killall oosplash 
-ht
-cd scripts/dmenu/
-v killp.sh 
-conf
-pacui
-cl
-p -Syyu
-p -Syuu
-cl
-ht
-conf
-cd scripts/
-la
-vm renm.sh renema.sh
-rmvm renm.sh renema.sh
-rm renm.sh renema.sh
-mv renm.sh renema.sh
-cp renema.sh reclip.sh
-v reclip.sh 
-cl
-emacs
-i3-msg restart
-htz
-ht
-i3-msg restart
-man xbacklight 
-xbacklight get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-xbacklight -get
-cl
-man conky
-v /usr/share/conky/conky1.10_shortcuts_maia 
-cl
-la
-cl
-v /usr/share/conky/conky_maia 
-sv /usr/share/conky/conky_maia 
-cl
-man conky
-whereis start_conky_maia
-sv /usr/bin/start_conky_maia
-conf
-killall conky
-start_conky_maia 
-sv /usr/bin/start_conky_maia
-start_conky_maia 
-start_conky_maia 
-sv
-sv /usr/share/conky/conky_maia
-ping ddg.gg
-ping 127.0.0.1
-start_conky_maia 
-sv /usr/share/conky/conky_maia
-start_conky_maia 
-xterm
-xterm
-la
-cl
-xrtes
-xres
-cl
-cl
-cm
-cm
-cl
-la
-clö
-cl
-sv /usr/share/conky/conky_maia
-cl
-cower -u
-p -Ss cower
-pbar
-checkupdates 
-checkupdates | wc -l
-cd .config/polybar/
-la
-cc
-la
-cc
-cl
-cd scripts/
-la
-touch info-hackspeed.sh
-chmod +x info-hackspeed.sh 
-v info-hackspeed.sh 
-cl
-v info-hackspeed.sh 
-cl
-cc
-xorg-inpuit
-xorg-input
-cl
-pacui
-pbar
-cl
-cd scripts/
-la
-cc
-cd .config/polybar/
-la
-v spotify 
-cl
-pbar
-ck
-cl
-cc
-cd scripts/
-a
-cö
-cl
-la
-v info-hackspeed.sh 
-cl
-./info-hackspeed.sh 
-stat
-+cl
-cl
-v info-hackspeed.sh 
-cl
-./info-hackspeed.sh 
-cl
-v info-hackspeed.sh 
-sudo ./info-hackspeed.sh 
-cd scripts/
-la
-v info-hackspeed.sh 
-cl
-./info-hackspeed.sh 
-cl
-v info-hackspeed.sh 
-./info-hackspeed.sh 
-cl
-v info-hackspeed.sh 
-cl
-v info-hackspeed.sh 
-cl
-./info-hackspeed.sh 
-cl
-pbar+
-pbar
-cl
-xinput
-xinput list --short
-xinput test "AT Translated Set 2 keyboard
-xinput test "AT Translated Set 2 keyboard"
-xinput test "Logitech Gaming Keyboard G610"
-cl
-xinput test "Logitech Gaming Keyboard G610"
-cl
-xinput list --short
-xinput test "Logitech Gaming Keyboard G610"
-cl
-xinput list --short
-polybar default
-pbar
-cl
-cl
-ala
-cl
-la
-cl
-al
-cl
-pbar
-v
-cl
-cd scripts/
-v infr
-v info-hackspeed.sh 
-cl
-v
-xinput 
-cl
-cd scripts/
-v info-hackspeed.sh 
-cl
-./info-hackspeed.sh 
-pbar
-cl
-cd scripts/
-la
-v info-hackspeed.sh 
-cl
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-type grep
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-cl
-cl
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-xinput | grep G610
-cl
-v test.sh
-cl
-la
-chmod +x test.sh
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-v test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-v test.sh 
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-v test.
-v test.sh 
-v test.
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-v test.sh 
-./test.sh
-./test.sh
-./test.sh
-./test.sh
-v test.sh 
-bash test.
-bash test.sh 
-cl
-frm test.txt 
-la
-v test.sh 
-ccl
-cöl
-clö
-cl
-./test.sh 
-./test.sh 
-./test.sh 
-./test.sh 
-cl
-v test.sh 
-cl
-./test.sh 
-v test.sh 
-xset r rate 300 130
-v test.sh 
-./test.s
-./test.sh 
-v test.sh 
-cl
-xset r rate 300 130
-cl
-v test.sh 
-cd scripts/
-la
-v info-hackspeed.sh 
-cl
-polybar-msg  
-polybar-msg -p  
-pgrep polybar
-polybar-msg -p 1050 
-polybar-msg -p 1051
-polybar-msg -p 1051
-cl
-ht
-pbar
-pbar
-cl
-cpufreq-bench
-sudo cpufreq-bench
-cpufreq-bench_plot.sh 
-cpupower
-cpupower idle-info
-cpupower
-cpupower info
-sudo cpupower info
-
-sudo cpupower monitor
-sudo cpupower
-sudo cpupower frequency-set
-cl
-pbar
-cd Downloads/
-la
-evince Vortrag\ -\ Trumps\ Reaktion.pdf 
-p -Ss stopwatch
-cl
-pacui
-cd Schule/PB/
-la
-cl
-pandoc stichpunktkarten.md -o stichpunktkarten.docx 
-lowriter stichpunktkarten.docx 
-p
-pb
-cd Schule/PB/
-la
-v stichpunktkarten.md 
-pbar
-pbar
-cl
-vrc
-cl
-sp
-cd .config/polybar/
-la
-v spotify 
-cl
-pbar
-brc
-cd Schule/
-la
-sdeiu
-sdeu
-cl
-cc
-ssz
-cc
-sds
-cc
-spb
-cc
-cl
-sges
-cc
-cl
-cd Desktop/
-la
-v Classroom.desktop 
-cl
-cc
-cl
-la
-cl
-la
-cl
-la
-cd Documents/
-la
-cl
-cc
-la
-cd .urxvt/
-la
-v urxvtd-core 
-sv urxvtd-core 
-lla
-cl
-brc
-la
-sdeu
-la
-cl
-hdow
-hscr
-hdes
-hvim
-cl
-ccc
-cc
-cc
-cc
-cc
-cc
-cl
-bcr
-brc
-article nigga.tex
-la
-cl
-lla
-frm article_new.tex 
-la
-sdeu
-cl
-la
-article nigahiga.tex
-checkupdates 
-man checkupdates 
-checkupdates -h
-xclock
-apropos clock
-urxvt-digital-clock
-hwclock 
-fc-list
-fc-list | awesome
-fc-list | grep awesoem
-fc-list | grep awesome
-fc-list | grep Ubuntu
-off
-calcurs
-calcurse
-spb
-la
-cl
-v
-cl
-p -Syu
-p -Syyu
-p -Syuu
-cl
-off
-ping ddg.gg -c 3
-cl
-pbar
-cl
-cd Coding/Binary/
-cc
-mv Binary Zahlensysteme
-la
-cd Coding/
-mv Binary Zahlensysteme
-la
-cd Zahlensysteme/
-la
-cl
-cd Coding/Zahlensysteme/
-la
-v convertdecimal.py 
-v convertdecimal.py 
-cd Schule/Informatik/
-la
-la
-cc
-cl
-cd Coding/
-la
-cd 01__Mathematics/19
-cd 01__Mathematics/19_
-cd 19_Mathe/
-cc
-cd  19_Mathe/
-la
-python3.7 main.py 
-cl
-la
-cc
-la
-cd Binary/
-lka
-la
-python3.7 convert.py 
-v convert.py 
-cl
-v convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-python3.7 convert.py 
-cl
-python3.7 convert.py #
-python3.7 convert.py #
-cl
-cp convert.py converthexa.py 
-v converthexa.py 
-cl
-la
-mv convert.py convertbinary.py
-la
-cl
-la
-v converthexa.py 
-cl
-cl
-la
-cl
-la
-cl
-la
-cl
-al
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cp convertbinary.py convertdecimal.py
-v convertdecimal.py 
-
-python convertdecimal.py 
-v convertdecimal.py 
-cl
-python convertdecimal.py 
-python convertdecimal.py 
-python convertbinary.py 
-python convertdecimal.py 
-
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-cl
-python convertbinary.py 
-cl
-cl
-python convertbinary.py 
-cl
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-ccl
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-cl
-cl
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-cl
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-python convertdecimal.py 
-cl
-cl
-python convertdecimal.py 
-cl
-p
-py
-cl
-brc
-py convertbinary.py
-brc
-cd CO
-cd Cod
-cd Coding/Zahlensysteme/
-ööa
-cl
-la
-v convertbinary.py 
-hcod
-lq
-cl
-la
-cd Zahlensysteme/
-l
-la
-cl
-py convertbinary.py 
-py convertbinary.py 
-cl
-v  convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-cl
-v  convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-time py convertbinary.py 
-time py convertbinary.py 
-cl
-hcod
-la
-cl
-solaried
-solarized 
-hcod
-cd Zahlensysteme/
-la
-cl
-cd Zahlensysteme/
-v convertbinary.py 
-py convertbinary.py 
-v convertbinary.py 
-py convertbinary.py 
-v convertbinary.py 
-v convertbinary.py 
-py convertbinary.py 
-v convertbinary.py 
-py convertbinary.py #
-v convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-lc
-cl
-v convertbinary.py 
-v convertbinary.py 
-cl
-py convertbinary.py 
-v convertdecimal.py 
-py convertdecimal.py 
-v convertdecimal.py 
-hcod
-la
-cd Zahlensysteme/
-la
-cl
-i3conf
-cl
-conf
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-hcod
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-cd Zahlensysteme/
-la
-v convert
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-cl
-hcod
-cd Zahlensysteme/
-la
-v converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-v converthexa.py 
-py converthexa.py 
-cl
-la
-cl
-v converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-ck
-cl
-la
-hcod
-cd Zahlensysteme/
-cl
-la
-cc
-cc
-smuk
-la
-cl
-la
-frm klausur.html 
-frm klausur.docx 
-la
-cd Klausur/
-la
-cc
-mv klausur.md Klausur/
-la
-cd Portfolio/
-la
-cc
-la
-cl
-mv Portfolio/ Bilder/
-la
-mv EntwicklungFotografie/ Geschichte
-la
-cd Bild
-cd Bildgestaltung/
-la
-cl
-ping google.com
-cl
-ping duckduckgo.com
-cl
-ping 1.1.1
-ping 1.1.1.1
-cl
-ping google.com
-ping ddg.gg
-nm
-nmcli
-cl
-nm
-nm
-nm-online 
-nm-online 
-nm-online 
-nmtui
-nmtui
-nm-edi
-nm-edit
-sv /etc/hosts 
-ping youtube.com
-blueman-applet
-bluetooth
-bluetooth
-cl
-ping ddg.gg
-v 
-cmatrix
-cm
-cl
-v
-off
-curl wttr.in
-cl
-cd scripts/
-a
-cl
-la
-cd i3gaps/
-la
-cc
-la
-cl
-la
-cp info-hackspeed.sh info-weather.sh
-v info-weather.sh 
-./info-weather.sh 
-v info-weather.sh 
-cl
-pbar
-cl
-nf
-sv /etc/hosts
-sv  /etc/hosts
-v
-sv 
-sv /etc/hosts
-pbar
-print "HURENSOHN"
-echo "hurensohn ist georgie<"
-py
-ckl
-cl
-cm
-cm
-cm
-ck+
-cl
-man cmatri
-man cmatrix
-cm
-ls -a
-cl
-p -S
-cl
-ls -al
-ls -Al
-cl
-ls -A
-cl
-brc
-cl
-ls
-la
-cl
-la
-cl
-type ls
-cl
-killall compton
-calcurse
-cl
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-fortune | cowsay | lolcat
-echo "Nigga" | cowsaay
-echo "Nigga" | cowsay
-echo "Nigga" | cowsay
-echo "niggurrr skuur itswednesday my fukcin juts just hurt omghf" | cowsay
-echo "yeeayshz5hbunjizjmskuurrrr skur sskururr gang gang gucci kil lane yo lil lano ich fick deine mutter bin der kriminelle bodybuilder komm in deine villa und bin dumm whatvbddwfwfewifhwefhwf gangg gangg arwed sieht stoidnes aus ngga" | cowsay
-echo "yeeayshz5hbunjizjmskuurrrr skur sskururr gang gang gucci kil lane yo lil lano ich fick deine mutter bin der kriminelle bodybuilder komm in deine villa und bin dumm whatvbddwfwfewifhwefhwf gangg gangg arwed sieht stoidnes aus nngganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggangganggagga" | cowsay
-echo "NNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaigga" | cowsay | lolcat
-cl
-echo "NNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaNiggaigga" | cowsay | lolcat
-cl
-nautilus /usr/share/backgrounds/
-cl
-frm /usr/share/backgrounds/xfce/
-sudo rm -r /usr/share/backgrounds/xfce/
-la
-cl
-ls /usr/share/backgrounds/
-cm
-cl
-i3-msg fullscreen on
-i3-msg fullscreen
-i3-msg fullscreen
-i3-msg fullscreen
-man i3-msg 
-i3-msg -t get_tree
-cl
-i3-msg -t get_tree > tree.json
-v tree.json 
-cl
-ping google.com
-cl
- cl
-la
-cl
-ping google.com
-cl
-ping google.com
-cl
-ift
-ping google.com
-cl
-la
-cl
-ifcongig
-ifconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-iwconfig
-cl
-ping google.com
-nm
-nmblookup 
-nm
-nm-online 
-nm-online 
-man nm-online 
-nmcli
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection show
-nmcli connection
-nmcli connection test
-cl
-nmtui
-cl
-wireshark
-cl
-wshark
-cl
-ift
-type ift
-sudo iftop -i enp2so
-iwconfig
-sudo iftop -i enp2s0
-ift
-ping youtube.de
-checkbandwidth 
-sudo checkbandwidth 
-cl
-checkupdates 
-cm
-p -Ss pong
-pamac search pong
-cm
-p -Ss pong
-pamac search pong
-git clone https://github.com/metulburr/pong.git
-git clone https://github.com/metulburr/pong.git
-cd pong/
-py game.py
-pip3 install pygae
-pip3 install pygame
-sudo pip3 install pygame
-cl
-py game.
-py game.py 
-py game.py -d hard
-v game.py 
-la
-cd resources/
-la
-cc
-cd data/
-a
-cl
-la
-v ball.py 
-v ball.py 
-v 
-v 
-
-
-v paddle.py 
-cl
-cc
-py game.py 
-py game.py -d hard
-off
-cd pong/data
-la
-v ball.py 
-v ai
-v AI.py 
-cl
-cd sn
-cd snake
-la
-cl
-lla
-cl
-la
-cl
-ls
-cd pong/
-la
-py game.py
-cd data
-la
-v ball.py 
-cl
-cc
-py game.py
-cl
-cd data
-v ball.py 
-cl
-cc
-py game.
-py game.py 
-cl
-cd data
-la
-v ball.py 
-cc
-py game.py
-cl
-la
-py game.py
-cl
-conf
-cl
-cm
-cd sci
-cd scripts/
-la
-cd i3gaps/
-la
-cd scripts/i3gaps/
-./gaps_max.sh 
-./gaps_max.sh 
-cc
-v .i3/config 
-conf
-cl
-sges
-la
-evice *.pdf
-evince *.pdf
-cl
-la
-cl
-i3-msg gaps inner 0
-i3-msg gaps inner all 0
-i3-msg gaps inner all set 0
-i3-msg gaps outer all set 0
-off
-smat
-py main.py 
-py main.py 
-py main.py 
-py main.py 
-clö
-cl
-mc
-cm
-smat
-la
-v main.py 
-cl
-conf
-cd scripts/
-cl
-la
-v info-hackspeed.sh 
-cl
-steam+
-steam
-cl
-p -S steam
-p -S steam
-steam
-lc
-cl
-p -Syyu
-cl
-p -Syuu
-off
-hcod
-mkdir FizzBuzz
-cd FizzBuzz/
-öa
-cl
-v main.py
-py main.py 
-v main.py 
-py main.py 
-cl
-cl
-la
-cl
-alc
-cl
-hcod
-cd FizzBuzz/
-la
-cl
-v main.py 
-py main.py 
-v main.py 
-v main.py 
-cl
-py main.py 
-v main.py 
-py main.py 
-v main.py 
-cl
-v main.py 
-py main.py 
-cl
-la
-v .tmux.conf 
-v .tmux.conf 
-killall tmux
-cl
-exit
-tmux
-cl
-tmux
-hdow
-ac
-cl
-la
-la
-cl
-la
-cl
-la
-cl
-rm Vortrag\ -\ Trumps\ Reaktion.pdf 
-rm Vortrag\ -\ Trumps\ Reaktion.pdf 
-la
-rm Vortrag\ -\ Trumps\ Reaktion.pdf 
-la
-unzip Genetik-20181215.zip 
-la
-cl
-la
-mv Mendel\ Stationsarbeit/ ~/Schule/Biologie/
-la
-cl
-cc
-hdow
-la
-mv AB* ~/Schule/Biologie/
-löa
-cl
-sbio
-la
-mv Mendel\ Stationsarbeit/ MendelStationsarbeit
-la
-cl
-lla
-chmod 555 MendelStationsarbeit
-la
-mv MendelStationsarbeit/ MendelStationsarbeit
-la
-cl
-mv MendelStationsarbeit/ Stationsarbeit
-la
-cd Stationsarbeit/
-la
-lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
-la
-cl
-chmod +w ./*
-la
-cl
-lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
-cl
-la
-cl
-lla
-chmod 777 ./*
-lowriter 00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
-la
-cl
-la
-cl
-./00.\ Einleitung\ -\ Versuche\ mit\ Erbsenpflanzen.docx 
-cl
-l
-a
-cl
-la
-cl
-v test.py
-la
-touch test.py
-cl
-cc
-ka
-cl
-la
-chmod +w Stationsarbeit/
-la
-cd Stationsarbeit/
-la
-cl
-v test.py
-chmod +x test.py 
-./test.py 
-rm test.py 
-rm -f test.py 
-la
-cl
-la
-cl
-la
-cl
-al
-cl
-cl
-la
-cl
-la
-cl
-la
-cl
-exit
-ping google.com
-ping ddg.gg
-nf
-type nf
-neofetch
-man neofetch
-cl
-xresr
-sp
-p -Syyu
-cd Schule/
-la
-v .gitignore 
-cl
-la
-cl
-cc
-la
-ls
-cd Schule/
-la
-cl
-la
-cl
-v mealplan.md
-conf
-cl
-cd .i3
-v config 
-cl
-transparent
-cl
-conf
-cl
-./scripts/i3gaps/gaps_max.sh 
-conf
-v .i3/config 
-cl
-conf
-conf
-./scripts/i3gaps/gaps_max.sh 
-./scripts/i3gaps/gaps_max.sh 
-cl
-conf
-exit
-exit
-asci
-cl
-apropos asci
-man cacaview
-cacaview
-cacaview "Test"
-cl
-la
-cl
-la
-cl
-la
-cl
-apropos art
- turn off/on linedrawing characters
-    -fd pattern                  FreeType Doublesize font-selection pattern
-apropos asci art
-asctime
-ascii
-cl
-man ascii
-cl
-cd /usr/
-la
-lla
-cc
-cd et
-cd /etc/
-la
-cl
-lla
-cl
-lla
-cl
-cc
-locate rofi
-cl
-cd /usr/share/rofi/
-la
-cl
-cd themes/
-la
-cl
-lla
-rofi -show run -theme Monokai
-v  Monokai.rasi 
-cl
-tmux
-cl
-la
-cl
-man tmux
-tmux
-cl
-clear
-cl
-clear
-la
-clear
-cl
-la
-clear
-lc
-cl
-clear
-la
-clear
-la
-clear
-ls -a
-cl
-lear
-clear
-cl
-ls -Al
-cl
-cl
-conf
-cl
-man xterm
-cl
-xterm -help
-l
-cl
-conf
-ls
-cd /usr/share/rofi/themes/
-la
-conf
-cl
-rofi -show run -theme solarized
-rofi -show run -theme solarized
-rofi -show run -theme dmenu
-rofi -show run -theme c64
-rofi -show run -theme Arc-Dark
-rofi -show run -theme Arc
-rofi -show run -theme arthur
-rofi -show run -theme android_notification
-rofi -show run -theme Adapta-Nokto
-rofi -show run -theme glue_pro_blue
-rofi -show run -theme gruvbox_common
-rofi -show run -theme gruvbox-common
-rofi -show run -theme Indego
-rofi -show run -theme lb
-rofi -show run -theme paper-float
-rofi -show run -theme Paper
-rofi -show run -theme Pop-Dark
-rofi -show run -theme purple
-rofi -show run -theme purple
-rofi -show run -theme solarized_alternate
-rofi -show run -theme purple
-rofi -show run -theme arthur
-rofi -show run -theme purple
-cl
-conf
-cl
-conf
-time dmenu
-time dmenu
-time dmenu
-time dmenu
-cl
-time dmenu
-time dmenu
-time dmenu
-cl
-time rofi
-time rofi -show run
-time rofi -show run
-time rofi -show run
-time rofi -show run -theme purple
-time rofi -show run -theme purple#
-time rofi -show run -theme purple#
-time rofi -show run -theme purple#
-time rofi -show run -theme purple#
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-time rofi -show run -theme purple
-acl
-echo "Mega Neger" | cowsay | lolcat
-echo "Mega Neger" | cowsay | lolcat
-clear; echo "Mega Neger" | cowsay | lolcat
-clear; echo "Mega Neger" | cowsay | lolcat
-cl
-minecraft
-cl
-cl
-cl
-la
-cll
- l
-cl
-la
-cl
-cl
-lac
-v
-xres
-cl
-solarized 
-xres
-solarized 
-cl
-xres
-cl
-solarized 
-xree
-xres
-solarized
-la
-cl
-la
-cl
-xres
-solarized 
-xres
-solarized 
-conf
-xres
-fc-list
-cl
-fc-list
-fc-list | grep Powerline
-fc-list | grep Powerline | grep DejaVu
-solarized 
-lac
-cl
-la
-cl
-cl
-la
-cl
-al
-cl
-cl
-cm
-cl
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvt
-time urxvt
-time urxvt
-time urxvt
-time urxvtc
-time urxvtc
-time urxvtc
-ht
-soa
-killall NetworkManager 
-sudo killall NetworkManager 
-smuk
-cl
-la
-cl
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-brc
-nm
-cl
-la
-cl
-net
-networkctl 
-smuk
-la
-cl
-smuk
-smuk
-smuk
-smuk
-sdeu
-seng
-sges
-sinf
-smuk
-la
-cl
-la
-cd Bildgestaltung/
-la
-cl
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cc
-cl
-smuk
-cd Bildgestaltung/
-la
-cc
-la
-mv genres.docx Bildgestaltung/
-cc
-smuk
-cd Bildgestaltung/
-la
-v genres.docx 
-lowriter genres.docx 
-ht
-ht
-hpon
-cd pong
-l
-cl
-la
-py game.py 
-cd data/
-la
-v ball.py 
-cl
-cc
-v game.py 
-cd pong/
-py game.
-py game.py 
-cl
-py game.py 
-py game.py 
-cm
-i3-msg restart
-ls
-la
-cl
-la
-cl
-ls
-v rofi.conf 
-bash test.sh 
-cl
-./test.sh 
-cl
-la
-cl
-v test.sh 
-./test.sh 
-v test.sh 
-cl
-cd scripts/
-la
-v  info-hackspeed.sh 
-./battery.sh 
-v reseti3.sh 
-cl
-cl
-v reseti3.sh 
-cl
-v reseti3.sh 
-la
-cd i3gaps/
-la
-v gaps_max.sh 
-c
-cl
-conf
-brc
-cl
-cd scripts/
-la
-cd i3gaps/
-la
-v gaps_max.sh 
-cl
-cl
-cd scripts/
-v i3gaps/
-v reseti3.sh 
-cl
-cd i3gaps/
-la
-v gaps_max.sh 
-cö
-cl
-cc
-cd colorschemes/
-la
-v gaps_max 
-conf
-cl
-v .i3/config 
-cl
-cd scripts/
-v reseti3.sh 
-cl
-cc
-cd .i3
-cl
-la
-frm config 
-ln -s /home/henning/dotfiles/i3config ./config
-la
-v  config 
-cl
-la
-cl
-conf
-ila
-cl
-la
-cl
-cd .i3/
-la
-v config 
-conf
-cl
-t
-exit
-xresr
-type xresr
-c
-cl
-v .xinitrc 
-xrdb /home/henning/.Xresources
-killall rxv
-v .cache/
-cd .cache/
-la
-cd vim/
-la
-cd swap/
-la
-v %home%henning.swp
-v %home%henning.swm
-cl
-v %home%henning.swl
-cl
-lla
-lla
-la
-cl
-lla
-cl
-cc
-la
-cd backup/
-la
-lla
-cl
-cc
-la
-cd undo/
-la
-cl
-cc
-cc
-cc
-a
-cl
-ht
-v
-lwatch
-soa
-cm
-cl
-killall i3
-off
-cl
-xresr
-cl
-cl
-cd Coding/
-la
-cl
-cd Zahlensysteme/
-la
-cll
-cl
-cl
-la
-cl
-a
-cl
-la
-cl
-a
-l
-cl
-la
-cl
-la
-cl
-man alias
-man alias
-cl
-brc
-cd pong/
-cd pong/
-cl
-asdf asjdhasd
-asdf asdkj
-man alias
-cd Pictures/
-la
-cl
-la
-cd  pong/
-brc
-o
-off
-cl
-conf
-cl
-cd  dotfiles/
-la
-cl
-cc
-v .bash_history 
-cl
-man ln
-man ln
-cl
-cl
-
-xrsr
-xresr
-nm-applet 
-conf
-cl
-cd scripts/
-brc
-cd scripts/
-la
-i3-msg gaps
-i3-msg gaps inner 
-i3-msg gaps inner all plus
-i3-msg gaps inner all
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all plus 10
-i3-msg gaps inner all minus 10
 i3-msg gaps inner all minus 10
 i3-msg gaps inner all minus 10
 i3-msg gaps inner all minus 10
@@ -7434,3 +258,1231 @@ cl
 conf
 cl
 transparent 
+exit
+v .pro
+v .profile 
+whereis xset
+which xset
+dfiles 
+cl
+dfiles commit -a
+dfiles push
+cl
+la
+v .pulse-cookie 
+cl
+la
+v gen
+v gegenstände.md 
+frm gegenstände.md 
+la
+v .dmrc 
+v regex 
+frm regex 
+la
+cl
+ls
+v rofi.conf 
+frm rofi.conf 
+la
+cl
+ls
+so out.txt 
+v out.txt 
+frm out.txt 
+la
+cl
+ls
+frm i3-gaps/
+la
+cl
+la
+cl
+ls
+frm test.sh 
+frm tree.json 
+frm pong/
+la
+cl
+ls
+mv bash_prompt scripts/
+la
+cl
+cd scripts/
+cc
+hscr
+la
+mv bash_prompt colorschemes/
+cc
+ls
+cd Templates/
+la
+cc
+cl
+la
+frm .tmux.conf 
+tmux
+v .py
+v .python_history 
+frm .python_history 
+la
+v hp-check.log 
+sv hp-check.log 
+frm hp-check.log 
+frm .lesshst 
+frm .xsession-errors.old 
+v .Xmodmap 
+cd .w3m/
+la
+lla
+cc
+frm .w3m/
+la
+c
+cl
+r
+cl
+la
+lc+
+cl
+v
+v
+cm
+cm
+cl
+i3-nagbar 
+man i3-nagbar 
+i3-nagbar -m "You gay"
+i3-nagbar -m "You gay" -b ls
+man i3-nagbar 
+i3-nagbar -m "You gay" -b ls ls -a
+i3-nagbar -m "You gay" -b ls ls
+i3-nagbar -m "You gay" -b "kill urxvt" killall vim
+i3-nagbar -m "You gay" -B "kill urxvt" killall vim
+i3-nagbar -m "You gay" -B "kill urxvt" "killall vim"
+cl
+conf
+cl
+cl
+conf
+cl
+cl
+conf
+xres
+xresr
+xres
+xresr
+xres
+transparent 
+conf
+xres
+xresr
+transparent 
+xresr
+xres
+transparent 
+conf
+solarized 
+v
+cl
+cl
+ls -a
+cl
+cl
+la
+cl
+xres
+transparent 
+xresr
+xres
+transparent 
+xresr
+xres
+cl
+transparent 
+v
+cl
+conf
+xres
+transparent 
+xresr
+la
+cl
+la
+cl
+cl
+la
+cl
+la
+cl
+brc
+spacegray 
+la
+cl
+xres
+cl
+transparent 
+off
+cl
+cm
+cl
+pbar
+cl
+man i3
+i3 -C
+i3 -C
+i3 -C
+cl
+conf
+cl
+v
+spacegray 
+v
+transparent 
+cd scripts/
+la
+v schedule.py 
+py schedule.py 
+v sch
+v schedule.py 
+py schedule.py 
+eix
+exit
+v
+cl
+pbar
+cl
+pbar
+v
+conf
+cl
+man rmmod
+lsmod
+man sort
+lsmod | sort -a
+man sort
+lsmod | sort -d
+cl
+apropos collums
+apropos collum
+apropos sort
+cl
+diff
+man diff
+mkdir test
+cd test/
+touch test1
+touch test2
+v test*
+v test2
+cat test1
+cat test2
+cl
+man diff
+diff -y test1 test2
+cl
+cl
+clipit 
+hcon
+la
+v compton.conf 
+off
+nm-applet
+conf
+brc
+v .pro
+v .profile 
+v
+cl
+v
+v
+v
+time v
+sh
+sinf
+la
+cc
+hcod
+cd Zahlensysteme/
+la
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+py convertbinary.py 
+cl
+v cobin.py
+cl
+py convert
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+v cobin.py 
+py cobin.py 
+v cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+cl
+py cobin.py 
+py cobin.py 
+v cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+v cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+v cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+cl
+v cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+py cobin.py 
+cl
+cl
+la
+frm convertbinary.py 
+mv cobin.py convertbinary.py
+py convertbinary.py 
+py convertdecimal.py 
+py convertdecimal.py 
+py convertdecimal.py 
+cl
+py convertdecimal.py 
+py convertdecimal.py 
+py convertdecimal.py 
+py convertdecimal.py 
+cl
+v convertbinary.py 
+py convertbinary.py 
+cc
+la
+mkdir Bash
+cl
+cd Bash/
+touch main.sh
+chmod +x main.sh 
+v main.sh 
+./main.sh Hallo
+cl
+v main.sh 
+./main.sh Hello
+la
+frm '$1'/
+la
+v main.sh 
+./main.sh 
+v main.sh 
+./main.sh Hello
+la
+cd Hello/
+la
+la
+cc
+frm Hello/
+la
+cl
+la
+v main.sh 
+./main.sh Test
+la
+frm '$1'/
+la
+v main.sh 
+./main.sh Hello
+la
+frm Hello/
+v main.sh 
+./main.sh Hallo
+la
+frm Hallo 
+mkdir Testing
+v main.sh 
+./main.sh Testing/
+la
+v main.sh 
+./main.sh Testing/
+la
+mkdir asd
+lla
+frm asd/
+frm Testing/
+öla
+cl
+la
+frm main.sh 
+la
+cö
+cl
+cc
+cc
+la
+cl
+brc
+hdow 
+cc
+la
+cl
+cd Templates/
+cl
+cc
+brc
+man firefox
+xinput
+cl
+xev
+xinput test
+xinput
+xinput test 8
+xinput test 12
+cl
+p -Ss key-mon
+p -Ss key
+cl
+p -Ss xev
+p -Ss xorg-xev
+p -S xorg-xev
+cl
+xev
+cl
+xev
+hcod
+cc
+cl
+p -Ss notepda
+p -Ss notepad
+p -Syyu
+p -Syuu
+cl
+ccc
+cl
+gcc
+cl
+clock
+p -Ss clock
+cl
+p -Ss time
+time
+cl
+man time
+cl
+conf
+xev
+cl
+xev > xev.txt
+v xev.txt 
+nm
+reboot
+asdkjasd
+asd
+cd .config/
+v compton.conf 
+systemctl enable compton
+killall compton
+compton
+compton
+compton
+compton
+compton
+compton
+la
+cl
+cm
+cl
+man scim#
+man scim
+whatis scim
+p -S scim
+c
+cl
+scim
+cl
+cd .local/
+la
+cl
+man sc-
+man sc-im
+sc
+p -Ss scim
+p -R scim
+cl
+p -Ss scim
+cl
+pamac search scim
+pamac build  scim-spreadsheet
+pamac build scim-spreadsheet
+p -Ss sc-im
+pamac search sc-im
+cl
+git clone https://github.com/andmarti1424/sc-im.git
+cd sc
+cd sc-im/
+la
+cl
+la
+cl
+v src/Makefile 
+make -C src
+make -C src install
+sudo make -C src
+sudo make -C src install
+cl
+scim
+sudo make -C src install
+p -Ss gnuplot
+p -Ss gnuplot
+p -S gnuplot
+cl
+v src/Makefile 
+p -S gnuplot
+make -C src/
+make -C src/ install
+sudo make -C src/ install
+cl
+scim
+cl
+sudo make -C src/ install
+v /usr/local/bin/sc-im 
+sc-im
+brc
+scim
+man i3
+i3 -C
+man i3
+conf
+cl
+hcon
+la
+v compton.conf 
+p -Syyu
+icl
+cl
+la
+cl
+la
+rm xev.txt 
+la
+rm -f xev.txt 
+la
+clla
+cl
+la
+frm .viminfo.tmp 
+frm .viminfz.tmp 
+la
+v .ICEauthority 
+cl
+la
+v .dir_colors 
+cl
+la
+cl
+p -Ss atom
+cl
+p -S atom
+atom
+type atom
+cl
+which atom
+v /usr/bin/atom
+sv /usr/bin/atom
+cl
+conf
+cm
+conf
+cl
+la
+cd sc
+cd scripts/
+touch rootterm.sj
+mv rootterm.sj rootterm.sh
+chmod +x rootterm.sh 
+la
+v rootterm.sh 
+conf
+la
+cl
+conf
+brc
+cl
+cmatrix
+cmatrix | lolca
+cmatrix | lolcat
+cmatrix|lolcat
+cmatrix | lolcat
+cmatrix | lolcat
+cmatrix
+cmatrix | lolcat
+cmatrix
+cmatrix | lolcat
+cmatric
+cmatrix
+cmatrix
+cmatrix|lolcat
+cmatrix | lolcat
+scim kosten.csv
+localc kosten.csv 
+pbar
+cl
+killall polybar
+i3status 
+cd .config/
+la
+cl
+cc
+man i3status
+man i3status
+i3status 
+cl
+conf
+killall i3bar
+cl
+killall polybar
+polybar --config=~/.config/polybar/config_wasp top
+polybar --config=~/.config/polybar/config_wasp top
+cl
+cd .config/polybar/
+v config_wasp 
+cl
+v /etc/i3status.conf 
+i3bar
+conf
+cl
+cd .config/polybar/
+la
+frm config_backup 
+touch config_wasp
+v config_wasp 
+killall polybar 
+man polybar
+killall polybar 
+killall polybar 
+killall polybar 
+killall polybar 
+killall polybar 
+killall polybar 
+killall polybar 
+polybar -c ./config_wasp
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+polybar --config=/home/henning/.config/polybar/config_wasp
+v config_wasp 
+polybar --config=/home/henning/.config/polybar/config_wasp top
+polybar --config=/home/henning/.config/polybar/config_wasp top &
+polybar --config=/home/henning/.config/polybar/config_wasp bottom &
+polybar --config=/home/henning/.config/polybar/config_wasp external_bottom &
+cl
+v config_was
+v config_wasp 
+cl
+killall polybar 
+polybar --config=/home/henning/.config/polybar/config_wasp top &
+v config_wasp 
+cl
+killall polybar 
+polybar -r --config=/home/henning/.config/polybar/config_wasp top &
+v config_wasp 
+killall polybar 
+polybar -r --config=/home/henning/.config/polybar/config_wasp top &
+v config_wasp 
+polybar -r --config=/home/henning/.config/polybar/config_wasp top &
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+killall polybar 
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
+cl
+conf
+cd .scim/
+cc
+cl
+cd scripts/
+la
+mv repbar.sh repbar_rice.sh 
+cl
+hscr
+la
+hcon
+cd polybar/
+v config_wasp 
+conf
+hscr
+cp repbar_rice.sh repbar_wasp.sh 
+v  repbar_wasp.sh 
+cl
+la
+cl
+./repbar_wasp.sh 
+v repbar_wasp.sh 
+v repbar_rice.sh 
+cl
+./repbar_wasp.sh 
+vcl
+cl
+cc
+hcon
+cd polybar/
+la
+v config_wasp 
+cl
+v config_wasp 
+cl
+icl
+cl
+cl
+la
+v spotify 
+cl
+a
+cl
+la
+cl
+la
+cp config config_backup
+v config
+mv config config_simple
+mv config_backup config
+cl
+cc
+cc
+cd sc
+hscr
+la
+cp repbar_rice.sh repbar_simple.sh
+v repbar_simple.sh 
+cl
+c
+ccc
+cl
+cc
+la
+hscr
+la
+cd dmenu/
+la
+./killp.sh 
+cl
+la
+frm dmenu_kill 
+la
+cp shutdown.sh 
+cp shutdown.sh polybar_select.sh
+la
+v polybar_select.sh 
+./polybar_select.sh 
+./polybar_select.sh 
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+./polybar_select.sh 
+cl
+./polybar_select.sh 
+./polybar_select.sh 
+./polybar_select.sh 
+la
+hscr
+cl
+v  repbar_wasp.sh 
+cl
+la
+cl
+la
+cl
+man killall
+cl
+hscr
+la
+v repbar_simple.sh 
+v repbar_rice.sh 
+cl
+cö
+cl
+la
+cl
+cc
+hcon
+cd polybar/
+la
+v config_wasp 
+cl
+cl
+zsh
+cl
+con
+conf
+la
+cl
+hscr
+touch no_gaps.sh
+chmod +x no_gaps.sh 
+la
+v no_gaps.sh 
+cd colorschemes/
+la
+cl
+touch gaps_polybar_{simple,rice,wasp}
+la
+v gaps_polybar_rice 
+cl
+i3-msg gaps top all set 20
+i3-msg gaps top all set 10
+i3-msg gaps top all set 5
+i3-msg gaps top all set 3
+i3-msg gaps top all set 2
+i3-msg gaps top all set 2
+i3-msg gaps top all set 1
+i3-msg gaps bottom all set 1
+cl
+hsr
+hscr
+la
+v repbar_simple.sh 
+cl
+la
+v no_gaps.sh 
+cl
+cd sc
+hscr
+v no_gaps.sh 
+cl
+la
+cl
+v repbar_
+v repbar_wasp.sh 
+v repbar_simple.sh 
+v repbar_rice.sh 
+cl
+cd sc
+hscr
+la
+v no_gaps.sh 
+cd colorschemes/
+la
+v
+cd sc
+hscr
+la
+cd colorschemes/
+la
+v gaps_polybar_rice 
+cl
+mkdir test
+la
+cl
+cd test/
+la
+frm test*
+l
+la
+cl
+touch asdf
+echo "Henning \n ist \n sehr \ cool \n"
+cat asdf
+echo "Henning \n ist \n sehr \ cool \n" > asdf
+cat asdf
+cl
+la
+cl
+printf "Henning \n ist \n sehr \ cool \n" > asdf
+cat asdf
+cl
+printf "Henning\nist\nsehr\ncool" > asdf
+la
+cl
+cat asdf 
+cl
+cl
+cd scripts/colorschemes/
+la
+cl
+cat gaps_polybar_rice 
+cat gaps_polybar_wasp 
+cat gaps_polybar_simple 
+printf "\#\!\/bin\/bash\nist\nsehr\ncool" > asdf
+cat asdf
+echo "#\!/bin/bash"
+echo "#\!/ bin/bash"
+printf '#!/bin/bash"
+printf '#!/bin/bash\nHenning\nist\ncool" > test.sh
+printf '#!/bin/bash\nHenning\nist\ncool' > test.sh
+cat test
+cat test.sh 
+cl
+la
+frm test.sh
+la
+cl
+hscr
+la
+cd dmenu/
+la
+po
+polybar_s
+v polybar_select.sh
+cl
+cc
+la
+v repbar_
+v repbar_rice.sh 
+hscr
+la
+cd colorschemes/
+la
+frm gaps_polybar_*
+la
+cl
+cc
+cl
+cl
+la
+cl
+v no_gaps.sh 
+watch -n 0.3 cat no_gaps.sh 
+cl
+cd .local/st
+cd .local/s
+cd .local/
+la
+cl
+cd share/
+a
+cl
+l
+cl
+la
+cd Steam/
+la
+cd steamapps/
+la
+cc
+r
+soa
+cd la
+cl
+la
+soa
+cl
+cd steamapps/
+la
+śoa
+soa
+cd downloading/
+la
+cl
+lla
+soa
+cd 730/
+la
+cl
+cd csgo/
+la
+conf
+cl
+conrf
+cl
+conf
+cl
+cl
+p -Syyu
+cl
+hcon
+v compton.conf 
+killall compton; comptom &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton &
+killall compton; compton --blur-background &
+killall compton; compton &
+cl
+brc
+compon
+compton
+bg
+compton &
+sudo mhwd -a pci nonfree 0300
+sudo mhwd -a pci free 0300
+cl
+la
+cl
+hscr
+v repbar_simple.sh 
+cc
+hcon
+cd polybar/
+v config_simple 
+cl
+sudo lshw -C
+sudo lshw -C eDPI-1
+sudo lshw -C display
+lspci
+cl
+grep DRI3 /var/log/Xorg.0.log
+glxinfo | grep "OpenGL vendor"
+glxgears -info
+glxgears -info | column -t
+glxgears -info | column 
+column
+man column
+glxgears -info | column 
+cö
+cl
+glxgears -info
+DRI_PRIME=1 steam
+DRI_PRIME=1 steam
+man set
+p
+cl
+py
+cl
+compton &
+cl
+cl
+print cl
+cl
+cl
+cl
+cl
+brc
+cl
+killall compton
+compton
+bg
+bg
+cl
+type bg
+bg
+man bg
+c
+cl
+brc
+cl
+compton &
+pacman -S bspwm sxhkd
+sudo pacman -S bspwm sxhkd
+cl
+hcon
+la
+mkdir bspwm
+cd bspwm/
+wget https://raw.githubusercontent.com/baskerville/bspwm/master/examples/bspwmrc
+la
+cl
+cc
+mkdir sxhkd
+cd sxhkd/
+öa
+cöl
+cl
+la
+frm sxhkdrc 
+wget https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc
+v .xinitrc 
+cl
+hcon
+la
+cd bspwm/
+la
+cl
+v bspwmrc 
+cl
+urxvt
+ck
+cl
+ed
+cl
+mupdf
+cl
+evince
+hcon
+cd zathura/
+la
+la
+cl
+v zathurarc
+p -Ss zathura
+p -S zathura zathura-pdf-mupdf
+p -S mupdf
+cl
+locate *.pdf
+cl
+la
+cl
+spb
+la
+zathura migrationspakt.
+zathura migrationspakt.pdf
+time zathura migrationspakt.pdf
+time zathura migrationspakt.pdf
+time zathura migrationspakt.pdf
+time zathura migrationspakt.pdf
+time evince migrationspakt.pdf
+time evince migrationspakt.pdf
+time evince migrationspakt.pdf
+time evince migrationspakt.pdf
+time mupdf migrationspakt.pdf
+time mupdf migrationspakt.pdf
+time mupdf migrationspakt.pdf
+cl
+man zathura
+r
+pbar
+cl
+r
+ps axc
+ps axc | awk {print $5}
+ps axc | awk {print "$5"}
+ps axch | awk {print "$5"}
+ps axch | awk {print"$5"}
+ps axch -o cdḿd
+ps axch -o cmd
+cl
+notify-send
+notify-send 
+notify-send asd
+man notify-send 
+notify-send -h
+notify-send ?
+notify-send -?
+notify-send nigga -a Testing 
+notify-send "$(ls)" -a Testing 
+notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing 
+notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing
+cl
+notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing 
+p -Syyu
+cl
+profile
+v .profile 
+cl
+hcon
+cd bspwm/
+la
+chmod +x bspwmrc 
+la
+cl
+v bspwmrc 
+v bspwmrc 
+cl
+hcon
+la
+cd polybar/
+la
+v config
+cc
+la
+cd qrt
+cd qtile/
+la
+v config.py 
+comptonn
+compton
+conf
+con
+hcon
+cd qtile/
+cl
+la
+v config.py 
+con
+cobf
+cof
+conf
+killall qtile
+cm
+cl
+xmacrp
+xmacro
+p -Ss xmacr
+p -Ss xmacro
+l
+py
+cl
+v task.py
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+v task.py 
+py task.py 
+cl
+frm task.py test.py 
+frm test/
+la
+cl
+r
+p -Syyu
+cl
+py
+cl
+v test.py
+py test
+py test.py
+viewnior tag.png 
+viewnior tag.png 
+viewnior tag.png 
+killall qtile
+cl
+hcon
+cd qt
+cd qtile/
+[a
+cl
+la
+v config.py 
+cl
+killall qtil
+killall qtile
+la
+cl
+ht
+killall bspwm 

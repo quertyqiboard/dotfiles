@@ -97,8 +97,8 @@ label-foreground = ${colors.yellowish}
 type = internal/battery
 full-at = 98
 label-charging = Charging (%percentage%%)
-label-discharging = %percentage%%
-label-full = %percentage%%
+label-discharging = BAT: %percentage:2%%
+label-full = BAT: %percentage:2%%
 label-discharging-foreground = ${colors.yellowish}
 label-charging-foreground = ${colors.green}
 label-full-foreground = ${colors.yellowish}
@@ -166,6 +166,7 @@ type = internal/memory
 interval = 5
 label = RAM: %percentage_used%% [%gb_used% / %gb_total%]
 format-foreground = ${colors.yellowish}
+click-left = notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing
 [module/cpu]
 type = internal/cpu
 label = CPU: %percentage:2%%

@@ -4,13 +4,15 @@ set $red   #ff0000
 set $blue  #0000ff
 set $black #000000
 set $darkred #990000
+set $darkblue #000099
+set $darkmagenta #801090
 set $transparent #00000000
 
 # sets colors
 #                       BORDER		BACKGROUND	TEXT		INDICATOR   CHILD_BORDER
-client.focused		$white		$red		$magenta	$darkmagenta	$white
-client.unfocused	$transparent	$blue		$white		$darkblue	$darkblack
-client.focused_inactive	$transparent	$blue		$white		$darkblue	$darkblack
+client.focused		$white		$red		$white 		$darkmagenta	$white
+client.unfocused	$transparent	$blue		$white		$darkblue	$black
+client.focused_inactive	$transparent	$blue		$white		$darkblue	$black
 client.urgent		$red	 	$darkred	$black		$darkred	$darkred
 #
 
@@ -28,6 +30,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec --no-startup-id $term
+bindsym $mod+shift+Return exec --no-startup-id $term -e sudo su
 
 # kill focused window
 bindsym $mod+q kill
@@ -132,14 +135,14 @@ mode "resize" {
 bindsym $mod+p mode "music"
 mode "music" {
 # Control volume / music
-        bindsym h exec playerctl previous
-        bindsym j exec amixer set Master 5%-
-        bindsym k exec amixer set Master 5%+
-        bindsym l exec playerctl next
-	bindsym u exec amixer set Master toggle
-	bindsym i exec playerctl play-pause
-	bindsym v exec glava -d
-	bindsym b exec killall glava
+        bindsym h exec --no-startup-id playerctl previous
+        bindsym j exec --no-startup-id amixer set Master 5%-
+        bindsym k exec --no-startup-id amixer set Master 5%+
+        bindsym l exec --no-startup-id playerctl next
+	bindsym u exec --no-startup-id amixer set Master toggle
+	bindsym i exec --no-startup-id playerctl play-pause
+	bindsym v exec --no-startup-id glava -d
+	bindsym b exec --no-startup-id killall glava
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
@@ -149,10 +152,10 @@ mode "music" {
 bindsym $mod+b mode "brightness"
 mode "brightness" {
 # Brightness control
-	bindsym j exec xbacklight -dec 5 -time 10 -steps 5
-	bindsym h exec xbacklight -dec 5 -time 10 -steps 5
-	bindsym k exec xbacklight -inc 5 -time 10 -steps 5
-	bindsym l exec xbacklight -inc 5 -time 10 -steps 5
+	bindsym j exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
+	bindsym h exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
+	bindsym k exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
+	bindsym l exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
@@ -166,7 +169,7 @@ mode "applications" {
 	bindsym b exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/; workspace $ws9
 	bindsym c exec --no-startup-id localc; mode "default"
 	bindsym d exec --no-startup-id deluge-gtk; mode "default"
-	bindsym e exec --no-startup-id <++>; mode "default"; workspace <++>
+	bindsym e exec --no-startup-id atom; mode "default"
 	bindsym f exec --no-startup-id firefox; mode "default"; workspace $ws2
 	# bindsym g exec --no-startup-id <++>; mode "default"; workspace $<++>
 	# bindsym h exec --no-startup-id $term; mode "default"
@@ -175,10 +178,10 @@ mode "applications" {
 	# bindsym k exec --no-startup-id <++>; mode "default"; workspace $<++>
 	# bindsym l exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym m exec --no-startup-id pcmanfm; mode "default"
-	bindsym n exec --no-startup-id /home/henning/scripts/renm.sh; mode "default"
+	bindsym n exec --no-startup-id /home/henning/scripts/renema.sh; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
-	 bindsym q exec --no-startup-id qutebrowser; mode "default"; workspace $ws2
+	bindsym q exec --no-startup-id qutebrowser; mode "default"; workspace $ws2
 	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
@@ -209,7 +212,7 @@ mode "move" {
         bindsym Return mode "default"
         bindsym $mod+q mode "default"
         bindsym Escape mode "default"
-        bindsym $mod+shift+p mode "default"
+        bindsym $mod+shift+m mode "default"
 
 
 }
@@ -218,6 +221,11 @@ mode "move" {
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+
+# Brightness controll
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
+bindsym XF86Lock exec --no-startup-id i3lock -B 6
 
 # Volume control
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
@@ -233,23 +241,26 @@ exec_always --no-startup-id compton
 exec_always --no-startup-id urxvtd -q -o -f
 exec_always --no-startup-id /home/henning/Downloads/xflux -l 52.4
 exec_always --no-startup-id /home/henning/scripts/renm.sh
-exec_always --no-startup-id /home/henning/scripts/repbar.sh
+exec_always --no-startup-id /home/henning/scripts/repbar_rice.sh
 
 
 # Power state managment
-bindsym $mod+x exec /home/henning/scripts/dmenu/shutdown.sh
-bindsym $mod+shift+l exec i3lock -B 6
+bindsym $mod+x exec --no-startup-id /home/henning/scripts/dmenu/shutdown.sh
+bindsym $mod+shift+l --no-startup-id exec i3lock -B 6
 # Reinvoke i3config changes
-bindsym $mod+shift+i exec /home/henning/scripts/repbar.sh
-bindsym $mod+Shift+r exec /home/henning/scripts/restarti3.sh
-bindsym $mod+shift+k gaps inner all set 0; gaps outer all set 0; gaps top all set 25; gaps bottom all set 25
+bindsym $mod+shift+i exec --no-startup-id /home/henning/scripts/repbar_rice.sh
+bindsym $mod+Shift+r exec --no-startup-id /home/henning/scripts/restarti3.sh
+bindsym $mod+shift+k exec --no-startup-id /home/henning/scripts/no_gaps.sh
 bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 30
+bindsym $mod+shift+p exec --no-startup-id /home/henning/scripts/dmenu/polybar_select.sh
 # Set default orientation for window
 default_orientation horizontal
 
 # settings for window borders
-default_border pixel 4
+default_border pixel 3
 default_floating_border pixel 4
+new_window none
 # i3 Gaps
 gaps inner 15
 gaps outer 30
+smart_borders on

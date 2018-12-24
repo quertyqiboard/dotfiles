@@ -12,13 +12,12 @@ URxvt.iso14755: false
 URxvt.cursorBlink: true
 URxvt.chdir: /home/henning/
 URxvt.url-launcher: firefox
-URxvt.borderColor: [90]#0f0f0f
 URxvt.internalBorder: 0
 URxvt.externalBorder: 0
 URxvt.depth: 32
 ! special
 URxvt.foreground:   #ffffff
-URxvt.background:   [80]#000000
+URxvt.background:   [70]#000000
 URxvt.cursorColor:  #D7FF00
 ! extensions for urxvt
 URxvt.perl-ext-common: default,tabbed,matcher,resize-font,-tabbed
