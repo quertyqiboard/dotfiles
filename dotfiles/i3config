@@ -10,7 +10,7 @@ set $transparent #00000000
 
 # sets colors
 #                       BORDER		BACKGROUND	TEXT		INDICATOR   CHILD_BORDER
-client.focused		$white		$red		$white 		$darkmagenta	$white
+client.focused		$black		$red		$white 		$darkmagenta	$white
 client.unfocused	$transparent	$blue		$white		$darkblue	$black
 client.focused_inactive	$transparent	$blue		$white		$darkblue	$black
 client.urgent		$red	 	$darkred	$black		$darkred	$darkred
@@ -78,17 +78,16 @@ mode "command" {
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
-set $ws2 "2 "
-set $ws3 "3 "
-set $ws4 "4 "
-set $ws5 "5 "
-set $ws6 "6."
-set $ws7 "7."
-set $ws8 "8."
-set $ws9 "9."
-set $ws10 "10. Tor"
-
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -115,9 +114,9 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="Firefox"] $ws2
 assign [class="Thunderbird"] $ws4
-assign [class="Tor Browser"] $ws5
+assign [class="Tor Browser"] $ws6
 assign [class="Spotify"] $ws5
-assign [class="libreoffice"] $ws5
+assign [class="libreoffice"] $ws6
 bindsym $mod+r mode "resize"
 mode "resize" {
 # Resize windows with vim keybindings
@@ -181,7 +180,7 @@ mode "applications" {
 	bindsym n exec --no-startup-id /home/henning/scripts/renema.sh; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
-	bindsym q exec --no-startup-id qutebrowser; mode "default"; workspace $ws2
+	; bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
 	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
@@ -221,6 +220,7 @@ mode "move" {
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
 # Brightness controll
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
@@ -233,26 +233,25 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
 bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 
 # Autorun on startup
-exec_always --no-startup-id sudo rmmod pcspkr
+exec --no-startup-id sudo rmmod pcspkr
 exec_always --no-startup-id xset r rate 300 120
-exec_always --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
-exec_always --no-startup-id polybar default
-exec_always --no-startup-id compton
-exec_always --no-startup-id urxvtd -q -o -f
-exec_always --no-startup-id /home/henning/Downloads/xflux -l 52.4
-exec_always --no-startup-id /home/henning/scripts/renm.sh
-exec_always --no-startup-id /home/henning/scripts/repbar_rice.sh
+exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
+exec --no-startup-id compton
+exec --no-startup-id urxvtd -q -o -f
+exec --no-startup-id /home/henning/Downloads/xflux -l 52.4
+exec_always --no-startup-id /home/henning/scripts/renema.sh
+exec_always --no-startup-id /home/henning/scripts/reclip.sh
+exec_always --no-startup-id /home/henning/scripts/repbar_def.sh
 
 
 # Power state managment
 bindsym $mod+x exec --no-startup-id /home/henning/scripts/dmenu/shutdown.sh
-bindsym $mod+shift+l --no-startup-id exec i3lock -B 6
+bindsym $mod+shift+l exec --no-startup-id i3lock -B 6
 # Reinvoke i3config changes
 bindsym $mod+shift+i exec --no-startup-id /home/henning/scripts/repbar_rice.sh
-bindsym $mod+Shift+r exec --no-startup-id /home/henning/scripts/restarti3.sh
+bindsym $mod+Shift+r restart
 bindsym $mod+shift+k exec --no-startup-id /home/henning/scripts/no_gaps.sh
 bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 30
-bindsym $mod+shift+p exec --no-startup-id /home/henning/scripts/dmenu/polybar_select.sh
 # Set default orientation for window
 default_orientation horizontal
 

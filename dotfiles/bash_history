@@ -1486,3 +1486,987 @@ la
 cl
 ht
 killall bspwm 
+dfiles commit -a 
+dfiles add ~/scripts/no_gaps.sh 
+dfiles add ~/scripts/repbar_*
+dfiles add ~/scripts/restarti3.sh 
+dfiles add ~/scripts/transparent.sh 
+dfiles add ~/scripts/solarized.sh 
+dfiles add ~/scripts/spacegray.sh 
+dfiles add ~/scripts/renema.sh 
+dfiles add ~/scripts/reclip.sh 
+dfiles add ~/scripts/lockscreen.sh 
+dfiles add ~/scripts/info-*
+dfiles add ~/scripts/dmenu/polybar_select.sh 
+dfiles add ~/scripts/dmenu/shutdown.sh 
+dfiles add ~/scripts/colorschemes/
+dfiles commit -a
+dfiles push
+cl
+p -Ss minecraft
+cl
+p -Ss openjdk
+p -S jre-openjdk
+cl
+pamac build minecraft-launcher
+p -R jre-openjdk
+pq
+sudo pacman -Rs $(pacman -Qqdt)
+pamac build minecraft-launcher
+cl
+minecraft-launcher 
+gufw
+sudo gufw
+cl
+cd sc
+cd scripts/
+la
+v battery.sh 
+frm battery.sh 
+la
+./clearcache.sh 
+cl
+la
+v info-
+v info-hackspeed.sh 
+v info-hackspeed.sh 
+cl
+p -Ss feed the beastr
+p -Ss feed the beast
+p -Ss ftb
+hdowe
+hdow
+cl
+la
+java 
+java -jar FTB_Launcher.jar 
+cl
+sudo +java -jar FTB_Launcher.jar 
+sudo java -jar FTB_Launcher.jar 
+p -Ss java 8
+java 
+man java
+p -Ss java
+cl
+sudo java -jar FTB_Launcher.jar 
+
+cd Downloads/
+sudo java -jar FTB_Launcher.jar 
+hcon
+v compton.conf 
+cd Downloads/
+sudo java -jar FTB_Launcher.jar 
+cd Downloads/
+sudo java -jar FTB_Launcher.jar 
+java -XshowSettings:properties -version
+java -version
+cö
+cl
+sudo pamac-ui
+sudo pacui
+whereis pacui
+sv /usr/bin/pacui
+p -Ss jre-openjdk
+v
+cl
+sudo update-ca-certificates --fresh
+v
+sudo update-ca-certificates --fresh
+cl
+hdow
+sudo java -jar FTB_Launcher.jar 
+cl
+la
+cc
+la
+cd ftb/
+la
+cl
+lla
+cc
+frm ftb/
+öa
+lc
+cl
+la
+frm /root/ftb
+rm -rf /root/ftb
+sudo +rm -rf /root/ftb
+sudo rm -rf /root/ftb
+su
+cl
+la
+cl
+hdow
+java -jar FTB_Launcher.jar 
+cl
+cc
+cd ftb/
+la
+lla
+cc
+cd .ftblauncher/
+la
+cd authlib/
+a
+cl
+la
+frm authlib-1.5.22.jar 
+mv ~/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar ./
+la
+cl
+sudo pacui
+sudo pacui
+hdow
+java -jar FTB_Launcher.jar +
+java -jar FTB_Launcher.jar
+sudo java -jar FTB_Launcher.jar
+cl
+cc
+hdow
+frm FTB_Launcher.jar 
+la
+cl
+cc
+la
+frm ftb/
+frm .ftblauncher/
+la
+cd .minecraft/
++la
+cl
+la
+cd libraries/
+la
+locate authlib
+cl
+sudo updatedbv+
+sudo updatedb
+locate authlib
+cd com
+cd authlib
+cd mojang/
+cd authlib/
+la
+cl
+cd 1.5.25/
+la
+cl
+la
+cl
+cd .ftblauncher/
+la
+cd authlib/
+la
+v authlib-1.5.22.jar 
+hdow
+sudo java -jar FTB_Launcher.jar
+java -jar FTB_Launcher.jar
+pamac build feedthebeast
+cl
+feedthebeast 
+pamac remove 
+pamac remove feedthebeast
+clk
+cl
+/usr/lib/jvm/java-11-openjdk/bin/java -Xmx256m -verbose -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -cp /home/henning/Downloads/TechnicLauncher.jar net.technicpack.launcher.LauncherMain
+cö
+cl
+sudo rm -r ftb/
+sudo rm -rf .ftblauncher/
+la
+cl
+hzdow
+hdow
+cl
+öa
+cl
+la
+frm FTB_Launcher.jar 
+java -jar TechnicLauncher.jar 
+java -jar TechnicLauncher.jar 
+java -jar TechnicLauncher.jar 
+java -jar TechnicLauncher.jar 
+java -jar TechnicLauncher.jar 
+cc
+cl
+la
+cd .technic/
+la
+v settings.json 
+cl
+la
+cd logs/
+la
+v techniclauncher_2018-12-24.log 
+cc
+cc
+cc
+cc
+hdow
+v techniclauncher_2018-12-24.log 
+java -jar TechnicLauncher.jar 
+cö
+cl
+frm TechnicLauncher.jar 
+la
+cl
+DRI_PRIME=1 steam
+DRI_PRIME=1 steam
+DRI_PRIME=1 steam
+cl
+la
+cl
+scr
+hscr
+la
+cd colorschemes/
+la
+v cl
+cc
+cö
+cl
+la
+v repbar_wasp.sh 
+clö
+cl
+offd
+cl
+off
+hdow
+la
+la
+la
+cl
+java -jar forge-1.12.2-14.23.5.2796-installer.jar 
+java -jar forge-1.12.2-14.23.5.2796-installer.jar 
+java -jar forge-1.12.2-14.23.5.2796-installer.jar 
+frm forge-1.12.2-14.23.5.2796-installer.jar 
+la
+la
+cl
+la
+cl
+la
+la
+lwatch
+cl
+la
+java -jar forge-1.12.2-14.23.5.2796-universal.jar 
+java -jar forge-1.12.2-14.23.5.2796-universal.jar 
+cl
+la
+frm forge-1.12.2-14.23.5.2796-universal.jar 
+la
+cl
+cc
+java -jar forge-1.12.2-14.23.5.2796-universal.jar 
+java -jar forge-1.12.2-14.23.5.2796-universal.jar 
+hdow
+la
+frm forge-1.12.2-14.23.5.2796-universal.jar 
+la
+cl
+la
+cl
+ls
+ls
+cl
+la
+java -jar forge-1.12.2-14.23.5.2768-installer.jar 
+v /etc/hosts
+sv /etc/hosts
+la
+cl
+cd Downloads/
+la
+la
+la
+cc
+cd .minecraft/
+cc
+cd DOw
+hdow
+la
+frm *.jar
+la
+frm *.lo
+la
+r
+cl
+la
+java -jar forge-1.12-14.21.1.2387-installer.jar 
+cl
+la
+cl
+cc
+cd .minecraft/
+la
+mkdir mods
+clö
+cl
+la
+cd logs/
+la
+v latest.log 
+cl
+la
+frm *.gz
+la
+cl
+lwatch
+la
+cl
+la
+v latest.log 
+la
+v latest.log 
+cd .minecraft/
+la
+cd screenshots/
+lka
+cl
+r
+r
+cl
+ht
+cl
+la
+cl
+minecraft-launcher 
+cd .minecraft/
+cdn screenshots/
+r
+cd screenshots/
+cl
+r
+v
+v
+DRI_PRIME=1 steam
+hdow
+la
+frm forge-*
+la
+java -jar OptiFine_1.12_HD_U_C7.jar 
+cl
+hdow
+la
+java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
+sv /etc/hosts
+cd .minecraft
+la
+cd versions/
+la
+frm 1.12\ -\ 5zig\ Mod/
+la
+frm 1.12-forge1.12-14.21.1.2387/
+la
+cl
+cc
+minecraft-launcher 
+hdow
+cl
+la
+java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
+la
+cc
+cd .minecraft/
+la
+cd mods/
+la
+cc+
+cl
+la
+cl
+la
+cl
+cc
+la
+cc
+hdow
+sudo java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
+java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
+cl
+cd .minecraft/
+la
+v options.txt 
+p -Ss authlib
+minecraft
+cl
+la
+cd .minecraft/
+la
+v launcher_
+v launcher_log.txt 
+cd logs/+
+cd logs/
+cl
+la
+v latest.log 
+cl
+cc
+v launcher_log.txt 
+cl
+watch -n .3 less launcher_log.txt 
+watch -n .3 tail launcher_log.txt 
+more launcher_
+more launcher_log.txt 
+less launcher_log.txt 
+cl
+la
+cl
+hdow
+la
+frm OptiFine_1.12_HD_U_C7.jar 
+la
+r
+la
+cl
+java -jar MC\ Modinstaller\ 5.0.8.jar 
+java -jar MC\ Modinstaller\ 5.0.8.jar 
+p -Ss virtualbox
+p -Ss vmware
+p -S vmware
+cl
+p -Ss workstation
+p -Ss virtualbox
+p -S virtualbox
+cl
+sudo su
+sudo virtualbox 
+killall java
+cl
+java -jar MC\ Modinstaller\ 5.0.8.jar 
+hdow
+java -jar MC\ Modinstaller\ 5.0.8.jar 
+ping google.com
+ht
+cd .minecraft/
+la
+cc
+frm .minecraft/
+la
+cl
+cd .minecraft/
+löa
+cl
+la
+cd versions/
+la
+frm 1.12*
+frm Modinstaller/
+öa
+cl
+la
+nvidia-settings 
+nvidia-xconfig 
+cl
+p -Syyu
+cl
+so test
+frm test
+la
+v asdf 
+frm asdf 
+la
+feh tag.png 
+frm tag.png 
+la
+cl
+cm
+conf
+pbar
+cl
+p -Syu
+cl
+pbar
+pbar
+hdoc
+r
+ht
+cl
+sudo nvidia-xconfig 
+sudo nvidia-settings #
+sudo nvidia-settings
+cl
+manjaro-
+manjaro-settings-manager 
+sudo manjaro-settings-manager 
+DRI_PRIME=1 minecraft-launcher 
+off
+cd Downloads/
+la
+feh ps1.jpg 
+p -S sxiv
+sxiv ps1.jpg 
+cl
+sxiv ps1.jpg 
+cl
+sxiv ps1.jpg 
+echo "$(echo Test)"
+echo "$(echo '$(echo Test))"
+echo "$(echo '$(echo Test)')"
+echo "$(echo "$(echo Test)")"
+echo "$(echo "$(echo Test)")"
+echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
+echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
+time echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
+echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
+echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
+t
+ht+
+ht
+cd .minecraft/versions/
+la
+frm 1.12/
+cl
+cd .config/
+la
+c dpol
+cd polybar/
+la
+v config
+v config_wasp 
+cl
+cl
+conf
+killall vim
+ht
+ht
+grep "sleep 5" ./
+grep "sleep 5" ./*
+grep "sleep 5" 
+grep "sleep 5" ~/**/*
+grep "sleep 5" ~/**/**
+cl
+cla
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+cd .config/
+grep "sleep 5" ~/**/**
+cl
+cc
+grep -r "sleep 5" .
+cl
+grep -r "sleep" .
+cd scripts/
+grep -r "sleep" .
+grep -r "sleep 5" .
+cc
+öa
+cl
+cd .config/
+grep -r "sleep 5" .
+less .bash_history 
+xev
+xev
+man pĺayerctl
+cl
+playerctl
+ocnf
+conbf
+conf
+cm
+ht
+v
+cl
+su
+sudo -i
+jobs
+cl
+la
+cl
+la
+cl
+la
+v 
+v 7
+v 7
+frm 7
+la
+frm names.json 
+frm kosten.csv 
+frm shots.txt 
+frm .weatherreport 
+cl
+pbar
+cö
+cöl
+öa
+cl
+la
+cl
+cl
+la
+cl
+cl
+conf
+cöl
+cl
+ht
+cl
+hcon
+cd polybar/
+la
+frm config_wasp 
+cl
+la
+cl
+cc
+cl
+conf
+hscr
+la
+cd colorschemes/
+la
+solarized 
+la
+cc
+la
+cl
+la
+cl
+cc
+cc
+cc
+cl
+la
+cd ..
+la
+frm rootterm.sh 
+frm repbar_wasp.sh 
+la
+cl
+la
+frm info-weather.sh 
+frm clearcache.sh 
+löa
+cl
+la
+cd dmenu/
+la
+frm polybar_select.sh 
+la
+cl
+cc
+cd dmenu/
+la
+frm killp.sh 
+la
+cc
+la
+cl
+conf
+xl
+cd .config/polybar/
+la
+v conm
+v config
+cl
+v config
+repbar 
+brc
+brc
+repbar+
+repbar
+polybar mainbar-i3
+polybar mainbar-i3
+pbar
+cl
+cd .config/pl
+cd .config/polybar/
+öla
+cl
+la
+v config_simple 
+p -S font-awesome
+p -S ttf-font-awesome
+p -S ttf-font-awesome
+cl
+la
+cl
+polybar mainbar-i3
+cö
+cl
+fc-list
+fc-list | grep Font Awesome
+fc-list | grep "Font Awesome"
+cl
+p -Ss ubuntumono
+p -Ss nerdfont
+p -Ss nerd 
+git clone https://github.com/ryanoasis/nerd-fonts.git
+icl
+cl
+la
+cd cl
+la
+cd nerd-fonts/
+la
+./install.sh 
+cl
+ht
+xev
+cd scripts/
+la
+cc
+cd .config/polybar/
+la
+v config
+polybar -r mainbar-i3
+cd scripts/
+öa
+la
+./reclip.sh 
+cd scripts/
+la
+cp repbar_rice.sh repbar_def.sh
+v repbar_def.sh 
+v repbar_def.sh 
+cl
+confr
+conf
+conf
+hscr
+la
+v restarti3.sh 
+cl
+la
+./repbar_def.sh 
+conf
+v restarti3.sh 
+frmconf
+conf
+v restarti3.sh 
+frm restarti3.sh 
+la
+cl
+conf
+conf
+i3-msg border 
+i3-msg gaps
+i3-msg gaps top all
+i3-msg gaps top all set 15+
+i3-msg gaps top all set 15
+i3-msg gaps top all se
+i3-msg gaps top all set
+i3-msg gaps top all set 0
+i3-msg gaps top all set 0
+i3-msg gaps top all set 0
+v repbar_def.sh 
+conf
+i3-msg restart
+cl
+conf
+pbar
+cd scripts/
+la
+conf
+ht
+spacegray 
+ht
+v
+cl
+pbar
+ads
+asd
+cl
+la
+cl
+cl
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+asdasdadjaksdjhlkasjdlkasdjlaksdjk
+clk
+la
+cl
+cl
+la
+cl
+cl
+conf
+xterm
+asdasdasdxterm
+xterm
+la
+lc
+l
+cl
+la
+cl
+xterm
+bg
+brc
+cl
+xterm &
+less .bash_history 
+less .bash_history 
