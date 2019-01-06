@@ -1,0 +1,90 @@
+; vim:ft=dosini
+[colors]
+background = #262626
+transparent = #0000
+yellowish = #D7FF87
+yellow = #FFFF33
+red = #FF3333
+green = #33FF33
+gray = #A4A4A4
+lightgreen = #aaff77
+lightorange = #fba922
+
+[bar/default]
+monitor = ${env:MONITOR:eDP1}
+fixed-center = true
+background = ${colors.transparent}
+
+underline-size = 3
+padding-left = 1
+padding-right = 1
+module-margin-left = 1
+module-margin-right = 1
+font-0 = DejaVu Sans Mono:size=12;2
+modules-left = i3
+modules-center = xbacklight volume
+modules-right = wlan battery time
+tray-position = right
+wm-restack = i3
+override-redirect = true
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+label-focused-padding = 1
+label-focused = %index%
+
+label-focused-underline = ${colors.yellowish}
+label-unfocused = %index%
+label-unfocused-padding = 1
+
+label-urgent-underline = ${colors.red}
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 5
+format-connected = <label-connected>
+label-connected = Wlan
+
+format-disconnected = <label-disconnected>
+label-disconnected =
+
+[module/time]
+type = internal/date
+interval = 60
+date = %d.%m.%Y %H:%M%
+
+[module/battery]
+type = internal/battery
+full-at = 98
+label-charging = charging %percentage%%
+label-discharging = battery %percentage:2%%
+label-full = battery %percentage:2%%
+
+
+
+[module/xbacklight]
+type = internal/xbacklight
+format = <label>
+label = backlight %percentage%%
+
+[module/volume]
+type = internal/alsa
+format-volume = <label-volume>
+label-volume = volume %percentage%%
+label-muted = volume muted
+
+
+
+
+bar-volume-indicator = |
+bar-volume-fill = =
+bar-volume-empty = =
+
+[settings]
+screenchange-reload = false
+compositing-background = xorg
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
