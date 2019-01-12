@@ -23,6 +23,7 @@ client.urgent		$red	 	$darkred	$black		$darkred	$darkred
 set $mod Mod1
 set $term urxvtc
 set $browser firefox
+set $browser firefox
 
 font pango:DejaVu Sans Mono 12
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -54,6 +55,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+e layout toggle split
+# bindsym $mod+t layout tabbed
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -180,7 +182,7 @@ mode "applications" {
 	bindsym n exec --no-startup-id /home/henning/scripts/renema.sh; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
-	; bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
+	# bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
 	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
@@ -241,7 +243,7 @@ exec --no-startup-id urxvtd -q -o -f
 exec --no-startup-id /home/henning/Downloads/xflux -l 52.4
 exec_always --no-startup-id /home/henning/scripts/renema.sh
 exec_always --no-startup-id /home/henning/scripts/reclip.sh
-exec_always --no-startup-id /home/henning/scripts/repbar_def.sh
+exec_always --no-startup-id sleep 1; /home/henning/scripts/repbar_def.sh
 
 
 # Power state managment
@@ -251,7 +253,7 @@ bindsym $mod+shift+l exec --no-startup-id i3lock -B 6
 bindsym $mod+shift+i exec --no-startup-id /home/henning/scripts/repbar_rice.sh
 bindsym $mod+Shift+r restart
 bindsym $mod+shift+k exec --no-startup-id /home/henning/scripts/no_gaps.sh
-bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 30
+bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 20; gaps top all set 0
 # Set default orientation for window
 default_orientation horizontal
 

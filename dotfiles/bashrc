@@ -62,6 +62,7 @@ alias la="ls -AhH --color=auto --group-directories-first"
 alias ll='sudo ls -hHn --color=auto --group-directories-first'
 alias so="sudo du -hcs"
 alias lla="ls -alhH --color=auto --group-directories-first"
+alias lls="ls -lhH --color=auto --group-directories-first"
 alias soa="sudo du -ahc -d 3 ./ 2>/dev/null | sort -h "
 alias soar="sudo du -ahc -d 8 / 2>/dev/null | sort -h "
 alias lwatch="watch -n .2 ls -lh"
@@ -109,3 +110,6 @@ alias spacegray="/home/henning/scripts/spacegray.sh ; urxvtc ; exit"
 alias transparent="/home/henning/scripts/transparent.sh ; urxvtc ; exit"
 # Git dotfiles version controll
 alias dfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+# Vim quit
+alias :wq="exit"
+alias :q="exit"

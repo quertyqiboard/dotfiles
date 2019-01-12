@@ -6,7 +6,8 @@ URxvt.scrollBar_right: false
 URxvt.scrollBar_floating: false
 URxvt.buffered: true
 URxvt.visualBell: false
-URxvt.font: xft:DejaVu Sans Mono:size=18
+! URxvt.font: xft:DejaVu Sans Mono:size=18
+URxvt.font: xft:UbuntuMono Nerd Font:size=20
 URxvt.tabbed.saveLines: 2000
 URxvt.iso14755: false
 URxvt.cursorBlink: true

@@ -2470,3 +2470,732 @@ cl
 xterm &
 less .bash_history 
 less .bash_history 
+p -Syu
+cl
+cd .config/dunst/
+la
+v dunstrc
+frm dunstrc_backup 
+cp dunstrc dunstrc_backup
+v dunstrc
+man gut
+man git
+dfiles add scripts/*
+dfiles commit -a
+dfiles add .config/polybar/*
+dfiles commit -a
+cl
+cd .config/polybar/
+la
+v config_rice
+conf
+notify-send nigger
+notify-send niggerasd
+notify-send niggerasd\nasd
+cl
+cd .config/dunst/
+la
+mv dunstrc_bkup
+mv dunstrc_backup dunstrc
+la
+mv dunstrc dunstrc_bkup
+mv dunstrc_backup dunstrc
+cl
+la
+cl
+more dunstrc
+cl
+la
+cl
+p -Ss i3 config
+p -Ss i3
+cl
+la
+cl
+la
+cl
+la
+cl
+xres
+xresr
+xres
+solarized 
+l
+cl
+la
+cl
+xres
+xresr
+solarized 
+pbar
+la
+cl
+pbar
+xres
+transparent 
+p -Syyu
+cl
+la
+cl
+la
+cl
+la
+cl
+pacui
+cl
+la
+conf
+cl
+löa
+spacegray 
+la
+cl
+v
+cl
+p -S powerline
+la
+cl
+la
+cl
+la
+cl
+lka
+cl
+alö
+acl
+l
+cxl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+alc
+la
+cl
+alc
+cl
+la
+lc
+la
+cl
+la
+cl
+cl
+la
+cl
+la
+cl
+l
+cl
+la
+cl
+lla
+cl
+lls
+cl
+brc
+cl
+lls
+cl
+la
+cll
+cl
+lla
+cl
+lls
+frm forge-1.12.2-14.23.5.2796-universal.jar 
+la
+cl
+lls
+ls
+cl
+la
+cl
+ls
+frm VirtualBox\ VMs/
+la
+cl
+ls
+frm nerd-fonts/
+pnbar
+cl
+pbar
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+dcl
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+alc
+cl
+la
+cl
+la
+cl
+cl
+la
+cl
+al
+ccl
+cl
+ala
+cl
+la
+cl
+cla
+c
+cl
+la
+cl
+la
+clc
+cl
+la
+cl
+cd Downloads/
+la
+mkdir ~/Schule/Biologie/Bilder
+mv WhatsApp\ Image\ 201
+OE Fitness
+Linus Tech Tips
+Nick's Strength and Power
+Every Damn Day Fitness
+Philion
+BroScienceLife
+Jason Blaha's Strength and Power
+KENNY K.O.
+Infinite Elgintensity
+Am 31.12.2017 veröffentlicht
+mv WhatsApp\ Image\ 201* ~/Schule/Biologie/Bilder/
+al
+cl
+la
+cc
+sbio
+la
+cl
+cd Bilder/
+sxiv ./*
+feh ./*
+r
+feh ./*
+nmtui
+nm
+nmcli
+nmcli d
+nmcli de
+nmcli device show
+mcli
+cl
+la
+cl
+nmcli
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+l
+cl
+l
+cl
+la
+cl
+conf
+cl
+la
+cl
+cd .scim/
+cc
+cd scripts/
+./repbar_def.sh 
+./repbar_def.sh 
+pbar
+xres
+pbar
+cd sc
+cd scripts/
+./repbar_def.sh 
+polybar mainbar-i3
+off
+sbio
+cd bil
+cd Bilder/
+cl
+la
+feh *
+feh *
+r
+feh *
+time +feh *
+time feh *
+sbio
+cd Bilder/
+time feh *
+time feh *
+time feh *
+time feh *
+time feh *
+time sxiv *
+time sxiv *
+time sxiv *
+time sxiv *
+sudo mv Downloads/ps1.jpg /root/
+sudo su
+la
+cl
+sinf
+la
+cl
+cc
+hcod
+la
+cd Zahlensysteme/
+la
+py convertbinary.py 
+py convertbinary.py 
+cl
+la
+py convertdecimal.py 
+cl
+la
+cl
+la
+cl
+cm
+cl
+ping ddg.gg
+cl
+apropos hexa
+cl
+la
+cl
+la
+cl
+solarized 
+la
+cl
+spacegray 
+la
+cl
+xres
+spacegray 
+la
+cl
+la
+cl
+v
+cl
+la
+cl
+res
+xres
+spacegray 
+ka
+cl
+ht
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+pba#r
+pbar
+:wq
+cl
+la
+cl
+brc
+:wq
+:q
+brc
+:q
+:wq
+:wq
+:wq
+.wq
+:wq
+py
+v
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+lc
+cl
+ads
+ad
+cl
+la
+cl
+la
+cö
+cl
+cowsay Nigger
+cowsay Nigger | lolcat
+cowsay Nigger | lolcat
+cl
+cl
+cowsay Nigger | lolcat
+c
+cl
+cl
+icl
+cl
+unix
+apropos unnix
+apropos unix
+cl
+man dd
+cl
+lsblk
+cl
+lsblk
+cl
+lsblk
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+cl
+la
+cl
+la
+cl
+hcod
+cd Zahlensysteme/
+la
+v  convert
+py converthexa.py 
+v convert
+v converthexa.py 
+r
+R
+hcod
+cd Zahlensysteme/
+al
+cl
+la
+cl
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+ l
+cl
+la
+cl
+cl
+py converthexa.py 
+py converthexa.py 
+py converthexa.py 
+cl
+cl
+cl
+c
+lcl
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+clc
+cl
+cl
+v
+hcod
+cd Zahlensysteme/
+la
+py convertdecimal.py 
+py convertbinary.py 
+py convertdecimal.py 
+py convertdecimal.py 
+py convertdecimal.py 
+py convertdecimal.py 
+py convertbinary.py 
+py convertdecimal.py #
+py convertbinary.py #
+cl
+py convertbinary.py #
+py convertdecimal.py 
+py convertdecimal.py 
+py converthexa.py 
+
+py converthexa.py 
+py convertdecimal.py 
+R
+less .config/polybar/config
+nf
+pabr
+pbar
+less .config/polybar/config
+pbar
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+cl
+cl
+alc
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+lc
+cl
+la
+cl
+la
+cl
+la
+lc
+lcl
+cl
+la
+cl
+la
+cl
+l
+la
+clc
+cl
+la+c
+lac+l
+alc
+lc
+cl
+la
+clac
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+l
+cl
+ls
+la
+ls
+cl
+ls
+cl
+ls
+cl
+la
+cl
+la
+cl
+ls
+cl
+la
+lc
+cl
+v
+ccl
+la
+cl
+py
+py
+starwars 
+starwars
+starwars
+v
+py
+soa
+soa
+soa
+soa
+watch -n .1
+watch -n .1 soa
+soa
+cl
+soa
+so .local/share/Zeal/
+so .local/share/Zeal/
+so .local/share/Zeal/
+apropos batt
+acpi
+mna acpi
+man acpi
+acpi -a
+mna acpi
+man acpi
+acpi _V
+acpi -V
+polybar mainbar-i3
+killall polybar 
+polybar mainbar-i3
+pbar
+p -Ss xcb-util-curosr
+p -Ss xcb-util-cursor
+x
+xcursor
+cl
+apropos cursor
+j
+conf
+cl
+ocnf
+conf
+pbar
+cl
+od
+off
+off
+p -Syyu
+cl
+off
+cd DOw
+hdow
++la
+cl
+la
+cc
+pbar
+cl
+cl
+p -S virtualbox
+cl
+la
+cl
+sudo virtualbox 
+sudo virtualbox 
+sudo virtualbox 
+which vboxconfig
+locate vboxconfig
+sudo updatedb
+locate vboxconfig
+cl
+p -Ss vboxconfig
+p -Ss vbox
+p -Ss virtualbox
+p -Ss virtualbox | grep config
+cl
+virtualbo
+virtualbox
+cl
+la
+cl
+chmod -R 755 /usr/lib/virtualbox
+sudo chmod -R 755 /usr/lib/virtualbox
+cl
+virtualbox 
+cl
+la
+cl
+sudo rm -rf/usr/lib/virtualbox
+sudo rm -rf /usr/lib/virtualbox
+virtualbox 
+cl
+la
+cl
+p -Ss virtualbox
+p -S virtualbox
+virtualbox 
+sudo /sbin/vboxconfig
+p -Ss dkms
+p -S dkms
+sudo /etc/init.d/vboxdrv setup
+sudo /sbin/vboxconfig
+virtualbox 
+dkms
+dkms autoinstall
+sudo dkms autoinstall
+cl
+la
+cl
+virtualbox 
+cl
+virtualbox 
+virtualbox 
+cl
+cl
+virtualbox 
+p -Ss virtualbox
+p -S linux419-virtualbox-host-modules virtualbox-guest-iso
+cl
