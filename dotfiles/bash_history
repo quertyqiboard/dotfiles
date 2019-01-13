@@ -3396,3 +3396,88 @@ rm .remaps.vim.sw*
 öa
 clear
 ls
+dfiles commit a-
+dfiles commit -a
+clear
+dfiles push
+cl
+ls
+clear
+ls
+clrear
+clear
+hscr
+la
+v install_dfiles.sh 
+clear
+dfiles commit -a
+lear
+clear
+dfiles push
+v install_dfiles.sh 
+clear
+dfiles commit -a
+dfiles push
+clear
+v install_dfiles.sh 
+clear
+dfiles push
+dfiles commit -a
+dfiles push
+cl
+la
+clear
+la
+lc
+clear
+la
+clear
+la
+clear
+cl
+la
+clear
+la
+clear
+la
+clear
+la
+v install_dfiles.sh 
+clear
+cl
+xres
+clear
+v install_dfiles.sh 
+clear
+dfiles commit .a
+dfiles commit -a
+clear
+dfiles push
+v install_dfiles.sh 
+clear
+dfiles commit -a
+dfiles push
+v install_dfiles.sh 
+clear
+la
+clear
+dfiles add programs.sh 
+clear
+dfiles commit -a
+dfiles push
+vclear
+clear
+v install_dfiles.sh 
+v install_dfiles.sh 
+clear
+dfiles commit -a
+clear
+dfiles push
+v programs.sh 
+cler
+clear
+v install_dfiles.sh 
+clear
+dfiles commit -a
+dfiles push
+clear
