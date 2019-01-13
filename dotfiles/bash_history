@@ -3199,3 +3199,27 @@ virtualbox
 p -Ss virtualbox
 p -S linux419-virtualbox-host-modules virtualbox-guest-iso
 cl
+la
+hcod
+la
+cl
+mkdir Arch
+cd Are
+cd Arch/
+la
+cl
+dfiles commit -a
+dfiles push
+cl
+la
+lc
+cl
+v install.md
+virtualbox 
+virtualbox 
+clear
+clear
+öls
+clear
+ls
+clear
