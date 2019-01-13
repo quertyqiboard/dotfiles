@@ -6,7 +6,8 @@ rm -rf ~/.bash_history
 rm -rf ~/.config/i3/config
 rm -rf ~/.xinitrc
 mv ~/dotfiles/scripts ~/scripts
-mv ~/dotfiles/dotfiles ~/dotfiles
+mv ~/dotfiles/dotfiles/* ~/dotfiles/
+mv ~/dotfiles/backgrounds ~/backgrounds
 ln -s ~/dotfiles/Xresources ~/.Xresources
 ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
