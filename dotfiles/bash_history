@@ -3387,3 +3387,12 @@ p -Ss nitrogen
 hscr
 la
 v reclip.sh 
+man mkdir
+cd dotfiles/
+la
+rm .remaps.vim.sw*
+la
+rm .remaps.vim.sw*
+öa
+clear
+ls
