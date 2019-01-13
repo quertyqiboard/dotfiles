@@ -5,9 +5,11 @@ rm -rf ~/.vimrc
 rm -rf ~/.bash_history
 rm -rf ~/.config/i3/config
 rm -rf ~/.xinitrc
-ln -s ~/dotfiles/dotfiles/Xresources ~/.Xresources
-ln -s ~/dotfiles/dotfiles/bashrc ~/.bashrc
-ln -s ~/dotfiles/dotfiles/vimrc ~/.vimrc
-ln -s ~/dotfiles/dotfiles/bash_history ~/.bash_history
-ln -s ~/dotfiles/dotfiles/i3config ~/.config/i3/config
-ln -s ~/dotfiles/dotfiles/xinitrc ~/.xinitrc
+mv ~/dotfiles/scripts ~/scripts
+mv ~/dotfiles/dotfiles ~/dotfiles
+ln -s ~/dotfiles/Xresources ~/.Xresources
+ln -s ~/dotfiles/bashrc ~/.bashrc
+ln -s ~/dotfiles/vimrc ~/.vimrc
+ln -s ~/dotfiles/bash_history ~/.bash_history
+ln -s ~/dotfiles/i3config ~/.config/i3/config
+ln -s ~/dotfiles/xinitrc ~/.xinitrc
