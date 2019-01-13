@@ -1,4 +1,6 @@
 #!/bin/bash
+git clone https://github.com/ryanoasis/nerd-fonts.git
+~/nerd-fonts/install.sh
 rm -rf ~/.Xresources
 rm -rf ~/.bashrc
 rm -rf ~/.vimrc
