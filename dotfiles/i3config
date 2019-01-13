@@ -179,14 +179,14 @@ mode "applications" {
 	# bindsym k exec --no-startup-id <++>; mode "default"; workspace $<++>
 	# bindsym l exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym m exec --no-startup-id pcmanfm; mode "default"
-	bindsym n exec --no-startup-id /home/henning/scripts/renema.sh; mode "default"
+	bindsym n exec --no-startup-id ~/scripts/renema.sh; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
 	# bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
 	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
-	bindsym u exec --no-startup-id /home/henning/.tor-browser/Browser/start-tor-browser; mode "default"
+	bindsym u exec --no-startup-id ~/.tor-browser/Browser/start-tor-browser; mode "default"
 	bindsym v exec --no-startup-id $term -e vim; mode "default
 	bindsym w exec --no-startup-id lowriter; mode "default"
 	# bindsym x exec --no-startup-id <++> ; mode "default"M workspace <++>
@@ -240,19 +240,19 @@ exec_always --no-startup-id xset r rate 300 120
 exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
 exec --no-startup-id compton
 exec --no-startup-id urxvtd -q -o -f
-exec --no-startup-id /home/henning/Downloads/xflux -l 52.4
-exec_always --no-startup-id /home/henning/scripts/renema.sh
-exec_always --no-startup-id /home/henning/scripts/reclip.sh
-exec_always --no-startup-id sleep 1; /home/henning/scripts/repbar_def.sh
+exec --no-startup-id ~/Downloads/xflux -l 52.4
+exec_always --no-startup-id ~/scripts/renema.sh
+exec_always --no-startup-id ~/scripts/reclip.sh
+exec_always --no-startup-id sleep 1; ~/scripts/repbar_def.sh
 
 
 # Power state managment
-bindsym $mod+x exec --no-startup-id /home/henning/scripts/dmenu/shutdown.sh
+bindsym $mod+x exec --no-startup-id ~/scripts/dmenu/shutdown.sh
 bindsym $mod+shift+l exec --no-startup-id i3lock -B 6
 # Reinvoke i3config changes
-bindsym $mod+shift+i exec --no-startup-id /home/henning/scripts/repbar_rice.sh
+bindsym $mod+shift+i exec --no-startup-id ~/scripts/repbar_rice.sh
 bindsym $mod+Shift+r restart
-bindsym $mod+shift+k exec --no-startup-id /home/henning/scripts/no_gaps.sh
+bindsym $mod+shift+k exec --no-startup-id ~/scripts/no_gaps.sh
 bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 20; gaps top all set 0
 # Set default orientation for window
 default_orientation horizontal

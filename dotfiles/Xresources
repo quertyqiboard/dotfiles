@@ -11,7 +11,7 @@ URxvt.font: xft:UbuntuMono Nerd Font:size=20
 URxvt.tabbed.saveLines: 2000
 URxvt.iso14755: false
 URxvt.cursorBlink: true
-URxvt.chdir: /home/henning/
+URxvt.chdir: ~/
 URxvt.url-launcher: firefox
 URxvt.internalBorder: 0
 URxvt.externalBorder: 0

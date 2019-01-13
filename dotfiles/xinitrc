@@ -64,8 +64,8 @@ get_session(){
 }
 
 exec $(get_session)
-xrdb /home/henning/.Xresources
+xrdb ~/.Xresources
 xset r rate 300 45
-xset +fp /home/henning/.fonts
+xset +fp ~/.fonts
 xset fp rehash
 xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false
