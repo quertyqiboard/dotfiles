@@ -7,20 +7,24 @@ rm -f ~/.bash_history || unlink ~/.bash_history
 rm -f ~/.bash_profile || unlink ~/.bash_profile
 rm -f ~/.config/i3/config || unlink ~/.config/i3/config
 rm -f ~/.xinitrc || unlink ~/.xinitrc
+# same for .vim files
+rm -f ~/.vim/src/airlineconf.vim || unlink ~/.vim/src/airlineconf.vim
+rm -f ~/.vim/src/functions.vim || unlink ~/.vim/src/functions.vim
+rm -f ~/.vim/src/settings.vim || unlink ~/.vim/src/settings.vim
+rm -f ~/.vim/src/remaps.vim || unlink ~/.vim/src/remaps.vim
+rm -f ~/.vim/src/autoclose.vim || unlink ~/.vim/src/autoclose.vim
 # Move the folders to the correct position
 mv ~/dotfiles/scripts ~/scripts
-echo "1 $(ls ~/dotfiles)"
-mkdir /tmp/dotfiles
-mv ~/dotfiles/dotfiles/* /tmp/dotfiles/
-echo "2 $(ls ~/dotfiles)"
 mv ~/dotfiles/backgrounds ~/backgrounds
-echo "3 $(ls ~/dotfiles)"
 mv -n ~/dotfiles/.config ~/.config
-echo "4 $(ls ~/dotfiles)"
-mv /tmp/dotfiles/* ~/dotfiles/
-echo "5 $(ls ~/dotfiles)"
+# Moving dotfiles back and forth
+mkdir -p ~/tmp/dfiles; mv ~/dotfiles/dotfiles/* ~/tmp/dfiles/
+mv ~/dotfiles/.git ~/.git
+mv ~/dotfiles/.gitconfig ~/.gitconfig
+rm ~/dotfiles
+mv ~/tmp/dfiles ~/dotfiles
+rm -rf ~/tmp/
 mv ~/dotfiles/dotfiles/* ~/dotfiles/
-rm ~/dotfiles/dotfiles
 # Vim setup
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/src

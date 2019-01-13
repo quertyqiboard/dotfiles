@@ -71,4 +71,5 @@ xset +fp ~/.fonts
 # xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false
 echo LANG=de_DE.UTF-8 > /etc/locale.conf
 echo KEYMAP=de-latin1-nodeadkeys > /etc/vconsole.conf
+localectl --no-convert set-keymap de-latin1-nodeadkeys
 ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
