@@ -1,15 +1,20 @@
 #!/bin/bash
-git clone https://github.com/ryanoasis/nerd-fonts.git
-~/nerd-fonts/install.sh
-rm -rf ~/.Xresources
-rm -rf ~/.bashrc
-rm -rf ~/.vimrc
-rm -rf ~/.bash_history
-rm -rf ~/.config/i3/config
-rm -rf ~/.xinitrc
+# git clone https://github.com/ryanoasis/nerd-fonts.git
+# ~/nerd-fonts/install.sh
+# Remove existing dotfiles
+rm -f ~/.Xresources || unlink ~/.Xresources
+rm -f ~/.bashrc || unlink ~/.bashrc
+rm -f ~/.vimrc || unlink ~/.vimrc
+rm -f ~/.bash_history || unlink ~/.bash_history
+rm -f ~/.config/i3/config || unlink ~/.config/i3/config
+rm -f ~/.xinitrc || unlink ~/.xinitrc
+# Move the folders to the correct position
 mv ~/dotfiles/scripts ~/scripts
-mv ~/dotfiles/dotfiles/* ~/dotfiles/
+mv ~/dotfiles/dotfiles/ /tmp/dotfiles
 mv ~/dotfiles/backgrounds ~/backgrounds
+mv -n ~/dotfiles/.config ~/.config
+mv ~/dotfiles/* ~/
+mv /tmp/dotfiles/* ~/dotfiles
 ln -s ~/dotfiles/Xresources ~/.Xresources
 ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/vimrc ~/.vimrc

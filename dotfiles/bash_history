@@ -3359,3 +3359,18 @@ clear
 man mbv
 man mb
 man mv
+cd /tmp
+la
+cleare
+clear
+dfiles status
+dfiles list
+dfiles 
+dfiles show
+clear
+ls
+clear
+dfiles remove ~/.i3
+dfiles 
+dfiles rm ~/.i3
+dfiles rm -r ~/.i3
