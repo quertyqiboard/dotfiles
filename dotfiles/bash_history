@@ -3224,3 +3224,135 @@ clear
 ls
 clear
 man ln
+hcod
+cd Arch/
+la
+clear
+v install.md 
+clear
+cl
+la
+cl
+cc
+la
+cl
+cc
+cd dotfiles/
+la
+clear
+l
+clear
+ls
+cc
+cd scripts/
+ls
+touch install_dfiles.sh
+v install_dfiles.sh 
+clear
+dfiles commit -a
+clear
+ls
+chmod +x install_dfiles.sh 
+dfiles add install_dfiles.sh 
+dfiles commit -a
+clear
+dfiles push
+clear
+clear
+ls
+clear
+ls
+clear
+clear
+ls
+clear
+cc
+v
+clea
+rls
+clear
+ls
+hdf
+clear
+cd dotfiles/
+clear
+ls
+v bash
+v bashrc 
+clear
+dfiles commmit
+clear
+dfiles commmit -a
+dfiles commit -a
+clear
+dfiles push
+cl
+ls
+clear
+c
+cc
+cd scripts/
+clear
+ls
+v install_dfiles.sh 
+clear
+grep
+cc
+cd dotfiles/
+clear
+grep -r "/home/henning" ./
+v i3config 
+clear
+grep -r "/home/henning" ./
+v xinitrc 
+clear
+grep -r "/home/henning" ./
+v .Xres
+v Xresources 
+clear
+cl
+dfiles commit -a
+dfiles push
+cp /usr/share/backgrounds ~/backgrounds
+cp -r /usr/share/backgrounds ~/backgrounds
+clear
+cc
+cd backgrounds/
+la
+clear
+cd wallpaper/
+la
+feh ./*
+cöear
+clear
+ls
+clear
+cc
+ls
+clear
+cc
+dfiles add backgrounds
+dfiles commit -a
+clear
+dfiles push
+clear
+conf
+clear
+dfiles commit -a
+dfiles commit -a
+cöear
+cöear
+clear
+ls
+clear
+dfio
+dfiles
+clear
+dfiles commit -a
+v .dotfiles/
+clear
+ls
+la
+clear
+brc
+clear

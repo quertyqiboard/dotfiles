@@ -167,7 +167,7 @@ bindsym $mod+a mode "applications"
 mode "applications" {
 # Quick app launcher
 	bindsym a exec --no-startup-id arandr; mode "default"
-	bindsym b exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/; workspace $ws9
+	bindsym b exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/; workspace $ws9
 	bindsym c exec --no-startup-id localc; mode "default"
 	bindsym d exec --no-startup-id deluge-gtk; mode "default"
 	bindsym e exec --no-startup-id atom; mode "default"
@@ -237,7 +237,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 # Autorun on startup
 exec --no-startup-id sudo rmmod pcspkr
 exec_always --no-startup-id xset r rate 300 120
-exec --no-startup-id nitrogen --set-auto --random /usr/share/backgrounds/
+exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/
 exec --no-startup-id compton
 exec --no-startup-id urxvtd -q -o -f
 exec --no-startup-id ~/Downloads/xflux -l 52.4

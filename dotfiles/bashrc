@@ -109,7 +109,7 @@ alias drc="killall dunst; dunst &>/dev/null ; drc"
 alias spacegray="~/scripts/spacegray.sh ; urxvtc ; exit"
 alias transparent="~/scripts/transparent.sh ; urxvtc ; exit"
 # Git dotfiles version controll
-alias dfiles="/usr/bin/git --git-dir=~/.dotfiles/ --work-tree=~"
+alias dfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # Vim quit
 alias :wq="exit"
 alias :q="exit"
