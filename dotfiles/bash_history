@@ -3382,3 +3382,8 @@ clear
 unlink
 man unlink
 man mv
+conf
+p -Ss nitrogen
+hscr
+la
+v reclip.sh 
