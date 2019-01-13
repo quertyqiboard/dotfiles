@@ -10,16 +10,17 @@ rm -f ~/.xinitrc || unlink ~/.xinitrc
 # Move the folders to the correct position
 mv ~/dotfiles/scripts ~/scripts
 echo "1 $(ls ~/dotfiles)"
-mv ~/dotfiles/dotfiles /tmp/dotfiles
+mkdir /tmp/dotfiles
+mv ~/dotfiles/dotfiles/* /tmp/dotfiles/
 echo "2 $(ls ~/dotfiles)"
 mv ~/dotfiles/backgrounds ~/backgrounds
 echo "3 $(ls ~/dotfiles)"
 mv -n ~/dotfiles/.config ~/.config
 echo "4 $(ls ~/dotfiles)"
-mv ~/dotfiles/* ~/
-echo "5 $(ls ~/dotfiles)"
 mv /tmp/dotfiles/* ~/dotfiles/
-echo "6 $(ls ~/dotfiles)"
+echo "5 $(ls ~/dotfiles)"
+mv ~/dotfiles/dotfiles/* ~/dotfiles/
+rm ~/dotfiles/dotfiles
 # Vim setup
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/src
