@@ -63,9 +63,12 @@ get_session(){
 	echo "dbus-launch ${dbus_args[*]}"
 }
 
-exec $(get_session)
+exec i3
 xrdb ~/.Xresources
 xset r rate 300 45
 xset +fp ~/.fonts
-xset fp rehash
-xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false
+# xset fp rehash
+# xfconf-query -c xfce4-desktop -p /desktop-icons/center-text -n -t bool -s false
+echo LANG=de_DE.UTF-8 > /etc/locale.conf
+echo KEYMAP=de-latin1-nodeadkeys > /etc/vconsole.conf
+ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime

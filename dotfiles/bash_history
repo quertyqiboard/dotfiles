@@ -3481,3 +3481,16 @@ clear
 dfiles commit -a
 dfiles push
 clear
+hscr
+löa
+clear
+ls
+v install_dfiles.sh 
+dfiles commit -a
+dfiles push
+v install_dfiles.sh 
+v install_dfiles.sh 
+dfiles commit -a
+clear
+dfiles push
+clear
