@@ -3374,3 +3374,11 @@ dfiles remove ~/.i3
 dfiles 
 dfiles rm ~/.i3
 dfiles rm -r ~/.i3
+la
+clea
+clear
+ls
+clear
+unlink
+man unlink
+man mv
