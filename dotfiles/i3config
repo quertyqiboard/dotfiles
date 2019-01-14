@@ -7,18 +7,14 @@ set $darkred #990000
 set $darkblue #000099
 set $darkmagenta #801090
 set $transparent #00000000
+set $yellow #E2995C
 
 # sets colors
-#                       BORDER		BACKGROUND	TEXT		INDICATOR   CHILD_BORDER
-client.focused		$black		$red		$white 		$darkmagenta	$white
-client.unfocused	$transparent	$blue		$white		$darkblue	$black
-client.focused_inactive	$transparent	$blue		$white		$darkblue	$black
-client.urgent		$red	 	$darkred	$black		$darkred	$darkred
-#
-
-# i3 config file (v4)
-
-# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+#                       idk BORDER	BACKGROUND	TEXT		INDICATOR   	BORDER
+client.focused		$red		$blue		$white 		$darkmagenta	$yellow
+client.unfocused	$yellow		$blue		$white		$darkmagenta	$transparent
+client.focused_inactive	$red		$blue		$white		$darkmagenta	$transparent
+client.urgent		$red	 	$darkred	$white		$darkmagenta	$darkred
 
 set $mod Mod1
 set $term urxvtc
@@ -26,7 +22,6 @@ set $browser firefox
 set $browser firefox
 
 font pango:DejaVu Sans Mono 12
-# Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
@@ -54,19 +49,20 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+e layout toggle split
 # bindsym $mod+t layout tabbed
+bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # quick terminal
-exec --no-startup-id urxvt -name metask -e R
-exec --no-startup-id urxvt -name command
+exec_always --no-startup-id urxvt -name metask -e R
+exec_always --no-startup-id urxvt -name command
 for_window [instance="metask"] floating enable
 for_window [instance="command"] floating enable
 for_window [instance="metask"] move scratchpad; [instance="metask"] resize set 1152 540
 for_window [instance="command"] move scratchpad; [instance="command"] resize set 1152 540
+# Modes to pull up the scratchpads
 bindsym $mod+c [instance="metask"] scratchpad show; move position center; mode "metatask"
 mode "metatask" {
         bindsym $mod+q [instance="metask"] move scratchpad; mode "default"
@@ -258,10 +254,10 @@ bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 20; gaps top all 
 default_orientation horizontal
 
 # settings for window borders
-default_border pixel 3
-default_floating_border pixel 4
-new_window none
+default_border pixel 2
+default_floating_border pixel 3
+# new_window none
 # i3 Gaps
 gaps inner 15
 gaps outer 30
-smart_borders on
+# smart_borders on

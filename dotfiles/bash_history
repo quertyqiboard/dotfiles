@@ -3511,3 +3511,451 @@ dfiles push
 hdot
 v xinitrc 
 virtualbox 
+mkdir test
+cd test/
+git clone https://github.com/quertyqiboard/dotfiles.git
+git clone https://github.com/quertyqiboard/dotfiles.git
+git clone https://github.com/quertyqiboard/dotfiles.git
+git clone https://github.com/quertyqiboard/dotfiles.git
+cd dotfiles/
+ls
+la
+v
+clear
+hscr
+la
+v install_dfiles.sh 
+dfiles commit -a
+dfiles push
+cl
+hdow
+la
+unzip MuK-20190113T201511Z-001.zip
+ls
+frm MuK-20190113T201511Z-001.zip 
+ls
+frm The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
+frm Genetik-20181215.zip 
+cl
+ls
+mkdir Iso
+mv *.iso Iso/
+ls
+frm MC\ Modinstaller\ 5.0.8.jar 
+ls
+clear
+ls
+mv MuK/ ~/Schule/MuK/
+ls
+cl
+smuk
+ls
+mv MuK/ Kamerapraxis/
+cd Kamerapraxis/MuK/
+ls
+cl
+sxiv ./*
+feh ./*
+r
+hdow
+la
+unzip drive-download-20190113T204002Z-001.zip 
+mv *.jpg ~/Schule/MuK/Kamerapraxis/MuK/
+cl
+cl
+la
+cl
+smuk
+la
+mkdir Kamerapraxis
+cd Kamerapraxis/
+la
+clear
+ls
+mkdir 'Hallo Ich Bins'
+ls
+frm Hallo\ Ich\ Bins/
+mkdir 'Henning, Portrait'
+mkdir 'Henning, Natur'
+mkdir 'Henning, Ortsfaszination'
+mkdir 'Henning, Meine Kreativ-Galerie'
+ls
+clear
+ls
+ls
+cd MuK/
+ls
+clear
+find
+find | grep self
+clear
+hdow
+ls
+mv IMG_20190111_120753.jpg self_equation_laughing.jpg
+mv self_equation_laughing.jpg ~/Schule/MuK/Kamerapraxis/MuK/
+smuk
+cd Kamerapraxis/
+ls
+cd MuK/
+cl
+ls
+r
+ls
+mv self_equation_laughing.jpg Selbstportraits/
+ls
+cl
+r
+vrc
+c
+cl
+cd .vim/src/
+ls
+v remaps.vim 
+v functions.vim 
+grep -r article ./
+cl
+cc
+cd .vim/
+grep -r article ./
+clear
+cc
+clear
+brc
+cö
+cl
+la
+cl
+vrc
+cl
+la
+cl
+cd dotfiles/
+ls
+cc
+cl
+la
+cl
+ls
+cd .vim
+la
+cd src/
+ls
+cd snippets/
+ls
+v article 
+cc
+ls
+v airlineconf.vim 
+cl
+smuk
+cd Kamerapraxis/
+cd Henning\,\ Portrait/
+ls
+cd Selbstportraits/
+ls
+feh self_equation_laughing.jpg
+sxiv self_equation_laughing.jpg
+cl
+la
+pdflatex self_equation_laughing.tex
+pdflatex self_equation_laughing.tex
+ls
+zathura self_equation_laughing.
+zathura self_equation_laughing.pdf 
+pdflatex self_equation_laughing.tex
+smuk
+la
+cd Kamerapraxis/
+ls
+cd Henning\,\ Portrait/
+ls
+cleear
+clear
+cd Selbstportraits/
+ls
+frm self_equation_creepy.jpg 
+ls
+v self_equation_laughing.tex
+clear
+cl
+la+
+cl
+la
+cl
+cp ~/.vim/src/snippets/article ./self_equation_laughing.tex
+v self_equation_laughing.tex 
+brc
+cö
+cl
+la
+cp self_equation_laughing.tex self_gym.jpg
+cp self_equation_laughing.tex self_gym.tex
+v self_gym.
+v self_gym.tex 
+cl
+cp self_equation_laughing.tex self_jagen.tex
+v self_jagen.tex 
+cl
+la
+rf
+r
+ls
+r
+clear
+ls
+pdflatex *.tex
+cl
+la
+cl
+la
+frm *.aux
+ls
+clar
+r
+pdflatex *.tex
+la
+pdflatex Henning\,\ Selbstportrait\ 2\ Erklärung.tex 
+pdflatex Henning\,\ Selbstportrait\ 3\ Erklärung.tex 
+cl
+r
+cl
+la
+la
+cl
+smul
+smukl
+smuk
+cd Kamerapraxis/Henning\,\ Portrait/Selbstportraits/
+ls
+sxiv self_gym.jpg 
+sxiv self_jagen.
+sxiv self_jagen.jpg 
+smuk
+cd Kamerapraxis/
+ls
+la
+cl
+la
+cd Henning\,\ 
+cd Henning\,\ Natur/
+ls
+la
+mv Park/* ./
+ls
+cd Park/
+ls
+cc
+frm Park/
+ls
+r
+clear
+ls
+r
+cl
+la
+cl
+cp ../Henning\,\ Portrait/Selbstportraits/.tex/Henning\,\ Selbstportrait\ 1\ Erklärung.tex ./Fotogenre.tex
+ls
+v Fotogenre.tex 
+v Fotogenre.tex 
+pdflatex Fotogenre.tex 
+la
+r
+cl
+la
+cl
+zathura *.pdf
+la
+cl
+c
+clrar
+clear
+ls
+cc
+la
+r 
+cl
+la
+cl
+lq
+cl
+la
+cl
+lsblk
+etcher
+cl
+la
+fdisk /dev/sdb
+sudo fdisk /dev/sdb
+cl
+la
+cl
+fdisk -l
+sudo su
+fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+gparted
+sudo gparted
+sp
+la
+cl
+cd .i3
+la
+cl
+la
+cat config 
+la
+lla
+unlink config
+la
+cl
+ln -s ~/dotfiles/i3config ~/.i3/config
+la
+cl
+lla
+cl
+reboot
+conf
+la
+clear
+ls
+clear
+cl
+la
+cl
+xres
+cl
+less .Xresources 
+la
+clear
+ls
+clear
+xre
+conf
+conf
+cl
+transparent 
+v
+cl
+la
+cl
+v /etc/locale.
+v /etc/locale.conf 
+cl
+la
+cl
+cd /etc/
+la
+v fstab 
+cl
+fdisk -l
+su
+sudo su
+nf
+clear
+ls
+clear
+neofetch
+v .bash_profile 
+cl
+man xorg
+cl
+ht
+xsetkbmap
+kb
+apropos kb
+skbset
+xkbset
+kbdrate
+sudo kbdrate
+man kbdrate
+clear
+man xset
+c
+cl
+la
+cl
+la
+cl
+la
+la
+cl
+xres
+cl
+brc
+man set
+cl
+v .bash_profile 
+cd /dev/
+l
+cl
+la
+cat psaux 
+sudo cat psaux 
+sudo cat random
+lwatch
+cd /dev/
+ls
+clear
+cat /dev/random ~/text
+cat /dev/random > ~/text
+command cd
+clear
+ls
+so text 
+cat /dev/random > ~/text
+rm text 
+cl
+la
+l
+lcl
+cl
+ls
+conf
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+l
+acl
+pnbar
+pbar
+cl
+xres
+cl
+transparent 
+pbar
+pbar
+cl
+conf
+conf
+cl
+gt
+ht
+cl
+man urxvtd
+man urxvtc
+man urxvtc
+cl
+la
+cl
+brc
+cl
+spacegray 
+la
+cl
+nf
+cl
+ht
+conf
