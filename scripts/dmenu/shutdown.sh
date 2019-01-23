@@ -1,7 +1,7 @@
 #!/bin/bash
 
 choices="Cancel\nReboot\nShutdown\nLock screen\nExit i3\nTake screenshot\nReset i3"
-chosen=$(echo -e "$choices" | dmenu -i -h 20 -fn 'DejaVu Sans Mono-15' -nb '#262626' -nf '#BCBCBC' -sb '#D7FF87' -sf '#080808')
+chosen=$(echo -e "$choices" | dmenu -i)
 case $chosen in
 	"Shutdown") poweroff;;
 	"Reboot") reboot;;

@@ -50,3 +50,6 @@ set ttyfast		" Optimization for urxvt
 set nojoinspaces	" removes annoying spaces after certain commands
 set magic		" char magic
 set completeopt=menu,menuone,longest,preview
+
+" Autocompile suckless programs
+autocmd BufWritePost config.h,config.def.h !sudo make install

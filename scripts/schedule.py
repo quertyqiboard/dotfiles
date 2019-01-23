@@ -1,3 +1,4 @@
+#!/usr/bin/python3.7
 import datetime
 day1a,day2a ,day3a ,day4a ,day5a ,day6a, day7a  = "Che  Spo  MuK  The  The","Ges  Inf  Mat  Spa","Bio  Mat  Deu  Spo","MuK  Deu  Eng","Phy  Pol  Spa","Wochende","Wochende"
 day1b,day2b,day3b,day4b,day5b,day6b,day7b  = "Bio  Inf  MuK","Phy  Eng  Mat  Spa","Eng  Che  Deu  Spo","Nix  Deu  Ges  Team","Pol  The  Mat", "Wochenende", "Wochenende"

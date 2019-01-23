@@ -1,23 +1,26 @@
 # vim:ft=dosini
 set $white #ffffff
+set $gray #cccccc
 set $red   #ff0000
 set $blue  #0000ff
 set $black #000000
 set $darkred #990000
 set $darkblue #000099
+set $lightblue #00DFFF
 set $darkmagenta #801090
 set $transparent #00000000
 set $yellow #E2995C
 
 # sets colors
 #                       idk BORDER	BACKGROUND	TEXT		INDICATOR   	BORDER
-client.focused		$red		$blue		$white 		$darkmagenta	$yellow
-client.unfocused	$yellow		$blue		$white		$darkmagenta	$transparent
-client.focused_inactive	$red		$blue		$white		$darkmagenta	$transparent
-client.urgent		$red	 	$darkred	$white		$darkmagenta	$darkred
+client.focused		$red		$blue		$white 		$lightblue	$yellow
+client.unfocused	$yellow		$blue		$white		$black		$black
+client.focused_inactive	$red		$blue		$white		$transparent	$white
+client.urgent		$red	 	$darkred	$white		$blue		$darkred
 
 set $mod Mod1
-set $term urxvtc
+set $modalt Mod4
+set $term st
 set $browser firefox
 set $browser firefox
 
@@ -30,8 +33,8 @@ bindsym $mod+shift+Return exec --no-startup-id $term -e sudo su
 
 # kill focused window
 bindsym $mod+q kill
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme purple
-bindsym $mod+shift+d exec --no-startup-id rofi -show run -theme purple
+bindsym $mod+d exec --no-startup-id dmenu_run
+# bindsym $mod+shift+d exec --no-startup-id rofi -show run -theme purple
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -56,8 +59,8 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # quick terminal
-exec_always --no-startup-id urxvt -name metask -e R
-exec_always --no-startup-id urxvt -name command
+exec --no-startup-id urxvt -cd /home/henning -bg black -name metask -e R
+exec --no-startup-id urxvt -cd /home/henning -bg black -name command
 for_window [instance="metask"] floating enable
 for_window [instance="command"] floating enable
 for_window [instance="metask"] move scratchpad; [instance="metask"] resize set 1152 540
@@ -115,19 +118,6 @@ assign [class="Thunderbird"] $ws4
 assign [class="Tor Browser"] $ws6
 assign [class="Spotify"] $ws5
 assign [class="libreoffice"] $ws6
-bindsym $mod+r mode "resize"
-mode "resize" {
-# Resize windows with vim keybindings
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
-        bindsym $mod+q mode "default"
-}
 
 bindsym $mod+p mode "music"
 mode "music" {
@@ -166,7 +156,7 @@ mode "applications" {
 	bindsym b exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/; workspace $ws9
 	bindsym c exec --no-startup-id localc; mode "default"
 	bindsym d exec --no-startup-id deluge-gtk; mode "default"
-	bindsym e exec --no-startup-id atom; mode "default"
+	bindsym e exec --no-startup-id ~/scripts/dmenu/emoji.sh; mode "default"
 	bindsym f exec --no-startup-id firefox; mode "default"; workspace $ws2
 	# bindsym g exec --no-startup-id <++>; mode "default"; workspace $<++>
 	# bindsym h exec --no-startup-id $term; mode "default"
@@ -197,22 +187,16 @@ mode "applications" {
         bindsym $mod+q mode "default"
 }
 
-
-bindsym $mod+shift+m mode "move"
-mode "move" {
-# Control window position
-	bindsym h move window left 50
-	bindsym j move window down 50
-	bindsym k move window up 50
-	bindsym l move window right 50
-
-        bindsym Return mode "default"
-        bindsym $mod+q mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+shift+m mode "default"
-
-
-}
+# Resize windows
+bindsym $modalt+h resize shrink width 20 px
+bindsym $modalt+j resize grow height 20 px
+bindsym $modalt+k resize shrink height 20 px
+bindsym $modalt+l resize grow width 20 px
+# Move windows
+bindsym $modalt+z move window left 50
+bindsym $modalt+u move window down 50
+bindsym $modalt+i move window up 50
+bindsym $modalt+o move window right 50
 
 # Music control
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
@@ -237,9 +221,11 @@ exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/
 exec --no-startup-id compton
 exec --no-startup-id urxvtd -q -o -f
 exec --no-startup-id ~/Downloads/xflux -l 52.4
+exec --no-startup-id ~/scripts/gruvbox.sh
 exec_always --no-startup-id ~/scripts/renema.sh
 exec_always --no-startup-id ~/scripts/reclip.sh
 exec_always --no-startup-id sleep 1; ~/scripts/repbar_def.sh
+exec --no-startup-id ~/scripts/gruvbox.sh
 
 
 # Power state managment
@@ -253,9 +239,10 @@ bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 20; gaps top all 
 # Set default orientation for window
 default_orientation horizontal
 
-# settings for window borders
-default_border pixel 2
+# settings
+default_border pixel 3
 default_floating_border pixel 3
+# workspace_auto_back_and_forth yes
 # new_window none
 # i3 Gaps
 gaps inner 15

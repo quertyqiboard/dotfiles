@@ -13,7 +13,7 @@ URxvt.iso14755: false
 URxvt.cursorBlink: true
 URxvt.chdir: ~/
 URxvt.url-launcher: firefox
-URxvt.internalBorder: 0
+URxvt.internalBorder: 5
 URxvt.externalBorder: 0
 URxvt.depth: 32
 ! special

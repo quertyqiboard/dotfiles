@@ -1,3934 +1,3 @@
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps inner all minus 10
-i3-msg gaps outer all minus 10
-conf
-con
-co f
-conf
-i3-msg reset
-i3-msg restart
-cd .i3/ 
-la
-v config 
-conf
-conf
-i3-msg gaps outer all plus 5
-i3-msg gaps outer all plus 5
-i3-msg gaps outer all plus 5
-i3-msg gaps outer all plus 5
-i3-msg gaps outer all plus 5
-i3-msg gaps outer all plus 5
-cd .i3/
-la
-v config 
-cl
-cc
-conf
-cl
-cl
-cl
-la
-cl
-conf
-killall i3
-xresr
-cd scripts/
-mv reseti3.sh restarti3.sh
-la
-cöl
-cl
-cd scripts/
-la
-cd .i3/
-la
-v config 
-cc
-cd scripts/
-la
-v reseti3.sh 
-cl
-la
-cl
-la
-cd i3gaps/
-la
-cc
-frm i3gaps/
-la
-v repbar.sh 
-cl
-cc
-cd scripts/
-la
-cd colorschemes/
-la
-frm gaps_*
-la
-cc
-la
-cl
-cc
-conf
-dfiles commit -a
-dfiles push
-cl
-la
-cl
-hi3
-hsr
-hscr
-la
-cc
-conf
-dfiles commit
-dfiles commit -a
-dfiles pushj
-dfiles push
-cl
-conf
-conf
-cl
-conf
-dfiles commit -a
-dfiles push
-cl
-p -Ss gaps
-p -S i3-gaps
-p -Syyu
-   cl
-cl
-la
-cl
-mkdir i3gaps
-cd i3gaps/
-git clone https://www.github.com/Airblader/i3 i3-gaps
-la
-cl
-cc
-git clone https://www.github.com/Airblader/i3 i3-gaps
-frm i3gaps/
-cd i3-gaps/
-la
-cl
-autoreconf --force --install
-rm -rf build/
-mkdir -p build && cd build/
-../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
-make
-sudo make install
-cl
-cl
-cl
-cl
-pbar
-cl
-conf
-pbar
-cd scripts/
-./info-weather.sh 
-./info-weather.sh 
-./info-weather.sh 
-./info-weather.sh 
-./info-weather.sh 
-cö
-cö
-cl
-par
-pbar
-conf
-off
-conf
-conf
-cobf
-c
-cl
-conf
-cl
-pbar
-cl
-cd /usr/share/backgrounds/
-la
-r
-hcod
-cd Zahlensysteme/
-la
-py add_binary.py 
-cl
-hcod
-la
-cd Zahlensysteme/
-la
-cl
-touch add_binary.py
-v add_binary.py 
-v add_binary.py 
-v add_binary.py 
-hcod
-cd Zahlensysteme/
-py add_binary.py 
-py add_binary.py 
-py add_binary.py 
-py add_binary.py 
-cl
-hcod
-cd Zahlensysteme/
-lwatch
-py add_binary.py 
-py add_binary.py 
-cl
-cl
-la
-cl
-hcod
-cd Zahlensysteme/
-la
-py convertbinary.py 
-cl
-v convert
-v convertbinary.py 
-py convert
-py convert
-
-
-v convertbinary.py 
-cl
-py convertbinary.py 
-cl
-py convertbinary.py 
-cl
-v convertbinary.py 
-py convertbinary.py 
-v convertbinary.py 
-time py convertbinary.py 
-cl
-la
-py convertbinary.py > binaryoutput.txt
-v binaryoutput.txt 
-killlall vim+
-killlall vim
-cl
-conf
-conf
-cof
-conf
-conf
-conf
-cl
-hcod
-kla
-cd Zahlensysteme/
-lla
-cl
-v converthexa.py 
-py
-cl
-hcod
-la
-cd Zahlensysteme/
-v convert
-v convertbinary.py 
-py convertbinary.py 
-sinf
-la
-v zahlensysteme.txt
-hcod
-Zahlensysteme/
-la
-frm binaryoutput.txt 
-ka
-cl
-cc
-cc
-cl
-soa
-cl
-cc
-c
-cl
-conf
-cl
-transparent 
-exit
-v .pro
-v .profile 
-whereis xset
-which xset
-dfiles 
-cl
-dfiles commit -a
-dfiles push
-cl
-la
-v .pulse-cookie 
-cl
-la
-v gen
-v gegenstände.md 
-frm gegenstände.md 
-la
-v .dmrc 
-v regex 
-frm regex 
-la
-cl
-ls
-v rofi.conf 
-frm rofi.conf 
-la
-cl
-ls
-so out.txt 
-v out.txt 
-frm out.txt 
-la
-cl
-ls
-frm i3-gaps/
-la
-cl
-la
-cl
-ls
-frm test.sh 
-frm tree.json 
-frm pong/
-la
-cl
-ls
-mv bash_prompt scripts/
-la
-cl
-cd scripts/
-cc
-hscr
-la
-mv bash_prompt colorschemes/
-cc
-ls
-cd Templates/
-la
-cc
-cl
-la
-frm .tmux.conf 
-tmux
-v .py
-v .python_history 
-frm .python_history 
-la
-v hp-check.log 
-sv hp-check.log 
-frm hp-check.log 
-frm .lesshst 
-frm .xsession-errors.old 
-v .Xmodmap 
-cd .w3m/
-la
-lla
-cc
-frm .w3m/
-la
-c
-cl
-r
-cl
-la
-lc+
-cl
-v
-v
-cm
-cm
-cl
-i3-nagbar 
-man i3-nagbar 
-i3-nagbar -m "You gay"
-i3-nagbar -m "You gay" -b ls
-man i3-nagbar 
-i3-nagbar -m "You gay" -b ls ls -a
-i3-nagbar -m "You gay" -b ls ls
-i3-nagbar -m "You gay" -b "kill urxvt" killall vim
-i3-nagbar -m "You gay" -B "kill urxvt" killall vim
-i3-nagbar -m "You gay" -B "kill urxvt" "killall vim"
-cl
-conf
-cl
-cl
-conf
-cl
-cl
-conf
-xres
-xresr
-xres
-xresr
-xres
-transparent 
-conf
-xres
-xresr
-transparent 
-xresr
-xres
-transparent 
-conf
-solarized 
-v
-cl
-cl
-ls -a
-cl
-cl
-la
-cl
-xres
-transparent 
-xresr
-xres
-transparent 
-xresr
-xres
-cl
-transparent 
-v
-cl
-conf
-xres
-transparent 
-xresr
-la
-cl
-la
-cl
-cl
-la
-cl
-la
-cl
-brc
-spacegray 
-la
-cl
-xres
-cl
-transparent 
-off
-cl
-cm
-cl
-pbar
-cl
-man i3
-i3 -C
-i3 -C
-i3 -C
-cl
-conf
-cl
-v
-spacegray 
-v
-transparent 
-cd scripts/
-la
-v schedule.py 
-py schedule.py 
-v sch
-v schedule.py 
-py schedule.py 
-eix
-exit
-v
-cl
-pbar
-cl
-pbar
-v
-conf
-cl
-man rmmod
-lsmod
-man sort
-lsmod | sort -a
-man sort
-lsmod | sort -d
-cl
-apropos collums
-apropos collum
-apropos sort
-cl
-diff
-man diff
-mkdir test
-cd test/
-touch test1
-touch test2
-v test*
-v test2
-cat test1
-cat test2
-cl
-man diff
-diff -y test1 test2
-cl
-cl
-clipit 
-hcon
-la
-v compton.conf 
-off
-nm-applet
-conf
-brc
-v .pro
-v .profile 
-v
-cl
-v
-v
-v
-time v
-sh
-sinf
-la
-cc
-hcod
-cd Zahlensysteme/
-la
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-py convertbinary.py 
-cl
-v cobin.py
-cl
-py convert
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-v cobin.py 
-py cobin.py 
-v cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-cl
-py cobin.py 
-py cobin.py 
-v cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-v cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-v cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-cl
-v cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-py cobin.py 
-cl
-cl
-la
-frm convertbinary.py 
-mv cobin.py convertbinary.py
-py convertbinary.py 
-py convertdecimal.py 
-py convertdecimal.py 
-py convertdecimal.py 
-cl
-py convertdecimal.py 
-py convertdecimal.py 
-py convertdecimal.py 
-py convertdecimal.py 
-cl
-v convertbinary.py 
-py convertbinary.py 
-cc
-la
-mkdir Bash
-cl
-cd Bash/
-touch main.sh
-chmod +x main.sh 
-v main.sh 
-./main.sh Hallo
-cl
-v main.sh 
-./main.sh Hello
-la
-frm '$1'/
-la
-v main.sh 
-./main.sh 
-v main.sh 
-./main.sh Hello
-la
-cd Hello/
-la
-la
-cc
-frm Hello/
-la
-cl
-la
-v main.sh 
-./main.sh Test
-la
-frm '$1'/
-la
-v main.sh 
-./main.sh Hello
-la
-frm Hello/
-v main.sh 
-./main.sh Hallo
-la
-frm Hallo 
-mkdir Testing
-v main.sh 
-./main.sh Testing/
-la
-v main.sh 
-./main.sh Testing/
-la
-mkdir asd
-lla
-frm asd/
-frm Testing/
-öla
-cl
-la
-frm main.sh 
-la
-cö
-cl
-cc
-cc
-la
-cl
-brc
-hdow 
-cc
-la
-cl
-cd Templates/
-cl
-cc
-brc
-man firefox
-xinput
-cl
-xev
-xinput test
-xinput
-xinput test 8
-xinput test 12
-cl
-p -Ss key-mon
-p -Ss key
-cl
-p -Ss xev
-p -Ss xorg-xev
-p -S xorg-xev
-cl
-xev
-cl
-xev
-hcod
-cc
-cl
-p -Ss notepda
-p -Ss notepad
-p -Syyu
-p -Syuu
-cl
-ccc
-cl
-gcc
-cl
-clock
-p -Ss clock
-cl
-p -Ss time
-time
-cl
-man time
-cl
-conf
-xev
-cl
-xev > xev.txt
-v xev.txt 
-nm
-reboot
-asdkjasd
-asd
-cd .config/
-v compton.conf 
-systemctl enable compton
-killall compton
-compton
-compton
-compton
-compton
-compton
-compton
-la
-cl
-cm
-cl
-man scim#
-man scim
-whatis scim
-p -S scim
-c
-cl
-scim
-cl
-cd .local/
-la
-cl
-man sc-
-man sc-im
-sc
-p -Ss scim
-p -R scim
-cl
-p -Ss scim
-cl
-pamac search scim
-pamac build  scim-spreadsheet
-pamac build scim-spreadsheet
-p -Ss sc-im
-pamac search sc-im
-cl
-git clone https://github.com/andmarti1424/sc-im.git
-cd sc
-cd sc-im/
-la
-cl
-la
-cl
-v src/Makefile 
-make -C src
-make -C src install
-sudo make -C src
-sudo make -C src install
-cl
-scim
-sudo make -C src install
-p -Ss gnuplot
-p -Ss gnuplot
-p -S gnuplot
-cl
-v src/Makefile 
-p -S gnuplot
-make -C src/
-make -C src/ install
-sudo make -C src/ install
-cl
-scim
-cl
-sudo make -C src/ install
-v /usr/local/bin/sc-im 
-sc-im
-brc
-scim
-man i3
-i3 -C
-man i3
-conf
-cl
-hcon
-la
-v compton.conf 
-p -Syyu
-icl
-cl
-la
-cl
-la
-rm xev.txt 
-la
-rm -f xev.txt 
-la
-clla
-cl
-la
-frm .viminfo.tmp 
-frm .viminfz.tmp 
-la
-v .ICEauthority 
-cl
-la
-v .dir_colors 
-cl
-la
-cl
-p -Ss atom
-cl
-p -S atom
-atom
-type atom
-cl
-which atom
-v /usr/bin/atom
-sv /usr/bin/atom
-cl
-conf
-cm
-conf
-cl
-la
-cd sc
-cd scripts/
-touch rootterm.sj
-mv rootterm.sj rootterm.sh
-chmod +x rootterm.sh 
-la
-v rootterm.sh 
-conf
-la
-cl
-conf
-brc
-cl
-cmatrix
-cmatrix | lolca
-cmatrix | lolcat
-cmatrix|lolcat
-cmatrix | lolcat
-cmatrix | lolcat
-cmatrix
-cmatrix | lolcat
-cmatrix
-cmatrix | lolcat
-cmatric
-cmatrix
-cmatrix
-cmatrix|lolcat
-cmatrix | lolcat
-scim kosten.csv
-localc kosten.csv 
-pbar
-cl
-killall polybar
-i3status 
-cd .config/
-la
-cl
-cc
-man i3status
-man i3status
-i3status 
-cl
-conf
-killall i3bar
-cl
-killall polybar
-polybar --config=~/.config/polybar/config_wasp top
-polybar --config=~/.config/polybar/config_wasp top
-cl
-cd .config/polybar/
-v config_wasp 
-cl
-v /etc/i3status.conf 
-i3bar
-conf
-cl
-cd .config/polybar/
-la
-frm config_backup 
-touch config_wasp
-v config_wasp 
-killall polybar 
-man polybar
-killall polybar 
-killall polybar 
-killall polybar 
-killall polybar 
-killall polybar 
-killall polybar 
-killall polybar 
-polybar -c ./config_wasp
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-polybar --config=/home/henning/.config/polybar/config_wasp
-v config_wasp 
-polybar --config=/home/henning/.config/polybar/config_wasp top
-polybar --config=/home/henning/.config/polybar/config_wasp top &
-polybar --config=/home/henning/.config/polybar/config_wasp bottom &
-polybar --config=/home/henning/.config/polybar/config_wasp external_bottom &
-cl
-v config_was
-v config_wasp 
-cl
-killall polybar 
-polybar --config=/home/henning/.config/polybar/config_wasp top &
-v config_wasp 
-cl
-killall polybar 
-polybar -r --config=/home/henning/.config/polybar/config_wasp top &
-v config_wasp 
-killall polybar 
-polybar -r --config=/home/henning/.config/polybar/config_wasp top &
-v config_wasp 
-polybar -r --config=/home/henning/.config/polybar/config_wasp top &
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-killall polybar 
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-polybar -r --config=/home/henning/.config/polybar/config_wasp external_bottom &
-cl
-conf
-cd .scim/
-cc
-cl
-cd scripts/
-la
-mv repbar.sh repbar_rice.sh 
-cl
-hscr
-la
-hcon
-cd polybar/
-v config_wasp 
-conf
-hscr
-cp repbar_rice.sh repbar_wasp.sh 
-v  repbar_wasp.sh 
-cl
-la
-cl
-./repbar_wasp.sh 
-v repbar_wasp.sh 
-v repbar_rice.sh 
-cl
-./repbar_wasp.sh 
-vcl
-cl
-cc
-hcon
-cd polybar/
-la
-v config_wasp 
-cl
-v config_wasp 
-cl
-icl
-cl
-cl
-la
-v spotify 
-cl
-a
-cl
-la
-cl
-la
-cp config config_backup
-v config
-mv config config_simple
-mv config_backup config
-cl
-cc
-cc
-cd sc
-hscr
-la
-cp repbar_rice.sh repbar_simple.sh
-v repbar_simple.sh 
-cl
-c
-ccc
-cl
-cc
-la
-hscr
-la
-cd dmenu/
-la
-./killp.sh 
-cl
-la
-frm dmenu_kill 
-la
-cp shutdown.sh 
-cp shutdown.sh polybar_select.sh
-la
-v polybar_select.sh 
-./polybar_select.sh 
-./polybar_select.sh 
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-killall polybar
-./polybar_select.sh 
-cl
-./polybar_select.sh 
-./polybar_select.sh 
-./polybar_select.sh 
-la
-hscr
-cl
-v  repbar_wasp.sh 
-cl
-la
-cl
-la
-cl
-man killall
-cl
-hscr
-la
-v repbar_simple.sh 
-v repbar_rice.sh 
-cl
-cö
-cl
-la
-cl
-cc
-hcon
-cd polybar/
-la
-v config_wasp 
-cl
-cl
-zsh
-cl
-con
-conf
-la
-cl
-hscr
-touch no_gaps.sh
-chmod +x no_gaps.sh 
-la
-v no_gaps.sh 
-cd colorschemes/
-la
-cl
-touch gaps_polybar_{simple,rice,wasp}
-la
-v gaps_polybar_rice 
-cl
-i3-msg gaps top all set 20
-i3-msg gaps top all set 10
-i3-msg gaps top all set 5
-i3-msg gaps top all set 3
-i3-msg gaps top all set 2
-i3-msg gaps top all set 2
-i3-msg gaps top all set 1
-i3-msg gaps bottom all set 1
-cl
-hsr
-hscr
-la
-v repbar_simple.sh 
-cl
-la
-v no_gaps.sh 
-cl
-cd sc
-hscr
-v no_gaps.sh 
-cl
-la
-cl
-v repbar_
-v repbar_wasp.sh 
-v repbar_simple.sh 
-v repbar_rice.sh 
-cl
-cd sc
-hscr
-la
-v no_gaps.sh 
-cd colorschemes/
-la
-v
-cd sc
-hscr
-la
-cd colorschemes/
-la
-v gaps_polybar_rice 
-cl
-mkdir test
-la
-cl
-cd test/
-la
-frm test*
-l
-la
-cl
-touch asdf
-echo "Henning \n ist \n sehr \ cool \n"
-cat asdf
-echo "Henning \n ist \n sehr \ cool \n" > asdf
-cat asdf
-cl
-la
-cl
-printf "Henning \n ist \n sehr \ cool \n" > asdf
-cat asdf
-cl
-printf "Henning\nist\nsehr\ncool" > asdf
-la
-cl
-cat asdf 
-cl
-cl
-cd scripts/colorschemes/
-la
-cl
-cat gaps_polybar_rice 
-cat gaps_polybar_wasp 
-cat gaps_polybar_simple 
-printf "\#\!\/bin\/bash\nist\nsehr\ncool" > asdf
-cat asdf
-echo "#\!/bin/bash"
-echo "#\!/ bin/bash"
-printf '#!/bin/bash"
-printf '#!/bin/bash\nHenning\nist\ncool" > test.sh
-printf '#!/bin/bash\nHenning\nist\ncool' > test.sh
-cat test
-cat test.sh 
-cl
-la
-frm test.sh
-la
-cl
-hscr
-la
-cd dmenu/
-la
-po
-polybar_s
-v polybar_select.sh
-cl
-cc
-la
-v repbar_
-v repbar_rice.sh 
-hscr
-la
-cd colorschemes/
-la
-frm gaps_polybar_*
-la
-cl
-cc
-cl
-cl
-la
-cl
-v no_gaps.sh 
-watch -n 0.3 cat no_gaps.sh 
-cl
-cd .local/st
-cd .local/s
-cd .local/
-la
-cl
-cd share/
-a
-cl
-l
-cl
-la
-cd Steam/
-la
-cd steamapps/
-la
-cc
-r
-soa
-cd la
-cl
-la
-soa
-cl
-cd steamapps/
-la
-śoa
-soa
-cd downloading/
-la
-cl
-lla
-soa
-cd 730/
-la
-cl
-cd csgo/
-la
-conf
-cl
-conrf
-cl
-conf
-cl
-cl
-p -Syyu
-cl
-hcon
-v compton.conf 
-killall compton; comptom &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton &
-killall compton; compton --blur-background &
-killall compton; compton &
-cl
-brc
-compon
-compton
-bg
-compton &
-sudo mhwd -a pci nonfree 0300
-sudo mhwd -a pci free 0300
-cl
-la
-cl
-hscr
-v repbar_simple.sh 
-cc
-hcon
-cd polybar/
-v config_simple 
-cl
-sudo lshw -C
-sudo lshw -C eDPI-1
-sudo lshw -C display
-lspci
-cl
-grep DRI3 /var/log/Xorg.0.log
-glxinfo | grep "OpenGL vendor"
-glxgears -info
-glxgears -info | column -t
-glxgears -info | column 
-column
-man column
-glxgears -info | column 
-cö
-cl
-glxgears -info
-DRI_PRIME=1 steam
-DRI_PRIME=1 steam
-man set
-p
-cl
-py
-cl
-compton &
-cl
-cl
-print cl
-cl
-cl
-cl
-cl
-brc
-cl
-killall compton
-compton
-bg
-bg
-cl
-type bg
-bg
-man bg
-c
-cl
-brc
-cl
-compton &
-pacman -S bspwm sxhkd
-sudo pacman -S bspwm sxhkd
-cl
-hcon
-la
-mkdir bspwm
-cd bspwm/
-wget https://raw.githubusercontent.com/baskerville/bspwm/master/examples/bspwmrc
-la
-cl
-cc
-mkdir sxhkd
-cd sxhkd/
-öa
-cöl
-cl
-la
-frm sxhkdrc 
-wget https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc
-v .xinitrc 
-cl
-hcon
-la
-cd bspwm/
-la
-cl
-v bspwmrc 
-cl
-urxvt
-ck
-cl
-ed
-cl
-mupdf
-cl
-evince
-hcon
-cd zathura/
-la
-la
-cl
-v zathurarc
-p -Ss zathura
-p -S zathura zathura-pdf-mupdf
-p -S mupdf
-cl
-locate *.pdf
-cl
-la
-cl
-spb
-la
-zathura migrationspakt.
-zathura migrationspakt.pdf
-time zathura migrationspakt.pdf
-time zathura migrationspakt.pdf
-time zathura migrationspakt.pdf
-time zathura migrationspakt.pdf
-time evince migrationspakt.pdf
-time evince migrationspakt.pdf
-time evince migrationspakt.pdf
-time evince migrationspakt.pdf
-time mupdf migrationspakt.pdf
-time mupdf migrationspakt.pdf
-time mupdf migrationspakt.pdf
-cl
-man zathura
-r
-pbar
-cl
-r
-ps axc
-ps axc | awk {print $5}
-ps axc | awk {print "$5"}
-ps axch | awk {print "$5"}
-ps axch | awk {print"$5"}
-ps axch -o cdḿd
-ps axch -o cmd
-cl
-notify-send
-notify-send 
-notify-send asd
-man notify-send 
-notify-send -h
-notify-send ?
-notify-send -?
-notify-send nigga -a Testing 
-notify-send "$(ls)" -a Testing 
-notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing 
-notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing
-cl
-notify-send "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -a Testing 
-p -Syyu
-cl
-profile
-v .profile 
-cl
-hcon
-cd bspwm/
-la
-chmod +x bspwmrc 
-la
-cl
-v bspwmrc 
-v bspwmrc 
-cl
-hcon
-la
-cd polybar/
-la
-v config
-cc
-la
-cd qrt
-cd qtile/
-la
-v config.py 
-comptonn
-compton
-conf
-con
-hcon
-cd qtile/
-cl
-la
-v config.py 
-con
-cobf
-cof
-conf
-killall qtile
-cm
-cl
-xmacrp
-xmacro
-p -Ss xmacr
-p -Ss xmacro
-l
-py
-cl
-v task.py
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-v task.py 
-py task.py 
-cl
-frm task.py test.py 
-frm test/
-la
-cl
-r
-p -Syyu
-cl
-py
-cl
-v test.py
-py test
-py test.py
-viewnior tag.png 
-viewnior tag.png 
-viewnior tag.png 
-killall qtile
-cl
-hcon
-cd qt
-cd qtile/
-[a
-cl
-la
-v config.py 
-cl
-killall qtil
-killall qtile
-la
-cl
-ht
-killall bspwm 
-dfiles commit -a 
-dfiles add ~/scripts/no_gaps.sh 
-dfiles add ~/scripts/repbar_*
-dfiles add ~/scripts/restarti3.sh 
-dfiles add ~/scripts/transparent.sh 
-dfiles add ~/scripts/solarized.sh 
-dfiles add ~/scripts/spacegray.sh 
-dfiles add ~/scripts/renema.sh 
-dfiles add ~/scripts/reclip.sh 
-dfiles add ~/scripts/lockscreen.sh 
-dfiles add ~/scripts/info-*
-dfiles add ~/scripts/dmenu/polybar_select.sh 
-dfiles add ~/scripts/dmenu/shutdown.sh 
-dfiles add ~/scripts/colorschemes/
-dfiles commit -a
-dfiles push
-cl
-p -Ss minecraft
-cl
-p -Ss openjdk
-p -S jre-openjdk
-cl
-pamac build minecraft-launcher
-p -R jre-openjdk
-pq
-sudo pacman -Rs $(pacman -Qqdt)
-pamac build minecraft-launcher
-cl
-minecraft-launcher 
-gufw
-sudo gufw
-cl
-cd sc
-cd scripts/
-la
-v battery.sh 
-frm battery.sh 
-la
-./clearcache.sh 
-cl
-la
-v info-
-v info-hackspeed.sh 
-v info-hackspeed.sh 
-cl
-p -Ss feed the beastr
-p -Ss feed the beast
-p -Ss ftb
-hdowe
-hdow
-cl
-la
-java 
-java -jar FTB_Launcher.jar 
-cl
-sudo +java -jar FTB_Launcher.jar 
-sudo java -jar FTB_Launcher.jar 
-p -Ss java 8
-java 
-man java
-p -Ss java
-cl
-sudo java -jar FTB_Launcher.jar 
-
-cd Downloads/
-sudo java -jar FTB_Launcher.jar 
-hcon
-v compton.conf 
-cd Downloads/
-sudo java -jar FTB_Launcher.jar 
-cd Downloads/
-sudo java -jar FTB_Launcher.jar 
-java -XshowSettings:properties -version
-java -version
-cö
-cl
-sudo pamac-ui
-sudo pacui
-whereis pacui
-sv /usr/bin/pacui
-p -Ss jre-openjdk
-v
-cl
-sudo update-ca-certificates --fresh
-v
-sudo update-ca-certificates --fresh
-cl
-hdow
-sudo java -jar FTB_Launcher.jar 
-cl
-la
-cc
-la
-cd ftb/
-la
-cl
-lla
-cc
-frm ftb/
-öa
-lc
-cl
-la
-frm /root/ftb
-rm -rf /root/ftb
-sudo +rm -rf /root/ftb
-sudo rm -rf /root/ftb
-su
-cl
-la
-cl
-hdow
-java -jar FTB_Launcher.jar 
-cl
-cc
-cd ftb/
-la
-lla
-cc
-cd .ftblauncher/
-la
-cd authlib/
-a
-cl
-la
-frm authlib-1.5.22.jar 
-mv ~/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar ./
-la
-cl
-sudo pacui
-sudo pacui
-hdow
-java -jar FTB_Launcher.jar +
-java -jar FTB_Launcher.jar
-sudo java -jar FTB_Launcher.jar
-cl
-cc
-hdow
-frm FTB_Launcher.jar 
-la
-cl
-cc
-la
-frm ftb/
-frm .ftblauncher/
-la
-cd .minecraft/
-+la
-cl
-la
-cd libraries/
-la
-locate authlib
-cl
-sudo updatedbv+
-sudo updatedb
-locate authlib
-cd com
-cd authlib
-cd mojang/
-cd authlib/
-la
-cl
-cd 1.5.25/
-la
-cl
-la
-cl
-cd .ftblauncher/
-la
-cd authlib/
-la
-v authlib-1.5.22.jar 
-hdow
-sudo java -jar FTB_Launcher.jar
-java -jar FTB_Launcher.jar
-pamac build feedthebeast
-cl
-feedthebeast 
-pamac remove 
-pamac remove feedthebeast
-clk
-cl
-/usr/lib/jvm/java-11-openjdk/bin/java -Xmx256m -verbose -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -cp /home/henning/Downloads/TechnicLauncher.jar net.technicpack.launcher.LauncherMain
-cö
-cl
-sudo rm -r ftb/
-sudo rm -rf .ftblauncher/
-la
-cl
-hzdow
-hdow
-cl
-öa
-cl
-la
-frm FTB_Launcher.jar 
-java -jar TechnicLauncher.jar 
-java -jar TechnicLauncher.jar 
-java -jar TechnicLauncher.jar 
-java -jar TechnicLauncher.jar 
-java -jar TechnicLauncher.jar 
-cc
-cl
-la
-cd .technic/
-la
-v settings.json 
-cl
-la
-cd logs/
-la
-v techniclauncher_2018-12-24.log 
-cc
-cc
-cc
-cc
-hdow
-v techniclauncher_2018-12-24.log 
-java -jar TechnicLauncher.jar 
-cö
-cl
-frm TechnicLauncher.jar 
-la
-cl
-DRI_PRIME=1 steam
-DRI_PRIME=1 steam
-DRI_PRIME=1 steam
-cl
-la
-cl
-scr
-hscr
-la
-cd colorschemes/
-la
-v cl
-cc
-cö
-cl
-la
-v repbar_wasp.sh 
-clö
-cl
-offd
-cl
-off
-hdow
-la
-la
-la
-cl
-java -jar forge-1.12.2-14.23.5.2796-installer.jar 
-java -jar forge-1.12.2-14.23.5.2796-installer.jar 
-java -jar forge-1.12.2-14.23.5.2796-installer.jar 
-frm forge-1.12.2-14.23.5.2796-installer.jar 
-la
-la
-cl
-la
-cl
-la
-la
-lwatch
-cl
-la
-java -jar forge-1.12.2-14.23.5.2796-universal.jar 
-java -jar forge-1.12.2-14.23.5.2796-universal.jar 
-cl
-la
-frm forge-1.12.2-14.23.5.2796-universal.jar 
-la
-cl
-cc
-java -jar forge-1.12.2-14.23.5.2796-universal.jar 
-java -jar forge-1.12.2-14.23.5.2796-universal.jar 
-hdow
-la
-frm forge-1.12.2-14.23.5.2796-universal.jar 
-la
-cl
-la
-cl
-ls
-ls
-cl
-la
-java -jar forge-1.12.2-14.23.5.2768-installer.jar 
-v /etc/hosts
-sv /etc/hosts
-la
-cl
-cd Downloads/
-la
-la
-la
-cc
-cd .minecraft/
-cc
-cd DOw
-hdow
-la
-frm *.jar
-la
-frm *.lo
-la
-r
-cl
-la
-java -jar forge-1.12-14.21.1.2387-installer.jar 
-cl
-la
-cl
-cc
-cd .minecraft/
-la
-mkdir mods
-clö
-cl
-la
-cd logs/
-la
-v latest.log 
-cl
-la
-frm *.gz
-la
-cl
-lwatch
-la
-cl
-la
-v latest.log 
-la
-v latest.log 
-cd .minecraft/
-la
-cd screenshots/
-lka
-cl
-r
-r
-cl
-ht
-cl
-la
-cl
-minecraft-launcher 
-cd .minecraft/
-cdn screenshots/
-r
-cd screenshots/
-cl
-r
-v
-v
-DRI_PRIME=1 steam
-hdow
-la
-frm forge-*
-la
-java -jar OptiFine_1.12_HD_U_C7.jar 
-cl
-hdow
-la
-java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
-sv /etc/hosts
-cd .minecraft
-la
-cd versions/
-la
-frm 1.12\ -\ 5zig\ Mod/
-la
-frm 1.12-forge1.12-14.21.1.2387/
-la
-cl
-cc
-minecraft-launcher 
-hdow
-cl
-la
-java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
-la
-cc
-cd .minecraft/
-la
-cd mods/
-la
-cc+
-cl
-la
-cl
-la
-cl
-cc
-la
-cc
-hdow
-sudo java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
-java -jar The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
-cl
-cd .minecraft/
-la
-v options.txt 
-p -Ss authlib
-minecraft
-cl
-la
-cd .minecraft/
-la
-v launcher_
-v launcher_log.txt 
-cd logs/+
-cd logs/
-cl
-la
-v latest.log 
-cl
-cc
-v launcher_log.txt 
-cl
-watch -n .3 less launcher_log.txt 
-watch -n .3 tail launcher_log.txt 
-more launcher_
-more launcher_log.txt 
-less launcher_log.txt 
-cl
-la
-cl
-hdow
-la
-frm OptiFine_1.12_HD_U_C7.jar 
-la
-r
-la
-cl
-java -jar MC\ Modinstaller\ 5.0.8.jar 
-java -jar MC\ Modinstaller\ 5.0.8.jar 
-p -Ss virtualbox
-p -Ss vmware
-p -S vmware
-cl
-p -Ss workstation
-p -Ss virtualbox
-p -S virtualbox
-cl
-sudo su
-sudo virtualbox 
-killall java
-cl
-java -jar MC\ Modinstaller\ 5.0.8.jar 
-hdow
-java -jar MC\ Modinstaller\ 5.0.8.jar 
-ping google.com
-ht
-cd .minecraft/
-la
-cc
-frm .minecraft/
-la
-cl
-cd .minecraft/
-löa
-cl
-la
-cd versions/
-la
-frm 1.12*
-frm Modinstaller/
-öa
-cl
-la
-nvidia-settings 
-nvidia-xconfig 
-cl
-p -Syyu
-cl
-so test
-frm test
-la
-v asdf 
-frm asdf 
-la
-feh tag.png 
-frm tag.png 
-la
-cl
-cm
-conf
-pbar
-cl
-p -Syu
-cl
-pbar
-pbar
-hdoc
-r
-ht
-cl
-sudo nvidia-xconfig 
-sudo nvidia-settings #
-sudo nvidia-settings
-cl
-manjaro-
-manjaro-settings-manager 
-sudo manjaro-settings-manager 
-DRI_PRIME=1 minecraft-launcher 
-off
-cd Downloads/
-la
-feh ps1.jpg 
-p -S sxiv
-sxiv ps1.jpg 
-cl
-sxiv ps1.jpg 
-cl
-sxiv ps1.jpg 
-echo "$(echo Test)"
-echo "$(echo '$(echo Test))"
-echo "$(echo '$(echo Test)')"
-echo "$(echo "$(echo Test)")"
-echo "$(echo "$(echo Test)")"
-echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
-echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
-time echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
-echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo "$(echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
-echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo "$( echo Test)")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")")"
-t
-ht+
-ht
-cd .minecraft/versions/
-la
-frm 1.12/
-cl
-cd .config/
-la
-c dpol
-cd polybar/
-la
-v config
-v config_wasp 
-cl
-cl
-conf
-killall vim
-ht
-ht
-grep "sleep 5" ./
-grep "sleep 5" ./*
-grep "sleep 5" 
-grep "sleep 5" ~/**/*
-grep "sleep 5" ~/**/**
-cl
-cla
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-cd .config/
-grep "sleep 5" ~/**/**
-cl
-cc
-grep -r "sleep 5" .
-cl
-grep -r "sleep" .
-cd scripts/
-grep -r "sleep" .
-grep -r "sleep 5" .
-cc
-öa
-cl
-cd .config/
-grep -r "sleep 5" .
-less .bash_history 
-xev
-xev
-man pĺayerctl
-cl
-playerctl
-ocnf
-conbf
-conf
-cm
-ht
-v
-cl
-su
-sudo -i
-jobs
-cl
-la
-cl
-la
-cl
-la
-v 
-v 7
-v 7
-frm 7
-la
-frm names.json 
-frm kosten.csv 
-frm shots.txt 
-frm .weatherreport 
-cl
-pbar
-cö
-cöl
-öa
-cl
-la
-cl
-cl
-la
-cl
-cl
-conf
-cöl
-cl
-ht
-cl
-hcon
-cd polybar/
-la
-frm config_wasp 
-cl
-la
-cl
-cc
-cl
-conf
-hscr
-la
-cd colorschemes/
-la
-solarized 
-la
-cc
-la
-cl
-la
-cl
-cc
-cc
-cc
-cl
-la
-cd ..
-la
-frm rootterm.sh 
-frm repbar_wasp.sh 
-la
-cl
-la
-frm info-weather.sh 
-frm clearcache.sh 
-löa
-cl
-la
-cd dmenu/
-la
-frm polybar_select.sh 
-la
-cl
-cc
-cd dmenu/
-la
-frm killp.sh 
-la
-cc
-la
-cl
-conf
-xl
-cd .config/polybar/
-la
-v conm
-v config
-cl
-v config
-repbar 
-brc
-brc
-repbar+
-repbar
-polybar mainbar-i3
-polybar mainbar-i3
-pbar
-cl
-cd .config/pl
-cd .config/polybar/
-öla
-cl
-la
-v config_simple 
-p -S font-awesome
-p -S ttf-font-awesome
-p -S ttf-font-awesome
-cl
-la
-cl
-polybar mainbar-i3
-cö
-cl
-fc-list
-fc-list | grep Font Awesome
-fc-list | grep "Font Awesome"
-cl
-p -Ss ubuntumono
-p -Ss nerdfont
-p -Ss nerd 
-git clone https://github.com/ryanoasis/nerd-fonts.git
-icl
-cl
-la
-cd cl
-la
-cd nerd-fonts/
-la
-./install.sh 
-cl
-ht
-xev
-cd scripts/
-la
-cc
-cd .config/polybar/
-la
-v config
-polybar -r mainbar-i3
-cd scripts/
-öa
-la
-./reclip.sh 
-cd scripts/
-la
-cp repbar_rice.sh repbar_def.sh
-v repbar_def.sh 
-v repbar_def.sh 
-cl
-confr
-conf
-conf
-hscr
-la
-v restarti3.sh 
-cl
-la
-./repbar_def.sh 
-conf
-v restarti3.sh 
-frmconf
-conf
-v restarti3.sh 
-frm restarti3.sh 
-la
-cl
-conf
-conf
-i3-msg border 
-i3-msg gaps
-i3-msg gaps top all
-i3-msg gaps top all set 15+
-i3-msg gaps top all set 15
-i3-msg gaps top all se
-i3-msg gaps top all set
-i3-msg gaps top all set 0
-i3-msg gaps top all set 0
-i3-msg gaps top all set 0
-v repbar_def.sh 
-conf
-i3-msg restart
-cl
-conf
-pbar
-cd scripts/
-la
-conf
-ht
-spacegray 
-ht
-v
-cl
-pbar
-ads
-asd
-cl
-la
-cl
-cl
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-asdasdadjaksdjhlkasjdlkasdjlaksdjk
-clk
-la
-cl
-cl
-la
-cl
-cl
-conf
-xterm
-asdasdasdxterm
-xterm
-la
-lc
-l
-cl
-la
-cl
-xterm
-bg
-brc
-cl
-xterm &
-less .bash_history 
-less .bash_history 
-p -Syu
-cl
-cd .config/dunst/
-la
-v dunstrc
-frm dunstrc_backup 
-cp dunstrc dunstrc_backup
-v dunstrc
-man gut
-man git
-dfiles add scripts/*
-dfiles commit -a
-dfiles add .config/polybar/*
-dfiles commit -a
-cl
-cd .config/polybar/
-la
-v config_rice
-conf
-notify-send nigger
-notify-send niggerasd
-notify-send niggerasd\nasd
-cl
-cd .config/dunst/
-la
-mv dunstrc_bkup
-mv dunstrc_backup dunstrc
-la
-mv dunstrc dunstrc_bkup
-mv dunstrc_backup dunstrc
-cl
-la
-cl
-more dunstrc
-cl
-la
-cl
-p -Ss i3 config
-p -Ss i3
-cl
-la
-cl
-la
-cl
-la
-cl
-xres
-xresr
-xres
-solarized 
-l
-cl
-la
-cl
-xres
-xresr
-solarized 
-pbar
-la
-cl
-pbar
-xres
-transparent 
-p -Syyu
-cl
-la
-cl
-la
-cl
-la
-cl
-pacui
-cl
-la
-conf
-cl
-löa
-spacegray 
-la
-cl
-v
-cl
-p -S powerline
-la
-cl
-la
-cl
-la
-cl
-lka
-cl
-alö
-acl
-l
-cxl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-alc
-la
-cl
-alc
-cl
-la
-lc
-la
-cl
-la
-cl
-cl
-la
-cl
-la
-cl
-l
-cl
-la
-cl
-lla
-cl
-lls
-cl
-brc
-cl
-lls
-cl
-la
-cll
-cl
-lla
-cl
-lls
-frm forge-1.12.2-14.23.5.2796-universal.jar 
-la
-cl
-lls
-ls
-cl
-la
-cl
-ls
-frm VirtualBox\ VMs/
-la
-cl
-ls
-frm nerd-fonts/
-pnbar
-cl
-pbar
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-dcl
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-alc
-cl
-la
-cl
-la
-cl
-cl
-la
-cl
-al
-ccl
-cl
-ala
-cl
-la
-cl
-cla
-c
-cl
-la
-cl
-la
-clc
-cl
-la
-cl
-cd Downloads/
-la
-mkdir ~/Schule/Biologie/Bilder
-mv WhatsApp\ Image\ 201
-OE Fitness
-Linus Tech Tips
-Nick's Strength and Power
-Every Damn Day Fitness
-Philion
-BroScienceLife
-Jason Blaha's Strength and Power
-KENNY K.O.
-Infinite Elgintensity
-Am 31.12.2017 veröffentlicht
-mv WhatsApp\ Image\ 201* ~/Schule/Biologie/Bilder/
-al
-cl
-la
-cc
-sbio
-la
-cl
-cd Bilder/
-sxiv ./*
-feh ./*
-r
-feh ./*
-nmtui
-nm
-nmcli
-nmcli d
-nmcli de
-nmcli device show
-mcli
-cl
-la
-cl
-nmcli
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-l
-cl
-l
-cl
-la
-cl
-conf
-cl
-la
-cl
-cd .scim/
-cc
-cd scripts/
-./repbar_def.sh 
-./repbar_def.sh 
-pbar
-xres
-pbar
-cd sc
-cd scripts/
-./repbar_def.sh 
-polybar mainbar-i3
-off
-sbio
-cd bil
-cd Bilder/
-cl
-la
-feh *
-feh *
-r
-feh *
-time +feh *
-time feh *
-sbio
-cd Bilder/
-time feh *
-time feh *
-time feh *
-time feh *
-time feh *
-time sxiv *
-time sxiv *
-time sxiv *
-time sxiv *
-sudo mv Downloads/ps1.jpg /root/
-sudo su
-la
-cl
-sinf
-la
-cl
-cc
-hcod
-la
-cd Zahlensysteme/
-la
-py convertbinary.py 
-py convertbinary.py 
-cl
-la
-py convertdecimal.py 
-cl
-la
-cl
-la
-cl
-cm
-cl
-ping ddg.gg
-cl
-apropos hexa
-cl
-la
-cl
-la
-cl
-solarized 
-la
-cl
-spacegray 
-la
-cl
-xres
-spacegray 
-la
-cl
-la
-cl
-v
-cl
-la
-cl
-res
-xres
-spacegray 
-ka
-cl
-ht
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-pba#r
-pbar
-:wq
-cl
-la
-cl
-brc
-:wq
-:q
-brc
-:q
-:wq
-:wq
-:wq
-.wq
-:wq
-py
-v
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-lc
-cl
-ads
-ad
-cl
-la
-cl
-la
-cö
-cl
-cowsay Nigger
-cowsay Nigger | lolcat
-cowsay Nigger | lolcat
-cl
-cl
-cowsay Nigger | lolcat
-c
-cl
-cl
-icl
-cl
-unix
-apropos unnix
-apropos unix
-cl
-man dd
-cl
-lsblk
-cl
-lsblk
-cl
-lsblk
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-cl
-la
-cl
-la
-cl
-hcod
-cd Zahlensysteme/
-la
-v  convert
-py converthexa.py 
-v convert
-v converthexa.py 
-r
-R
-hcod
-cd Zahlensysteme/
-al
-cl
-la
-cl
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
- l
-cl
-la
-cl
-cl
-py converthexa.py 
-py converthexa.py 
-py converthexa.py 
-cl
-cl
-cl
-c
-lcl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-clc
-cl
-cl
-v
-hcod
-cd Zahlensysteme/
-la
-py convertdecimal.py 
-py convertbinary.py 
-py convertdecimal.py 
-py convertdecimal.py 
-py convertdecimal.py 
-py convertdecimal.py 
-py convertbinary.py 
-py convertdecimal.py #
-py convertbinary.py #
-cl
-py convertbinary.py #
-py convertdecimal.py 
-py convertdecimal.py 
-py converthexa.py 
-
-py converthexa.py 
-py convertdecimal.py 
-R
-less .config/polybar/config
-nf
-pabr
-pbar
-less .config/polybar/config
-pbar
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-cl
-cl
-alc
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-lc
-cl
-la
-cl
-la
-cl
-la
-lc
-lcl
-cl
-la
-cl
-la
-cl
-l
-la
-clc
-cl
-la+c
-lac+l
-alc
-lc
-cl
-la
-clac
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-l
-cl
-ls
-la
-ls
-cl
-ls
-cl
-ls
-cl
-la
-cl
-la
-cl
-ls
-cl
-la
-lc
-cl
-v
-ccl
-la
-cl
-py
-py
-starwars 
-starwars
-starwars
-v
-py
-soa
-soa
-soa
-soa
-watch -n .1
-watch -n .1 soa
-soa
-cl
-soa
-so .local/share/Zeal/
-so .local/share/Zeal/
-so .local/share/Zeal/
-apropos batt
-acpi
-mna acpi
-man acpi
-acpi -a
-mna acpi
-man acpi
-acpi _V
-acpi -V
-polybar mainbar-i3
-killall polybar 
-polybar mainbar-i3
-pbar
-p -Ss xcb-util-curosr
-p -Ss xcb-util-cursor
-x
-xcursor
-cl
-apropos cursor
-j
-conf
-cl
-ocnf
-conf
-pbar
-cl
-od
-off
-off
-p -Syyu
-cl
-off
-cd DOw
-hdow
-+la
-cl
-la
-cc
-pbar
-cl
-cl
-p -S virtualbox
-cl
-la
-cl
-sudo virtualbox 
-sudo virtualbox 
-sudo virtualbox 
-which vboxconfig
-locate vboxconfig
-sudo updatedb
-locate vboxconfig
-cl
-p -Ss vboxconfig
-p -Ss vbox
-p -Ss virtualbox
-p -Ss virtualbox | grep config
-cl
-virtualbo
-virtualbox
-cl
-la
-cl
-chmod -R 755 /usr/lib/virtualbox
-sudo chmod -R 755 /usr/lib/virtualbox
-cl
-virtualbox 
-cl
-la
-cl
-sudo rm -rf/usr/lib/virtualbox
-sudo rm -rf /usr/lib/virtualbox
-virtualbox 
-cl
-la
-cl
-p -Ss virtualbox
-p -S virtualbox
-virtualbox 
-sudo /sbin/vboxconfig
-p -Ss dkms
-p -S dkms
-sudo /etc/init.d/vboxdrv setup
-sudo /sbin/vboxconfig
-virtualbox 
-dkms
-dkms autoinstall
-sudo dkms autoinstall
-cl
-la
-cl
-virtualbox 
-cl
-virtualbox 
-virtualbox 
-cl
-cl
-virtualbox 
-p -Ss virtualbox
-p -S linux419-virtualbox-host-modules virtualbox-guest-iso
-cl
-la
-hcod
-la
-cl
-mkdir Arch
-cd Are
-cd Arch/
-la
-cl
-dfiles commit -a
-dfiles push
-cl
-la
-lc
-cl
-v install.md
-virtualbox 
-virtualbox 
-clear
-clear
-öls
-clear
-ls
-clear
-man ln
-hcod
-cd Arch/
-la
-clear
-v install.md 
-clear
-cl
-la
-cl
-cc
-la
-cl
-cc
-cd dotfiles/
-la
-clear
-l
-clear
-ls
-cc
-cd scripts/
-ls
-touch install_dfiles.sh
-v install_dfiles.sh 
-clear
-dfiles commit -a
-clear
-ls
-chmod +x install_dfiles.sh 
-dfiles add install_dfiles.sh 
-dfiles commit -a
-clear
-dfiles push
-clear
-clear
-ls
-clear
-ls
-clear
-clear
-ls
-clear
-cc
-v
-clea
-rls
-clear
-ls
-hdf
-clear
-cd dotfiles/
-clear
-ls
-v bash
-v bashrc 
-clear
-dfiles commmit
-clear
-dfiles commmit -a
-dfiles commit -a
-clear
-dfiles push
-cl
-ls
-clear
-c
-cc
-cd scripts/
-clear
-ls
-v install_dfiles.sh 
-clear
-grep
-cc
-cd dotfiles/
-clear
-grep -r "/home/henning" ./
-v i3config 
-clear
-grep -r "/home/henning" ./
-v xinitrc 
-clear
-grep -r "/home/henning" ./
-v .Xres
-v Xresources 
-clear
-cl
-dfiles commit -a
-dfiles push
-cp /usr/share/backgrounds ~/backgrounds
-cp -r /usr/share/backgrounds ~/backgrounds
-clear
-cc
-cd backgrounds/
-la
-clear
-cd wallpaper/
-la
-feh ./*
-cöear
-clear
-ls
-clear
-cc
-ls
-clear
-cc
-dfiles add backgrounds
-dfiles commit -a
-clear
-dfiles push
-clear
-conf
-clear
-dfiles commit -a
-dfiles commit -a
-cöear
-cöear
-clear
-ls
-clear
-dfio
-dfiles
-clear
-dfiles commit -a
-v .dotfiles/
-clear
-ls
-la
-clear
-brc
-clear
-man mbv
-man mb
-man mv
-cd /tmp
-la
-cleare
-clear
-dfiles status
-dfiles list
-dfiles 
-dfiles show
-clear
-ls
-clear
-dfiles remove ~/.i3
-dfiles 
-dfiles rm ~/.i3
-dfiles rm -r ~/.i3
-la
-clea
-clear
-ls
-clear
-unlink
-man unlink
-man mv
-conf
-p -Ss nitrogen
-hscr
-la
-v reclip.sh 
-man mkdir
-cd dotfiles/
-la
-rm .remaps.vim.sw*
-la
-rm .remaps.vim.sw*
-öa
-clear
-ls
-dfiles commit a-
-dfiles commit -a
-clear
-dfiles push
-cl
-ls
-clear
-ls
-clrear
-clear
-hscr
-la
-v install_dfiles.sh 
-clear
-dfiles commit -a
-lear
-clear
-dfiles push
-v install_dfiles.sh 
-clear
-dfiles commit -a
-dfiles push
-clear
-v install_dfiles.sh 
-clear
-dfiles push
-dfiles commit -a
-dfiles push
-cl
-la
-clear
-la
-lc
-clear
-la
-clear
-la
-clear
-cl
-la
-clear
-la
-clear
-la
-clear
-la
-v install_dfiles.sh 
-clear
-cl
-xres
-clear
-v install_dfiles.sh 
-clear
-dfiles commit .a
-dfiles commit -a
-clear
-dfiles push
-v install_dfiles.sh 
-clear
-dfiles commit -a
-dfiles push
-v install_dfiles.sh 
-clear
-la
-clear
-dfiles add programs.sh 
-clear
-dfiles commit -a
-dfiles push
-vclear
-clear
-v install_dfiles.sh 
-v install_dfiles.sh 
-clear
-dfiles commit -a
-clear
-dfiles push
-v programs.sh 
-cler
-clear
-v install_dfiles.sh 
-clear
-dfiles commit -a
-dfiles push
-clear
-hscr
-löa
-clear
-ls
-v install_dfiles.sh 
-dfiles commit -a
-dfiles push
-v install_dfiles.sh 
-v install_dfiles.sh 
-dfiles commit -a
-clear
-dfiles push
-clear
-con f
-conf
-cöear
-clear
-v .xinitrc 
-lp
-clear
-ls
-v .xinitrc 
-clerar
-clear
-dfiles commit -a
-clear
-dfiles push
-hdot
-v xinitrc 
-virtualbox 
-mkdir test
-cd test/
-git clone https://github.com/quertyqiboard/dotfiles.git
-git clone https://github.com/quertyqiboard/dotfiles.git
-git clone https://github.com/quertyqiboard/dotfiles.git
-git clone https://github.com/quertyqiboard/dotfiles.git
-cd dotfiles/
-ls
-la
-v
-clear
-hscr
-la
-v install_dfiles.sh 
-dfiles commit -a
-dfiles push
-cl
-hdow
-la
-unzip MuK-20190113T201511Z-001.zip
-ls
-frm MuK-20190113T201511Z-001.zip 
-ls
-frm The\ 5zig\ Mod\ v3.12.5\ for\ Minecraft\ 1.12.jar 
-frm Genetik-20181215.zip 
-cl
-ls
-mkdir Iso
-mv *.iso Iso/
-ls
-frm MC\ Modinstaller\ 5.0.8.jar 
-ls
-clear
-ls
-mv MuK/ ~/Schule/MuK/
-ls
-cl
-smuk
-ls
-mv MuK/ Kamerapraxis/
-cd Kamerapraxis/MuK/
-ls
-cl
-sxiv ./*
-feh ./*
-r
-hdow
-la
-unzip drive-download-20190113T204002Z-001.zip 
-mv *.jpg ~/Schule/MuK/Kamerapraxis/MuK/
-cl
-cl
-la
-cl
-smuk
-la
-mkdir Kamerapraxis
-cd Kamerapraxis/
-la
-clear
-ls
-mkdir 'Hallo Ich Bins'
-ls
-frm Hallo\ Ich\ Bins/
-mkdir 'Henning, Portrait'
-mkdir 'Henning, Natur'
-mkdir 'Henning, Ortsfaszination'
-mkdir 'Henning, Meine Kreativ-Galerie'
-ls
-clear
-ls
-ls
-cd MuK/
-ls
-clear
-find
-find | grep self
-clear
-hdow
-ls
-mv IMG_20190111_120753.jpg self_equation_laughing.jpg
-mv self_equation_laughing.jpg ~/Schule/MuK/Kamerapraxis/MuK/
-smuk
-cd Kamerapraxis/
-ls
-cd MuK/
-cl
-ls
-r
-ls
-mv self_equation_laughing.jpg Selbstportraits/
-ls
-cl
-r
-vrc
-c
-cl
-cd .vim/src/
-ls
-v remaps.vim 
-v functions.vim 
-grep -r article ./
-cl
-cc
-cd .vim/
-grep -r article ./
-clear
-cc
-clear
-brc
-cö
-cl
-la
-cl
-vrc
-cl
-la
-cl
-cd dotfiles/
-ls
-cc
-cl
-la
-cl
-ls
-cd .vim
-la
-cd src/
-ls
-cd snippets/
-ls
-v article 
-cc
-ls
-v airlineconf.vim 
-cl
-smuk
-cd Kamerapraxis/
-cd Henning\,\ Portrait/
-ls
-cd Selbstportraits/
-ls
-feh self_equation_laughing.jpg
-sxiv self_equation_laughing.jpg
-cl
-la
-pdflatex self_equation_laughing.tex
-pdflatex self_equation_laughing.tex
-ls
-zathura self_equation_laughing.
-zathura self_equation_laughing.pdf 
-pdflatex self_equation_laughing.tex
-smuk
-la
-cd Kamerapraxis/
-ls
-cd Henning\,\ Portrait/
-ls
-cleear
-clear
-cd Selbstportraits/
-ls
-frm self_equation_creepy.jpg 
-ls
-v self_equation_laughing.tex
-clear
-cl
-la+
-cl
-la
-cl
-cp ~/.vim/src/snippets/article ./self_equation_laughing.tex
-v self_equation_laughing.tex 
-brc
-cö
-cl
-la
-cp self_equation_laughing.tex self_gym.jpg
-cp self_equation_laughing.tex self_gym.tex
-v self_gym.
-v self_gym.tex 
-cl
-cp self_equation_laughing.tex self_jagen.tex
-v self_jagen.tex 
-cl
-la
-rf
-r
-ls
-r
-clear
-ls
-pdflatex *.tex
-cl
-la
-cl
-la
-frm *.aux
-ls
-clar
-r
-pdflatex *.tex
-la
-pdflatex Henning\,\ Selbstportrait\ 2\ Erklärung.tex 
-pdflatex Henning\,\ Selbstportrait\ 3\ Erklärung.tex 
-cl
-r
-cl
-la
-la
-cl
-smul
-smukl
-smuk
-cd Kamerapraxis/Henning\,\ Portrait/Selbstportraits/
-ls
-sxiv self_gym.jpg 
-sxiv self_jagen.
-sxiv self_jagen.jpg 
-smuk
-cd Kamerapraxis/
-ls
-la
-cl
-la
-cd Henning\,\ 
-cd Henning\,\ Natur/
-ls
-la
-mv Park/* ./
-ls
-cd Park/
-ls
-cc
-frm Park/
-ls
-r
-clear
-ls
-r
-cl
-la
-cl
-cp ../Henning\,\ Portrait/Selbstportraits/.tex/Henning\,\ Selbstportrait\ 1\ Erklärung.tex ./Fotogenre.tex
-ls
-v Fotogenre.tex 
-v Fotogenre.tex 
-pdflatex Fotogenre.tex 
-la
-r
-cl
-la
-cl
-zathura *.pdf
-la
-cl
-c
-clrar
-clear
-ls
-cc
-la
-r 
-cl
-la
-cl
-lq
-cl
-la
-cl
-lsblk
-etcher
-cl
-la
-fdisk /dev/sdb
-sudo fdisk /dev/sdb
-cl
-la
-cl
-fdisk -l
-sudo su
-fdisk -l
-sudo fdisk -l
-sudo fdisk -l
-sudo fdisk -l
-gparted
-sudo gparted
-sp
-la
-cl
-cd .i3
-la
-cl
-la
-cat config 
-la
-lla
-unlink config
-la
-cl
-ln -s ~/dotfiles/i3config ~/.i3/config
-la
-cl
-lla
-cl
-reboot
-conf
-la
-clear
-ls
-clear
-cl
-la
-cl
-xres
-cl
-less .Xresources 
-la
-clear
-ls
-clear
-xre
-conf
-conf
-cl
-transparent 
-v
-cl
-la
-cl
-v /etc/locale.
-v /etc/locale.conf 
-cl
-la
-cl
-cd /etc/
-la
-v fstab 
-cl
-fdisk -l
-su
-sudo su
-nf
-clear
-ls
-clear
-neofetch
-v .bash_profile 
-cl
-man xorg
-cl
-ht
-xsetkbmap
-kb
-apropos kb
-skbset
-xkbset
-kbdrate
-sudo kbdrate
-man kbdrate
-clear
-man xset
-c
-cl
-la
-cl
-la
-cl
-la
-la
-cl
-xres
-cl
-brc
-man set
-cl
-v .bash_profile 
-cd /dev/
-l
-cl
-la
-cat psaux 
-sudo cat psaux 
-sudo cat random
-lwatch
-cd /dev/
-ls
-clear
-cat /dev/random ~/text
-cat /dev/random > ~/text
-command cd
-clear
-ls
-so text 
-cat /dev/random > ~/text
-rm text 
-cl
-la
-l
-lcl
-cl
-ls
-conf
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-l
-acl
 pnbar
 pbar
 cl
@@ -3959,3 +28,632 @@ nf
 cl
 ht
 conf
+conf
+cl
+la
+cl
+cd .i3
+al
+clear
+lla
+cl
+dfiles commit -a
+cl
+conf
+cl
+i3-msg scratchpad show
+i3-msg scratchpad
+i3-msg scratchpad show
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+lc
+cl
+la
+cl
+p -Syu
+p -S zsh
+p -Ss zsh
+p -S zsh
+lllcl
+zsh
+zsh
+zsh
+man zsh
+wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
+wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
+la
+la
+cl
+zsh
+clear
+wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
+l
+cl
+la
+cl
+la
+cl
+xers
+brc
+ls
+clear
+lla
+v .Xresources 
+cl
+shell
+echo $SHELL
+cl
+solarized 
+la
+cl
+brc
+cl
+conf
+cl
+iasdas
+asd
+cl
+conf
+cl
+conf
+cl
+conf
+xres
+transparent 
+la
+clear
+ls
+clear
+la
+clear
+ls
+clear
+la
+cl
+v
+solarized 
+v
+cl
+p -R zsh grml-zsh-config
+cl
+conf
+cl
+urxvt -name command
+urxvt -name command ~
+urxvt -name command ~/
+cl
+man urxvt
+man urxvt
+cl
+urxvt
+urxvt /
+brc
+command urxvt
+urxvt /home/henning
+urxvt -title test
+urxvt -cd /home/henning
+urxvt -cd /home/henning -name command
+killall urxvt
+urxvt -cd /home/henning -name command
+urxvt -cd /home/henning -name command
+conf
+conf
+conf
+transparent
+man i3
+ls
+r
+conf
+conf
+cl
+man urxvt
+urxvt
+urxvt -cd /home/henning -bg black
+conf
+cl
+nmtui
+cl
+la
+cl
+conf
+cl
+man playerctl
+playerctl -a
+playerctl -l
+playerctl position 5-
+playerctl position 5+
+playerctl position 5+
+playerctl position 5 +
+playerctl status
+playerctl volume
+playerctl position
+cl
+la
+cl
+conf
+conf
+cl
+pbar
+cl
+la
+cl
+lac
+cl
+cd .config/polybar/
+la
+./spotify 
+cl
+pbar
+cl
+la
+cl
+la
+cl
+conf
+cl
+conf
+cl
+cl
+lac
+cl
+löa
+cl
+la
+cd .hplip/
+la
+v hplip.conf 
+v hp-systray.lock 
+cl
+lacd
+cl
+cl
+la
+cl
+la
+cl
+la
+cl
+cl
+cd scripts/colorschemes/
+la
+v cs_transparent 
+la
+cl
+la
+cl
+cd .scim/
+cc
+cd .scr
+cd scripts/
+la
+cd  colorschemes/
+la
+v cs_transparent 
+v transparent 
+v spacegray 
+v gruvbox
+cl
+la
+cl
+cc
+cp transparent.sh gruvbox.sh
+v gruvbox.sh 
+cl
+brc
+cl
+v gruvbox.sh 
+cl
+gruvbox 
+la
+cl
+v .Xresources 
+cl
+la
+cl
+cd sc
+cd scripts/
+öa
+cl
+la
+./gruvbox.sh 
+xresr
+la
+cl
+v .Xresources 
+cl
+cd scripts/
+a
+v gruvbox.sh 
+cl
+gruvbox 
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+v
+cl
+conf
+cl
+la
+cl
+la
+cl
+la
+cl
+cd scripts/
+la
+v repbar_def.sh 
+conf
+cl
+ls
+clear
+la
+clear
+la
+clear
+ls
+clear
+cl
+la
+cl
+ht
+cl
+man ya
+man yay
+cl
+la
+cl
+ht
+cl
+ps aux
+cl
+ps aux | column -t
+ps aux | column -t
+ps aux | column
+conf
+conf
+sudo cat /dev/random 
+p -S yay
+ya
+yay
+jobs
+fg 1
+sudo yay
+ay
+yay
+cl
+cl
+la
+cl
+cmatrix
+cd .config/
+la
+cd glava/
+la
+v rc.glsl 
+cl
+la
+v env_i3.glsl 
+brc
+brc
+r
+conf
+cl
+cmatrix | lolcat
+ht
+ht
+cl
+nf
+nf
+cl
+nf
+cl
+nf
+cl
+nf
+cl
+nf
+nf
+cl
+nf
+brc
+cl
+source .bashrc
+nf
+source .bashrc
+nf
+nf
+nf
+cl
+nf
+nf
+nf
+
+nf
+source .bashrc
+cl
+nf
+cl
+nf
+nf
+nf
+nf
+clear
+nf
+clear
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "\}}n"
+echo \n
+echo \n
+clear
+
+source .bashrc
+cl
+source .bashrc
+clear
+nf
+clear
+echo 
+echo 
+echo 
+echo 
+clear
+echo ; echo ; echo
+nf
+conf
+cl
+conf
+cl
+pbar
+pbar
+cl
+p -S fish
+cl
+man fish
+man fish
+cl
+fish
+which fish
+solarized 
+conf
+cl
+hcon
+la
+cd fish/
+ls
+clear
+v config.fish
+v config.fish 
+cl
+echo $USER
+echo $hostname
+echo $host
+echo $HOST
+echo $HOSTNAME
+man printf
+cl
+echo $PWD
+fish
+spacegray 
+fish
+clear
+fish#
+fish
+fish
+fish
+fish
+fish
+fish
+clear
+fish
+clear
+fish
+clear
+fish
+clear
+fish
+fish
+clear
+fish
+clear
+fish
+clear
+fish
+fish
+clear
+fish_config
+fish
+fish
+fihs
+fish
+cd .config/fish/
+v config.fish 
+v config.fish 
+clear
+fish
+fish
+clear
+fish
+fish
+fish
+clear
+fish
+clear
+df
+clear
+df
+fish
+fish
+clear
+fish
+df -h
+df -h | grep $
+df -h | grep \$
+fish
+fish
+fish
+fish
+fihs
+fish
+clear
+hcon
+la
+cd fish/
+ls
+con
+v config.fish 
+clear
+fish
+fish
+conf
+brc
+fish
+clear
+fish
+fisg
+fish
+frc
+cl
+fish
+frc
+clear
+fish
+clear
+frc
+clear
+fish
+frc
+brc
+cl
+iadasdlasd
+time
+sinf
+time python3.7 zabb
+time python3.tab
+titime python3.7 table.py logic.txt 
+time python
+la
+la
+al
+clear
+la
+clear
+checkupdates 2&> /dev/null | wc -l | tee .pacman-updates
+hscr
+chmod +x pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+clear
+v pacman_updates.sh 
+clear
+v pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+./pacman_updates.sh 
+checkupdates 2&> /dev/null
+checkupdates
+checkupdates 2> /dev/null
+checkupdates 2> /dev/null | wc -l | tee ~/.pacman-updates
+if [[ $(ping google.com 2&> /dev/null) ]]; then checkupdates 2> /dev/null | wc -l | tee ~/.pacman-updates; else cat ~/.pacman-updates; fi
+$(ping google.com 2&> /dev/null)
+ping google.com 2&> /dev/null
+ping google.com 2> /dev/null
+ping google.com
+clear
+ping duckduckgo.com -c 3
+ping 127.0.0.1 -c 3
+ping youtube.com
+hscr
+la
+clear
+checkcites 
+checklistings 
+clear
+la
+clear
+v pacman_updates.sh 
+./pacman_updates.sh 
+v pacman_updates.sh 
+./pacman_updates.sh 
+./pacman_updates.sh 
+./pacman_updates.sh 
+pbar
+fish
+hscr
+v pacman_updates.sh 
+v pacman_updates.sh 
+clear
+v pacman_updates.sh 
+pbar
+clear
+hdow
+la
+frm fish-3.0.0
+frm fish-3.0.0.tar.gz 
+unpack dwm-6.1.tar.gz 
+unp dwm-6.1.tar.gz 
+la
+mv dwm-6.1 ~
+cc
+la
+ls
+cd d
+cd dwm-6.1/
+la
+clear
+frc
+sinst
+sint
+brc
+man rm
+checkupdates
+yay
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtc
+time urxvtt
+clear
+time st
+time st
+time st
+time st
+time st
+which time
+type time
+xlip
+xclip
