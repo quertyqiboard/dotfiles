@@ -657,3 +657,997 @@ which time
 type time
 xlip
 xclip
+la
+uname
+nmtui
+p -S scribus
+v
+smuk
+pandoc Kommunikationsmodell.md -o Kommunikationsmodell.pdf
+zathura Kommunikationsmodell.pdf 
+fish
+p -Ss autoclick
+yay -Ss autoclick
+man xautoclick
+qtautoclick
+qt4autoclick
+smuk
+zathura Kommunikationsmodell.pdf 
+v Kommunikationsmodell.md 
+pandoc Kommunikationsmodell.md -o Kommunikationsmodell.pdf
+off
+ping pornhub.com
+conf
+p -Ss filius
+yay -Ss filius
+yay -S filius
+cd Desktop/
+la
+lla
+
+cc
+la
+ls *pdf
+cl
+sudo updatedb
+locate *.pdf | grep filius
+locate *.pdf | grep -i Filius
+locate *.pdf | grep Einfuehrung
+ping 127.0.0.1
+ping 127.0.0.1
+ping 127.0.0.1
+ping 127.0.0.1 -c 100
+conf
+xbacklight -set 100 -time 10 -step 5
+xbacklight =100 -time 10 -step 5
+xbacklight = 100 -time 10 -step 5
+xbacklight --set 
+xbacklight -set
+xbacklight -set 10
+xbacklight -set 100
+xbacklight -set 100 -time 10
+xbacklight -set 10 -time 10
+xbacklight -set 100 -time 10
+xbacklight -set 10
+xbacklight -set 100
+la
+cl
+cd /usr/share/
+la
+cd filius/
+la
+zathura Einfuehrung_Filius.pdf 
+zathura Einfuehrung_Filius.pdf 
+man gnu
+gnuplot
+man i3
+i3 -tree
+gnutls-cli
+mna gnutls-cli
+man gnutls-cli
+la
+cl
+urxvt -d ~
+man urxv
+man urxv
+man urxvt
+urxvt -cd +
+urxvt -cd ~
+urxvt -~
+urxvt ~
+urxvt -cd ~
+which urxvt
+sv /usr/bin/urxvt
+cd /usr/
+la
+xres
+transparent 
+la
+cl
+la
+cl
+urxvt
+transparent 
+la
+cd st
+la
+v config.h
+xres
+conf
+time st
+time st
+time 'st -e exit
+time 'st -e exit'
+st -e
+st -e neofetch
+st -e exit
+st -e exit
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time st
+time urxvt -cd ~
+time urxvt -cd ~
+time urxvt -cd ~
+time urxvt -cd ~
+time urxvt -cd ~
+time urxvt -cd ~
+time urxvt -cd ~
+la
+cl
+time urxvtc -cd +
+time urxvtc -cd ~
+time urxvtc -cd ~
+time urxvtc -cd ~
+time urxvtc -cd ~
+time urxvtc -cd ~
+time urxvtc -cd ~
+xres
+solarized 
+spacegray 
+xres
+spacegray 
+xres
+spacegray 
+st
+cd sr
+cd st
+cl
+v config.h
+conf
+conf
+pbar
+java
+clear
+py
+cmatrix
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+fortune | cowsay
+cd scripts/dmenu/
+la
+v shutdown.sh 
+off
+cd ftb/
+la
+ht
+v
+cd ftb/
+cd FTBPresentsCrackpack/
+cd minecraft
+cd mod
+cd mods
+la
+ls | grep Gany
+cd ftb/FTBPresentsCrackpack/minecraft/mod
+cl
+ls *.jar | wc -l
+ls
+ls | wc -l
+cd ftb/FTBPresentsCrackpack/
+la
+cd minecraft
+cd local/
+la
+cd ftbu/
+la
+v config.json 
+cd ftb/
+cd FTBPresentsCrackpack/
+cd minecraft
+la
+cd co
+cd config/
+ls
+cd enderio/
+la
+v PoweredSpawnerConfig_Core.json 
+v PoweredSpawnerConfig_User.json 
+v PoweredSpawnerConfig_Core.json 
+cc
+cc
+grep -r "replaceWitherSkeletons" .
+cd co
+cd config/
+ls
+v ExtraUtilities.cfg 
+ht
+p -Syu
+p -Syu
+jdpw
+hdow
+z unaboomer.pdf
+brc
+hdow
+z unaboomer
+z unaboomer.pdf
+z
+ls
+cm
+cm
+clear
+R
+pbar
+cmatrix
+cmatrix
+cmatri
+cmatrix
+cmatric
+cmatrix
+cmatrix
+cmatrix
+cm
+cm
+cmatrix
+cm
+cm
+cmatrix
+cmcm
+cm
+cmatrix
+cm
+connf
+conf
+conf
+p -Ss game
+p -S zaz
+zaz
+p -R zaz
+pq
+smake
+snake
+off
+cd ~/scripts/dmenu/
+v shutdown.sh 
+conf
+man java
+jvm
+hdow
+la
+a
+la
+la
+cl
+la
+cl
+ls
+ls
+hdow
+ls
+unzip
+ls
+mv OpenJDK8U-jdk_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.1.tar.gz OpenJDK.tar.gz
+unzip OpenJDK.tar.gz
+tar -xvzf OpenJDK.tar.gz 
+ls
+cd jdk8u202-b08/
+la
+cd bin/
+la
+cc
+cd jre/
+la
+cd bin/
+la
+pwd
+ls
+cc
+cc
+cc
+sudo mv jdk8u202-b08/ /usr/lib/jvm/
+cd /usr/lib/jvm
+ls
+107*204.8
+v /etc/hosts
+v
+z /usr/share/filius/Einfuehrung_Filius.pdf 
+vcd /usr/share/filius/
+cd /usr/share/filius/
+z Einfuehrung_Filius.pdf 
+ping 192.168.0.1
+ping 192.168.0.2
+iwconfig
+cl
+ipconfig
+ip addr show
+ip addr 
+ip addr askdhasd
+ip shwo
+ip show
+man ip
+v conf
+conf
+cd ftb/FTBPresentsCrackpack/
+cd minecraft/mods
+la
+cd ftb/
+la
+cc
+cd ftb/
+v Plans
+conf
+conf
+nmcli
+nmcli connection
+nmcli connection show
+man nmcli
+nmcli -p
+nmcli -p connection show
+nmcli connection show
+smuk
+mkdir Textarten
+cd Textarten/
+la
+v Kollumne.md
+ht
+p -S snake
+p -S snake
+p -Ss snake
+p -S ksnakeduel
+xres
+xresr
+transparent
+solarized
+spacegray
+xres
+conf
+xresr
+solarized
+spacegray 
+xresr
+conf
+xres
+spacegray
+ls
+conf
+ls
+ls
+ht
+man polkitd
+man polkit
+ht
+v
+snake-ncurses 
+snake-ncurses -r
+cl
+off
+ht
+hdow
+ls
+mv summary\ rosemary\ bennett.docx summary_rosemary_bennett.docx 
+lowriter summary_rosemary_bennett.docx 
+p -Syu
+smuk
+ls
+Textarten/
+la
+ls
+ls -a
+cd
+ls
+v article_new.txt
+frm article_new.*
+ös
+ls
+smuk
+ls
+cd Textarten/
+v Kollumne.md
+ls
+loimpress Kollumne.pptx 
+smuj
+smuk
+cd Textarten/
+v Eigene_Kollumne.md
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+z Eigene_Kollumne.pdf 
+man pandoc
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf -f fontsize
+man pandoc
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf  fontsize
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf fontsize
+pandoc fontsize Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+smuk
+cd Textarten/
+ls
+v Kollumne.md
+v Kollumne.md
+pandoc Kollumne.md -o Kollumne.pdf
+z Kollumne.pdf
+v Kollumne.md
+pandoc Kollumne.md -o Kollumne.pdf
+z Kollumne.pdf
+v Kollumne.md
+pandoc Kollumne.md -o Kollumne.pdf
+z Kollumne.pdf
+v Kollumne.md
+pandoc Kollumne.md -o Kollumne.pdf
+z Kollumne.pdf
+rofi -show drun
+rofi -show drun
+rofi -show drun
+smuk
+cd Textarten/
+z Kollumne.pdf
+z Kollumne.pdf
+z Kollumne.pdf
+z Kollumne.pdf
+z Kollumne.pdf
+p -Ss hp
+hp-check
+sudo arandr
+sudo arandr
+xrandr
+xrandr --add-mode
+xrandr --help
+xrandr --addmode
+xrandr --addmode HDMI1 HDMi
+xrandr --addmode HDMI1 HDMI
+xrandr --screen HDMI1
+xrandr --screen HDMI2
+xrandr --screen 2
+xrandr --screen 1
+xrandr --screen 0
+xrandr --output HDMI1
+xrandr --output HDMI1 --auto
+xrandr -q
+xrandr --output VIRTUAL1 --auto
+xrandr --
+xrandr --output eDP1 --auto
+xrandr --helü
+xrandr --help
+xrandr -fb
+xrandr --fb
+xrandr --fb 1920x1080
+xrandr --screen 0
+xrandr --screen eDP1
+xrandr --output eDP1 -s 1920x1080
+sv /etc/hosts
+sv /etc/hosts
+ping pornhub.com
+xrandr --output eDP1 -s 1920x1080
+xrandr --output HDMI1 --auto
+smuk
+cd Textarten/
+ls
+v Eigene_Kollumne.
+v Eigene_Kollumne.,d
+v Eigene_Kollumne.md
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+z Eigene_Kollumne.pdf
+v Eigene_Kollumne.md
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+z Eigene_Kollumne.pdf
+v Eigene_Kollumne.md
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+z Eigene_Kollumne.pdf
+z Kollumne_pp.pdf 
+man zathura
+ht
+cd .config/
+ls
+cd zathura/
+ls
+v zathurarc 
+smuk
+ls
+cd Textarten/
+la
+v Eigene_Kollumne.
+v Eigene_Kollumne.md
+smuk
+cd Textarten/
+ls
+z Kollumne_pp.pdf 
+man zathura
+fg 1
+z Kollumne_pp.pdf 
+z Kollumne_pp.pdf 
+xrandr
+p -Ss java
+p -Ss jdk
+p -S jre10-openjdk-headless jdk10-openjdk
+xrandr
+man xrandr
+xrandr --auto
+xrandr
+xrandr --set
+xrandr --output
+xrandr --output eDP1
+xrandr --output eDP1 --set
+xrandr --help
+xrandr --listmonitors
+xrandr --listactivemonitors
+xrandr --setmonitor eDP1 auto
+xrandr --setmonitor eDP1 auto output
+xrandr --setmonitor eDP1 auto main
+xrandr --dryrun
+p -S xorg-xrandr
+glxinfo | grep -i opengl
+cd /usr/lib
+cd javas
+cd java
+cd jvm/default/bin/
+ls
+cc
+cd jre
+p -Ss java11
+p -Ss java
+cd ftb/
+ls
+cd FTBPresentsStoneblock2/
+cd minecraft/
+ls
+v options.txt 
+p -Ss opengl
+p -S openlg-man-pages
+p -S opengl-man-pages
+p -S opengl-man-pages
+p -S opengl-man-pages
+man opengl
+mandelbrot 
+yay
+xrandr -q
+hdow
+ls
+ls
+mkdir Random
+mv ./* Random/
+ls
+cd Random/
+mv ProjectE-1.12.2-PE1.4.0.jar ../+
+mv ProjectE-1.12.2-PE1.4.0.jar ../
+cc
+ls
+mv + ProjectE-1.12.2-PE1.4.0.jar 
+lös
+ls
+mkdir Mods
+cd Mods/
+mv ../ProjectE-1.12.2-PE1.4.0.jar .+
+ls
+cc
+ls
+cd Mods/
+ls
+mv ../ProjectE-1.12.2-PE1.4.0.jar .
+ls
+ls
+cc
+ls
+java -jar forge-1.12.2-14.23.5.2768-installer.jar 
+minecraft-launcher 
+minecraft-launcher .asd
+minecraft-launcher -ased
+which minecraft-launcher 
+v /usr/bin/minecraft-launcher 
+sv /usr/bin/minecraft-launcher 
+locate launcher
+cd .minecraft/
+ls
+cd logs/
+ls
+v latest.log 
+sv /etc/hosts
+pbar
+xrandr .v
+xrandr -b
+xrandr -v
+xrandr --verbose
+v /etc/X11/xorg.conf.d/10-monitor.conf
+which java
+java -version
+java
+cl
+la
+cl
+yay -S minecraft-launcher
+v minecraft-launcher
+which minecraft-launcher | vim
+which minecraft-launcher | vim
+which minecraft-launcher
+v /usr/bin/minecraft-launcher
+hdow
+java -jar forge-1.12.2-14.23.5.2768-installer.jar 
+cd .minecraft/
+ls
+ls
+ls
+ls
+ls
+ls
+lscl
+cl
+cd mods/
+ls
+mv ~/Downloads/appliedenergistics2-rv6-stable-6.jar .
+mv ~/Downloads/Mekanism* .
+mv ~/Downloads/TConstruct-1.12.2-2.12.0.115.jar .
+minecraft-launcher 
+ht
+sv /etc/hosts
+cd .minecraft/logs/
+lks
+ls
+v latest.log 
+xrandr -q
+xrandr --auto
+xrandr -q
+xrandr --auto eDP1
+xrandr eDP1 --auto
+cat  /var/log/Xorg.0.log
+xrandr --output eDP1
+xrandr --output eDP1 --mode 2132x1100
+xrandr --output eDP1 --mode 2142x1100
+less /var/log/Xorg.0.log
+cl
+cvt
+cvt 854 480
+gtf 854 480
+gtf 854 480 60
+ftb-launcher 
+hdow
+cd Random/
+ls
+mv FTB_Launcher.jar ..
+aautoclick 
+yay -Ss autoclicker
+yay -Ss autoclick
+yay -Ss click
+yay -Ss clicker
+p -S kmousetool
+yay -S kmousetool
+man autoclick
+man autoclicker
+man aautoclick
+aautoclick
+aautoclick -h
+aainfo
+aatest
+aafire
+aafire
+aafire
+hdow
+ls
+unzip ClickItAuto.v20.zip 
+java -jar Click\ it\ Auto.jar 
+s
+sch
+schule
+sek
+serd
+brc
+sek
+brc
+cd Schule/
+ls
+mkdir Erdkunde
+sek
+articl
+article
+ls
+cd Templates/
+ls
+v article.tex 
+cl
+sek
+ls
+cc
+scr
+sc
+ls
+hscr
+ls
+sek
+pdflatex article_new.tex 
+ls
+z article_new.pdf 
+hscr
+ls
+touch article.sh
+chmod +x article.sh 
+v article.sh 
+./article.sh 
+./article.sh Hallo
+v article.sh 
+ls
+article.sh Hallo
+ls
+./article.sh hallo
+ls
+frm hallo 
+ls
+cl
+v schedule.py 
+v article.sh 
+ls
+./article.sh Hallo
+ls
+frm ´pwd´Hallo 
+echo ´pwd´
+echo `pwd`
+v article.sh 
+./article.sh Hallo
+ls
+v article.sh 
+p -Syu
+p -Syu
+p -Syu
+p -Syu
+p -Syu
+rofi -show drun
+rofi -show drun
+hdow
+ls
+frm Click*
+frm forge-1.12.2-14.23.5.2768-installer.jar
+frm forge-1.12.2-14.23.5.2768-installer.jar.log 
+ls
+ls
+ls
+ls
+ls
+ls
+mv Henning\ Gärtner\ -\ Faust\ -\ Szenenvorstellung.pdf Domszene.pdf
+z Domszene.pdf 
+rofi -show drun
+loimpress ~/Schule/Deutsch/Domszene.odp 
+seng
+loimpress 100people.odp
+seng
+ls
+v 100people.md
+pandoc 100people.md -o 100people.pdf
+z 100people.pdf 
+z 100people.pdf #
+sdeu
+loimpress Domszene.odp 
+v
+sdeu
+ls
+loimpress Domszene.odp 
+fg 1 && disown
+fg 1; disown
+v article_new.tex 
+frm article_new.tex 
+ls
+cl
+hdow
+ls
+z Do
+z Domszene.pdf 
+xrandr -q
+xrandr -q
+man xrandr
+xrandr -q
+ l
+cl
+xrandr -q
+xrandr --output HDMI1 --fb 1920x1080
+xrandr --output HDMI1 --auto
+xrandr --output eDP1 --auto
+man xrndr
+man xrandr
+xrandr --output eDP1 --fb 1920x1080
+xrandr --output eDP1 --auto --fb 1920x1080
+xrandr -q
+xrandr --output eDP1 --fb 960x640
+xrandr --output eDP1 --fb 960x540
+xrandr --output eDP1 --auto
+xrandr --output HDMI1 --auto
+xrandr --output HDMI1 --auto
+v
+vim --versionn
+vim --version
+p -Syu
+xrandr --output HDMI1 --auto
+py
+cd /usr/lib/python3.7/site-packages/PyQt5/__pycache__/
+sudo su
+p -Syu
+v .dmrc 
+v .dmenurc
+man dmenh
+man dmenu
+v  test.py
+py test.py 
+v test.py 
+py test.py 
+py test.py 
+v t
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+py test.py 
+py test.py 
+v t
+v test.py 
+py test.py 
+py test.py 
+v test.py 
+py test.py 
+py test.py 
+py test.py 
+v test.py 
+py test.py 
+py test.py 
+py test.py 
+cl
+xrandr --output HDMI1 --fb 1920x1080
+xrandr --output HDMI1 --fb 1920x1080
+xrandr --output HDMI1 --fb 1920x1080
+xrandr --output HDMI1 --fb 1024x768
+xrandr -q
+xrandr -q
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+py test.py 
+py
+nodejs
+node
+filius LetzterStand.fls 
+filius LetzterStand.fls -n
+filius -n LetzterStand.fls
+GitHub - supermarin/YosemiteSanFranciscoFont: Replace Helvetica Neue on ...
+[Search domain github.com/supermarin/YosemiteSanFranciscoFont] https://github.com/supermarin/YosemiteSanFranciscoFont
+GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together. Sign up Replace Helvetica Neue on your 10.10 Yosemite Mac with San Francisco - the Watch font.
+Google Fonts
+[Search domain fonts.google.com/specimen/Roboto] https://fonts.google.com/specimen/Roboto
+Making the web more beautiful, fast, and open through great typography
+cd /usr/share/filius/lib/
+l
+ls
+cd ..
+s
+ls
+z Einfuehrung_Filius.pdf 
+cd ..
+cl
+ls
+cd henning/
+cc
+cc
+nroff 
+man groff
+netowrks
+man networks
+cl
+v /etc/host
+v /etc/hosts
+echo $SHELL
+cl
+nf
+p -Ss helvetica
+p -Ss helvet
+p -Ss he
+ls
+mv *.fls ~/Schule/Informatik/
+ls
+sinf
+ls
+mkdir Filius
+mv *.fls Filius/
+ls
+cd Filius/
+ls
+cl
+ping pornhub.com
+cl
+ping 127.0.0.1
+py
+py
+nf
+py
+p -Syu
+yay
+ht
+hcod
+ls
+mkdir Python
+cd Python/
+ls
+cl
+v raten.py
+py raten.py 
+py raten.py raten.py 
+v a
+cl
+v raten.py 
+cl
+py raten.py 
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+v ra
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+v  raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+4
+cl
+yay
+py
+r
+ls -a
+cl
+ping google.com
+exit
+p -Sy
+p -Syu
+tmux
+man tmux
+tmux
+cmatrix
+conf
+nf
+nf
+conf
+conf
+v .i3/config 

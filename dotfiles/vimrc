@@ -4,6 +4,7 @@ source ~/.vim/src/settings.vim
 source ~/.vim/src/remaps.vim
 source ~/.vim/src/functions.vim
 source ~/.vim/src/airlineconf.vim
+source ~/.vim/src/snippets.vim
 set nocompatible " Vundle settings, mandatory
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim

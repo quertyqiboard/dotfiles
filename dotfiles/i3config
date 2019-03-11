@@ -14,13 +14,15 @@ set $yellow #E2995C
 # sets colors
 #                       idk BORDER	BACKGROUND	TEXT		INDICATOR   	BORDER
 client.focused		$red		$blue		$white 		$lightblue	$yellow
-client.unfocused	$yellow		$blue		$white		$black		$black
+client.unfocused	$yellow		$blue		$white		$transparent	$transparent
 client.focused_inactive	$red		$blue		$white		$transparent	$white
 client.urgent		$red	 	$darkred	$white		$blue		$darkred
 
 set $mod Mod1
 set $modalt Mod4
-set $term st
+set $termalt st
+set $term urxvtc -cd ~
+set $termaltb urxvt -cd ~
 set $browser firefox
 set $browser firefox
 
@@ -29,7 +31,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec --no-startup-id $term
-bindsym $mod+shift+Return exec --no-startup-id $term -e sudo su
+bindsym $mod+shift+Return exec --no-startup-id $termalt
 
 # kill focused window
 bindsym $mod+q kill
@@ -143,6 +145,16 @@ mode "brightness" {
 	bindsym h exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
 	bindsym k exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
 	bindsym l exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
+	bindsym 0 exec --no-startup-id xbacklight -set 100
+	bindsym 1 exec --no-startup-id xbacklight -set 10
+	bindsym 2 exec --no-startup-id xbacklight -set 20
+	bindsym 3 exec --no-startup-id xbacklight -set 30
+	bindsym 4 exec --no-startup-id xbacklight -set 40
+	bindsym 5 exec --no-startup-id xbacklight -set 50
+	bindsym 6 exec --no-startup-id xbacklight -set 60
+	bindsym 7 exec --no-startup-id xbacklight -set 70
+	bindsym 8 exec --no-startup-id xbacklight -set 80
+	bindsym 9 exec --no-startup-id xbacklight -set 90
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+p mode "default"
@@ -165,11 +177,11 @@ mode "applications" {
 	# bindsym k exec --no-startup-id <++>; mode "default"; workspace $<++>
 	# bindsym l exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym m exec --no-startup-id pcmanfm; mode "default"
-	bindsym n exec --no-startup-id ~/scripts/renema.sh; mode "default"
+	bindsym n exec --no-startup-id st -e nmtui; mode "default"
 	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
 	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
 	# bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
-	bindsym r exec --no-startup-id urxvt -e ranger; mode "default"
+	bindsym r exec --no-startup-id st -e R; mode "default"
 	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
 	bindsym t exec --no-startup-id thunderbird; mode "default"
 	bindsym u exec --no-startup-id ~/.tor-browser/Browser/start-tor-browser; mode "default"
@@ -205,8 +217,8 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
 # Brightness controll
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 bindsym XF86Lock exec --no-startup-id i3lock -B 6
 
 # Volume control
@@ -235,7 +247,10 @@ bindsym $mod+shift+l exec --no-startup-id i3lock -B 6
 bindsym $mod+shift+i exec --no-startup-id ~/scripts/repbar_rice.sh
 bindsym $mod+Shift+r restart
 bindsym $mod+shift+k exec --no-startup-id ~/scripts/no_gaps.sh
-bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 20; gaps top all set 0
+bindsym $mod+shift+j gaps inner all set 15; gaps outer all set 30
+# i3 Gaps
+gaps inner 30
+gaps outer 30
 # Set default orientation for window
 default_orientation horizontal
 
@@ -244,7 +259,4 @@ default_border pixel 3
 default_floating_border pixel 3
 # workspace_auto_back_and_forth yes
 # new_window none
-# i3 Gaps
-gaps inner 15
-gaps outer 30
 # smart_borders on

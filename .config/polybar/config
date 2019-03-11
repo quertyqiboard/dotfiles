@@ -49,7 +49,7 @@ monitor = ${env:MONITOR:eDP1}
 monitor-strict = false
 override-redirect = false
 bottom = false
-fixed-center = true
+fixed-center = false
 width = 100%
 height = 20
 ; offset-x = 1%
@@ -87,7 +87,7 @@ font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 ; List of modules: i3 arch-aur-updates aur-updates backlight-acpi backlight battery compton cpu1 cpu2 date kernel jgmenu load-average memory2 memory3 mpd networkspeed pacman-updates pavolume pub-ip release sep spotify1 temperature1 temperature2 uptime volume weather wired-network wireless-network xbacklight xkeyboard xwindow
 modules-left = i3
-modules-center = battery
+modules-center = volume battery
 modules-right = pacman-updates wireless-network networkspeed memory2 cpu2 date
 
 separator =
@@ -378,7 +378,7 @@ format-discharging-underline =
 format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.background}
 
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-foreground = #a3c725
 format-full-underline =
 format-full-background =
@@ -481,7 +481,7 @@ type = internal/cpu
 interval = 1
 format-foreground = #1D2330
 format-background = #92969D
-format-prefix = %{T2} %{T-}
+format-prefix =
 format-prefix-foreground = #92969D
 format-prefix-background = #4B5665
 
@@ -499,7 +499,7 @@ format = <label>
 ;   %percentage% (default) - total cpu load
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label =  Cpu %percentage:2%%
+label ="  Cpu %percentage:2%% "
 
 ################################################################################
 
@@ -512,7 +512,7 @@ interval = 5
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = "  %a %b %d, %Y"
 time = %H:%M
-format-prefix = %{T2} %{T-}
+format-prefix =
 format-prefix-foreground = ${colors.background}
 format-prefix-background = #92969D
 format-foreground = ${colors.foreground}
@@ -605,10 +605,10 @@ interval = 1
 ;   %mb_used%
 ;   %mb_free%
 ;   %mb_total%
-label = %percentage_used%%
+label ="  Mem %percentage_used%% "
 
-format =  Mem <label>
-format-prefix = %{T2} %{T-}
+format = <label>
+format-prefix =
 format-prefix-foreground = #4B5665
 format-prefix-background = #84598D
 format-foreground = ${colors.foreground}
@@ -669,11 +669,11 @@ format-online-background = ${colors.background}
 ;https://github.com/jaagr/polybar/wiki/Module:-network
 type = internal/network
 interface = wlp3s0
-label-connected = " %upspeed:7%  %downspeed:7%"
+label-connected = "  %upspeed:7%  %downspeed:7% "
 format-connected = <label-connected>
-format-connected-foreground = #1D2330
+format-connected-foreground = #FFFFFF
 format-connected-background = #84598D
-format-connected-prefix = "%{T2} %{T-}"
+format-connected-prefix =
 format-connected-prefix-foreground = #84598D
 format-connected-prefix-background = #900B86
 
@@ -689,10 +689,10 @@ format-disconnected-prefix-background = #900B86
 type = custom/script
 exec = ~/scripts/pacman_updates.sh
 interval = 60
-label =  Repo: %output%
+label ="  Repo: %output% "
 format-foreground = ${colors.background}
 format-background = #FFBB00
-format-prefix = %{T2} %{T-}
+format-prefix =
 format-prefix-foreground = #FFBB00
 format-prefix-background = ${colors.background}
 format-underline =
@@ -837,33 +837,18 @@ format-underline = #C15D3E
 [module/volume]
 ;https://github.com/jaagr/polybar/wiki/Module:-volume
 type = internal/volume
-format-volume = "<label-volume>  <bar-volume>"
 
-label-volume = " "
-label-volume-foreground = #40ad4b
-label-muted = muted
+label-volume = "%percentage%% "
+label-volume-foreground = $(colors.foreground)
+label-muted = "muted "
 
-bar-volume-width = 10
-bar-volume-foreground-0 = #40ad4b
-bar-volume-foreground-1 = #40ad4b
-bar-volume-foreground-2 = #40ad4b
-bar-volume-foreground-3 = #40ad4b
-bar-volume-foreground-4 = #40ad4b
-bar-volume-foreground-5 = #40ad4b
-bar-volume-foreground-6 = #40ad4b
-bar-volume-gradient = false
-bar-volume-indicator = 
-bar-volume-indicator-font = 2
-bar-volume-fill = 
-bar-volume-fill-font = 2
-bar-volume-empty = 
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground}
+format-volume-prefix = "  "
+format-volume-prefix-foreground = #a3c725
 format-volume-foreground = ${colors.foreground}
 format-volume-background = ${colors.background}
 format-muted-prefix = "  "
-format-muted-prefix-foreground = "#ff0000"
-format-muted-foreground = ${colors.foreground}
+format-muted-prefix-foreground = #a3c725
+format-muted-foreground = #ff6666
 format-muted-background = ${colors.background}
 
 ################################################################################
@@ -919,24 +904,24 @@ label-disconnected-foreground = ${colors.foreground}
 type = internal/network
 interface = wlp3s0
 interval = 3.0
-label-connected = %essid%
+label-connected = "  %essid% "
 format-connected-background = #900B86
 format-connected-foreground = $(colors.foreground)
-format-connected =  <label-connected>
+format-connected = <label-connected>
 ;format-connected = <ramp-signal> <label-connected>
-format-connected-prefix = %{T2} %{T-}
+format-connected-prefix =
 format-connected-prefix-foreground = #900B86
 format-connected-prefix-background = #FFBB00
 format-connected-underline =
 
-label-disconnected = No WLan
+label-disconnected = "No WLan "
 ;format-connected = <ramp-signal> <label-connected>
 format-disconnected-background = #900B86
 format-disconnected-foreground = $(colors.foreground)
 format-disconnected =  <label-disconnected>
-format-disconnected-prefix = %{T2} %{T-}
+format-disconnected-prefix = " "
 format-disconnected-prefix-foreground = #900B86
-format-disconnected-prefix-background = #FFBB00
+format-disconnected-prefix-background = #900B86
 format-disconnected-underline =
 
 ramp-signal-0 = ▁

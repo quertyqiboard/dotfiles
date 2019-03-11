@@ -6,19 +6,18 @@ URxvt.scrollBar_right: false
 URxvt.scrollBar_floating: false
 URxvt.buffered: true
 URxvt.visualBell: false
-! URxvt.font: xft:DejaVu Sans Mono:size=18
-URxvt.font: xft:UbuntuMono Nerd Font:size=20
+URxvt.font: xft:UbuntuMono Nerd Font:size=18:antialias=true
 URxvt.tabbed.saveLines: 2000
 URxvt.iso14755: false
 URxvt.cursorBlink: true
-URxvt.chdir: ~/
+URxvt.chdir: ~
 URxvt.url-launcher: firefox
 URxvt.internalBorder: 5
 URxvt.externalBorder: 0
-URxvt.depth: 32
+! URxvt.depth: 32
 ! special
 URxvt.foreground:   #ffffff
-URxvt.background:   [70]#000000
+URxvt.background:   #1D2021
 URxvt.cursorColor:  #D7FF00
 ! extensions for urxvt
 URxvt.perl-ext-common: default,tabbed,matcher,resize-font,-tabbed
