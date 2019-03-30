@@ -1651,3 +1651,1259 @@ nf
 conf
 conf
 v .i3/config 
+difles commit -a
+dfiles commit -a
+dfiles push
+p -Ss oneko
+yay -Ss oneko
+yay -S oneko
+oneko
+p -Ss funny
+yay -Ss funny
+conf
+p -Ss espeak
+p -S espeak
+cl
+cd /run/media/henning/Varraen
+ls
+v liesmich.txt 
+cl
+sv /etc/hosts
+nvidia-modprobe 
+su
+sudo su
+cl
+ls
+cl
+ls
+cl
+p -Syu
+py
+py
+hcod 
+cd Python/
+ls
+py raten.py 
+py
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+py raten.py 
+cl
+py raten.py 
+cl
+py raten.py 
+hcod
+cd Python/
+ls
+py raten.py 
+hcod
+cd Python/
+py raten.py 
+py raten.py 
+hcod
+lscd Python/
+cd Python/
+s
+ls
+cat "" > raten.py 
+echo " " > raten.py 
+echo "" > raten.py 
+v raten.py 
+cd /usr/share/filius/
+ls
+z Einfuehrung_Filius.pdf 
+z Einfuehrung_Filius.pdf ; disown
+z Einfuehrung_Filius.pdf && disown
+
+disown -h
+
+z Einfuehrung_Filius.pdf disown
+z Einfuehrung_Filius.pdf disown
+cd /usr/share/fil
+cd ..
+cd filius/
+z Einfuehrung_Filius.pdf 
+ipconfig
+ip addr show
+ip addr
+hcod
+cd Python/
+ls
+cl
+v fizzbuzz.py
+hcod
+cd Python/
+ks
+ls
+cl
+v hello.py
+hcod
+cd Python/
+ls
+v fizzbuzz.py
+st -e v fizzbuzz.py
+cl
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+cl
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+py fizzbuzz.py
+cl
+py fizzbuzz.py
+py fizzbuzz.py | wc -l
+py fizzbuzz.py | wc -l
+py fizzbuzz.py | wc -l
+py fizzbuzz.py | wc -l
+py fizzbuzz.py | wc -l
+py fizzbuzz.py 12
+py fizzbuzz.py 12
+py fizzbuzz.py 12
+py fizzbuzz.py 12
+py fizzbuzz.py 12
+py fizzbuzz.py 100
+py fizzbuzz.py 100 "henning ist cool"
+py fizzbuzz.py 100 "henning ist cool"
+py fizzbuzz.py 100 "henning ist cool"
+py fizzbuzz.py 100 'henning ist cool'
+py fizzbuzz.py 100 'henning ist cool
+py fizzbuzz.py 100 henning ist cool
+py hello.py
+py hello.py Henning 12 Potsdam
+brc
+sek
+ls
+mv article_new.tex Gruppenarbeit.tex
+trm
+ls
+frm article_new.*
+ls
+pdflatex Gruppenarbeit.tex 
+ls
+trm
+ls
+z Gruppenarbeit.
+z Gruppenarbeit.pdf 
+v gr
+sek
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+sek
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+bg "%pdflatex" 
+sek
+pdflatex Gruppenarbeit.tex 
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+cl
+killall pdflatex 
+ls
+trm
+ls
+pdflatex Gruppenarbeit.tex 
+cl
+pdflatex Gruppenarbeit.tex 
+ls
+v Gruppenarbeit.log 
+cl
+v Gruppenarbeit.
+te
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex #
+z Gruppenarbeit.pdf 
+v Gruppenarbeit.
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex #
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex #
+v Gruppenarbeit.tex 
+pdflatex Gruppenarbeit.tex 
+z Gruppenarbeit.pdf 
+v Gruppenarbeit.tex
+sek
+pdflatex Gruppenarbeit.tex 
+cl
+killall nm-applet 
+cd LaTeX/
+pdflatex example.tex; z example.pdf
+mkdir LaTeX
+cd LaTeX/
+ls
+article
+ls
+frm article_new.tex 
+v example.tex
+v example.tex 
+fg "%v" 
+cd LaTeX/
+pdflatex example.tex; z example.pdf
+curl https://top10supplements.com/best-creatine-supplements/ > website.html
+firefox website.html 
+p -Syu
+cd Fitness/
+ls
+cl
+v Foodsthatieat.txt
+cd .vim/
+ls
+cd src
+ls
+v functions.vim 
+v functions.vim 
+v settings.vim 
+v snippets
+v snippets.vim
+v remaps.vim 
+ping ddg.gg
+killall nm
+p -Syi
+p -Syu
+cl
+hscr
+ls
+./pacman_updates.sh 
+./pacman_updates.sh 
+pid
+man
+man man
+man -S
+man -S 1
+man -S man
+lc
+cl
+sek
+ls
+trm
+ls
+v Gruppenarbeit.tex 
+cl
+pdflatex Gruppenarbeit.tex 
+cl
+z *.pdf
+v  *.tex
+pdflatex *.tex
+z *.pdf
+cl
+:wq
+:wq
+ping google.com
+ls
+cl
+cl
+lc
+cl
+hcod
+cd Python/
+ls
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+cl
+ vrc 
+v raten.py 
+py raten.py 
+v raten.py 
+py raten.py 
+cl
+ls
+cl
+nf
+cl
+locate wallpaper
+man i3
+xsetroot -solid '#333333'
+neofetch --backend ascii
+neofetch --backend ascii
+neofetch --backend w3m
+neofetch --backend w3m
+cl
+neofetch --backend tycat
+neofetch --backend sixel
+neofetch --backend iterm2
+cl
+neofetch --backend jp2a
+neofetch --backend chafa
+neofetch --backend caca
+neofetch --backend caca
+cl
+neofetch --backend w3,
+neofetch --backend w3m
+neofetch --backend off
+cl
+neofetch --clean
+neofetch --backend w3m
+neofetch --backend w3m
+cl
+sek
+pdflatex *.tex
+brc
+man neofetch
+ös
+cl
+ping henningg@gmail.com
+ping henningg@gmail.co
+ping henningg@gmail.com
+cl
+ping asdf.com
+fg "%ping" 
+cl
+l
+cl
+pi
+pu
+pa
+a
+b
+v
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+p
+q
+r
+p -S  nnn
+cl
+which python3
+py
+conf
+cl
+hsch
+ls
+v Quellen.py
+py
+r
+cmatrix
+nf
+ping google.com
+nm-cli
+nmcli
+nmtui
+cl
+ls
+cl
+conf
+cl
+nf
+uptie
+uptime
+man uptime
+uptime -p
+man uptime
+ping 172.217.16.78
+ping google.com
+ipconfig
+iwconfig
+ip addr show
+ping 182.168.26.1
+ping 127.0.0.1
+ping 0.0.0.0
+cl
+ping 0.0.0.1
+cl
+ping localhost
+cl
+lac
+cl
+la
+v .xinitrc i
+v .xinitrc asd
+v .xinitrc
+cl
+lc
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+cl
+la
+lc
+la
+cl
+la
+cl
+la
+cl
+cl
+ls 
+cd dmenu/
+ls
+./dmenu_run 
+./stest 
+cl
+cc
+cd s
+cc
+cd surf/
+l
+ls
+./surf
+./surf google.com
+isosurf
+cl
+ls
+la
+clear
+ls
+ls -a
+clear
+
+asda
+
++
+cd st
+ls
+v config.h
+java
+cl
+vm
+c
+cm
+cd Templates/
+ls
+html
+ls
+cl
+p -Ss html
+v test.html
+v test.html
+cl
+v test.
+v test.html 
+v test.
+v test.html 
+v test.html 
+surf test.
+surf test.html 
+cd .vim/
+ls
+cd sr
+ls
+cd snippets/
+ls
+v html 
+cl
+cc
+ls
+v remaps.vim 
+v remaps.vim 
+v remaps.vim 
+cd .vim/src/
+cl
+la
+v remaps.vim 
+cd .vim/src/snippets/
+ks
+ls
+v test
+v test.tex
+cl
+v .vim/src/remaps.vim 
+cl
+v test.tex
+cl
+v test.md
+cl
+tmux
+time
+man time
+date
+lwatch -n 1 date
+
+watch -n 1 date
+cl
+watch -m 0.1 date
+watch -n 1 date
+cl
+la
+cl
+faked
+faked
+man faked
+ht
+killall Xorg
+sudo killall Xorg -9
+tmux
+tmux attach
+killall tmux
+ht
+ping ddg.gg
+tmux
+tmux attach
+smuk
+ls
+touch s.koehler@hmkw.de
+ls
+cat s.koehler@hmkw.de 
+ls
+fish
+sv /etc/hosts
+sv /etc/hosts
+v test.py
+py test.
+py test.py
+v test.
+v test.py
+v test.
+v test.py
+py test.py
+cl
+yay -S y-cruncher
+hdeu
+sdeu
+lös
+clö
+cl
+ls
+z Domszene.pdf 
+killall polybar
+touch Test.fls
+filius Test.fls 
+ls
+sinf
+ls
+cd Filius/
+ls
+cl
+filius Email.fls 
+p -Ss proton
+p -Ss vpn
+p -R openvpn
+p -Rq openvpn
+p -R openvpn
+man pacman
+p -Rsu openvpn
+p -Rssu openvpn
+p -Rss openvpn
+p -Rc openvpn
+cl
+sudo rm -r .protonvpn-cli/
+ls
+du -h backgrounds/
+frm Test.fls 
+ls
+sinf
+ls
+cd Filius/
+ls
+frm Test.fls 
+ls
+cl
+cc
+ls
+v demo.py 
+frm demo.py 
+ls
+v table.py 
+py table.py 
+frm table.py 
+ls
+cl
+cc
+ls
+v scriptsHallo 
+r
+man gconf
+gconf
+man viewnior
+tload
+curl wttr.in
+p -Syu
+pamac
+pamac
+cl
+pamac-gtk
+pamacgtk
+py
+py
+hdow
+ls
+mv scan\ jpag.jpg scan.jpg
+mv scan.jpg ~/Schule/Biologie/
+cl
+sbio
+ls
+ls
+gimp scan.jpg 
+ls
+locate radiokarbon.jpg
+sudo updatedb
+locate radiokarbon.jpg
+mv /home/henning/Documents/radiokarbon.jpg .
+ls
+gimp scan.jpg 
+ls
+fg "%gimp" 
+cl
+mv ~/Downloads/Scan.jpg ./Scan1.jpg
+ös
+lös
+ls
+gimp Scan1.jpg 
+py
+cl
+sbio
+ls
+loimpress Stdwh
+loimpress
+v test.py
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+cl
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+cl
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+hpic
+ls
+sxiv 2019-01-15-194627_1920x1080_scrot.png 
+cl
+ls
+cl
+cc
+ls
+sxiv 2019-03-25-212347_1920x1080_scrot.png 
+mv 2019-03-25-212347_1920x1080_scrot.png 
+mv 2019-03-25-212347_1920x1080_scrot.png autoren.png
+gimp autoren.png 
+gimp autoren.png 
+ls
+sxiv autoren.png 
+p -Syu
+p -Ss screenshot
+p -S shotgun
+p -S shotgun
+shotgun
+ls
+sxiv 1553545560.png 
+frm 1553545560.png 
+ös
+cl
+ls
+mv 1553545590.png autoren.png
+ls
+hcod
+lös
+cl
+ls
+cc
+hsch
+ls
+v Quellen.py 
+sbioi
+sbio
+ls
+loimpress 
+bg "%loimpress" 
+ls
+cl
+v StdWdh.md
+pandoc StdWdh.md -o StdWdh.ex
+pandoc StdWdh.md -o StdWdh.tex
+ls
+v StdWdh.tex 
+pdflatex StdWdh.tex 
+trm
+frm StdWdh.tex 
+pandoc StdWdh.md -o StdWdh.html
+ls
+firefox *.html
+firefox *.html
+py
+cl
+sbio
+ls
+firefox StdWdh.html 
+rofi -show drun
+sbio
+ls
+xrandr -q
+cl
+xrandr --output HDMI1 --auto
+xrandr -q
+xrandr -q
+xrandr -q
+xrandr -q
+cl
+xrandr -q
+xrandr -q
+xrandr -q
+xrandr -q
+locate StdWdh.odp
+hoc
+xrandr -q
+ping google.com
+ping google.com
+pong
+p -Ss pong
+p -Ss snake
+v test.py 
+py tges
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+py test.py
+v test.py 
+v test.py 
+py test.py
+v test.py 
+v test.py 
+v test.py 
+py test.py
+v tesd
+v test.py 
+v tesd
+py test.py 
+v test.py 
+py test.py 
+py
+v test.py 
+py
+v test.py +
+py
+cl
+py test.py 
+v test.py 
+py test.py 
+v test.py 
+py test.py 
+py
+py
+py
+cl
+killall nm-applet 
+smuk
+ös
+ls
+cd Textarten/
+ls
+v Eigene_Kollumne.pdf 
+ z Eigene_Kollumne.pdf 
+v Eigene_Kollumne.md
+pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
+ z Eigene_Kollumne.pdf 
+v Eigene_Kollumne.md
+v Eigene_Kollumne.md
+cl
+v test.py 
+py test.py 
+v ts
+v test.py 
+v ts
+py ts
+py test.py 
+v test.py 
+frm  test.py 
+hcod
+ls
+cd Python/
+ls
+man java
+cl
+p -Ss java
+cl
+nm-applet
+p -Ss eclipse
+p -S eclipse-java
+py
+cl
+,s
+c#
+lcl
+cl
+pipe
+cl
+snake
+v
+v
+cl
+ls
+hcd
+hcod
+cd Python/
+ls
+cl
+v prim.py
+py prim.py 
+v prim.py 
+py prim.py 
+v prim.py 
+py prim.py 
+v prim.py 
+py prim.py 
+v prim.py 
+py prim.py 
+pr
+cl
+v prim.py 
+py prim.py 
+ v prim.py 
+py prim.py 
+v prim.py 
+py prim.py 
+v prim.py 
+py prim.py 
+v prim.py 
+v prim.py 
+py prim.py 1000
+v prim.py 
+py prim.py 1000
+v prim.py 
+py prim.py 1000
+v prim.py 
+py prim.py 1000
+py prim.py 10000
+py prim.py 100000
+cl
+v prim.py 
+v prim.py 
+py prim.py 100000
+v prim.py 
+py prim.py 100000
+py prim.py 100
+v prim.py 
+py prim.py 100
+v prim.py 
+py prim.py 100
+v te
+v prim.py 
+py prim.py 100
+v prim.py 
+py prim.py 100
+py prim.py 1000
+py prim.py 10000
+py prim.py 100000
+py prim.py 500000
+py prim.py 200000
+v prim.py 
+py prim.py 200000
+v prim.py 
+py prim.py 100
+v prim.py 
+py prim.py 100
+py prim.py 100
+v prim.py 
+py prim.py 100
+py prim.py 10000
+py prim.py 100000
+py prim.py 500000
+py prim.py 100000
+py prim.py 1000000
+py prim.py 10000000
+v prim.py 
+v prim.py 
+v prim.py 
+py prim.py 1000000
+v prim.py 
+py prim.py 1000000
+v prim.py 
+py prim.py 1000000
+py prim.py 10000000
+v prim.py 
+py prim.py 10000000
+cl
+py prim.py 10000000
+v prim.py 
+py prim.py 10000000
+v prim.py 
+ls
+v fizzbuzz.py 
+py fizzbuzz.py 
+v prim.py 
+v fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+v fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+v fizzbuzz.py 
+py fizzbuzz.py 
+cl
+v fizzbuzz.py 
+py fizzbuzz.py 10000
+py fizzbuzz.py 10000000
+py
+sdeu
+sek
+ls
+z *.pdf
+v *.tex
+pdflatex Gruppenarbeit.tex 
+z Gruppenarbeit.pdf 
+du -h Gruppenarbeit.pdf 
+z Gruppenarbeit.
+z Gruppenarbeit.pdf
+killall nm-applet 
+sek
+ls
+v Gruppenarbeit.tex 
+java -asd
+java
+cl
+v
+java 
+java Main
+java Main.class
+java Main#
+java Main
+v Main.class 
+javac Main.class
+v HelloWorld.java
+javac HelloWorld.java 
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+v HelloWorld.
+ls
+v HelloWorld.class 
+frm Main.class 
+ls
+cl
+v HelloWorld.java 
+ks
+ls
+frm 7
+cd .vim/
+ls
+cd src/
+ls
+v snippets.vim 
+v remaps.vim 
+v functions.vim 
+v autoclose.vim 
+cl
+v HelloWorld.
+v HelloWorld.java 
+v HelloWorld.
+v HelloWorld.java 
+v HelloWorld.
+v HelloWorld.java 
+
+v HelloWorld.java 
+v HelloWorld.java 
+v HelloWorld.java 
+javac HelloWorld.java 
+v HelloWorld.
+v HelloWorld.java 
+javac HelloWorld.java 
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+v HelloWorld.
+v HelloWorld.java 
+java HelloWorld 
+javac HelloWorld.java 
+v HelloWorld.java 
+javac HelloWorld.java 
+v *,java
+v *.java
+javac HelloWorld.java 
+v HelloWorld.
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+v HelloWorld.
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+v HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+atom HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+javac HelloWorld.java 
+java HelloWorld 
+javac HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+fpublic class HelloWorld {
+public static void main (String[] args) {
+System.out.println("Hello World");
+for (int i = 0; i > 100; i++) {
+String output = Integer.parseInt(i);
+System.out.print(""+output);
+}
+
+}
+javac HelloWorld.java 
+javac HelloWorld.java 
+java HelloWorld 
+javac HelloWorld.java 
+javac HelloWorld.java 
+javac HelloWorld.java 
+v HelloWorld.java 
+ls
+cd .vim/
+ls
+cd src/
+ls
+aut
+v autoclose.vim 
+v autoclose.vim 
+cl
+v autoclose.vim 
+v autoclose.vim 
+v HelloWorld.
+ja
+v HelloWorld.java 
+cl
+atom
+which atom
+v /usr/bin/atom 
+conf
+p -Ss jdk
+javadoc
+cl
+java8
+java --version
+which java
+v /usr/bin/java
+cl
+locate *
+cl
+locate * | grep java | grep 10
+java /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
+v /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
+v /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
+hcod
+cd PY
+cd Python/
+ls
+cl
+v numpy.py
+py numpy.py 
+v numpy.py 
+py numpy.py 
+v numpy.py 
+py numpy.py 
+cl
+v
+.vim
+ls
+cd src/
+ls
+cl
+ls
+cd .vim/srs
+ls
+v airlineconf.vim 
+ls -a
+ls -l
+v autoclose.vim 
+v autoclose.vim 
+ls
+v functions.vim 
+ös
+ls
+v frm snippets
+frm snippets.vim 
+ls
+frm colorscheme.vim
+solarized 
+v
+spacegray 
+v .vimrc
+v
+brc
+transparent 
+ls
+cl
+gruvbox 
+v
+vrc
+v .vimrc
+cd dotfiles/
+ls
+v vimrc 
+cl
+dfiles pull
+vrc
+ls
+cat .vimrc
+cl
+v .vimrc
+cl
+la
+cd .cache/vim/
+ls
+cd swap/
+ls
+cc
+cd backup/
+ls
+cl
+cd .vim/src/
+ls
+v autoclose.vim 
+vrc
+cl
+v  autoclose.vim 
+cd .vim/src/
+ls
+vrc
+spacegray 
+ls
+cl
+v autoclose.vim 
+atom autoclose.vim 
+la
+lla
+cd
+command cd
+ls
+la
+lla
+vrc
+cl
+v
+vrc
+cl
+v
+v
+vrc
+solarized 
+v
+cl
+la
+cl
+cd .vimrc
+cd .vim
+ls
+cd src/
+ls
+cl
+v .vimrc
+v .Xresources 
+cd .scc
+cd .screenlayout/
+cc
+cd scripts/
+ls
+v solarized.sh 
+ls
+cl
+gruvbox 
+ls
+cl
+v
+cl
+vrc
+v
+v
+gruvbox 
+v .vimrc
+cl

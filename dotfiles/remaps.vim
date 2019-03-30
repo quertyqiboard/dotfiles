@@ -1,3 +1,14 @@
+nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <C-p> :FZF ~/<CR>
+nnoremap <C-g> :Goyo<CR>
+nmap ss <plug>NERDCommenterToggle
+vmap ss <plug>NERDCommenterToggle
+map <F2> :LLPStartPreview<CR>
+map <F3> :!wc <C-R>%<CR>
+map <F4> :call GetSpell()<CR>>
+map <NUL> <Esc>/<++><CR>:nohl<CR>"_c4l
+
+
 nnoremap j gj
 nnoremap k gk
 nnoremap ,ss :call FixLastSpellingError()<CR>
@@ -31,4 +42,3 @@ map <F2> :LLPStartPreview<CR>
 map <F3> :!wc <C-R>%<CR>
 map <F4> :call GetSpell()<CR>>
 map <NUL> <Esc>/<++><CR>:nohl<CR>"_c4l
-

@@ -1,26 +1,17 @@
 runtime! debian.vim
-source ~/.vim/src/autoclose.vim
-source ~/.vim/src/settings.vim
-source ~/.vim/src/remaps.vim
-source ~/.vim/src/functions.vim
-source ~/.vim/src/airlineconf.vim
-source ~/.vim/src/snippets.vim
 set nocompatible " Vundle settings, mandatory
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-set rtp+=/usr/bin/fzf
+set rtp+=~/.vim/bundle/Vundle.vim,/usr/bin/fzf
 set complete+=kspell
+set completeopt=menu,menuone,longest,preview
+set backspace=indent,eol,start
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'lifepillar/vim-solarized8'
- " Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
 Plugin 'junegunn/goyo.vim'
-" Plugin 'w0rp/ale'
-" Plugin 'ervandew/supertab'
 call vundle#end()
 filetype plugin indent on
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,7 +21,167 @@ syntax enable
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
-if has("autocmd")
-  filetype plugin indent on
-endif
 autocmd BufWritePre * %s/\s\+$//e
+autocmd BufWritePost config.h,config.def.h !sudo make install
+autocmd BufWritePost *.java !javac %
+
+let mapleader = ","
+" Goyo dimension
+let g:goyo_width = 100
+let g:goyo_height = 60
+set background=dark
+set bg=dark		" Set solarized background to dark
+set number relativenumber " enable hybrid line numbers
+set showcmd             " show command in bottom bar
+set showmatch           " highlight matching [{()}]
+set hlsearch            " highlight matches
+set incsearch           " search as characters are entered
+set nostartofline	"
+set history=500		" More command arrow-ups
+set undolevels=500	" More undos and redos
+set nobackup 		" Remove dumb backups
+set splitbelow		" Non-retarded splitting
+set splitright		" Non-retarded splitting
+set foldenable          " auto fold code
+set gdefault            " the /g flag on :s substitutions
+set showmode		" Show current mode
+set linespace=0         " No extra spaces between rows
+set t_Co=16		" idk lol
+set cursorline		" idk lol
+set termencoding=utf-8	" same thing as below
+set encoding=utf-8	" Force UTF-8 encoding
+set autoread		" Autoupdate file when opened
+set smartindent		" Non-retarded indenting
+set autoindent		" Autoindent blocks of code (in python)
+set ttyfast		" Optimization for urxvt
+set nojoinspaces	" removes annoying spaces after certain commands
+set magic		" char magic
+
+nnoremap j gj
+nnoremap k gk
+nnoremap ,ss mm[s1z=`m
+nnoremap ,sg [szg
+nnoremap ,se :call SpellEn()<CR>
+nnoremap ,sd :call SpellDe()<CR>
+nnoremap ,sp :call SpellEs()<CR>
+nnoremap <C-n> :tabp<CR>
+nnoremap <C-m> :tabn<CR>
+nnoremap <C-T> :tabnew<CR>
+nnoremap <C-W> :tabclose<CR>
+nnoremap <NUL> <Esc>/++<CR>h"_c4l
+inoremap <C-Space> <++>
+nnoremap <C-c> :nohl<CR><C-c>:echo "Search Cleared"<CR>
+nnoremap <C-p> :FZF ~/<CR>
+nnoremap <C-g> :Goyo<CR>
+nmap ss <plug>NERDCommenterToggle
+vmap ss <plug>NERDCommenterToggle
+map <F2> :LLPStartPreview<CR>
+map <F3> :!wc <C-R>%<CR>
+map <F4> :call GetSpell()<CR>>
+map <NUL> <Esc>/<++><CR>:nohl<CR>"_c4l
+
+" HTML tags
+autocmd FileType html inoremap ,title   <title></title><Esc>F>a
+autocmd FileType html inoremap ,body   <body></body><Esc>F>a
+autocmd FileType html inoremap ,h1   <h1></h1><Esc>F>a
+autocmd FileType html inoremap ,h2   <h2></h2><Esc>F>a
+autocmd FileType html inoremap ,h3   <h3></h3><Esc>F>a
+autocmd FileType html inoremap ,p    <p></p><Esc>F>a
+autocmd FileType html inoremap ,a    <a></a><Esc>F>a
+autocmd FileType html inoremap ,b    <b></b><Esc>F>a
+autocmd FileType html inoremap ,cite   <cite></cite><Esc>F>a
+autocmd FileType html inoremap ,div   <div></div><Esc>F>a
+autocmd FileType html inoremap ,em   <em></em><Esc>F>a
+autocmd FileType html inoremap ,footer   <footer></footer><Esc>F>a
+autocmd FileType html inoremap ,head   <head></head><Esc>F>a
+autocmd FileType html inoremap ,img   <img></img><Esc>F>a
+autocmd FileType html inoremap ,nav   <nav></nav><Esc>F>a
+autocmd FileType html inoremap ,ol   <ol></ol><Esc>F>a
+autocmd FileType html inoremap ,script   <script></script><Esc>F>a
+autocmd FileType html inoremap ,small   <small></small><Esc>F>a
+autocmd FileType html inoremap ,span   <span></span><Esc>F>a
+autocmd FileType html inoremap ,style   <style></style><Esc>F>a
+autocmd FileType html inoremap ,table   <table></table><Esc>F>a
+autocmd FileType html inoremap ,td   <td></td><Esc>F>a
+autocmd FileType html inoremap ,ul   <ul></ul><Esc>F>a
+autocmd FileType html inoremap ,li   <li></li><Esc>F>a
+
+" LaTeX keybindings
+autocmd FileType tex inoremap ,df \dfrac{<++>}{<++>}<Esc>
+autocmd FileType tex inoremap ,it \textit{<++>}<Esc>
+autocmd FileType tex inoremap ,bo \textbf{<++>}<Esc>
+autocmd FileType tex inoremap ,ul \underline{<++>}<Esc>
+autocmd FileType tex inoremap ,fn \footnote{}<Esc>
+autocmd FileType tex inoremap ,lfn \footnote{}<Esc>i\large{}<Esc>i
+autocmd FileType tex inoremap ,sc \section{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,ssc \subsection{}<CR><CR><++><Esc>2kf}i
+autocmd FileType tex inoremap ,sssc \subsubsection{}<CR><CR><++><Esc>2kf}i
+
+" Python snippets
+autocmd FileType python inoremap range range(,<++>)<Esc>0f(a
+autocmd FileType python inoremap forl for <++> in <++>:<CR><++><Esc>k0ff
+autocmd FileType python inoremap forr for <++> in range(<++>, <++>):<CR><++><Esc>k0ff
+autocmd FileType python inoremap print print()<Esc>F(a
+autocmd FileType python inoremap def def *(<++>):<CR><++><Esc>k0f*cl
+autocmd FileType python inoremap str str()<Esc>i
+autocmd FileType python inoremap int int()<Esc>i
+autocmd FileType python inoremap float float()<Esc>i
+autocmd FileType python inoremap yield yield()<Esc>i
+autocmd FileType python inoremap .jo .join()<Esc>i
+autocmd FileType python inoremap .ap .append()<Esc>i
+autocmd FileType python inoremap .fo .format()<Esc>i
+
+" Markdown
+autocmd FileType markdown inoremap ,sc # <CR><CR><++><Esc>2k0A
+autocmd FileType markdown inoremap ,ssc ## <CR><CR><++><Esc>2k0A
+autocmd FileType markdown inoremap ,sssc ### <CR><CR><++><Esc>2k0A
+
+" Templates
+nnoremap +note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
+nnoremap +arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>
+nnoremap +html :read ~/.vim/src/snippets/html<CR>kdd:set filetype=html<CR>
+nnoremap +lorem hmm:read ~/.vim/src/snippets/loremipsum<CR>0d$`mpmmjdd`m
+
+" Functions
+function GetSpell()
+	if &spell
+		echo "Toggling spelling off"
+		set spell!
+	else
+		echo "Toggling spelling on"
+		set spell
+	endif
+endfunction
+
+function SpellEn()
+	if &spell
+		echo "Spell language now is English (US)"
+		set spelllang=en_us
+	else
+		echo "Toggling spell, language now is English (US)"
+		set spell
+		set spelllang=en_us
+	endif
+endfunction
+
+function SpellDe()
+	if &spell
+		echo "Spell language now is German (Germany)"
+		set spelllang=de_de
+	else
+		echo "Toggling spell, language now is German (Germany)"
+		set spell
+		set spelllang=de_de
+	endif
+endfunction
+
+function SpellEs()
+	if &spell
+		echo "Spell language now is Spanish"
+		set spelllang=es
+	else
+		echo "Toggling spell, language now is Spanish"
+		set spell
+		set spelllang=es
+	endif
+endfunction
