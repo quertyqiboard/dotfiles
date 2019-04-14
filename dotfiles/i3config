@@ -1,4 +1,3 @@
-# vim:ft=dosini
 set $white #ffffff
 set $gray #cccccc
 set $red   #ff0000
@@ -12,31 +11,30 @@ set $transparent #00000000
 set $yellow #E2995C
 
 # sets colors
-#                       idk BORDER	BACKGROUND	TEXT		INDICATOR   	BORDER
-client.focused		$red		$blue		$white 		$lightblue	$yellow
+#                       idk BORDER	BACKGROUND	TEXT		INDICATOR	BORDER
+client.focused		$red		$blue		$white		$lightblue	$yellow
 client.unfocused	$yellow		$blue		$white		$transparent	$transparent
 client.focused_inactive	$red		$blue		$white		$transparent	$white
-client.urgent		$red	 	$darkred	$white		$blue		$darkred
+client.urgent		$red		$darkred	$white		$blue		$darkred
 
-set $mod Mod1
-set $modalt Mod4
+set $mod Mod4
+set $modalt Mod1
 set $termalt st
-set $term urxvtc -cd ~
+set $term alacritty
 set $termaltb urxvt -cd ~
-set $browser firefox
-set $browser firefox
+set $browser qutebrowser
 
 font pango:DejaVu Sans Mono 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id $term
-bindsym $mod+shift+Return exec --no-startup-id $termalt
+bindsym $mod+Return exec --no-startup-id $termalt
+bindsym $mod+shift+Return exec --no-startup-id $term
 
 # kill focused window
 bindsym $mod+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run
-# bindsym $mod+shift+d exec --no-startup-id rofi -show run -theme purple
+bindsym $mod+shift+d exec --no-startup-id dmenu_run | st -e
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -70,13 +68,13 @@ for_window [instance="command"] move scratchpad; [instance="command"] resize set
 # Modes to pull up the scratchpads
 bindsym $mod+c [instance="metask"] scratchpad show; move position center; mode "metatask"
 mode "metatask" {
-        bindsym $mod+q [instance="metask"] move scratchpad; mode "default"
-        bindsym $mod+c [instance="metask"] move scratchpad; mode "default"
+	bindsym $mod+q [instance="metask"] move scratchpad; mode "default"
+		bindsym $mod+c [instance="metask"] move scratchpad; mode "default"
 }
 bindsym $mod+space [instance="command"] scratchpad show; move position center; mode "command"
 mode "command" {
-        bindsym $mod+q [instance="command"] move scratchpad; mode "default"
-        bindsym $mod+space [instance="command"] move scratchpad; mode "default"
+	bindsym $mod+q [instance="command"] move scratchpad; mode "default"
+		bindsym $mod+space [instance="command"] move scratchpad; mode "default"
 }
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -124,91 +122,91 @@ assign [class="libreoffice"] $ws6
 bindsym $mod+p mode "music"
 mode "music" {
 # Control volume / music
-        bindsym h exec --no-startup-id playerctl previous
-        bindsym j exec --no-startup-id amixer set Master 5%-
-        bindsym k exec --no-startup-id amixer set Master 5%+
-        bindsym l exec --no-startup-id playerctl next
-	bindsym u exec --no-startup-id amixer set Master toggle
-	bindsym i exec --no-startup-id playerctl play-pause
-	bindsym v exec --no-startup-id glava -d
-	bindsym b exec --no-startup-id killall glava
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+p mode "default"
-        bindsym $mod+q mode "default"
+	bindsym h exec --no-startup-id playerctl previous
+		bindsym j exec --no-startup-id amixer set Master 5%-
+		bindsym k exec --no-startup-id amixer set Master 5%+
+		bindsym l exec --no-startup-id playerctl next
+		bindsym u exec --no-startup-id amixer set Master toggle
+		bindsym i exec --no-startup-id playerctl play-pause
+		bindsym v exec --no-startup-id glava -d
+		bindsym b exec --no-startup-id killall glava
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
+		bindsym $mod+p mode "default"
+		bindsym $mod+q mode "default"
 }
 
 bindsym $mod+b mode "brightness"
 mode "brightness" {
 # Brightness control
 	bindsym j exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
-	bindsym h exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
-	bindsym k exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
-	bindsym l exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
-	bindsym 0 exec --no-startup-id xbacklight -set 100
-	bindsym 1 exec --no-startup-id xbacklight -set 10
-	bindsym 2 exec --no-startup-id xbacklight -set 20
-	bindsym 3 exec --no-startup-id xbacklight -set 30
-	bindsym 4 exec --no-startup-id xbacklight -set 40
-	bindsym 5 exec --no-startup-id xbacklight -set 50
-	bindsym 6 exec --no-startup-id xbacklight -set 60
-	bindsym 7 exec --no-startup-id xbacklight -set 70
-	bindsym 8 exec --no-startup-id xbacklight -set 80
-	bindsym 9 exec --no-startup-id xbacklight -set 90
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+p mode "default"
-        bindsym $mod+q mode "default"
+		bindsym h exec --no-startup-id xbacklight -dec 5 -time 10 -steps 5
+		bindsym k exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
+		bindsym l exec --no-startup-id xbacklight -inc 5 -time 10 -steps 5
+		bindsym 0 exec --no-startup-id xbacklight -set 100
+		bindsym 1 exec --no-startup-id xbacklight -set 10
+		bindsym 2 exec --no-startup-id xbacklight -set 20
+		bindsym 3 exec --no-startup-id xbacklight -set 30
+		bindsym 4 exec --no-startup-id xbacklight -set 40
+		bindsym 5 exec --no-startup-id xbacklight -set 50
+		bindsym 6 exec --no-startup-id xbacklight -set 60
+		bindsym 7 exec --no-startup-id xbacklight -set 70
+		bindsym 8 exec --no-startup-id xbacklight -set 80
+		bindsym 9 exec --no-startup-id xbacklight -set 90
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
+		bindsym $mod+p mode "default"
+		bindsym $mod+q mode "default"
 
 }
 bindsym $mod+a mode "applications"
 mode "applications" {
 # Quick app launcher
-	bindsym a exec --no-startup-id arandr; mode "default"
-	bindsym b exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/; workspace $ws9
-	bindsym c exec --no-startup-id localc; mode "default"
-	bindsym d exec --no-startup-id deluge-gtk; mode "default"
-	bindsym e exec --no-startup-id ~/scripts/dmenu/emoji.sh; mode "default"
-	bindsym f exec --no-startup-id firefox; mode "default"; workspace $ws2
-	# bindsym g exec --no-startup-id <++>; mode "default"; workspace $<++>
-	# bindsym h exec --no-startup-id $term; mode "default"
-	# bindsym i exec --no-startup-id <++>; mode "default"; workspace $<++>
-	# bindsym j exec --no-startup-id <++>; mode "default"; workspace $<++>
-	# bindsym k exec --no-startup-id <++>; mode "default"; workspace $<++>
-	# bindsym l exec --no-startup-id <++>; mode "default"; workspace $<++>
-	bindsym m exec --no-startup-id pcmanfm; mode "default"
-	bindsym n exec --no-startup-id st -e nmtui; mode "default"
-	# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
-	bindsym p exec --no-startup-id xfce4-power-manager-settings; mode "default"
-	# bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
-	bindsym r exec --no-startup-id st -e R; mode "default"
-	bindsym s exec --no-startup-id spotify; mode "default"; workspace $ws5
-	bindsym t exec --no-startup-id thunderbird; mode "default"
-	bindsym u exec --no-startup-id ~/.tor-browser/Browser/start-tor-browser; mode "default"
-	bindsym v exec --no-startup-id $term -e vim; mode "default
-	bindsym w exec --no-startup-id lowriter; mode "default"
-	# bindsym x exec --no-startup-id <++> ; mode "default"M workspace <++>
-	# bindsym y exec --no-startup-id <++>; mode "default"; workspace $<++>
-	bindsym z exec --no-startup-id zeal; mode "default"; workspace $ws8
+bindsym a exec --no-startup-id atom; mode "default"
+bindsym b exec --no-startup-id nitrogen --set-auto --random ~/backgrounds/; workspace $ws9
+bindsym c exec --no-startup-id localc; mode "default"
+bindsym d exec --no-startup-id deluge-gtk; mode "default"
+bindsym e exec --no-startup-id emacs; mode "default"
+bindsym f exec --no-startup-id $browser; mode "default"; workspace $ws2
+# bindsym g exec --no-startup-id <++>; mode "default"; workspace $<++>
+# bindsym h exec --no-startup-id $term; mode "default"
+# bindsym i exec --no-startup-id $term; mode "default"
+bindsym j exec --no-startup-id idea; mode "default"
+# bindsym k exec --no-startup-id <++>; mode "default"; workspace $<++>
+# bindsym l exec --no-startup-id <++>; mode "default"; workspace $<++>
+bindsym m exec --no-startup-id pcmanfm; mode "default"
+bindsym n exec --no-startup-id st -e nmtui; mode "default"
+# bindsym o exec --no-startup-id <++>; mode "default"; workspace $<++>
+# bindsym p exec --no-startup-id <++>; mode "default"; workspace $<++>
+# bindsym q exec --no-startup-id <++>; mode "default"; workspace <++>
+# bindsym r exec --no-startup-id <++>; mode "default"; workspace <++>
+bindsym s exec --no-startup-id emacsclient -create-frame; mode "default"
+# bindsym t exec --no-startup-id <++>; mode "default"; workspace <++>
+bindsym u exec --no-startup-id ~/.tor-browser/Browser/start-tor-browser; mode "default"
+bindsym v exec --no-startup-id $term -e nvim; mode "default
+bindsym w exec --no-startup-id lowriter; mode "default"
+# bindsym x exec --no-startup-id <++> ; mode "default"M workspace <++>
+# bindsym y exec --no-startup-id <++>; mode "default"; workspace $<++>
+bindsym z exec --no-startup-id zeal; mode "default"; workspace $ws8
 
 
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+p mode "default"
-        bindsym $mod+q mode "default"
+bindsym Return mode "default"
+bindsym Escape mode "default"
+bindsym $mod+p mode "default"
+bindsym $mod+q mode "default"
 }
 
 # Resize windows
-bindsym $modalt+h resize shrink width 20 px
-bindsym $modalt+j resize grow height 20 px
-bindsym $modalt+k resize shrink height 20 px
-bindsym $modalt+l resize grow width 20 px
-# Move windows
-bindsym $modalt+z move window left 50
-bindsym $modalt+u move window down 50
-bindsym $modalt+i move window up 50
-bindsym $modalt+o move window right 50
+# bindsym $modalt+h resize shrink width 20 px
+# bindsym $modalt+j resize grow height 20 px
+# bindsym $modalt+k resize shrink height 20 px
+# bindsym $modalt+l resize grow width 20 px
+# # Move windows
+# bindsym $modalt+z move window left 50
+# bindsym $modalt+u move window down 50
+# bindsym $modalt+i move window up 50
+# bindsym $modalt+o move window right 50
 
 # Music control
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
@@ -238,6 +236,8 @@ exec_always --no-startup-id ~/scripts/renema.sh
 exec_always --no-startup-id ~/scripts/reclip.sh
 exec_always --no-startup-id sleep 1; ~/scripts/repbar_def.sh
 exec --no-startup-id ~/scripts/gruvbox.sh
+exec --no-startup-id xmodmap ~/.speedswapper
+exec --no-startup-id emacs --daemon
 
 
 # Power state managment

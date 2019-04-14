@@ -1,6 +1,6 @@
-#
 # ~/.bash_profile
-#
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-xset r rate 300 120
+# executed by login shells
+# e.g. tty1-6 (C-M-F1-6)
+if [ -f ~/.bashrc ]; then
+	source .bashrc
+fi

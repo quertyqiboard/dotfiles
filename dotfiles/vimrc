@@ -1,6 +1,5 @@
 runtime! debian.vim
 set nocompatible " Vundle settings, mandatory
-filetype off
 set rtp+=~/.vim/bundle/Vundle.vim,/usr/bin/fzf
 set complete+=kspell
 set completeopt=menu,menuone,longest,preview
@@ -8,10 +7,20 @@ set backspace=indent,eol,start
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
-Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'lervag/vimtex'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'lifepillar/vim-solarized8'
 Plugin 'junegunn/goyo.vim'
+Plugin 'nvie/vim-flake8'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'valloric/youcompleteme'
+Plugin 'tpope/vim-surround'
+Plugin 'yggdroot/indentline'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'Chiel92/vim-autoformat'
+"Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
+Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -21,14 +30,44 @@ syntax enable
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+autocmd BufWritePre * Autoformat
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritePost config.h,config.def.h !sudo make install
 autocmd BufWritePost *.java !javac %
+autocmd BufReadPre i3config set ft=i3config
+autocmd BufWritePost vimrc !/home/henning/scripts/gruvbox
+autocmd FileType vim,tex let b:autoformat_autoindent=0
 
 let mapleader = ","
-" Goyo dimension
 let g:goyo_width = 100
 let g:goyo_height = 60
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
+let g:polyglot_disabled = ['latex']
+let g:NERDSpaceDelims = 1
+let g:NERDCompactSexyComs = 1
+let g:NERDCommentEmptyLines = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDToggleCheckAllLines = 1
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'readonly', 'absfilename', 'modified' ] ]
+      \ },
+      \ 'component': {
+      \   'absfilename': '%F'
+      \ },
+      \ }
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=11
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=12
+set undofile
+set undodir="~/.VIM_UNDO_FILES"
+set laststatus=2
+set noshowmode
 set background=dark
 set bg=dark		" Set solarized background to dark
 set number relativenumber " enable hybrid line numbers
@@ -44,10 +83,8 @@ set splitbelow		" Non-retarded splitting
 set splitright		" Non-retarded splitting
 set foldenable          " auto fold code
 set gdefault            " the /g flag on :s substitutions
-set showmode		" Show current mode
 set linespace=0         " No extra spaces between rows
-set t_Co=16		" idk lol
-set cursorline		" idk lol
+set t_Co=16		" 16 term colors in vim
 set termencoding=utf-8	" same thing as below
 set encoding=utf-8	" Force UTF-8 encoding
 set autoread		" Autoupdate file when opened
@@ -57,25 +94,51 @@ set ttyfast		" Optimization for urxvt
 set nojoinspaces	" removes annoying spaces after certain commands
 set magic		" char magic
 
+" youcompleteme
+
+let g:ycm_python_interpreter_path = ''
+let g:ycm_python_sys_path = []
+let g:ycm_extra_conf_vim_data = [
+  \  'g:ycm_python_interpreter_path',
+  \  'g:ycm_python_sys_path'
+  \]
+let g:ycm_global_ycm_extra_conf = '~/global_extra_conf.py'
+
+
 nnoremap j gj
 nnoremap k gk
+nnoremap Q !!bash<CR>
 nnoremap ,ss mm[s1z=`m
 nnoremap ,sg [szg
 nnoremap ,se :call SpellEn()<CR>
 nnoremap ,sd :call SpellDe()<CR>
 nnoremap ,sp :call SpellEs()<CR>
-nnoremap <C-n> :tabp<CR>
-nnoremap <C-m> :tabn<CR>
-nnoremap <C-T> :tabnew<CR>
-nnoremap <C-W> :tabclose<CR>
+nnoremap vA ggVG
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap <Leader>1 1gt
+nnoremap <Leader>2 2gt
+nnoremap <Leader>3 3gt
+nnoremap <Leader>4 4gt
+nnoremap <Leader>5 5gt
+nnoremap <Leader>6 6gt
+nnoremap <Leader>7 7gt
+nnoremap <Leader>8 8gt
+nnoremap <Leader>9 9gt
+nnoremap <Leader>tl :tabn<CR>
+nnoremap <Leader>th :tabp<CR>
+nnoremap <Leader>tn :tabnew<CR>
+nnoremap <Leader>tq :tabclose<CR>
 nnoremap <NUL> <Esc>/++<CR>h"_c4l
-inoremap <C-Space> <++>
 nnoremap <C-c> :nohl<CR><C-c>:echo "Search Cleared"<CR>
 nnoremap <C-p> :FZF ~/<CR>
 nnoremap <C-g> :Goyo<CR>
 nmap ss <plug>NERDCommenterToggle
 vmap ss <plug>NERDCommenterToggle
-map <F2> :LLPStartPreview<CR>
+vmap > >gv
+vmap < <gv
 map <F3> :!wc <C-R>%<CR>
 map <F4> :call GetSpell()<CR>>
 map <NUL> <Esc>/<++><CR>:nohl<CR>"_c4l
@@ -118,18 +181,18 @@ autocmd FileType tex inoremap ,ssc \subsection{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex inoremap ,sssc \subsubsection{}<CR><CR><++><Esc>2kf}i
 
 " Python snippets
-autocmd FileType python inoremap range range(,<++>)<Esc>0f(a
-autocmd FileType python inoremap forl for <++> in <++>:<CR><++><Esc>k0ff
-autocmd FileType python inoremap forr for <++> in range(<++>, <++>):<CR><++><Esc>k0ff
-autocmd FileType python inoremap print print()<Esc>F(a
-autocmd FileType python inoremap def def *(<++>):<CR><++><Esc>k0f*cl
-autocmd FileType python inoremap str str()<Esc>i
-autocmd FileType python inoremap int int()<Esc>i
-autocmd FileType python inoremap float float()<Esc>i
-autocmd FileType python inoremap yield yield()<Esc>i
-autocmd FileType python inoremap .jo .join()<Esc>i
-autocmd FileType python inoremap .ap .append()<Esc>i
-autocmd FileType python inoremap .fo .format()<Esc>i
+" autocmd FileType python inoremap range range(,<++>)<Esc>0f(a
+" autocmd FileType python inoremap forl for <++> in <++>:<CR><++><Esc>k0ff
+" autocmd FileType python inoremap forr for <++> in range(<++>, <++>):<CR><++><Esc>k0ff
+" autocmd FileType python inoremap print print()<Esc>F(a
+" autocmd FileType python inoremap def def *(<++>):<CR><++><Esc>k0f*cl
+" autocmd FileType python inoremap str str()<Esc>i
+" autocmd FileType python inoremap int int()<Esc>i
+" autocmd FileType python inoremap float float()<Esc>i
+" autocmd FileType python inoremap yield yield()<Esc>i
+" autocmd FileType python inoremap .jo .join()<Esc>i
+" autocmd FileType python inoremap .ap .append()<Esc>i
+" autocmd FileType python inoremap .fo .format()<Esc>i
 
 " Markdown
 autocmd FileType markdown inoremap ,sc # <CR><CR><++><Esc>2k0A
@@ -137,10 +200,10 @@ autocmd FileType markdown inoremap ,ssc ## <CR><CR><++><Esc>2k0A
 autocmd FileType markdown inoremap ,sssc ### <CR><CR><++><Esc>2k0A
 
 " Templates
-nnoremap +note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
-nnoremap +arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>
-nnoremap +html :read ~/.vim/src/snippets/html<CR>kdd:set filetype=html<CR>
-nnoremap +lorem hmm:read ~/.vim/src/snippets/loremipsum<CR>0d$`mpmmjdd`m
+nnoremap ,note :read ~/.vim/src/snippets/notes<CR>kdd:set filetype=markdown<CR>
+nnoremap ,arti :read ~/.vim/src/snippets/article<CR>kdd:set filetype=tex<CR>
+nnoremap ,html :read ~/.vim/src/snippets/html<CR>kdd:set filetype=html<CR>
+nnoremap ,lorem :read ~/.vim/src/snippets/loremipsum<CR>kdd
 
 " Functions
 function GetSpell()
@@ -185,3 +248,5 @@ function SpellEs()
 		set spelllang=es
 	endif
 endfunction
+colorscheme default
+set nocursorline

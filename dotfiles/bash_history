@@ -1,2909 +1,718 @@
-pnbar
-pbar
+nvrc
 cl
-xres
-cl
-transparent 
-pbar
-pbar
-cl
-conf
-conf
-cl
-gt
-ht
-cl
-man urxvtd
-man urxvtc
-man urxvtc
-cl
-la
-cl
-brc
-cl
-spacegray 
-la
-cl
-nf
-cl
-ht
-conf
-conf
-cl
-la
-cl
-cd .i3
-al
-clear
-lla
-cl
-dfiles commit -a
-cl
-conf
-cl
-i3-msg scratchpad show
-i3-msg scratchpad
-i3-msg scratchpad show
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-lc
-cl
-la
-cl
-p -Syu
-p -S zsh
-p -Ss zsh
-p -S zsh
-lllcl
-zsh
-zsh
-zsh
-man zsh
-wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
-wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
-la
-la
-cl
-zsh
-clear
-wget -O .zshrc_new https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc 
-l
-cl
-la
-cl
-la
-cl
-xers
-brc
+p -Ss space
+p -Ss spacemacs
+p -Ss macs
+yay -Ss spacemacs
+sp
 ls
-clear
-lla
-v .Xresources 
 cl
-shell
-echo $SHELL
-cl
-solarized 
-la
-cl
-brc
-cl
-conf
-cl
-iasdas
-asd
-cl
-conf
-cl
-conf
-cl
-conf
-xres
-transparent 
-la
-clear
-ls
-clear
-la
-clear
-ls
-clear
-la
-cl
-v
-solarized 
-v
-cl
-p -R zsh grml-zsh-config
-cl
-conf
-cl
-urxvt -name command
-urxvt -name command ~
-urxvt -name command ~/
-cl
-man urxvt
-man urxvt
-cl
-urxvt
-urxvt /
-brc
-command urxvt
-urxvt /home/henning
-urxvt -title test
-urxvt -cd /home/henning
-urxvt -cd /home/henning -name command
-killall urxvt
-urxvt -cd /home/henning -name command
-urxvt -cd /home/henning -name command
-conf
-conf
-conf
-transparent
-man i3
-ls
-r
-conf
-conf
-cl
-man urxvt
-urxvt
-urxvt -cd /home/henning -bg black
-conf
-cl
-nmtui
-cl
-la
-cl
-conf
-cl
-man playerctl
-playerctl -a
-playerctl -l
-playerctl position 5-
-playerctl position 5+
-playerctl position 5+
-playerctl position 5 +
-playerctl status
-playerctl volume
-playerctl position
-cl
-la
-cl
-conf
-conf
-cl
-pbar
-cl
-la
-cl
-lac
-cl
-cd .config/polybar/
-la
-./spotify 
-cl
-pbar
-cl
-la
-cl
-la
-cl
-conf
-cl
-conf
-cl
-cl
-lac
-cl
-löa
-cl
-la
-cd .hplip/
-la
-v hplip.conf 
-v hp-systray.lock 
-cl
-lacd
-cl
-cl
-la
-cl
-la
-cl
-la
-cl
-cl
-cd scripts/colorschemes/
-la
-v cs_transparent 
-la
-cl
-la
-cl
-cd .scim/
-cc
-cd .scr
-cd scripts/
-la
-cd  colorschemes/
-la
-v cs_transparent 
-v transparent 
-v spacegray 
-v gruvbox
-cl
-la
-cl
-cc
-cp transparent.sh gruvbox.sh
-v gruvbox.sh 
-cl
-brc
-cl
-v gruvbox.sh 
-cl
-gruvbox 
-la
-cl
-v .Xresources 
-cl
-la
-cl
-cd sc
-cd scripts/
-öa
-cl
-la
-./gruvbox.sh 
-xresr
-la
-cl
-v .Xresources 
-cl
-cd scripts/
-a
-v gruvbox.sh 
-cl
-gruvbox 
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-v
-cl
-conf
-cl
-la
-cl
-la
-cl
-la
-cl
-cd scripts/
-la
-v repbar_def.sh 
-conf
-cl
-ls
-clear
-la
-clear
-la
-clear
-ls
-clear
-cl
-la
-cl
-ht
-cl
-man ya
-man yay
-cl
-la
-cl
-ht
-cl
-ps aux
-cl
-ps aux | column -t
-ps aux | column -t
-ps aux | column
-conf
-conf
-sudo cat /dev/random 
-p -S yay
-ya
-yay
-jobs
-fg 1
-sudo yay
-ay
-yay
-cl
-cl
-la
-cl
-cmatrix
-cd .config/
-la
-cd glava/
-la
-v rc.glsl 
-cl
-la
-v env_i3.glsl 
-brc
-brc
-r
-conf
-cl
-cmatrix | lolcat
-ht
-ht
-cl
-nf
-nf
-cl
-nf
-cl
-nf
-cl
-nf
-cl
-nf
-nf
-cl
-nf
-brc
-cl
-source .bashrc
-nf
-source .bashrc
-nf
-nf
-nf
-cl
-nf
-nf
-nf
-
-nf
-source .bashrc
-cl
-nf
-cl
-nf
-nf
-nf
-nf
-clear
-nf
-clear
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo "\}}n"
-echo \n
-echo \n
-clear
-
-source .bashrc
-cl
-source .bashrc
-clear
-nf
-clear
-echo 
-echo 
-echo 
-echo 
-clear
-echo ; echo ; echo
-nf
-conf
-cl
-conf
-cl
-pbar
-pbar
-cl
-p -S fish
-cl
-man fish
-man fish
-cl
-fish
-which fish
-solarized 
-conf
-cl
-hcon
-la
-cd fish/
-ls
-clear
-v config.fish
-v config.fish 
-cl
-echo $USER
-echo $hostname
-echo $host
-echo $HOST
-echo $HOSTNAME
-man printf
-cl
-echo $PWD
-fish
-spacegray 
-fish
-clear
-fish#
-fish
-fish
-fish
-fish
-fish
-fish
-clear
-fish
-clear
-fish
-clear
-fish
-clear
-fish
-fish
-clear
-fish
-clear
-fish
-clear
-fish
-fish
-clear
-fish_config
-fish
-fish
-fihs
-fish
-cd .config/fish/
-v config.fish 
-v config.fish 
-clear
-fish
-fish
-clear
-fish
-fish
-fish
-clear
-fish
-clear
-df
-clear
-df
-fish
-fish
-clear
-fish
-df -h
-df -h | grep $
-df -h | grep \$
-fish
-fish
-fish
-fish
-fihs
-fish
-clear
-hcon
-la
-cd fish/
-ls
-con
-v config.fish 
-clear
-fish
-fish
-conf
-brc
-fish
-clear
-fish
-fisg
-fish
-frc
-cl
-fish
-frc
-clear
-fish
-clear
-frc
-clear
-fish
-frc
-brc
-cl
-iadasdlasd
-time
-sinf
-time python3.7 zabb
-time python3.tab
-titime python3.7 table.py logic.txt 
-time python
-la
-la
-al
-clear
-la
-clear
-checkupdates 2&> /dev/null | wc -l | tee .pacman-updates
-hscr
-chmod +x pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-clear
-v pacman_updates.sh 
-clear
-v pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-./pacman_updates.sh 
-checkupdates 2&> /dev/null
-checkupdates
-checkupdates 2> /dev/null
-checkupdates 2> /dev/null | wc -l | tee ~/.pacman-updates
-if [[ $(ping google.com 2&> /dev/null) ]]; then checkupdates 2> /dev/null | wc -l | tee ~/.pacman-updates; else cat ~/.pacman-updates; fi
-$(ping google.com 2&> /dev/null)
-ping google.com 2&> /dev/null
-ping google.com 2> /dev/null
-ping google.com
-clear
-ping duckduckgo.com -c 3
-ping 127.0.0.1 -c 3
-ping youtube.com
-hscr
-la
-clear
-checkcites 
-checklistings 
-clear
-la
-clear
-v pacman_updates.sh 
-./pacman_updates.sh 
-v pacman_updates.sh 
-./pacman_updates.sh 
-./pacman_updates.sh 
-./pacman_updates.sh 
-pbar
-fish
-hscr
-v pacman_updates.sh 
-v pacman_updates.sh 
-clear
-v pacman_updates.sh 
-pbar
-clear
+how
+hdow+
 hdow
-la
-frm fish-3.0.0
-frm fish-3.0.0.tar.gz 
-unpack dwm-6.1.tar.gz 
-unp dwm-6.1.tar.gz 
-la
-mv dwm-6.1 ~
-cc
-la
 ls
-cd d
-cd dwm-6.1/
-la
-clear
-frc
-sinst
-sint
-brc
-man rm
-checkupdates
-yay
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtc
-time urxvtt
-clear
-time st
-time st
-time st
-time st
-time st
-which time
-type time
-xlip
-xclip
-la
-uname
-nmtui
-p -S scribus
-v
-smuk
-pandoc Kommunikationsmodell.md -o Kommunikationsmodell.pdf
-zathura Kommunikationsmodell.pdf 
-fish
-p -Ss autoclick
-yay -Ss autoclick
-man xautoclick
-qtautoclick
-qt4autoclick
-smuk
-zathura Kommunikationsmodell.pdf 
-v Kommunikationsmodell.md 
-pandoc Kommunikationsmodell.md -o Kommunikationsmodell.pdf
-off
-ping pornhub.com
-conf
-p -Ss filius
-yay -Ss filius
-yay -S filius
-cd Desktop/
-la
-lla
-
+r
+unzip spacemacs-master.zip 
+ls
+mv spacemacs-master ..
 cc
-la
-ls *pdf
-cl
-sudo updatedb
-locate *.pdf | grep filius
-locate *.pdf | grep -i Filius
-locate *.pdf | grep Einfuehrung
-ping 127.0.0.1
-ping 127.0.0.1
-ping 127.0.0.1
-ping 127.0.0.1 -c 100
-conf
-xbacklight -set 100 -time 10 -step 5
-xbacklight =100 -time 10 -step 5
-xbacklight = 100 -time 10 -step 5
-xbacklight --set 
-xbacklight -set
-xbacklight -set 10
-xbacklight -set 100
-xbacklight -set 100 -time 10
-xbacklight -set 10 -time 10
-xbacklight -set 100 -time 10
-xbacklight -set 10
-xbacklight -set 100
-la
-cl
-cd /usr/share/
-la
-cd filius/
-la
-zathura Einfuehrung_Filius.pdf 
-zathura Einfuehrung_Filius.pdf 
-man gnu
-gnuplot
-man i3
-i3 -tree
-gnutls-cli
-mna gnutls-cli
-man gnutls-cli
-la
-cl
-urxvt -d ~
-man urxv
-man urxv
-man urxvt
-urxvt -cd +
-urxvt -cd ~
-urxvt -~
-urxvt ~
-urxvt -cd ~
-which urxvt
-sv /usr/bin/urxvt
-cd /usr/
-la
-xres
-transparent 
-la
-cl
-la
-cl
-urxvt
-transparent 
-la
+cd spacemacs-master/
+ls
+cc
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+ls
+p -S emacs
+emacs --version
 cd st
-la
+ls
 v config.h
-xres
-conf
-time st
-time st
-time 'st -e exit
-time 'st -e exit'
-st -e
-st -e neofetch
-st -e exit
-st -e exit
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time st
-time urxvt -cd ~
-time urxvt -cd ~
-time urxvt -cd ~
-time urxvt -cd ~
-time urxvt -cd ~
-time urxvt -cd ~
-time urxvt -cd ~
-la
+ls
+clear
+cd t
+ls
+v config.h
 cl
-time urxvtc -cd +
-time urxvtc -cd ~
-time urxvtc -cd ~
-time urxvtc -cd ~
-time urxvtc -cd ~
-time urxvtc -cd ~
-time urxvtc -cd ~
-xres
-solarized 
-spacegray 
-xres
-spacegray 
-xres
-spacegray 
+cc
+emacs
+emacs
+cd .emacs.d/
+ls
+cl
+ls
+cc
+ls
+cd .emacs.d/
+v
+ls
+cc
+frm spacemacs-master/
+cc
+söl
+clö
+cl
+cd .emacs.d/m
+cd .emacs.d/
+ls
+cl
+cc
+v .spacemacs 
 st
-cd sr
 cd st
-cl
+ls
 v config.h
 conf
 conf
 pbar
-java
-clear
-py
-cmatrix
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-fortune | cowsay
-cd scripts/dmenu/
-la
-v shutdown.sh 
-off
-cd ftb/
-la
+cd dmenu/e
+cd dmenu/
+ls
+v config.h
+v config.h
 ht
-v
-cd ftb/
-cd FTBPresentsCrackpack/
-cd minecraft
-cd mod
-cd mods
-la
-ls | grep Gany
-cd ftb/FTBPresentsCrackpack/minecraft/mod
+emacs -h
+man emacs
+emacsclient
+emacsclient 
+emacsclient --help
+pip install --upgrade jedi json-rpc service_factory
+pip3 install --upgrade jedi json-rpc service_factory
+sudo pip3 install --upgrade jedi json-rpc service_factory
+bash ./.profile
+p -Ss autoflake
+pip3 search autoflake
+pip3 install autoflake
+sudo pip3 install autoflake
+s
+ls
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .emacs.d
+
+ls
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+killall emacs 
+frm .spacemacs
+frm .emacs.d
+emacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 cl
-ls *.jar | wc -l
 ls
-ls | wc -l
-cd ftb/FTBPresentsCrackpack/
-la
-cd minecraft
-cd local/
-la
-cd ftbu/
-la
-v config.json 
-cd ftb/
-cd FTBPresentsCrackpack/
-cd minecraft
-la
-cd co
-cd config/
+cl
+emacs -nw
 ls
-cd enderio/
-la
-v PoweredSpawnerConfig_Core.json 
-v PoweredSpawnerConfig_User.json 
-v PoweredSpawnerConfig_Core.json 
-cc
-cc
-grep -r "replaceWitherSkeletons" .
-cd co
-cd config/
+cl
+v
+v
+nvrc
+v
+nvrc
+nvrc
+nvrc
+nvrc
+cl
+nvrc
+nvrc
+nvrc
+nvrc
+nvc
+nvrc
+nvrc
+nvrc
+
+frm .emacs.d
+emacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .spacemasc
+frm .spacemacs
+r
+cl
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .emacs.d .spacemacs
 ls
-v ExtraUtilities.cfg 
-ht
-p -Syu
-p -Syu
-jdpw
-hdow
-z unaboomer.pdf
+cl
+emacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .spacemacs .emacs.d
+emacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+nv
+v
+p -Ss youtube-dl
+p -S youtube-dl
 brc
-hdow
-z unaboomer
-z unaboomer.pdf
-z
-ls
-cm
-cm
-clear
-R
-pbar
-cmatrix
-cmatrix
-cmatri
-cmatrix
-cmatric
-cmatrix
-cmatrix
-cmatrix
-cm
-cm
-cmatrix
-cm
-cm
-cmatrix
-cmcm
-cm
-cmatrix
-cm
-connf
-conf
-conf
-p -Ss game
-p -S zaz
-zaz
-p -R zaz
-pq
-smake
-snake
-off
-cd ~/scripts/dmenu/
-v shutdown.sh 
-conf
-man java
-jvm
-hdow
-la
-a
-la
-la
-cl
-la
-cl
-ls
-ls
+man youtube-dl 
+yt https://www.youtube.com/watch?v=_y4OuHfxgmI
+yt https://www.youtube.com/watch?v=_y4OuHfxgmI
+lwatch
 hdow
 ls
-unzip
 ls
-mv OpenJDK8U-jdk_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.1.tar.gz OpenJDK.tar.gz
-unzip OpenJDK.tar.gz
-tar -xvzf OpenJDK.tar.gz 
+sl
+sl
 ls
-cd jdk8u202-b08/
-la
-cd bin/
-la
-cc
-cd jre/
-la
-cd bin/
-la
-pwd
-ls
-cc
-cc
-cc
-sudo mv jdk8u202-b08/ /usr/lib/jvm/
-cd /usr/lib/jvm
-ls
-107*204.8
-v /etc/hosts
-v
-z /usr/share/filius/Einfuehrung_Filius.pdf 
-vcd /usr/share/filius/
-cd /usr/share/filius/
-z Einfuehrung_Filius.pdf 
-ping 192.168.0.1
-ping 192.168.0.2
-iwconfig
 cl
-ipconfig
-ip addr show
-ip addr 
-ip addr askdhasd
-ip shwo
-ip show
-man ip
-v conf
-conf
-cd ftb/FTBPresentsCrackpack/
-cd minecraft/mods
-la
-cd ftb/
-la
-cc
-cd ftb/
-v Plans
-conf
-conf
-nmcli
-nmcli connection
-nmcli connection show
-man nmcli
-nmcli -p
-nmcli -p connection show
-nmcli connection show
-smuk
-mkdir Textarten
-cd Textarten/
-la
-v Kollumne.md
-ht
-p -S snake
-p -S snake
-p -Ss snake
-p -S ksnakeduel
-xres
-xresr
-transparent
-solarized
-spacegray
-xres
-conf
-xresr
-solarized
-spacegray 
-xresr
-conf
-xres
-spacegray
 ls
-conf
+frm spacemacs-master.zip 
 ls
-ls
-ht
-man polkitd
-man polkit
-ht
-v
-snake-ncurses 
-snake-ncurses -r
 cl
-off
-ht
-hdow
-ls
-mv summary\ rosemary\ bennett.docx summary_rosemary_bennett.docx 
-lowriter summary_rosemary_bennett.docx 
-p -Syu
-smuk
-ls
-Textarten/
-la
-ls
-ls -a
-cd
-ls
-v article_new.txt
-frm article_new.*
-ös
-ls
-smuk
-ls
-cd Textarten/
-v Kollumne.md
-ls
-loimpress Kollumne.pptx 
-smuj
-smuk
-cd Textarten/
-v Eigene_Kollumne.md
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-z Eigene_Kollumne.pdf 
-man pandoc
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf -f fontsize
-man pandoc
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf  fontsize
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf fontsize
-pandoc fontsize Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-smuk
-cd Textarten/
-ls
-v Kollumne.md
-v Kollumne.md
-pandoc Kollumne.md -o Kollumne.pdf
-z Kollumne.pdf
-v Kollumne.md
-pandoc Kollumne.md -o Kollumne.pdf
-z Kollumne.pdf
-v Kollumne.md
-pandoc Kollumne.md -o Kollumne.pdf
-z Kollumne.pdf
-v Kollumne.md
-pandoc Kollumne.md -o Kollumne.pdf
-z Kollumne.pdf
-rofi -show drun
-rofi -show drun
-rofi -show drun
-smuk
-cd Textarten/
-z Kollumne.pdf
-z Kollumne.pdf
-z Kollumne.pdf
-z Kollumne.pdf
-z Kollumne.pdf
-p -Ss hp
-hp-check
-sudo arandr
-sudo arandr
-xrandr
-xrandr --add-mode
-xrandr --help
-xrandr --addmode
-xrandr --addmode HDMI1 HDMi
-xrandr --addmode HDMI1 HDMI
-xrandr --screen HDMI1
-xrandr --screen HDMI2
-xrandr --screen 2
-xrandr --screen 1
-xrandr --screen 0
-xrandr --output HDMI1
-xrandr --output HDMI1 --auto
-xrandr -q
-xrandr --output VIRTUAL1 --auto
-xrandr --
-xrandr --output eDP1 --auto
-xrandr --helü
-xrandr --help
-xrandr -fb
-xrandr --fb
-xrandr --fb 1920x1080
-xrandr --screen 0
-xrandr --screen eDP1
-xrandr --output eDP1 -s 1920x1080
-sv /etc/hosts
-sv /etc/hosts
-ping pornhub.com
-xrandr --output eDP1 -s 1920x1080
-xrandr --output HDMI1 --auto
-smuk
-cd Textarten/
-ls
-v Eigene_Kollumne.
-v Eigene_Kollumne.,d
-v Eigene_Kollumne.md
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-z Eigene_Kollumne.pdf
-v Eigene_Kollumne.md
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-z Eigene_Kollumne.pdf
-v Eigene_Kollumne.md
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
-z Eigene_Kollumne.pdf
-z Kollumne_pp.pdf 
-man zathura
-ht
+man youtube-dl 
+du -h ~
+lwatch
+cc
+lwatch
+man shutdown
+shutdown 00:05
+shutdown -c
+shutdown 23:50
+locate *.service
+locate *.service | grep systemd
+v /usr/lib/emacs.service
+exec env TERM='dumb' INSIDE_EMACS='26.1,tramp:2.3.3.26.1' ENV='' HISTFILE=~/.tramp_history PROMPT_COMMAND='' PS1=\#\$\  PS2='' PS3='' /bin/sh 
+sudo chmod +w emacs.service
+emacsclient 
+systemctl enable --user emacs
+systemctl start --user emacs
+emacsclient 
+emacsclient --help
+emacsclient test.py 
+emacs --daemon
+emacs --fg-daemon
+emacsclient 
+emacsclient attach
+emacsclient -create-frame --alternate-editor=""
+emacsclient -create-frame
+locate *.service | grep systemd
+emacsclient -create-frame
+systemctl disable emacs
+systemctl disable emacs --user
+v .config/systemd/user/default.target.wants/emacs.service
+systemctl enable --user emacs
+systemctl start --user emacs
 cd .config/
 ls
-cd zathura/
+cd systemd/user/
 ls
-v zathurarc 
-smuk
-ls
-cd Textarten/
-la
-v Eigene_Kollumne.
-v Eigene_Kollumne.md
-smuk
-cd Textarten/
-ls
-z Kollumne_pp.pdf 
-man zathura
-fg 1
-z Kollumne_pp.pdf 
-z Kollumne_pp.pdf 
-xrandr
-p -Ss java
-p -Ss jdk
-p -S jre10-openjdk-headless jdk10-openjdk
-xrandr
-man xrandr
-xrandr --auto
-xrandr
-xrandr --set
-xrandr --output
-xrandr --output eDP1
-xrandr --output eDP1 --set
-xrandr --help
-xrandr --listmonitors
-xrandr --listactivemonitors
-xrandr --setmonitor eDP1 auto
-xrandr --setmonitor eDP1 auto output
-xrandr --setmonitor eDP1 auto main
-xrandr --dryrun
-p -S xorg-xrandr
-glxinfo | grep -i opengl
-cd /usr/lib
-cd javas
-cd java
-cd jvm/default/bin/
+mkdir default.target.wants
+emacsclient -create-frame
+emacsclient -create-frame
+conf
+emacsclient -create-frame
+emacsclient --create-frame
+conf
+sudo updatedb
+fzf
+cd .fzf
 ls
 cc
-cd jre
-p -Ss java11
-p -Ss java
-cd ftb/
-ls
-cd FTBPresentsStoneblock2/
-cd minecraft/
-ls
-v options.txt 
-p -Ss opengl
-p -S openlg-man-pages
-p -S opengl-man-pages
-p -S opengl-man-pages
-p -S opengl-man-pages
-man opengl
-mandelbrot 
-yay
-xrandr -q
-hdow
-ls
-ls
-mkdir Random
-mv ./* Random/
-ls
-cd Random/
-mv ProjectE-1.12.2-PE1.4.0.jar ../+
-mv ProjectE-1.12.2-PE1.4.0.jar ../
-cc
-ls
-mv + ProjectE-1.12.2-PE1.4.0.jar 
-lös
-ls
-mkdir Mods
-cd Mods/
-mv ../ProjectE-1.12.2-PE1.4.0.jar .+
-ls
-cc
-ls
-cd Mods/
-ls
-mv ../ProjectE-1.12.2-PE1.4.0.jar .
-ls
-ls
-cc
-ls
-java -jar forge-1.12.2-14.23.5.2768-installer.jar 
-minecraft-launcher 
-minecraft-launcher .asd
-minecraft-launcher -ased
-which minecraft-launcher 
-v /usr/bin/minecraft-launcher 
-sv /usr/bin/minecraft-launcher 
-locate launcher
-cd .minecraft/
-ls
-cd logs/
-ls
-v latest.log 
-sv /etc/hosts
-pbar
-xrandr .v
-xrandr -b
-xrandr -v
-xrandr --verbose
-v /etc/X11/xorg.conf.d/10-monitor.conf
-which java
-java -version
-java
+frm .fzf
 cl
-la
+brc
 cl
-yay -S minecraft-launcher
-v minecraft-launcher
-which minecraft-launcher | vim
-which minecraft-launcher | vim
-which minecraft-launcher
-v /usr/bin/minecraft-launcher
-hdow
-java -jar forge-1.12.2-14.23.5.2768-installer.jar 
-cd .minecraft/
-ls
-ls
-ls
-ls
-ls
-ls
-lscl
-cl
-cd mods/
-ls
-mv ~/Downloads/appliedenergistics2-rv6-stable-6.jar .
-mv ~/Downloads/Mekanism* .
-mv ~/Downloads/TConstruct-1.12.2-2.12.0.115.jar .
-minecraft-launcher 
-ht
-sv /etc/hosts
-cd .minecraft/logs/
-lks
-ls
-v latest.log 
-xrandr -q
-xrandr --auto
-xrandr -q
-xrandr --auto eDP1
-xrandr eDP1 --auto
-cat  /var/log/Xorg.0.log
-xrandr --output eDP1
-xrandr --output eDP1 --mode 2132x1100
-xrandr --output eDP1 --mode 2142x1100
-less /var/log/Xorg.0.log
-cl
-cvt
-cvt 854 480
-gtf 854 480
-gtf 854 480 60
-ftb-launcher 
-hdow
-cd Random/
-ls
-mv FTB_Launcher.jar ..
-aautoclick 
-yay -Ss autoclicker
-yay -Ss autoclick
-yay -Ss click
-yay -Ss clicker
-p -S kmousetool
-yay -S kmousetool
-man autoclick
-man autoclicker
-man aautoclick
-aautoclick
-aautoclick -h
-aainfo
-aatest
-aafire
-aafire
-aafire
-hdow
-ls
-unzip ClickItAuto.v20.zip 
-java -jar Click\ it\ Auto.jar 
+v
+brc
+v
+man rg
 s
-sch
-schule
-sek
-serd
-brc
-sek
-brc
-cd Schule/
-ls
-mkdir Erdkunde
-sek
-articl
-article
-ls
-cd Templates/
-ls
-v article.tex 
 cl
-sek
-ls
-cc
-scr
-sc
-ls
+v
+vr
+nvc
+nvrc
+v
+v
+v
+fzf
+cl
+v
+v
+v
+v
+brc
+brc
+cl
+v
+rrg --help
+rg --help
+help rg
+help ripgrep
+man rg
+man rg
+v
+cat .bash_history | wc -l
+df
 hscr
 ls
-sek
-pdflatex article_new.tex 
-ls
-z article_new.pdf 
-hscr
-ls
-touch article.sh
-chmod +x article.sh 
-v article.sh 
-./article.sh 
-./article.sh Hallo
-v article.sh 
-ls
-article.sh Hallo
-ls
-./article.sh hallo
-ls
-frm hallo 
-ls
-cl
-v schedule.py 
-v article.sh 
-ls
-./article.sh Hallo
-ls
-frm ´pwd´Hallo 
-echo ´pwd´
-echo `pwd`
-v article.sh 
-./article.sh Hallo
-ls
-v article.sh 
-p -Syu
-p -Syu
-p -Syu
-p -Syu
-p -Syu
-rofi -show drun
-rofi -show drun
-hdow
-ls
-frm Click*
-frm forge-1.12.2-14.23.5.2768-installer.jar
-frm forge-1.12.2-14.23.5.2768-installer.jar.log 
-ls
-ls
-ls
-ls
-ls
-ls
-mv Henning\ Gärtner\ -\ Faust\ -\ Szenenvorstellung.pdf Domszene.pdf
-z Domszene.pdf 
-rofi -show drun
-loimpress ~/Schule/Deutsch/Domszene.odp 
-seng
-loimpress 100people.odp
-seng
-ls
-v 100people.md
-pandoc 100people.md -o 100people.pdf
-z 100people.pdf 
-z 100people.pdf #
-sdeu
-loimpress Domszene.odp 
+frm stundenplan/
+man shopt
+shopt 
+shopt 
+shopt | less
 v
-sdeu
-ls
-loimpress Domszene.odp 
-fg 1 && disown
-fg 1; disown
-v article_new.tex 
-frm article_new.tex 
+cl
 ls
 cl
-hdow
-ls
-z Do
-z Domszene.pdf 
-xrandr -q
-xrandr -q
-man xrandr
-xrandr -q
- l
-cl
-xrandr -q
-xrandr --output HDMI1 --fb 1920x1080
-xrandr --output HDMI1 --auto
-xrandr --output eDP1 --auto
-man xrndr
-man xrandr
-xrandr --output eDP1 --fb 1920x1080
-xrandr --output eDP1 --auto --fb 1920x1080
-xrandr -q
-xrandr --output eDP1 --fb 960x640
-xrandr --output eDP1 --fb 960x540
-xrandr --output eDP1 --auto
-xrandr --output HDMI1 --auto
-xrandr --output HDMI1 --auto
+nv
 v
-vim --versionn
-vim --version
-p -Syu
-xrandr --output HDMI1 --auto
-py
-cd /usr/lib/python3.7/site-packages/PyQt5/__pycache__/
-sudo su
-p -Syu
-v .dmrc 
-v .dmenurc
-man dmenh
-man dmenu
-v  test.py
-py test.py 
-v test.py 
-py test.py 
-py test.py 
-v t
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-py test.py 
-py test.py 
-v t
-v test.py 
-py test.py 
-py test.py 
-v test.py 
-py test.py 
-py test.py 
-py test.py 
-v test.py 
-py test.py 
-py test.py 
-py test.py 
+killall emac
+killall emacs
+p -Ss ff
+p -Ss ff | grep find
+p -S ff
+p -Ss ff | less
 cl
-xrandr --output HDMI1 --fb 1920x1080
-xrandr --output HDMI1 --fb 1920x1080
-xrandr --output HDMI1 --fb 1920x1080
-xrandr --output HDMI1 --fb 1024x768
-xrandr -q
-xrandr -q
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-py test.py 
-py
-nodejs
-node
-filius LetzterStand.fls 
-filius LetzterStand.fls -n
-filius -n LetzterStand.fls
-GitHub - supermarin/YosemiteSanFranciscoFont: Replace Helvetica Neue on ...
-[Search domain github.com/supermarin/YosemiteSanFranciscoFont] https://github.com/supermarin/YosemiteSanFranciscoFont
-GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together. Sign up Replace Helvetica Neue on your 10.10 Yosemite Mac with San Francisco - the Watch font.
-Google Fonts
-[Search domain fonts.google.com/specimen/Roboto] https://fonts.google.com/specimen/Roboto
-Making the web more beautiful, fast, and open through great typography
-cd /usr/share/filius/lib/
-l
-ls
-cd ..
-s
-ls
-z Einfuehrung_Filius.pdf 
-cd ..
-cl
-ls
-cd henning/
-cc
-cc
-nroff 
-man groff
-netowrks
-man networks
-cl
-v /etc/host
-v /etc/hosts
-echo $SHELL
-cl
-nf
-p -Ss helvetica
-p -Ss helvet
-p -Ss he
-ls
-mv *.fls ~/Schule/Informatik/
-ls
-sinf
-ls
-mkdir Filius
-mv *.fls Filius/
-ls
-cd Filius/
-ls
-cl
-ping pornhub.com
-cl
-ping 127.0.0.1
-py
-py
-nf
-py
-p -Syu
-yay
+hht
 ht
-hcod
+ps
+ps aux
+ps aux | grep emacs
+systemctl
+cl
+systemctl --user disable emacs
+systemctl --user disable emacs
+man emacs
+man emacs
+emacs --daemon
+conf
+killall emacs 
+systemctl start --user emacs
+xmodmap .speedswapper 
+p -Ss qutebrowser
+p -S qutebrowser
 ls
-mkdir Python
-cd Python/
+cl
+frm .emacs.d/
+frm .spacemacs 
+emacs
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+emas
+emacs
+killall emacs
+frm .emacs.d/
+frm .spacemacs
+cl
+ls
+emasc
+emacs
+emacs
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .emacs.d
+emacs
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+systemctl start --user emacs
+conf
+man i3
+i3 restart
+confr
+conf
+i3 restart
+cd .config/qutebrowser/
 ls
 cl
-v raten.py
-py raten.py 
-py raten.py raten.py 
-v a
-cl
-v raten.py 
-cl
-py raten.py 
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-v ra
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-v  raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-4
-cl
-yay
-py
-r
-ls -a
-cl
-ping google.com
+systemctl start --user emacs
+systemctl start --user emacs
+v .bashrc
+v .bash_profile 
 exit
-p -Sy
-p -Syu
+v .bash_profile 
+cl
+systemctl start --user emacs
+conf
+cof
+conf
+echo "$BROWSER"
+brc
+brc
+conf
+killall emasc
+killall emacs
+systemctl start --user emacs
+emacs
+frm .emacs.d
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+v .spacemacs
+frm .emacs.d/
+frm .emacs.d/
+frm .spacemacs
+emacs
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .emacs.d/
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+v .spacemacs
+cl
+man emacs
+emacs --debug-init .spacemacs
+man emacs
+emacs --eval=$(cat .spacemacs)
+v .spacemacs
+xmodmap .speedswapper 
+vim
+v
+cl
+p -Ss gvim
+p -S gvim
+gvim
+cl
+conf
+conf
+v
+v
+brc
+v
+cl
+ls
+cl
+nvrc
+bnrc
+brc
+cl
+v .bash_profile 
+v .bashrc 
+cl
+man bash
+man bashbug 
+cd /usr/share/bash-completion/
+cd completions/
+cl
+ls
+cl
+ls
+cd ..
+cd helpers/
+ls
+cl
+ls
+v python 
+cc
+v
+cl
+vim
+v
+brc
+cl
+v
+v
+cd .config/nvim/
+ls
+mkdir snippets
+nvrc
+cl
+v
+v
+cl
+cd .config/nvim/
+ls
+cd dn
+cd snippets/
+ls
+v nothing.snip 
+v
+cl
+c
+cc
+frm snippets/
+cl
+v
+v
+nvrc
+cl
+nvrc
+shellcheck scripts/reclip.sh 
+shellcheck scripts/renema.sh 
+shellcheck scripts/repbar_simple.sh 
+ls
+cl
+nvrc
+ls 
+fg "%nvim" 
+p -Ss shellcheck
+p -S shellcheck
+BRC
+brc
+conf
+v .bash_profile 
+cl
+rg -R "xmodmap" .
+rg -r "xmodmap" .
+cö
+cl 
+man rg
+rg -e "xmodmap" .
+xmodmap .speedswapper 
+brc
+brc
+brc
+v .speedswapper 
+brc
+brc
+source .bashrec
+source .bashrc
+brc
+ls
+cl
+ll
+cl
+v .bash_profile 
+v .bashrc
+man xmodmap
+ll
+cl
+ls
+cl
+l
+lla
+cl
+ls
+cl
+lla
+cl
+brc
+brc
+lla
+cl
+clear
+v .bashrc
+p -Ss caps2esc
+source .bashrc
+p -Ss caps2esc
+yay -Ss caps2esc
+yay -S caps2esc
+caps2esc -h
+man caps2esc
+cl
+brc
+cl
+info caps2esc
+info info
+cl
+brc
+v .bashrc
+yay -R caps2esc
+cl
+clear
+v .bashrc
+v .bashrc
+v .bashrc
+ls
+cl
+cl
+brc
+brc
+v .bahrc
+v .bashrc
+brc
+cl
+nrc
+brc
+ls
+cl
+akjdhakj
+killall emacs
+mv .emacs.d/ .emacs.d.backup
+v
+ctags -f 
+ctags -f mytags .
+ls
+cl
+v mytags 
+
+man ctags
+man ctagsgs
+cl
+cat .bash_history | wc -l
+cl
+less .bash_history 
+cl
+less .bash_history 
+v sorted_hist
+cl
+l
+cl
+v
+v
+cl
+v
+v
+cl
+ls
+cl
+v
+frm .emacs.d
+mv .emacs.d.backup/ .emacs.d
+conf
+brc
 tmux
 man tmux
 tmux
-cmatrix
-conf
-nf
-nf
-conf
-conf
-v .i3/config 
-difles commit -a
-dfiles commit -a
-dfiles push
-p -Ss oneko
-yay -Ss oneko
-yay -S oneko
-oneko
-p -Ss funny
-yay -Ss funny
-conf
-p -Ss espeak
-p -S espeak
-cl
-cd /run/media/henning/Varraen
-ls
-v liesmich.txt 
-cl
-sv /etc/hosts
-nvidia-modprobe 
-su
-sudo su
-cl
-ls
-cl
-ls
-cl
-p -Syu
-py
-py
-hcod 
-cd Python/
-ls
-py raten.py 
-py
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-py raten.py 
-cl
-py raten.py 
-cl
-py raten.py 
-hcod
-cd Python/
-ls
-py raten.py 
-hcod
-cd Python/
-py raten.py 
-py raten.py 
-hcod
-lscd Python/
-cd Python/
-s
-ls
-cat "" > raten.py 
-echo " " > raten.py 
-echo "" > raten.py 
-v raten.py 
-cd /usr/share/filius/
-ls
-z Einfuehrung_Filius.pdf 
-z Einfuehrung_Filius.pdf ; disown
-z Einfuehrung_Filius.pdf && disown
-
-disown -h
-
-z Einfuehrung_Filius.pdf disown
-z Einfuehrung_Filius.pdf disown
-cd /usr/share/fil
-cd ..
-cd filius/
-z Einfuehrung_Filius.pdf 
-ipconfig
-ip addr show
-ip addr
-hcod
-cd Python/
-ls
-cl
-v fizzbuzz.py
-hcod
-cd Python/
-ks
-ls
-cl
-v hello.py
-hcod
-cd Python/
-ls
-v fizzbuzz.py
-st -e v fizzbuzz.py
-cl
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-cl
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-py fizzbuzz.py
-cl
-py fizzbuzz.py
-py fizzbuzz.py | wc -l
-py fizzbuzz.py | wc -l
-py fizzbuzz.py | wc -l
-py fizzbuzz.py | wc -l
-py fizzbuzz.py | wc -l
-py fizzbuzz.py 12
-py fizzbuzz.py 12
-py fizzbuzz.py 12
-py fizzbuzz.py 12
-py fizzbuzz.py 12
-py fizzbuzz.py 100
-py fizzbuzz.py 100 "henning ist cool"
-py fizzbuzz.py 100 "henning ist cool"
-py fizzbuzz.py 100 "henning ist cool"
-py fizzbuzz.py 100 'henning ist cool'
-py fizzbuzz.py 100 'henning ist cool
-py fizzbuzz.py 100 henning ist cool
-py hello.py
-py hello.py Henning 12 Potsdam
-brc
-sek
-ls
-mv article_new.tex Gruppenarbeit.tex
-trm
-ls
-frm article_new.*
-ls
-pdflatex Gruppenarbeit.tex 
-ls
-trm
-ls
-z Gruppenarbeit.
-z Gruppenarbeit.pdf 
-v gr
-sek
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-sek
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-bg "%pdflatex" 
-sek
-pdflatex Gruppenarbeit.tex 
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-cl
-killall pdflatex 
-ls
-trm
-ls
-pdflatex Gruppenarbeit.tex 
-cl
-pdflatex Gruppenarbeit.tex 
-ls
-v Gruppenarbeit.log 
-cl
-v Gruppenarbeit.
-te
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex #
-z Gruppenarbeit.pdf 
-v Gruppenarbeit.
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex #
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex #
-v Gruppenarbeit.tex 
-pdflatex Gruppenarbeit.tex 
-z Gruppenarbeit.pdf 
-v Gruppenarbeit.tex
-sek
-pdflatex Gruppenarbeit.tex 
-cl
-killall nm-applet 
-cd LaTeX/
-pdflatex example.tex; z example.pdf
-mkdir LaTeX
-cd LaTeX/
-ls
-article
-ls
-frm article_new.tex 
-v example.tex
-v example.tex 
-fg "%v" 
-cd LaTeX/
-pdflatex example.tex; z example.pdf
-curl https://top10supplements.com/best-creatine-supplements/ > website.html
-firefox website.html 
-p -Syu
-cd Fitness/
-ls
-cl
-v Foodsthatieat.txt
-cd .vim/
-ls
-cd src
-ls
-v functions.vim 
-v functions.vim 
-v settings.vim 
-v snippets
-v snippets.vim
-v remaps.vim 
-ping ddg.gg
-killall nm
-p -Syi
-p -Syu
-cl
-hscr
-ls
-./pacman_updates.sh 
-./pacman_updates.sh 
-pid
-man
-man man
-man -S
-man -S 1
-man -S man
-lc
-cl
-sek
-ls
-trm
-ls
-v Gruppenarbeit.tex 
-cl
-pdflatex Gruppenarbeit.tex 
-cl
-z *.pdf
-v  *.tex
-pdflatex *.tex
-z *.pdf
-cl
-:wq
-:wq
-ping google.com
-ls
-cl
-cl
-lc
-cl
-hcod
-cd Python/
-ls
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-cl
- vrc 
-v raten.py 
-py raten.py 
-v raten.py 
-py raten.py 
-cl
-ls
-cl
-nf
-cl
-locate wallpaper
-man i3
-xsetroot -solid '#333333'
-neofetch --backend ascii
-neofetch --backend ascii
-neofetch --backend w3m
-neofetch --backend w3m
-cl
-neofetch --backend tycat
-neofetch --backend sixel
-neofetch --backend iterm2
-cl
-neofetch --backend jp2a
-neofetch --backend chafa
-neofetch --backend caca
-neofetch --backend caca
-cl
-neofetch --backend w3,
-neofetch --backend w3m
-neofetch --backend off
-cl
-neofetch --clean
-neofetch --backend w3m
-neofetch --backend w3m
-cl
-sek
-pdflatex *.tex
-brc
-man neofetch
-ös
-cl
-ping henningg@gmail.com
-ping henningg@gmail.co
-ping henningg@gmail.com
-cl
-ping asdf.com
-fg "%ping" 
-cl
-l
-cl
-pi
-pu
-pa
-a
-b
-v
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-p
-p
-q
-r
-p -S  nnn
-cl
-which python3
-py
-conf
-cl
-hsch
-ls
-v Quellen.py
-py
-r
-cmatrix
-nf
-ping google.com
-nm-cli
-nmcli
-nmtui
-cl
-ls
-cl
-conf
-cl
-nf
-uptie
-uptime
-man uptime
-uptime -p
-man uptime
-ping 172.217.16.78
-ping google.com
-ipconfig
-iwconfig
-ip addr show
-ping 182.168.26.1
-ping 127.0.0.1
-ping 0.0.0.0
-cl
-ping 0.0.0.1
-cl
-ping localhost
-cl
-lac
-cl
-la
-v .xinitrc i
-v .xinitrc asd
-v .xinitrc
-cl
-lc
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-cl
-la
-lc
-la
-cl
-la
-cl
-la
-cl
-cl
-ls 
-cd dmenu/
-ls
-./dmenu_run 
-./stest 
-cl
-cc
-cd s
-cc
-cd surf/
-l
-ls
-./surf
-./surf google.com
-isosurf
-cl
-ls
-la
-clear
-ls
-ls -a
-clear
-
-asda
-
-+
-cd st
-ls
-v config.h
-java
-cl
-vm
-c
-cm
-cd Templates/
-ls
-html
-ls
-cl
-p -Ss html
-v test.html
-v test.html
-cl
-v test.
-v test.html 
-v test.
-v test.html 
-v test.html 
-surf test.
-surf test.html 
-cd .vim/
-ls
-cd sr
-ls
-cd snippets/
-ls
-v html 
-cl
-cc
-ls
-v remaps.vim 
-v remaps.vim 
-v remaps.vim 
-cd .vim/src/
-cl
-la
-v remaps.vim 
-cd .vim/src/snippets/
-ks
-ls
-v test
-v test.tex
-cl
-v .vim/src/remaps.vim 
-cl
-v test.tex
-cl
-v test.md
-cl
 tmux
-time
-man time
-date
-lwatch -n 1 date
-
-watch -n 1 date
-cl
-watch -m 0.1 date
-watch -n 1 date
-cl
-la
-cl
-faked
-faked
-man faked
-ht
-killall Xorg
-sudo killall Xorg -9
 tmux
-tmux attach
 killall tmux
 ht
-ping ddg.gg
 tmux
-tmux attach
-smuk
-ls
-touch s.koehler@hmkw.de
-ls
-cat s.koehler@hmkw.de 
-ls
-fish
-sv /etc/hosts
-sv /etc/hosts
-v test.py
-py test.
-py test.py
-v test.
-v test.py
-v test.
-v test.py
-py test.py
 cl
-yay -S y-cruncher
-hdeu
-sdeu
-lös
+tmux new -S test
+tmux new -s test
+vim .tmux.conf
+cl
+exit
+exit
+exit
+tmux attavh
+tmux attach
+tmux new -s Main
+cl
+ls
+cl
+man tmux
+brc
+ht
+exot
+exit
+v .tmux.conf 
+cl
+v .tmux.conf 
+v .tmux.conf 
+exit
+exit
+tmux new -s Main
+cl
+brc
+tmux
+cl
+brc
+tm
+man tmux
+man tmux
+killall tmux
+ht
+v
+ht
+exit
+exit
+lwatch
+nf
+ht
+exit+
+tm
+tm
+tm attach
+cl
+v
+cl
+gvim
+p -R gvim
+p -S vim
+man qutebrowser 
+v .brc
+cl
+v .bash_profile 
+export EDITOR="emacs"
+pbar
+cl
+nvrc
+p -Ss apsell
+p -Ss aspell
+nvrc
+p -Ss aspell
+p -S aspell
+p -S aspell-de aspell-es aspell-en aspell
+pbar
+cl
+nvrc
 clö
 cl
+v
+v
+v
+sdeu
 ls
-z Domszene.pdf 
-killall polybar
-touch Test.fls
-filius Test.fls 
-ls
-sinf
-ls
-cd Filius/
-ls
+v deepfakes.tex 
 cl
-filius Email.fls 
-p -Ss proton
-p -Ss vpn
-p -R openvpn
-p -Rq openvpn
-p -R openvpn
-man pacman
-p -Rsu openvpn
-p -Rssu openvpn
-p -Rss openvpn
-p -Rc openvpn
+v
+man aspell
+info aspellk
+info aspell
+p -Ss detex
+p -Ss ps2asci
 cl
-sudo rm -r .protonvpn-cli/
-ls
-du -h backgrounds/
-frm Test.fls 
-ls
-sinf
-ls
-cd Filius/
-ls
-frm Test.fls 
-ls
+yay -Ss detex
+bc
 cl
-cc
-ls
-v demo.py 
-frm demo.py 
-ls
-v table.py 
-py table.py 
-frm table.py 
-ls
+tmux
+mv .emacs.d .emacs.d.bup
 cl
-cc
-ls
-v scriptsHallo 
-r
-man gconf
-gconf
-man viewnior
-tload
-curl wttr.in
-p -Syu
-pamac
-pamac
+frm .emacs.d
+mv .emacs.d.bup/ .emacs.d
 cl
-pamac-gtk
-pamacgtk
-py
-py
-hdow
-ls
-mv scan\ jpag.jpg scan.jpg
-mv scan.jpg ~/Schule/Biologie/
-cl
-sbio
-ls
-ls
-gimp scan.jpg 
-ls
-locate radiokarbon.jpg
-sudo updatedb
-locate radiokarbon.jpg
-mv /home/henning/Documents/radiokarbon.jpg .
-ls
-gimp scan.jpg 
-ls
-fg "%gimp" 
-cl
-mv ~/Downloads/Scan.jpg ./Scan1.jpg
-ös
-lös
-ls
-gimp Scan1.jpg 
-py
-cl
-sbio
-ls
-loimpress Stdwh
-loimpress
-v test.py
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-cl
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-cl
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-hpic
-ls
-sxiv 2019-01-15-194627_1920x1080_scrot.png 
-cl
-ls
-cl
-cc
-ls
-sxiv 2019-03-25-212347_1920x1080_scrot.png 
-mv 2019-03-25-212347_1920x1080_scrot.png 
-mv 2019-03-25-212347_1920x1080_scrot.png autoren.png
-gimp autoren.png 
-gimp autoren.png 
-ls
-sxiv autoren.png 
-p -Syu
-p -Ss screenshot
-p -S shotgun
-p -S shotgun
-shotgun
-ls
-sxiv 1553545560.png 
-frm 1553545560.png 
-ös
-cl
-ls
-mv 1553545590.png autoren.png
-ls
-hcod
-lös
-cl
-ls
-cc
-hsch
-ls
-v Quellen.py 
-sbioi
-sbio
-ls
-loimpress 
-bg "%loimpress" 
-ls
-cl
-v StdWdh.md
-pandoc StdWdh.md -o StdWdh.ex
-pandoc StdWdh.md -o StdWdh.tex
-ls
-v StdWdh.tex 
-pdflatex StdWdh.tex 
-trm
-frm StdWdh.tex 
-pandoc StdWdh.md -o StdWdh.html
-ls
-firefox *.html
-firefox *.html
-py
-cl
-sbio
-ls
-firefox StdWdh.html 
-rofi -show drun
-sbio
-ls
-xrandr -q
-cl
-xrandr --output HDMI1 --auto
-xrandr -q
-xrandr -q
-xrandr -q
-xrandr -q
-cl
-xrandr -q
-xrandr -q
-xrandr -q
-xrandr -q
-locate StdWdh.odp
-hoc
-xrandr -q
-ping google.com
-ping google.com
-pong
-p -Ss pong
-p -Ss snake
-v test.py 
-py tges
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-py test.py
-v test.py 
-v test.py 
-py test.py
-v test.py 
-v test.py 
-v test.py 
-py test.py
-v tesd
-v test.py 
-v tesd
-py test.py 
-v test.py 
-py test.py 
-py
-v test.py 
-py
-v test.py +
-py
-cl
-py test.py 
-v test.py 
-py test.py 
-v test.py 
-py test.py 
-py
-py
-py
-cl
-killall nm-applet 
-smuk
-ös
-ls
-cd Textarten/
-ls
-v Eigene_Kollumne.pdf 
- z Eigene_Kollumne.pdf 
-v Eigene_Kollumne.md
-pandoc Eigene_Kollumne.md -o Eigene_Kollumne.pdf
- z Eigene_Kollumne.pdf 
-v Eigene_Kollumne.md
-v Eigene_Kollumne.md
-cl
-v test.py 
-py test.py 
-v ts
-v test.py 
-v ts
-py ts
-py test.py 
-v test.py 
-frm  test.py 
-hcod
-ls
-cd Python/
-ls
-man java
-cl
-p -Ss java
-cl
-nm-applet
-p -Ss eclipse
-p -S eclipse-java
-py
-cl
-,s
-c#
 lcl
 cl
-pipe
-cl
-snake
-v
-v
-cl
-ls
-hcd
-hcod
-cd Python/
-ls
-cl
-v prim.py
-py prim.py 
-v prim.py 
-py prim.py 
-v prim.py 
-py prim.py 
-v prim.py 
-py prim.py 
-v prim.py 
-py prim.py 
-pr
-cl
-v prim.py 
-py prim.py 
- v prim.py 
-py prim.py 
-v prim.py 
-py prim.py 
-v prim.py 
-py prim.py 
-v prim.py 
-v prim.py 
-py prim.py 1000
-v prim.py 
-py prim.py 1000
-v prim.py 
-py prim.py 1000
-v prim.py 
-py prim.py 1000
-py prim.py 10000
-py prim.py 100000
-cl
-v prim.py 
-v prim.py 
-py prim.py 100000
-v prim.py 
-py prim.py 100000
-py prim.py 100
-v prim.py 
-py prim.py 100
-v prim.py 
-py prim.py 100
-v te
-v prim.py 
-py prim.py 100
-v prim.py 
-py prim.py 100
-py prim.py 1000
-py prim.py 10000
-py prim.py 100000
-py prim.py 500000
-py prim.py 200000
-v prim.py 
-py prim.py 200000
-v prim.py 
-py prim.py 100
-v prim.py 
-py prim.py 100
-py prim.py 100
-v prim.py 
-py prim.py 100
-py prim.py 10000
-py prim.py 100000
-py prim.py 500000
-py prim.py 100000
-py prim.py 1000000
-py prim.py 10000000
-v prim.py 
-v prim.py 
-v prim.py 
-py prim.py 1000000
-v prim.py 
-py prim.py 1000000
-v prim.py 
-py prim.py 1000000
-py prim.py 10000000
-v prim.py 
-py prim.py 10000000
-cl
-py prim.py 10000000
-v prim.py 
-py prim.py 10000000
-v prim.py 
-ls
-v fizzbuzz.py 
-py fizzbuzz.py 
-v prim.py 
-v fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-v fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-v fizzbuzz.py 
-py fizzbuzz.py 
-cl
-v fizzbuzz.py 
-py fizzbuzz.py 10000
-py fizzbuzz.py 10000000
-py
-sdeu
-sek
-ls
-z *.pdf
-v *.tex
-pdflatex Gruppenarbeit.tex 
-z Gruppenarbeit.pdf 
-du -h Gruppenarbeit.pdf 
-z Gruppenarbeit.
-z Gruppenarbeit.pdf
-killall nm-applet 
-sek
-ls
-v Gruppenarbeit.tex 
-java -asd
-java
-cl
-v
-java 
-java Main
-java Main.class
-java Main#
-java Main
-v Main.class 
-javac Main.class
-v HelloWorld.java
-javac HelloWorld.java 
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-v HelloWorld.
-ls
-v HelloWorld.class 
-frm Main.class 
-ls
-cl
-v HelloWorld.java 
-ks
-ls
-frm 7
-cd .vim/
-ls
-cd src/
-ls
-v snippets.vim 
-v remaps.vim 
-v functions.vim 
-v autoclose.vim 
-cl
-v HelloWorld.
-v HelloWorld.java 
-v HelloWorld.
-v HelloWorld.java 
-v HelloWorld.
-v HelloWorld.java 
-
-v HelloWorld.java 
-v HelloWorld.java 
-v HelloWorld.java 
-javac HelloWorld.java 
-v HelloWorld.
-v HelloWorld.java 
-javac HelloWorld.java 
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-v HelloWorld.
-v HelloWorld.java 
-java HelloWorld 
-javac HelloWorld.java 
-v HelloWorld.java 
-javac HelloWorld.java 
-v *,java
-v *.java
-javac HelloWorld.java 
-v HelloWorld.
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-v HelloWorld.
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-v HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-atom HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-javac HelloWorld.java 
-java HelloWorld 
-javac HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-fpublic class HelloWorld {
-public static void main (String[] args) {
-System.out.println("Hello World");
-for (int i = 0; i > 100; i++) {
-String output = Integer.parseInt(i);
-System.out.print(""+output);
-}
-
-}
-javac HelloWorld.java 
-javac HelloWorld.java 
-java HelloWorld 
-javac HelloWorld.java 
-javac HelloWorld.java 
-javac HelloWorld.java 
-v HelloWorld.java 
-ls
-cd .vim/
-ls
-cd src/
-ls
-aut
-v autoclose.vim 
-v autoclose.vim 
-cl
-v autoclose.vim 
-v autoclose.vim 
-v HelloWorld.
-ja
-v HelloWorld.java 
-cl
-atom
-which atom
-v /usr/bin/atom 
-conf
-p -Ss jdk
-javadoc
-cl
-java8
-java --version
-which java
-v /usr/bin/java
-cl
-locate *
-cl
-locate * | grep java | grep 10
-java /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
-v /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
-v /usr/lib/jvm/java-10-openjdk/demo/applets/DrawTest
-hcod
-cd PY
-cd Python/
-ls
-cl
-v numpy.py
-py numpy.py 
-v numpy.py 
-py numpy.py 
-v numpy.py 
-py numpy.py 
-cl
-v
-.vim
-ls
-cd src/
-ls
-cl
-ls
-cd .vim/srs
-ls
-v airlineconf.vim 
 ls -a
-ls -l
-v autoclose.vim 
-v autoclose.vim 
-ls
-v functions.vim 
-ös
-ls
-v frm snippets
-frm snippets.vim 
-ls
-frm colorscheme.vim
-solarized 
-v
-spacegray 
-v .vimrc
-v
-brc
-transparent 
+r
+emacs
 ls
 cl
-gruvbox 
-v
-vrc
-v .vimrc
-cd dotfiles/
-ls
-v vimrc 
-cl
-dfiles pull
-vrc
-ls
-cat .vimrc
-cl
-v .vimrc
+cd .emacs.d/
 cl
 la
-cd .cache/vim/
-ls
-cd swap/
-ls
+cl
 cc
-cd backup/
+cl
+man emacs
+emacs -unsafe
+frm .emacs.d/
++cl
+cl
 ls
 cl
-cd .vim/src/
-ls
-v autoclose.vim 
-vrc
+cd .emacs.
 cl
-v  autoclose.vim 
-cd .vim/src/
-ls
-vrc
-spacegray 
-ls
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+frm .emacs
+p -Ss timeshift
+p -S timeshift
+timeshift
+timeshift
 cl
-v autoclose.vim 
-atom autoclose.vim 
-la
-lla
-cd
-command cd
-ls
-la
-lla
-vrc
 cl
-v
-vrc
 cl
-v
-v
-vrc
-solarized 
-v
+al
+cl
+man pacman
+p -Q
+p -Q | wc -l
 cl
 la
 cl
-cd .vimrc
-cd .vim
-ls
-cd src/
+pacui
+cl
+la
+cl
+p -Q | wc 
+cl
+la
+cl
+la
+cl
+p -Q > pacman.packages
 ls
 cl
-v .vimrc
-v .Xresources 
-cd .scc
-cd .screenlayout/
-cc
-cd scripts/
-ls
-v solarized.sh 
-ls
+l
+acl
+la
 cl
-gruvbox 
-ls
+la
 cl
-v
+la
 cl
-vrc
-v
-v
-gruvbox 
-v .vimrc
+l
+cl
+l
+cl
+cd ..
+du -h ~
+cl
+la
+cl
+l
+acl
+l
+la
 cl

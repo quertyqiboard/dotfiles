@@ -6,7 +6,7 @@ URxvt.scrollBar_right: false
 URxvt.scrollBar_floating: false
 URxvt.buffered: true
 URxvt.visualBell: false
-URxvt.font: xft:UbuntuMono Nerd Font:size=18:antialias=true
+URxvt.font: xft:Ubuntu Mono derivative Powerline:size=18:antialias=true
 URxvt.tabbed.saveLines: 2000
 URxvt.iso14755: false
 URxvt.cursorBlink: true
@@ -15,13 +15,45 @@ URxvt.url-launcher: firefox
 URxvt.internalBorder: 5
 URxvt.externalBorder: 0
 ! URxvt.depth: 32
-! special
-URxvt.foreground:   #ffffff
-URxvt.background:   #1D2021
-URxvt.cursorColor:  #D7FF00
 ! extensions for urxvt
 URxvt.perl-ext-common: default,tabbed,matcher,resize-font,-tabbed
 URxvt.keysym.C-minus:     resize-font:smaller
 URxvt.keysym.C-plus:      resize-font:bigger
 URxvt.keysym.C-equal:     resize-font:reset
 URxvt.keysym.C-question:  resize-font:show
+! special
+*.foreground:   #ABB2BF
+*.background:   #282C34
+*.cursorColor:  #ABB2BF
+
+! black
+*.color0:       #282C34
+*.color8:       #3E4452
+
+! red
+*.color1:       #E06C75
+*.color9:       #BE5046
+
+! green
+*.color2:       #98C379
+*.color10:      #98C379
+
+! yellow
+*.color3:       #E5C07B
+*.color11:      #D19A66
+
+! blue
+*.color4:       #61AFEF
+*.color12:      #61AFEF
+
+! magenta
+*.color5:       #C678DD
+*.color13:      #C678DD
+
+! cyan
+*.color6:       #56B6C2
+*.color14:      #56B6C2
+
+! white
+*.color7:       #ABB2BF
+*.color15: #5C6370

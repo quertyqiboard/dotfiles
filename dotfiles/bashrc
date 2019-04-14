@@ -2,71 +2,64 @@
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 # Makes my bash name look nice
  if [ "$EUID" -ne 0 ]
- then export PS1="\[$(tput bold)\]\[$(tput setaf 6)\][\[$(tput setaf 3)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 6)\]\h\[$(tput setaf 6)\]] \[$(tput setaf 1)\]\w\[$(tput sgr0)\] \[$(tput setaf 6)\]\$ \[$(tput sgr0)\]"
+ then export PS1="\[$(tput bold)\]\[$(tput setaf 9)\][\[$(tput setaf 11)\]\u\[$(tput setaf 4)\]@\[$(tput setaf 11)\]\h\[$(tput setaf 9)\]] \[$(tput setaf 1)\]\w\[$(tput sgr0)\] \[$(tput setaf 14)\]\$ \[$(tput sgr0)\]"
 	 else export PS1="\[$(tput bold)\][ROOT] \W\[$(tput sgr0)\] # "
  fi
+stty -ixon # Disables Strg-S and Strg-Q
+xset r rate 300 120
+setxkbmap -option caps:escape
 
 HISTSIZE=100000
 
 set -o vi
 export NICKNAME="Henning"
-export EDITOR=vim
+export EDITOR=nvim
+export BROWSER=qutebrowser
 shopt -s histappend
 shopt -s autocd
-shopt -s  cdspell
-export FZF_DEFAULT_COMMAND='find ~'
-stty -ixon # Disables Strg-S and Strg-Q
-# System
+shopt -s cdspell
+# export FZF_DEFAULT_COMMAND='find ~'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --vimgrep -s'
+export MYVIMRC="/home/henning/dotfiles/vimrc"
+# System managment
+alias off="sudo shutdown 0"
+alias pq="sudo pacman -Rs $(pacman -Qqdt)"
+alias ht="htop -d 3"
+alias df="df -h |grep /$"
+alias p="sudo pacman"
 alias ift="sudo iftop -i wlp3s0"
-# alias sapt="sudo apt"
-# alias saptupd="sudo apt update"
-# alias saptupg="sudo apt upgrade"
+# Program shortcuts
+alias yt="youtube-dl"
+alias py="python3.7"
+alias z="zathura"
+alias tb="thunderbird"
+# Vim aliases
+alias v="nvim"
+alias vim="nvim"
+alias sv="sudo nvim"
+# Miscelaneous
+alias cl="clear"
+alias nf="clear; neofetch; echo ''"
+alias grep="grep --color=auto"
+alias notes="cp ~/Templates/notes.md ./notes.md; v notes.md"
+alias article="cp ~/Templates/article.tex ./article_new.tex; v article_new.tex; move article_new.tex"
+alias starwars="telnet towel.blinkenlights.nl"
+# File managment
+alias ls="ls -F --color=auto"
+alias la="ls -AhH --color=auto --group-directories-first"
+alias lla="ls -alhH --color=auto --group-directories-first"
+alias so="sudo du -hcs"
+alias soa="sudo du -ahc -d 3 ./ 2>/dev/null | sort -h "
+alias lwatch="watch -n .2 ls -lh"
+alias frm="rm -rf"
+alias trm="latexmk -c &> /dev/null"
 alias cd="pushd"
 alias cc="popd; clear; echo '$(pwd)'"
-alias p="sudo pacman"
-alias z="zathura"
-alias r="ranger"
-alias tb="thunderbird"
-alias sr="sudo ranger"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
-alias sv="sudo vim"
-alias sv="sudo vim"
-alias cl="clear"
-alias df="df -h |grep /$"
-alias ht="htop -d 3"
-alias rc="killall compton; compton &"
-alias nf="clear; neofetch; echo ''"
-alias pq="sudo pacman -Rs $(pacman -Qqdt)"
-alias sp="python3.7 ~/scripts/stundenplan/stundenplan.py"
-alias cm="i3-msg fullscreen &> /dev/null; cmatrix | lolcat"
-alias py="python3.7"
-alias off="sudo shutdown 0"
-alias fbg="nitrogen --set-auto"
-alias frm="rm -rf"
-alias trm="latexmk -c &> /dev/null"
-alias grep="grep --color=auto"
-alias sc="sc-im"
-alias scim="sc-im"
-alias email="thunderbird &"
-alias lock="i3lock -i /usr/share/backgrounds/campsky.jpg"
-alias notes="cp ~/Templates/notes.md ./notes.md; v notes.md"
-alias article="cp ~/Templates/article.tex ./article_new.tex; v article_new.tex; move article_new.tex"
-alias repbar="~/scripts/repbar_rice.sh"
-alias starwars="telnet towel.blinkenlights.nl"
-alias flux="~/Downloads/xflux"
-# ls-command shortcuts
-alias ls="ls -F --color=auto"
-alias la="ls -AhH --color=auto --group-directories-first"
-alias ll='sudo ls -hHn --color=auto --group-directories-first'
-alias so="sudo du -hcs"
-alias lla="ls -alhH --color=auto --group-directories-first"
-alias lls="ls -lhH --color=auto --group-directories-first"
-alias soa="sudo du -ahc -d 3 ./ 2>/dev/null | sort -h "
-alias soar="sudo du -ahc -d 8 / 2>/dev/null | sort -h "
-alias lwatch="watch -n .2 ls -lh"
-alias lalwatch="watch -n .2 ls -alHnh --color=auto --group-directories-first"
+alias r="ranger"
+alias sr="sudo ranger"
 # Shortcuts to Schule directories
 alias seng="cd ~/Schule/Eng; clear"
 alias sbio="cd ~/Schule/Biologie; clear"
@@ -74,13 +67,13 @@ alias sche="cd ~/Schule/Chemie; clear"
 alias sdeu="cd ~/Schule/Deutsch; clear"
 alias sds="cd ~/Schule/DS; clear"
 alias sges="cd ~/Schule/Geschichte; clear"
-alias sinf="cd ~/Schule/Informatik1; clear"
+alias sinf="cd ~/Schule/Informatik; clear"
 alias smat="cd ~/Schule/Mathe; clear"
 alias smuk="cd ~/Schule/MuK; clear"
 alias spb="cd ~/Schule/PB; clear"
 alias sek="cd ~/Schule/Erdkunde; clear"
-alias ssz="cd ~/Schule/Schülerzeitung; clear"
 alias sspa="cd ~/Schule/Spanisch; clear"
+alias tm="tmux -2 -f ~/.tmux.conf"
 # Shortcuts to home subdirectories
 alias hdow="cd ~/Downloads; clear"
 alias hcod="cd ~/Coding; clear"
@@ -89,30 +82,20 @@ alias hdoc="cd ~/Documents; clear"
 alias hpic="cd ~/Pictures; clear"
 alias hsch="cd ~/Schule; clear"
 alias hscr="cd ~/scripts; clear"
-alias hvim="cd ~/.vim; clear"
+alias hvim="cd ~/.config/nvim; clear"
 alias hdot="cd ~/dotfiles; clear"
-alias hpon="cd ~/pong; clear"
 # Shortcuts to edit config files
-alias frc="vim ~/.config/fish/config.fish"
-alias rcconf="sudo vim ~/.config/ranger/rc.conf"
-alias conf="vim ~/dotfiles/i3config"
-alias sconf="vim /etc/i3status.conf"
-alias brc="vim ~/.bashrc"
-alias xres="vim ~/dotfiles/Xresources"
+alias rcconf="sudo nvim ~/.config/ranger/rc.conf"
+alias conf="nvim ~/dotfiles/i3config"
+alias brc="nvim ~/.bashrc"
+alias xres="nvim ~/dotfiles/Xresources"
 alias xresr="xrdb ~/.Xresources"
-alias vrc="vim ~/dotfiles/vimrc"
-alias vac="vim ~/.vim/src/autoclose.vim"
-alias zshrc="vim ~/.zshrc"
-alias pbar="vim ~/.config/polybar/config"
-alias spbar="polybar default && polybar bottom"
-alias termrc="vim ~/.config/termite/config"
-alias solarized="~/scripts/solarized.sh ; urxvtc ; exit"
-alias drc="killall dunst; dunst &>/dev/null ; drc"
-alias spacegray="~/scripts/spacegray.sh ; urxvtc ; exit"
-alias transparent="~/scripts/transparent.sh ; urxvtc ; exit"
-alias gruvbox="~/scripts/gruvbox.sh ; urxvtc ; exit"
+alias vrc="nvim ~/dotfiles/vimrc"
+alias nvrc="nvim ~/.config/nvim/init.vim"
+alias zshrc="nvim ~/.zshrc"
+alias pbar="nvim ~/.config/polybar/config"
+alias gruvbox="~/scripts/gruvbox ; urxvtc ; exit"
 # Git dotfiles version controll
 alias dfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-# Vim quit
-alias :wq="exit"
-alias :q="exit"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
